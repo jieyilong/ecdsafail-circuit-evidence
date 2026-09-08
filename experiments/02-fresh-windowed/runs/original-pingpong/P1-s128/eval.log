@@ -1,0 +1,27 @@
+=== quantum_ecc: eval_bounded (research input driver) ===
+
+  loaded ops  : 216306123
+  qubits      : 1338
+  bits        : 34724390
+
+-- coherent 16-bit window tests (11111 shots x 1 correlated calls; allowed error 100.0000%) --
+  checkpoint directory     : /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-bounded-20260908/final/results/pingpong_base/P1-s128/checkpoint
+  evaluator threads        : 8
+  paired interface         : runtime-table-windowed
+  progress                : 10048/11111 shots; 5 failures observed
+  tested shots            : 11111
+  calls per shot          : 1
+  identity-table rows     : 1 (0.0090%)
+  classical mismatches    : 5 (0.0450%)
+  phase-failure shots     : 2 (0.0180%; 2 batches)
+  ancilla-failure shots   : 0 (0.0000%; 0 batches)
+  shots failing any channel: 5 (0.0450%)
+  overlap-counting channel sum: 0.0630%
+
+=== coherent-window circuit metrics ===
+  avg executed Toffoli  : 1127523.879
+  avg executed Clifford : 74774720.745
+  emitted ops           : 216306123
+  qubits                : 1338
+
+=== coherent-window experiment OK ===

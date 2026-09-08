@@ -1,0 +1,31 @@
+{
+  "elapsed_seconds": 221.40071475005243,
+  "freeze_sha256": "f34cd0753212710914c81b70adda97ab6bb5f227df81d6c26a3e9a9081946ece",
+  "ledger_sha256": {
+    "batches.tsv": "2b36a146b69dd5a3c5ea37ebfc10bbb2704bc871cebf750e9a55dae5a10a6000",
+    "inputs.tsv": "62da50701fc671e856a2036df2253cac8c8a8d02249cf5687bf7b0d9b88a7d38",
+    "manifest.tsv": "771824b6aec4dc8280fc337f03899a90c218f7ff50b44f4744a5585f2d0de647"
+  },
+  "stats": {
+    "Q": 1392,
+    "QT": "1743953109.241652416524165242",
+    "address_failures": 0,
+    "ancilla_failure": 0,
+    "any_failure": 0,
+    "classical_failure": 0,
+    "exact_one_sided95_upper": 0.00026958225697731446,
+    "extra_generic_exceptions": [],
+    "failure_rate": 0.0,
+    "identity_failures": 0,
+    "identity_rows": 0,
+    "mean_T": "1252839.877328773287732877329",
+    "n": 11111,
+    "phase_failure": 0,
+    "total_Clifford": 846252838174,
+    "total_T": 13920303877,
+    "wilson95": [
+      2.710505431213761e-20,
+      0.00034561526000405146
+    ]
+  }
+}

@@ -1,0 +1,1181 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 7074,
+      "path": "provenance/original-bundle/README.md",
+      "sha256": "c7a95c61bda54833cada68d397a5b8c04e2da5da15d0afa67b1edc0320fe799e"
+    },
+    "analysis.json": {
+      "bytes": 26963,
+      "path": "experiments/02-fresh-windowed/analysis.json",
+      "sha256": "cb81f5fa4428f6a9509876636bd40698ccb5695f991b6f4643308ec8d75d6732"
+    },
+    "artifacts/code/experiments/bounded_qip/PROTOCOL.md": {
+      "bytes": 6506,
+      "path": "sources/frozen-tools/bounded_qip/PROTOCOL.md",
+      "sha256": "c7cbcb60dcb1f8304773e46ec4c32dbdb6f37b9b665a24956aec8c66c88ae4a3"
+    },
+    "artifacts/code/experiments/bounded_qip/analyze.py": {
+      "bytes": 8249,
+      "path": "sources/frozen-tools/bounded_qip/analyze.py",
+      "sha256": "2336c4a53867b914cddc890bd4a703211b15667655126aa8cb512471b7c6368e"
+    },
+    "artifacts/code/experiments/bounded_qip/final_campaign.py": {
+      "bytes": 9652,
+      "path": "sources/frozen-tools/bounded_qip/final_campaign.py",
+      "sha256": "4cacd941b3aec6e82e7070c759e27f6eca3e862df7b4accee9a2ce50f176b6d3"
+    },
+    "artifacts/code/experiments/bounded_qip/run_campaign.py": {
+      "bytes": 5823,
+      "path": "sources/frozen-tools/bounded_qip/run_campaign.py",
+      "sha256": "37fe4b1e8db976654f4fb2a52037f0c359131da7e795fb9ada7b829115dd5d16"
+    },
+    "artifacts/code/experiments/bounded_qip/test_analysis.py": {
+      "bytes": 2614,
+      "path": "sources/frozen-tools/bounded_qip/test_analysis.py",
+      "sha256": "0da4b6c80f2b44bdda7a31b11291126d8b3b6bd5df52e30924df598250917dfe"
+    },
+    "artifacts/code/experiments/bounded_qip/verify_oracle.py": {
+      "bytes": 2988,
+      "path": "sources/frozen-tools/bounded_qip/verify_oracle.py",
+      "sha256": "a928d4357f4ef7265a13f673fce887cacce70d08015dcaae721020dcc4e1635b"
+    },
+    "artifacts/code/experiments/windowed_pingpong/EXPERIMENTS.md": {
+      "bytes": 35650,
+      "path": "sources/frozen-tools/windowed_pingpong/EXPERIMENTS.md",
+      "sha256": "ba7837f2d93c820276fef6122871c07472caf5d6268e3b557d00633982bf33dd"
+    },
+    "artifacts/code/experiments/windowed_pingpong/PROTOCOL_FROZEN.md": {
+      "bytes": 1883,
+      "path": "sources/frozen-tools/windowed_pingpong/PROTOCOL_FROZEN.md",
+      "sha256": "9ce22ce37a39bc9ecead80403b6af076f1b407de1b1aa59418850002d0f123c5"
+    },
+    "artifacts/code/experiments/windowed_pingpong/README.md": {
+      "bytes": 5268,
+      "path": "sources/frozen-tools/windowed_pingpong/README.md",
+      "sha256": "dd2fe7442e36aab8f307d32325d4fe1188e6db70cedb8bb6501f3f934c5ef2fe"
+    },
+    "artifacts/code/experiments/windowed_pingpong/analyze_results.py": {
+      "bytes": 9654,
+      "path": "sources/frozen-tools/windowed_pingpong/analyze_results.py",
+      "sha256": "e5e8c3e398390cc641e150c27c5ed4227bc79e3168a0064584201b93b7daac05"
+    },
+    "artifacts/code/experiments/windowed_pingpong/finalize_results.py": {
+      "bytes": 5716,
+      "path": "sources/frozen-tools/windowed_pingpong/finalize_results.py",
+      "sha256": "8f1e40bd47091a35bfceeb90d2fa0d8d6cf0f2a102b0983b77f28010cdf132f3"
+    },
+    "artifacts/code/experiments/windowed_pingpong/run_cases.py": {
+      "bytes": 3154,
+      "path": "sources/frozen-tools/windowed_pingpong/run_cases.py",
+      "sha256": "bd616bda3c5286b59b1cfb0f9801e59edca33993153f4676ad2a2dff21053765"
+    },
+    "artifacts/code/experiments/windowed_pingpong/static_resources.py": {
+      "bytes": 2358,
+      "path": "sources/frozen-tools/windowed_pingpong/static_resources.py",
+      "sha256": "230a78baef735c31a0df88824b1bb8081eeec6941d26432b6b3f1a1f295bbe8e"
+    },
+    "artifacts/code/experiments/windowed_pingpong/stream_fingerprint.py": {
+      "bytes": 2141,
+      "path": "sources/frozen-tools/windowed_pingpong/stream_fingerprint.py",
+      "sha256": "c65494f16bb38d9b5072c18ffcfc42695caced45e72c7f6fe2d6d99da7ad1030"
+    },
+    "artifacts/code/experiments/windowed_pingpong/test_analysis.py": {
+      "bytes": 2045,
+      "path": "sources/frozen-tools/windowed_pingpong/test_analysis.py",
+      "sha256": "ccc6db80c393684f7c6ad77a5d7499281295347dfff21f8329c64bce5a4b2b1b"
+    },
+    "artifacts/code/experiments/windowed_pingpong/write_manifest.py": {
+      "bytes": 1366,
+      "path": "sources/frozen-tools/windowed_pingpong/write_manifest.py",
+      "sha256": "7041185d8c310c631ce7b448dc42bd259f68129bfe0394a45973fcaf70560507"
+    },
+    "artifacts/source.tar.gz": {
+      "bytes": 768450,
+      "path": "sources/archives/conservative-pingpong.tar.gz",
+      "sha256": "cbf0686a20039b99374186e0e68f4cfa375387aa92ec87ac16a0b880d78dd6f8"
+    },
+    "corpus/G-s0.tsv.gz": {
+      "bytes": 2613897,
+      "path": "experiments/02-fresh-windowed/data/corpus/G-s0.tsv.gz",
+      "sha256": "4d87e304abcd5875f262bae4a73321f3480941b32cc0fdf3734c0dedd1531956"
+    },
+    "corpus/G-s128.tsv.gz": {
+      "bytes": 2613919,
+      "path": "experiments/02-fresh-windowed/data/corpus/G-s128.tsv.gz",
+      "sha256": "1603a27ebac6cc3a4a89b04c78f4b96f9c951eba9807be869686395ec8002b3d"
+    },
+    "corpus/G-s240.tsv.gz": {
+      "bytes": 2613985,
+      "path": "experiments/02-fresh-windowed/data/corpus/G-s240.tsv.gz",
+      "sha256": "1dda641a10d345c10bff2da0165b6f8216b90167e0f8df6b0d2e92564c9aca59"
+    },
+    "corpus/P1-s0.tsv.gz": {
+      "bytes": 2614126,
+      "path": "experiments/02-fresh-windowed/data/corpus/P1-s0.tsv.gz",
+      "sha256": "efa92673483665b304414c38643f2f598547fadcb6b3f7c283c3b24eb42cfb2c"
+    },
+    "corpus/P1-s128.tsv.gz": {
+      "bytes": 2613663,
+      "path": "experiments/02-fresh-windowed/data/corpus/P1-s128.tsv.gz",
+      "sha256": "e841fe167fabcea6bfc3fff3161cd5aa9acfcffd1dfe744beed9d132cf687b88"
+    },
+    "corpus/P1-s240.tsv.gz": {
+      "bytes": 2614017,
+      "path": "experiments/02-fresh-windowed/data/corpus/P1-s240.tsv.gz",
+      "sha256": "73a11594d15adffaa8003207e7a6c003031eb4211daa7a35c1a1d0ccf2c3163f"
+    },
+    "corpus/P2-s0.tsv.gz": {
+      "bytes": 2613895,
+      "path": "experiments/02-fresh-windowed/data/corpus/P2-s0.tsv.gz",
+      "sha256": "bd45acc94906990f4b738c10353e0313fd9e4a98fd3b1ec0e460d663a41b6cfc"
+    },
+    "corpus/P2-s128.tsv.gz": {
+      "bytes": 2613653,
+      "path": "experiments/02-fresh-windowed/data/corpus/P2-s128.tsv.gz",
+      "sha256": "dc81af90f0f186af90ade95d6ed39319704b97a2507fffa06d8256f7b72268c2"
+    },
+    "corpus/P2-s240.tsv.gz": {
+      "bytes": 2613561,
+      "path": "experiments/02-fresh-windowed/data/corpus/P2-s240.tsv.gz",
+      "sha256": "5f2840869df0e0dc6bf0957b3a107b53075a6fe68c8e2a7af76606d67abce779"
+    },
+    "freeze.json": {
+      "bytes": 9095,
+      "path": "provenance/freeze.json",
+      "sha256": "f34cd0753212710914c81b70adda97ab6bb5f227df81d6c26a3e9a9081946ece"
+    },
+    "fresh-corpus-spec.json": {
+      "bytes": 3512,
+      "path": "experiments/02-fresh-windowed/corpus-spec.json",
+      "sha256": "366e4b6cb47d8d89decf6136edc81a7158cb476fa7cee8bf5ed63b91087d8c8f"
+    },
+    "oracle-check.json": {
+      "bytes": 4072,
+      "path": "experiments/02-fresh-windowed/oracle-check.json",
+      "sha256": "8238e940d13fb7aac4ed62d5fa50d5b9fc67e5f544cce1946006d6b9f69e9389"
+    },
+    "package_evidence.py": {
+      "bytes": 13421,
+      "path": "provenance/original-bundle/package_evidence.py",
+      "sha256": "97b0c7264449fc45592e963a0e3b4f79ad6422cf20e168d58597c00a70d28a23"
+    },
+    "release-index.json": {
+      "bytes": 29069,
+      "path": "provenance/original-bundle/release-index.json",
+      "sha256": "722b19055107b3240abf20a4c6a6a39f0eccd7dcc5c2202678e64f409419d61e"
+    },
+    "results/jump2/G-s0/COMPLETE.json": {
+      "bytes": 1014,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s0/COMPLETE.json",
+      "sha256": "8ef67f430a562e1493e3929ac59745c309f7b2af64c7b8caf7a8f700ff9f7af2"
+    },
+    "results/jump2/G-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s0/checkpoint/batches.tsv",
+      "sha256": "b5694cb912421d1afb69f8b1cbe806062abce8b07dbd076e797f02a4670cd0ec"
+    },
+    "results/jump2/G-s0/checkpoint/manifest.tsv": {
+      "bytes": 285,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s0/checkpoint/manifest.tsv",
+      "sha256": "a03bdea65928a398ce4c0fe5ed292743ece914f7d73ddbd72a67f8d43016b2bd"
+    },
+    "results/jump2/G-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 30954,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "fd096c73bd01c95755e7889e2e5960b335ed39d81f8d3bd55542233604e4cac3"
+    },
+    "results/jump2/G-s0/configuration.json": {
+      "bytes": 538,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s0/configuration.json",
+      "sha256": "6b47fd11976f430c9a909d60add3a87ac242e8ada76fb5fbe7bb6c9175c1b1e6"
+    },
+    "results/jump2/G-s0/eval.log": {
+      "bytes": 1109,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s0/eval.log",
+      "sha256": "a90d0cde060a66c08e9ca752abc6cb6449fa728f12c8a8e8fe67e8282533a6a4"
+    },
+    "results/jump2/G-s128/COMPLETE.json": {
+      "bytes": 1014,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s128/COMPLETE.json",
+      "sha256": "60de721a647d3d1119b6837802619edb4401c426ec6510c2929e44db313cc515"
+    },
+    "results/jump2/G-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s128/checkpoint/batches.tsv",
+      "sha256": "9ac6422afc5384f92312d86c0fdd2f0dfa2358a78882156901ae062b01cc5224"
+    },
+    "results/jump2/G-s128/checkpoint/manifest.tsv": {
+      "bytes": 317,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s128/checkpoint/manifest.tsv",
+      "sha256": "c51f39c44a0ed4f86242d853e1755356771cccd5a95bb98758a4f03f3764ac53"
+    },
+    "results/jump2/G-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 30943,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "6bb885391b6e2734e80c52c1b59a0e4682e481928cce763968a0f90cbf91c855"
+    },
+    "results/jump2/G-s128/configuration.json": {
+      "bytes": 574,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s128/configuration.json",
+      "sha256": "84a3124105309f6dbaf5c2452fa9b811e3ecdfc1e0fb218bfce923abef818320"
+    },
+    "results/jump2/G-s128/eval.log": {
+      "bytes": 1113,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s128/eval.log",
+      "sha256": "f7fbe6cc885e27baa08b0f0b4b346a2168b7fb8d9c3f8e5f81aa88579f27c2ce"
+    },
+    "results/jump2/G-s240/COMPLETE.json": {
+      "bytes": 1013,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s240/COMPLETE.json",
+      "sha256": "cb1baa3256c6a1da6e6d05c2cf73fc2b2613c88d77889e3882210c379c82b004"
+    },
+    "results/jump2/G-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s240/checkpoint/batches.tsv",
+      "sha256": "de6fb5755ab5cba253ebb4c1bf022b3b57f56880b136f42e92b65c01f3c1e6b4"
+    },
+    "results/jump2/G-s240/checkpoint/manifest.tsv": {
+      "bytes": 345,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s240/checkpoint/manifest.tsv",
+      "sha256": "532b3998da94fab0b5a4159ada37c6332bcb6c59124e6eb37c7542dccf9ccccb"
+    },
+    "results/jump2/G-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 31675,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "b9b222d9f7714a31602da557698a8946b159e0f80f90b92980c423f9bf91ea1e"
+    },
+    "results/jump2/G-s240/configuration.json": {
+      "bytes": 602,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s240/configuration.json",
+      "sha256": "c406d21092cd7e87153c807c420ad7b7a50b7ff1c7e3ba8feec6c9f45f4da2b8"
+    },
+    "results/jump2/G-s240/eval.log": {
+      "bytes": 1113,
+      "path": "experiments/02-fresh-windowed/runs/jump2/G-s240/eval.log",
+      "sha256": "21244e2d8df935a54971307764f968c012670f7d670813187591f280120fe6fe"
+    },
+    "results/jump2/P1-s0/COMPLETE.json": {
+      "bytes": 1013,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s0/COMPLETE.json",
+      "sha256": "d317843e9f36ebaa4cad9ecca803521cd997dcb581637690bd2aba7f541a4592"
+    },
+    "results/jump2/P1-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s0/checkpoint/batches.tsv",
+      "sha256": "89e7463a2e39707bc62cfd27faee7b74503c80ce1c6a246278669c751f01a2bf"
+    },
+    "results/jump2/P1-s0/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s0/checkpoint/manifest.tsv",
+      "sha256": "24ac7cb88756ac55e57f7cf3f2c65ff4c250df71ba1872a5e909e6884c2daead"
+    },
+    "results/jump2/P1-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 30706,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "79ef2d76f92b0d581468467ddf49500eaa33422a8648a5664b7055a4f898f4a7"
+    },
+    "results/jump2/P1-s0/configuration.json": {
+      "bytes": 666,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s0/configuration.json",
+      "sha256": "2eb3c177c294986067bc7b1b9a84e94145cb2298780c48b2532e181ae6563032"
+    },
+    "results/jump2/P1-s0/eval.log": {
+      "bytes": 1112,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s0/eval.log",
+      "sha256": "6ba6e9f5545e7dba594ae3d3369c90c1fa9956c5308dd869860c052cd87959be"
+    },
+    "results/jump2/P1-s128/COMPLETE.json": {
+      "bytes": 1015,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s128/COMPLETE.json",
+      "sha256": "792de72a0aa7ed373ba2859af0c5211c94c0701f9ad305a65dbd358ff2afaef8"
+    },
+    "results/jump2/P1-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s128/checkpoint/batches.tsv",
+      "sha256": "c59054dfcffb1a8a914d5830330d90dbc81750b7866370a2795e7e607bf3c320"
+    },
+    "results/jump2/P1-s128/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s128/checkpoint/manifest.tsv",
+      "sha256": "d5f483422ac3e0c13b0453fa8b248c3485f994a3a2faf8fa1c7130b688aa4d31"
+    },
+    "results/jump2/P1-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 30531,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "1567abf3f940c6e5eeda7c26ffd916ad904d24dfe92a6a61e9493f8e013057ed"
+    },
+    "results/jump2/P1-s128/configuration.json": {
+      "bytes": 670,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s128/configuration.json",
+      "sha256": "62b22b6f5699bbc0dd6b1f75ce183f9866bee8793e5144f3709d1e7e65733b33"
+    },
+    "results/jump2/P1-s128/eval.log": {
+      "bytes": 1114,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s128/eval.log",
+      "sha256": "24f07f5de2b87eb2df8b8562b86fc9b43338a4243875d90a1dc277b4157c7f3e"
+    },
+    "results/jump2/P1-s240/COMPLETE.json": {
+      "bytes": 1015,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s240/COMPLETE.json",
+      "sha256": "46b364c202a8e1e026f8843454584592a4f5a56ce52c9e5c04cca94d2745edb5"
+    },
+    "results/jump2/P1-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s240/checkpoint/batches.tsv",
+      "sha256": "1d67a5883104effb3d9aefa77dece820ab654636d5bb1ad3522955078db49bd0"
+    },
+    "results/jump2/P1-s240/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s240/checkpoint/manifest.tsv",
+      "sha256": "37746c4b5dc8b241bbeee3a1ed2cce89ec4e260eb6db747b76eae2cb6ac14bec"
+    },
+    "results/jump2/P1-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 30792,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "d4f219dde8db2bd865476a760f26b257f7c936f2b4cd3d11703355740a415154"
+    },
+    "results/jump2/P1-s240/configuration.json": {
+      "bytes": 670,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s240/configuration.json",
+      "sha256": "ef39f75a64ebb3ebde4b4b4f1c6e2a23f331b0eaa88a45261dec3ee1c3c7f382"
+    },
+    "results/jump2/P1-s240/eval.log": {
+      "bytes": 1114,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P1-s240/eval.log",
+      "sha256": "b38e4aba114f890f86153de08d6e46fbeb1d2cb3a21da9f5374f471b9915c412"
+    },
+    "results/jump2/P2-s0/COMPLETE.json": {
+      "bytes": 1014,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s0/COMPLETE.json",
+      "sha256": "b16ade87ec1f45ee1cdac62694fbd9d32e2aaf2adddebaf822f3d879a948522c"
+    },
+    "results/jump2/P2-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s0/checkpoint/batches.tsv",
+      "sha256": "71fae713fda295689c2fb19579f5242918afbd2ab924e65b6a41f661684bb1d4"
+    },
+    "results/jump2/P2-s0/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s0/checkpoint/manifest.tsv",
+      "sha256": "356e7025b0a3c423c03035413e4745d6a9057713f56b3aa2dfebf0eb2a800572"
+    },
+    "results/jump2/P2-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 31966,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "46cf9c6dac745e0f873e3f5d2e2bb901fb17aa28a04c7cdc8c8f0f5791eae6e8"
+    },
+    "results/jump2/P2-s0/configuration.json": {
+      "bytes": 666,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s0/configuration.json",
+      "sha256": "6185306da0c60f648006dbc47957434bad7ff817d934648915dc3c589b205d54"
+    },
+    "results/jump2/P2-s0/eval.log": {
+      "bytes": 1112,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s0/eval.log",
+      "sha256": "c08757c25ef54624f69a7756d483d9247ffeffff4378b462079e8d455f7b954f"
+    },
+    "results/jump2/P2-s128/COMPLETE.json": {
+      "bytes": 1013,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s128/COMPLETE.json",
+      "sha256": "6a215e38abd50a71897294a0445748066238cbcc60b76a93be5ef583ed8a03ec"
+    },
+    "results/jump2/P2-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s128/checkpoint/batches.tsv",
+      "sha256": "2d22ca9df4271b2b43a77d692ad95125e43c621dd1b6cd239e7f0661e63df9b9"
+    },
+    "results/jump2/P2-s128/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s128/checkpoint/manifest.tsv",
+      "sha256": "b998d4ac27a6dc9700fbf880995d2ef233dcd0a2c29b485ddf7513651fc9c91a"
+    },
+    "results/jump2/P2-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 31786,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "71189cc1c11597db6689337bf615e27792abf09a0ec27e961d4f9e3d69853b04"
+    },
+    "results/jump2/P2-s128/configuration.json": {
+      "bytes": 670,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s128/configuration.json",
+      "sha256": "fa7a2ebc37ce22f48740f039ea41980b01035019080cc596891ce839f0e11c9b"
+    },
+    "results/jump2/P2-s128/eval.log": {
+      "bytes": 1114,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s128/eval.log",
+      "sha256": "5b115f1082b77d233028ea715cf114dd3cc6181d8c4cd39cd1f23928764ccf1a"
+    },
+    "results/jump2/P2-s240/COMPLETE.json": {
+      "bytes": 1012,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s240/COMPLETE.json",
+      "sha256": "13572a97ac94d17e3361abea845757c51f8bc0584ae677f68a3e0fbb61805c30"
+    },
+    "results/jump2/P2-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s240/checkpoint/batches.tsv",
+      "sha256": "f6f5769a124a327176a29f4e3bfb2019737257786d38c276bc64e329b144951e"
+    },
+    "results/jump2/P2-s240/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s240/checkpoint/manifest.tsv",
+      "sha256": "055185895eaf76306d85c008ff7f50b42a3ef205961a70c7cfb2e5722f7df57d"
+    },
+    "results/jump2/P2-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 31679,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "ac2b08af18200bfa5102609ce9e5c76cb202738fb717bbf0b4f6f58a12fac6d0"
+    },
+    "results/jump2/P2-s240/configuration.json": {
+      "bytes": 670,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s240/configuration.json",
+      "sha256": "e45750eb8a4cfe564527bad5acec6d99703c201ad303297c29be7f7b76c11fcc"
+    },
+    "results/jump2/P2-s240/eval.log": {
+      "bytes": 1114,
+      "path": "experiments/02-fresh-windowed/runs/jump2/P2-s240/eval.log",
+      "sha256": "3765cda6efbd4a6ceb87c5d8ff5967d3c2c45c78e5092533d74d5bb23ad5369f"
+    },
+    "results/pingpong_base/G-s0/COMPLETE.json": {
+      "bytes": 1014,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s0/COMPLETE.json",
+      "sha256": "66942e2f3991d8e1265bba7a384302bf6c6c5d1c1ee2580bdb6cf4fad121d923"
+    },
+    "results/pingpong_base/G-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s0/checkpoint/batches.tsv",
+      "sha256": "b10c3317c9d6f83a5ad86687101d34e25239b56bbc0eaf5bb48bfbc1205440ae"
+    },
+    "results/pingpong_base/G-s0/checkpoint/manifest.tsv": {
+      "bytes": 285,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s0/checkpoint/manifest.tsv",
+      "sha256": "7272f38eae18a5e55c791e132446689a6dbe58e6643418217f8d82f56fadcb29"
+    },
+    "results/pingpong_base/G-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29818,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "8f549ccfed75b4e20353664043db77b082cf637d1acc904b27c0b64fba52e41b"
+    },
+    "results/pingpong_base/G-s0/configuration.json": {
+      "bytes": 546,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s0/configuration.json",
+      "sha256": "da06186f87a121851fe6766ae68f6349eb856b1d768b2b57e46e517dd5b36ed0"
+    },
+    "results/pingpong_base/G-s0/eval.log": {
+      "bytes": 1114,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s0/eval.log",
+      "sha256": "5bd8dbd05ef07f5c2490d9e425f0f0d0b112abcdab546fcd98e16180d20b020e"
+    },
+    "results/pingpong_base/G-s128/COMPLETE.json": {
+      "bytes": 1013,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s128/COMPLETE.json",
+      "sha256": "6e26a9a41be295ab7af0463d77f1ab26ceacd9b3a99415c78b06260ee9b00152"
+    },
+    "results/pingpong_base/G-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s128/checkpoint/batches.tsv",
+      "sha256": "9b527e9d35f3d3652d18695f74f376d1339af0b956ea73458a854bd7941af247"
+    },
+    "results/pingpong_base/G-s128/checkpoint/manifest.tsv": {
+      "bytes": 317,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s128/checkpoint/manifest.tsv",
+      "sha256": "d263582e904ea1da350fe45f35a1aa425faf6987dd6dcac26ceb17403dab0e06"
+    },
+    "results/pingpong_base/G-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29185,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "0763d33da4bd0aab5ca296270ecda7821b8b010228fbdd42001e91c272aed3b4"
+    },
+    "results/pingpong_base/G-s128/configuration.json": {
+      "bytes": 582,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s128/configuration.json",
+      "sha256": "3c9efa6243a6e1671ad24d8ba00f525a67f160c5d0db0ea4edf01be0dccc0352"
+    },
+    "results/pingpong_base/G-s128/eval.log": {
+      "bytes": 1116,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s128/eval.log",
+      "sha256": "9113307451890450b952d5d3ea30322e5ca58436034f284255a65de6b35153ac"
+    },
+    "results/pingpong_base/G-s240/COMPLETE.json": {
+      "bytes": 1009,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s240/COMPLETE.json",
+      "sha256": "6763a9a23b9244f17a40597e79bea7bbfec254708c69a56d418ab1f007dd2a79"
+    },
+    "results/pingpong_base/G-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s240/checkpoint/batches.tsv",
+      "sha256": "a1248c41b93593820476537a40164f8d6f5ecc523cec165af77ecb5448451977"
+    },
+    "results/pingpong_base/G-s240/checkpoint/manifest.tsv": {
+      "bytes": 345,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s240/checkpoint/manifest.tsv",
+      "sha256": "532a0240eb5045566f9fb261370b12d81ba59f57dd953dc44ab55c549c52b243"
+    },
+    "results/pingpong_base/G-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29724,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "47936169b6c2925f78abddfaa6c485ca6730b372ef476decf2d5a7d86ea80b22"
+    },
+    "results/pingpong_base/G-s240/configuration.json": {
+      "bytes": 610,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s240/configuration.json",
+      "sha256": "c3215e0f1d64b8559ae53ad00f69cb5c8040273cba75c2ca3d762beaf87cb20e"
+    },
+    "results/pingpong_base/G-s240/eval.log": {
+      "bytes": 1116,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/G-s240/eval.log",
+      "sha256": "53afaf1bf59c54377aea6bfc093ebe45248d6437cbcfcdc785c4ec4ec86f6213"
+    },
+    "results/pingpong_base/P1-s0/COMPLETE.json": {
+      "bytes": 1011,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s0/COMPLETE.json",
+      "sha256": "2ed3a6fedf18797e25bbbb6d19561d925ac12bdb5d49b2c40757e8430f4f9e9b"
+    },
+    "results/pingpong_base/P1-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s0/checkpoint/batches.tsv",
+      "sha256": "62315d059c92caac98b2c5e2038ce2c8aec49edccb26f7c22954b82394ee3ae2"
+    },
+    "results/pingpong_base/P1-s0/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s0/checkpoint/manifest.tsv",
+      "sha256": "9ad115809324eb6fbb50cd7eb4ee1675e996171ebcaf0925373b0a91da6ffbfb"
+    },
+    "results/pingpong_base/P1-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29810,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "c6f9bf7ac12450a98c1823bd87a6f60a095f9d984494ddd9d7d4eea1214735de"
+    },
+    "results/pingpong_base/P1-s0/configuration.json": {
+      "bytes": 674,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s0/configuration.json",
+      "sha256": "6b15072ba87f18f32eb3293fd049c2e222a3abc1ba7b62d66ad9a1b22bfb99b2"
+    },
+    "results/pingpong_base/P1-s0/eval.log": {
+      "bytes": 1115,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s0/eval.log",
+      "sha256": "187050e162fe0e68ab0f957a38a7a2c564b4229c56e74807c9da35afe96683f1"
+    },
+    "results/pingpong_base/P1-s128/COMPLETE.json": {
+      "bytes": 1015,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s128/COMPLETE.json",
+      "sha256": "8ea426cc0960217dc93f8a2afa2347717a2a5a1420cf07ae0ad753c86e2c42b1"
+    },
+    "results/pingpong_base/P1-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s128/checkpoint/batches.tsv",
+      "sha256": "07aff2810eadc4c4b9a493b1a33ef9df4087f3f22da8a44f6ae5fea0215edd39"
+    },
+    "results/pingpong_base/P1-s128/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s128/checkpoint/manifest.tsv",
+      "sha256": "72b9cda5d16b2754c6fdce52bb4892a2ed68730a0546a5830cf9b6566ae87493"
+    },
+    "results/pingpong_base/P1-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29546,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "dbcc8bcec2892abe6c809c4059cbf6094ee21f40fc3e040345c2f7f09fa15b84"
+    },
+    "results/pingpong_base/P1-s128/configuration.json": {
+      "bytes": 678,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s128/configuration.json",
+      "sha256": "38346b56112370757cd01f1195313393bef2aff9f7ca35409e58d4b377a229ad"
+    },
+    "results/pingpong_base/P1-s128/eval.log": {
+      "bytes": 1117,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s128/eval.log",
+      "sha256": "b9725708c90b2edc6b0e4f6322ac3849c0fb9708a3f085ae7433446b5f02ed81"
+    },
+    "results/pingpong_base/P1-s240/COMPLETE.json": {
+      "bytes": 1013,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s240/COMPLETE.json",
+      "sha256": "3fb2713c1c0354054674f41ae809b9aff3f782574a8796c18401a6e0f4f9a07d"
+    },
+    "results/pingpong_base/P1-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s240/checkpoint/batches.tsv",
+      "sha256": "1079175fd1b3620435e2b2bc382906d5accd6b1dab7559769ef05278af0849a7"
+    },
+    "results/pingpong_base/P1-s240/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s240/checkpoint/manifest.tsv",
+      "sha256": "802cbb0530a7fd01ff3af36fd7d0ecfd98c265148a19a46a74fc887af81d13b7"
+    },
+    "results/pingpong_base/P1-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29167,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "20fb96c81687834e050a1f90d426c8c252d05a6d5400ee59bc855fc35cee6f4d"
+    },
+    "results/pingpong_base/P1-s240/configuration.json": {
+      "bytes": 678,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s240/configuration.json",
+      "sha256": "7076a8acd2a3a396ad436f01ce276221cf42cf672077dc40da18774b900e5b84"
+    },
+    "results/pingpong_base/P1-s240/eval.log": {
+      "bytes": 1117,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P1-s240/eval.log",
+      "sha256": "5a46ef66db4f40a8f7e6f61a9bd235f7fdb73fcc1a84fd042f73b2b46f9aedd4"
+    },
+    "results/pingpong_base/P2-s0/COMPLETE.json": {
+      "bytes": 1011,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s0/COMPLETE.json",
+      "sha256": "831d2981c043902c069f618afffaf5588af5183e4d442e34aa03ce63a81630d6"
+    },
+    "results/pingpong_base/P2-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s0/checkpoint/batches.tsv",
+      "sha256": "440b133c5c532fbf9d278ac8e44128da356b17f2e3c37530c2d17b2801a0afb7"
+    },
+    "results/pingpong_base/P2-s0/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s0/checkpoint/manifest.tsv",
+      "sha256": "d57f15640c6735696a62c66af1262b12070b8f12fa687ac7cb73c50d74ba0a38"
+    },
+    "results/pingpong_base/P2-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29436,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "a2065851f94408e3e8dc5e484e0c8bff86d8bf180a450b68512f75b21d79b38e"
+    },
+    "results/pingpong_base/P2-s0/configuration.json": {
+      "bytes": 674,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s0/configuration.json",
+      "sha256": "c70db5713fa1e0adef9d53520bed41e2327fa65d8287f36d2832ad3d15ab7f36"
+    },
+    "results/pingpong_base/P2-s0/eval.log": {
+      "bytes": 1115,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s0/eval.log",
+      "sha256": "262d7d970f9745c59647eb230a1699f4aaaad19102c75747080d0946793fa136"
+    },
+    "results/pingpong_base/P2-s128/COMPLETE.json": {
+      "bytes": 1013,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s128/COMPLETE.json",
+      "sha256": "636c4519b051a8e92acef574ef1135fe5fba8e9d51d1e588faeb2f0f68f53111"
+    },
+    "results/pingpong_base/P2-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s128/checkpoint/batches.tsv",
+      "sha256": "a69a8414115228aa0b2a8d420a7f462c251308a55d0509a4556ba936be085a44"
+    },
+    "results/pingpong_base/P2-s128/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s128/checkpoint/manifest.tsv",
+      "sha256": "b442c2ab62d9d0ea22da7a0665a94edc096b0eaf4db92f09505b7feaadf96bac"
+    },
+    "results/pingpong_base/P2-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29041,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "da59507a14be6229d25d8e100fb5cc150ed36128ded96a8e5022dbf76317dcf6"
+    },
+    "results/pingpong_base/P2-s128/configuration.json": {
+      "bytes": 678,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s128/configuration.json",
+      "sha256": "5dc1f1e6288cbaf99d1d813ff1e6e65476a49f7624e4ebed6cc2aa8dd0d9d21a"
+    },
+    "results/pingpong_base/P2-s128/eval.log": {
+      "bytes": 1117,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s128/eval.log",
+      "sha256": "e35189f38c9eb54e1dc1f570432720c46b61cc096bcb75578fe97f873263e29e"
+    },
+    "results/pingpong_base/P2-s240/COMPLETE.json": {
+      "bytes": 1013,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s240/COMPLETE.json",
+      "sha256": "44e7c4682241bf68b8d1a8ccd3afb6c5fdd1f1e0ab425e85925c1356fccbf06c"
+    },
+    "results/pingpong_base/P2-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s240/checkpoint/batches.tsv",
+      "sha256": "44c78aaff7bca16995595a9f570a6658054671c418728c1cf42135a7fd6515ac"
+    },
+    "results/pingpong_base/P2-s240/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s240/checkpoint/manifest.tsv",
+      "sha256": "45eb5e7896e307278d40dece32f28e4626c7282a9ef1f443df8f18bb4b1b6651"
+    },
+    "results/pingpong_base/P2-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29523,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "10df4a93f9e151d81f41d30155374b44861323169013669cea7e30a94bcc3081"
+    },
+    "results/pingpong_base/P2-s240/configuration.json": {
+      "bytes": 678,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s240/configuration.json",
+      "sha256": "ac416561919f309406d0501c03e6f01b6e529f1309a891c103bd4af323351a69"
+    },
+    "results/pingpong_base/P2-s240/eval.log": {
+      "bytes": 1117,
+      "path": "experiments/02-fresh-windowed/runs/original-pingpong/P2-s240/eval.log",
+      "sha256": "47450f59bdc41875219d1163193c39c95a8f63ade9938228c13cae0e02790b01"
+    },
+    "results/pingpong_conservative/G-s0/COMPLETE.json": {
+      "bytes": 996,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s0/COMPLETE.json",
+      "sha256": "1c4b0bfc49530790057fe400fabbb2911e3b61f68235f6d826c864a1f4c858c8"
+    },
+    "results/pingpong_conservative/G-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s0/checkpoint/batches.tsv",
+      "sha256": "b74a4a359ad0e8f08ce39f362a6753aa83784a56620735ba304b7807a2b9dc40"
+    },
+    "results/pingpong_conservative/G-s0/checkpoint/manifest.tsv": {
+      "bytes": 285,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s0/checkpoint/manifest.tsv",
+      "sha256": "fe635a93defe6e02bb7f3969be33ed9dacc0e4a08f39ec35111f670c61f515d9"
+    },
+    "results/pingpong_conservative/G-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29081,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "e6ee42dbea992ce2c54a1326d0305a2649267bb9692d4527a403f46666593353"
+    },
+    "results/pingpong_conservative/G-s0/configuration.json": {
+      "bytes": 554,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s0/configuration.json",
+      "sha256": "fc10a2a1df19fbb448c1393056d7a4c9f7886c4e8e2fb3fb4b05c7b8bdcf2a41"
+    },
+    "results/pingpong_conservative/G-s0/eval.log": {
+      "bytes": 1122,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s0/eval.log",
+      "sha256": "f8f684e17ee0a1689e799d80390a68b0987904e21de7b9e90e4c3ffb5235b657"
+    },
+    "results/pingpong_conservative/G-s128/COMPLETE.json": {
+      "bytes": 995,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s128/COMPLETE.json",
+      "sha256": "6782c4b8ebc090553238da6390970e691bf975253a26d9e2ae49e3dc98d893ab"
+    },
+    "results/pingpong_conservative/G-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s128/checkpoint/batches.tsv",
+      "sha256": "1a40ab4b2480eb32e6143c84e5764ceb8d35e2c73930f217240b5c0a5a90a8d2"
+    },
+    "results/pingpong_conservative/G-s128/checkpoint/manifest.tsv": {
+      "bytes": 317,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s128/checkpoint/manifest.tsv",
+      "sha256": "9c87a0fe36fbbdd2e99d5ce93118d509cdb76359f44aeb90ba73c29fd7136d6b"
+    },
+    "results/pingpong_conservative/G-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29081,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "c7314e202d1de290eb45f282bb2dd19cd4799080966c3a7cb53f4d2083f11179"
+    },
+    "results/pingpong_conservative/G-s128/configuration.json": {
+      "bytes": 590,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s128/configuration.json",
+      "sha256": "75017a0bc7b31c18727d617d7a0faf7e5f309399bbc41add5a41384bf38e5293"
+    },
+    "results/pingpong_conservative/G-s128/eval.log": {
+      "bytes": 1124,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s128/eval.log",
+      "sha256": "1614186bb2babd58d0a4f5eead9efdb8b7cbf3e2310899f092c9abfa7c744205"
+    },
+    "results/pingpong_conservative/G-s240/COMPLETE.json": {
+      "bytes": 997,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s240/COMPLETE.json",
+      "sha256": "50f1100e322ecd441c1757b45431367c91874f6c666b2db9caac564788e4b716"
+    },
+    "results/pingpong_conservative/G-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s240/checkpoint/batches.tsv",
+      "sha256": "2b36a146b69dd5a3c5ea37ebfc10bbb2704bc871cebf750e9a55dae5a10a6000"
+    },
+    "results/pingpong_conservative/G-s240/checkpoint/manifest.tsv": {
+      "bytes": 345,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s240/checkpoint/manifest.tsv",
+      "sha256": "771824b6aec4dc8280fc337f03899a90c218f7ff50b44f4744a5585f2d0de647"
+    },
+    "results/pingpong_conservative/G-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29079,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "107806787e7bc17c78601363dc0b0bcf541469219fea5985b06cd3ad03ff2e27"
+    },
+    "results/pingpong_conservative/G-s240/configuration.json": {
+      "bytes": 618,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s240/configuration.json",
+      "sha256": "319c18132601df0d3f07fd3954b94ae87b3b9235cb085a92742d5c89a235a3c0"
+    },
+    "results/pingpong_conservative/G-s240/eval.log": {
+      "bytes": 1124,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/G-s240/eval.log",
+      "sha256": "78086bab5a77c1dfa8be0d7389ac25b0d6dda474b89a7e54b916aefa400bfa6b"
+    },
+    "results/pingpong_conservative/P1-s0/COMPLETE.json": {
+      "bytes": 997,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s0/COMPLETE.json",
+      "sha256": "1aef35554e80e11df0ae46ac8e4c7c7cb344af467b14f50515c01060a9d132cc"
+    },
+    "results/pingpong_conservative/P1-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s0/checkpoint/batches.tsv",
+      "sha256": "b7d7f36d2c7236585a0c7ccb5eaf5f736e6ae63e73a3bab029c6d51939e48bab"
+    },
+    "results/pingpong_conservative/P1-s0/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s0/checkpoint/manifest.tsv",
+      "sha256": "41e3b94b52be5a7b356ff647b472aa58421734d6af7092bd06380570c1006c06"
+    },
+    "results/pingpong_conservative/P1-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29035,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "02166c0f8d7cb79727fd1fd2a1a5cbb61b30e5317aa4d918b8b134029c173739"
+    },
+    "results/pingpong_conservative/P1-s0/configuration.json": {
+      "bytes": 682,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s0/configuration.json",
+      "sha256": "af19526b41f5bdf1bce7c543dcd119d076b1479862843cc0ec5693fce8fc1f68"
+    },
+    "results/pingpong_conservative/P1-s0/eval.log": {
+      "bytes": 1123,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s0/eval.log",
+      "sha256": "ab4a604ac85283de803e7589385905af6b38513136177875f3ad35251954255d"
+    },
+    "results/pingpong_conservative/P1-s128/COMPLETE.json": {
+      "bytes": 997,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s128/COMPLETE.json",
+      "sha256": "68d5dbd4b634d4f8137baff97100d65ca7b6aee480484522955a583d646f3e49"
+    },
+    "results/pingpong_conservative/P1-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s128/checkpoint/batches.tsv",
+      "sha256": "928e645d9ba922846410feb8ff57ddfa5ce2f088772193f26f8580b5ccae4949"
+    },
+    "results/pingpong_conservative/P1-s128/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s128/checkpoint/manifest.tsv",
+      "sha256": "e666ffc3f1bd42fbdb8022f5f12dfeccdceee0b3d3793873ec8d8244b02c296d"
+    },
+    "results/pingpong_conservative/P1-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29080,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "c5baa190874859e2e9314e1081c6fbccb9dbba0aee46673b48b733bd226d4808"
+    },
+    "results/pingpong_conservative/P1-s128/configuration.json": {
+      "bytes": 686,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s128/configuration.json",
+      "sha256": "c933f3fbe211e1035a259b4af609d3b9285642adcbb283c6c78386bd6bf41a49"
+    },
+    "results/pingpong_conservative/P1-s128/eval.log": {
+      "bytes": 1125,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s128/eval.log",
+      "sha256": "ad6b47e6d88ddfa6dbc268763e09a08c3aae8f45784cb34c1db0035174a3da06"
+    },
+    "results/pingpong_conservative/P1-s240/COMPLETE.json": {
+      "bytes": 997,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s240/COMPLETE.json",
+      "sha256": "f3ff776c9c45531849c8a28dc48f54bd7976f08323a12e53c4b1f317cba4fe61"
+    },
+    "results/pingpong_conservative/P1-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s240/checkpoint/batches.tsv",
+      "sha256": "60722ce27a342b883da65c63a2ed3f35790fe194d89cf012a29af561d6bc5036"
+    },
+    "results/pingpong_conservative/P1-s240/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s240/checkpoint/manifest.tsv",
+      "sha256": "beb6c2f0c33732d92750d735c37127ce416ca9c3fc02c44c7a73d206381e0e28"
+    },
+    "results/pingpong_conservative/P1-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29063,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "1028b6086b3b06fabecbc22b246a94164be63dd93aa7b53f279465dab03dc7a6"
+    },
+    "results/pingpong_conservative/P1-s240/configuration.json": {
+      "bytes": 686,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s240/configuration.json",
+      "sha256": "eb6c655e3a45650116d31be5822b7d7b75b4977ed8772df1f625c43cd12f628c"
+    },
+    "results/pingpong_conservative/P1-s240/eval.log": {
+      "bytes": 1125,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P1-s240/eval.log",
+      "sha256": "cd1c4d6c47c16d70efb874fc52ac2943714c7757f26c3ef7972ca9bff05de8e2"
+    },
+    "results/pingpong_conservative/P2-s0/COMPLETE.json": {
+      "bytes": 997,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s0/COMPLETE.json",
+      "sha256": "85554b0411f53ba211cbad69ff12a825fa73f94e899aa05bdc824359a2e034fa"
+    },
+    "results/pingpong_conservative/P2-s0/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s0/checkpoint/batches.tsv",
+      "sha256": "7411686615f7f4f0875838e4e3f503f09a84aa5e995b621c9204ed2b1cdd4a9d"
+    },
+    "results/pingpong_conservative/P2-s0/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s0/checkpoint/manifest.tsv",
+      "sha256": "18fb8cbc26a8815714b9e2c68d22bf53df8241f3b0db8011e4df607d0770fedd"
+    },
+    "results/pingpong_conservative/P2-s0/checkpoint/outcomes.tsv.gz": {
+      "bytes": 28985,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s0/checkpoint/outcomes.tsv.gz",
+      "sha256": "d483f45eb1316b067fd692a4b67be6a6c878c2cee6846d24f74a89580ed6c7d5"
+    },
+    "results/pingpong_conservative/P2-s0/configuration.json": {
+      "bytes": 682,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s0/configuration.json",
+      "sha256": "4c9080f6740c246a4a5f9101ab40edb8b8ec939ae77f83f3b065d325c635c196"
+    },
+    "results/pingpong_conservative/P2-s0/eval.log": {
+      "bytes": 1123,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s0/eval.log",
+      "sha256": "fdebfef3c3f6ae6dbadcdf3d5ea0442816e1b39604d1189111efde04103cb158"
+    },
+    "results/pingpong_conservative/P2-s128/COMPLETE.json": {
+      "bytes": 997,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s128/COMPLETE.json",
+      "sha256": "8ba4c98cad466f25b7cde0fb323b0f8fc9370a55e6c9cf98101ea2f8fd107030"
+    },
+    "results/pingpong_conservative/P2-s128/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s128/checkpoint/batches.tsv",
+      "sha256": "3f7cb43e1f7a64fc775a88295d096dafe5235f71a6a16dc0555940f4dacfd9ce"
+    },
+    "results/pingpong_conservative/P2-s128/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s128/checkpoint/manifest.tsv",
+      "sha256": "217d367252654fc7e3ee7f3b84c91437222c3bb10615599c70bbf51391b5237a"
+    },
+    "results/pingpong_conservative/P2-s128/checkpoint/outcomes.tsv.gz": {
+      "bytes": 28949,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s128/checkpoint/outcomes.tsv.gz",
+      "sha256": "500c476b6c17c7dd9cc90d15caed66d766dee0fb1b32a259a06bd1b3e63537a2"
+    },
+    "results/pingpong_conservative/P2-s128/configuration.json": {
+      "bytes": 686,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s128/configuration.json",
+      "sha256": "d692518a6d9a3c491e7f2acac3d25aa4bd5ed01dae69de39947346d6e74407e4"
+    },
+    "results/pingpong_conservative/P2-s128/eval.log": {
+      "bytes": 1125,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s128/eval.log",
+      "sha256": "51870d37601a7a86abfb327e5f68d204e7d1294e324013dcd98d88e35d4ce694"
+    },
+    "results/pingpong_conservative/P2-s240/COMPLETE.json": {
+      "bytes": 976,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s240/COMPLETE.json",
+      "sha256": "f23199f0e763b1daa602b9c42467052afac3c732f40c8f32ec70d493d362296d"
+    },
+    "results/pingpong_conservative/P2-s240/checkpoint/batches.tsv": {
+      "bytes": 8211,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s240/checkpoint/batches.tsv",
+      "sha256": "2fc788808c33031edd7dd3c795425442aaf9be53faa2a50e67fe7040c1505ca8"
+    },
+    "results/pingpong_conservative/P2-s240/checkpoint/manifest.tsv": {
+      "bytes": 348,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s240/checkpoint/manifest.tsv",
+      "sha256": "a79732694907e690ed03d7d1e999ddac0f7f4bdc618b9b813e5650e58489c8a4"
+    },
+    "results/pingpong_conservative/P2-s240/checkpoint/outcomes.tsv.gz": {
+      "bytes": 29085,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s240/checkpoint/outcomes.tsv.gz",
+      "sha256": "3e16f252516bf49e0e471e4cb8e9321c89dee137435d4764dc88ae84d066abc3"
+    },
+    "results/pingpong_conservative/P2-s240/configuration.json": {
+      "bytes": 686,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s240/configuration.json",
+      "sha256": "2c12f30ec022cf44a50ab8ced3b952d2e1c03fd27f643d9748b0afe639541079"
+    },
+    "results/pingpong_conservative/P2-s240/eval.log": {
+      "bytes": 1125,
+      "path": "experiments/02-fresh-windowed/runs/conservative-pingpong/P2-s240/eval.log",
+      "sha256": "7034621db0134b658da7c4518f8f3e84cf07c223d343fd9c10fa5604910f907b"
+    },
+    "supplementary/coordinate-phase-trace.log": {
+      "bytes": 2008,
+      "path": "experiments/04-coordinate-phase/trace.log",
+      "sha256": "8113a07bd4e5d15605899b44122009cd525c942ca301c955afc4b79d63ea8b0c"
+    },
+    "supplementary/development/base/checkpoint/batches.tsv": {
+      "bytes": 11809,
+      "path": "experiments/01-development/runs/01-original/checkpoint/batches.tsv",
+      "sha256": "f089849028b849334b3a3864a7bb58bc121da772aa597f9f675a7045a90e0031"
+    },
+    "supplementary/development/base/checkpoint/inputs.tsv.gz": {
+      "bytes": 4026355,
+      "path": "experiments/01-development/runs/01-original/checkpoint/inputs.tsv.gz",
+      "sha256": "0f2c3c70c91b6b683487ec873f46b82ae7dd2e91e7482b34fe6df21d66b18bde"
+    },
+    "supplementary/development/base/checkpoint/manifest.tsv": {
+      "bytes": 247,
+      "path": "experiments/01-development/runs/01-original/checkpoint/manifest.tsv",
+      "sha256": "fa197747d06033d4a51fcdcb3686db4e01a2af162aa4e1cb91599f23c5c6aa85"
+    },
+    "supplementary/development/base/eval.log": {
+      "bytes": 979,
+      "path": "experiments/01-development/runs/01-original/eval.log",
+      "sha256": "c21a92cec1fa57c3e229003f2295c0f93553be718c258c0ae469bd0f15edb5cb"
+    },
+    "supplementary/development/base/summary.json": {
+      "bytes": 732,
+      "path": "experiments/01-development/runs/01-original/summary.json",
+      "sha256": "717f07f66b4c0ca5c44645e1f3c11e26f4c5754f20cf2d11a592dbb377ae7c4d"
+    },
+    "supplementary/development/guarded-coordinates/checkpoint/batches.tsv": {
+      "bytes": 11809,
+      "path": "experiments/01-development/runs/05-wider-coordinate-check/checkpoint/batches.tsv",
+      "sha256": "c3fb3a0046bc95050073d7901341686231e2a00a7b0931f1529d67c0d4c20248"
+    },
+    "supplementary/development/guarded-coordinates/checkpoint/inputs.tsv.gz": {
+      "bytes": 4025278,
+      "path": "experiments/01-development/runs/05-wider-coordinate-check/checkpoint/inputs.tsv.gz",
+      "sha256": "d85ecf58f1ecb937392ef344bb202642757e885c2fedd22ec6301b6ff5c3d58c"
+    },
+    "supplementary/development/guarded-coordinates/checkpoint/manifest.tsv": {
+      "bytes": 247,
+      "path": "experiments/01-development/runs/05-wider-coordinate-check/checkpoint/manifest.tsv",
+      "sha256": "e5c34e4a072ca94bc76f2f9854116e8aacb8c047cdbf6b19de85335cc0b391a9"
+    },
+    "supplementary/development/guarded-coordinates/eval.log": {
+      "bytes": 994,
+      "path": "experiments/01-development/runs/05-wider-coordinate-check/eval.log",
+      "sha256": "12aa916ece9f6bfbb89281680d6eda2b2b81a2d1a56026893113b63fca8ddf3e"
+    },
+    "supplementary/development/guarded-coordinates/summary.json": {
+      "bytes": 732,
+      "path": "experiments/01-development/runs/05-wider-coordinate-check/summary.json",
+      "sha256": "1c7640343892f6e81f3b0024bf313a8c8998ffda82a2d65c3b2a1dc230b98d96"
+    },
+    "supplementary/development/guarded/checkpoint/batches.tsv": {
+      "bytes": 11809,
+      "path": "experiments/01-development/runs/04-wider-replay-guards/checkpoint/batches.tsv",
+      "sha256": "7e60136ea70177f13f0a21d689728eb5072bdfb0bf5415ea53539c2cf74f814d"
+    },
+    "supplementary/development/guarded/checkpoint/inputs.tsv.gz": {
+      "bytes": 4025601,
+      "path": "experiments/01-development/runs/04-wider-replay-guards/checkpoint/inputs.tsv.gz",
+      "sha256": "7245cfe72c14f767a1b15ce2033f5a895f9cd71082404ddb13e2a14458ffd8d4"
+    },
+    "supplementary/development/guarded/checkpoint/manifest.tsv": {
+      "bytes": 247,
+      "path": "experiments/01-development/runs/04-wider-replay-guards/checkpoint/manifest.tsv",
+      "sha256": "8c81ccdb918059a53101627f60c80c383683d5769201a64660f0ec2f7f97ddcf"
+    },
+    "supplementary/development/guarded/eval.log": {
+      "bytes": 982,
+      "path": "experiments/01-development/runs/04-wider-replay-guards/eval.log",
+      "sha256": "e37ee27a77e1cc9edb88eac5c175678acc5c98d8181aefd18ea7ed78583fe32e"
+    },
+    "supplementary/development/guarded/summary.json": {
+      "bytes": 730,
+      "path": "experiments/01-development/runs/04-wider-replay-guards/summary.json",
+      "sha256": "08a4b789c7a2ab08a5601ae70de1d7a2a8a8d3d40c8464775b1e55c0e5c0c562"
+    },
+    "supplementary/development/oracle-check.json": {
+      "bytes": 292,
+      "path": "experiments/01-development/oracle-check.json",
+      "sha256": "641cc158b9117561fa46e601a4d9dd731e062cb1be83a1e4ed58c9fe6e1f2e98"
+    },
+    "supplementary/development/rounds/checkpoint/batches.tsv": {
+      "bytes": 11809,
+      "path": "experiments/01-development/runs/02-more-rounds/checkpoint/batches.tsv",
+      "sha256": "ae7e5802305ff00ea2fa78c5d4d485e6e429d98c9666e1a81904aefc6d7d3bc2"
+    },
+    "supplementary/development/rounds/checkpoint/inputs.tsv.gz": {
+      "bytes": 4026033,
+      "path": "experiments/01-development/runs/02-more-rounds/checkpoint/inputs.tsv.gz",
+      "sha256": "782e66dddca00b01d79069dabd7ff29d22941e7cd30b6c93cbf2922ccca2cdea"
+    },
+    "supplementary/development/rounds/checkpoint/manifest.tsv": {
+      "bytes": 247,
+      "path": "experiments/01-development/runs/02-more-rounds/checkpoint/manifest.tsv",
+      "sha256": "5a2ff83b3f92201c2f21e8ac2e0b4d5fa608e52037f73abcc41546863a78be22"
+    },
+    "supplementary/development/rounds/eval.log": {
+      "bytes": 980,
+      "path": "experiments/01-development/runs/02-more-rounds/eval.log",
+      "sha256": "78848818a39f7419fe6131101b3ad333f9fd8a84cf1a351a951beb72448d3666"
+    },
+    "supplementary/development/rounds/summary.json": {
+      "bytes": 726,
+      "path": "experiments/01-development/runs/02-more-rounds/summary.json",
+      "sha256": "23c3cad701fefadb8baf3356f9549e7ee555a9d84353b441bdd85539b244547c"
+    },
+    "supplementary/development/widths/checkpoint/batches.tsv": {
+      "bytes": 11809,
+      "path": "experiments/01-development/runs/03-wider-values/checkpoint/batches.tsv",
+      "sha256": "4259a308b48069f285efb1506d163c25e2f287f9f222ecbfefe0f543492be414"
+    },
+    "supplementary/development/widths/checkpoint/inputs.tsv.gz": {
+      "bytes": 4025372,
+      "path": "experiments/01-development/runs/03-wider-values/checkpoint/inputs.tsv.gz",
+      "sha256": "71b7103ca9da46d9ade61769eb682d980174d3ea0d4c7f29ecf66ada07fd4863"
+    },
+    "supplementary/development/widths/checkpoint/manifest.tsv": {
+      "bytes": 247,
+      "path": "experiments/01-development/runs/03-wider-values/checkpoint/manifest.tsv",
+      "sha256": "a5a3f9cbd9bdb23daa84a231609d16e6e441154b7956f239e420fb43a44c2a12"
+    },
+    "supplementary/development/widths/eval.log": {
+      "bytes": 981,
+      "path": "experiments/01-development/runs/03-wider-values/eval.log",
+      "sha256": "b7f6bbf487376061b958c626d5d084c02102195a65a0cd15cd97b1e724784356"
+    },
+    "supplementary/development/widths/summary.json": {
+      "bytes": 732,
+      "path": "experiments/01-development/runs/03-wider-values/summary.json",
+      "sha256": "6efd1199665a4cc32a435570fe912c92b246b36a52479b55205c4b239fc7e7ca"
+    },
+    "supplementary/evaluator-equivalence/auxiliary/checkpoint/batches.tsv": {
+      "bytes": 5921,
+      "path": "experiments/03-evaluator-equivalence/runs/auxiliary/checkpoint/batches.tsv",
+      "sha256": "ecef4773edf65a6e5f15f3ac9ec9cd99f7e5eb3cbb8ef07418132db5d9e2cd9c"
+    },
+    "supplementary/evaluator-equivalence/auxiliary/checkpoint/inputs.tsv.gz": {
+      "bytes": 2012841,
+      "path": "experiments/03-evaluator-equivalence/runs/auxiliary/checkpoint/inputs.tsv.gz",
+      "sha256": "b4b5eb34c7b14541b8015cb5ea35350518617c66e9fb865903a9be3903a270aa"
+    },
+    "supplementary/evaluator-equivalence/auxiliary/checkpoint/manifest.tsv": {
+      "bytes": 246,
+      "path": "experiments/03-evaluator-equivalence/runs/auxiliary/checkpoint/manifest.tsv",
+      "sha256": "f560ee79b03231924831f9616923127706eef469c6563be7af1588f3e1c6422e"
+    },
+    "supplementary/evaluator-equivalence/auxiliary/eval.log": {
+      "bytes": 997,
+      "path": "experiments/03-evaluator-equivalence/runs/auxiliary/eval.log",
+      "sha256": "636abcc54f3cee202cdc3c7b150f051d380e44aaea35f81ca94193c53d0ff251"
+    },
+    "supplementary/evaluator-equivalence/official/checkpoint/batches.tsv": {
+      "bytes": 5921,
+      "path": "experiments/03-evaluator-equivalence/runs/official/checkpoint/batches.tsv",
+      "sha256": "de0cd8bb8fbb81118601308a236ed1947ab7c79380da81668adbf0ffffd6e156"
+    },
+    "supplementary/evaluator-equivalence/official/checkpoint/inputs.tsv.gz": {
+      "bytes": 2013042,
+      "path": "experiments/03-evaluator-equivalence/runs/official/checkpoint/inputs.tsv.gz",
+      "sha256": "368a7b2758b45592d93e672eba7e9d5d1378406442cfedbeb713bc6598639477"
+    },
+    "supplementary/evaluator-equivalence/official/checkpoint/manifest.tsv": {
+      "bytes": 229,
+      "path": "experiments/03-evaluator-equivalence/runs/official/checkpoint/manifest.tsv",
+      "sha256": "077594c749d2bb236c9d71edf29051b236a41b7c2cf850d5d2f5d2e40d7cb50e"
+    },
+    "supplementary/evaluator-equivalence/official/eval.log": {
+      "bytes": 988,
+      "path": "experiments/03-evaluator-equivalence/runs/official/eval.log",
+      "sha256": "fd7823d7219d5200ec9a06d8728093c807ba2544c334e526c4501689bc6a5d7c"
+    },
+    "supplementary/jump2.tar.gz": {
+      "bytes": 392405,
+      "path": "sources/archives/jump2.tar.gz",
+      "sha256": "1275ed223270ac867d70ef179316edd07856bd9f18573f86ba4c7d974c8b334e"
+    },
+    "supplementary/operator-reproduction.json": {
+      "bytes": 588,
+      "path": "provenance/operator-reproduction.json",
+      "sha256": "44acf257846c316bc5b240b39cf88867f7ca9f0e231c7c67c3b3a87b594420aa"
+    },
+    "supplementary/operator-reproduction.log": {
+      "bytes": 295,
+      "path": "provenance/operator-reproduction.log",
+      "sha256": "45940ef7d3b0165e7a43c0991759d033f76952f3596bad75020110ca6259c3ae"
+    },
+    "supplementary/pingpong-base.tar.gz": {
+      "bytes": 724710,
+      "path": "sources/archives/original-pingpong.tar.gz",
+      "sha256": "cc41549267edb03e56561703f4bddfd2472fa3ecaff4371e3da1d0f3be470020"
+    },
+    "supplementary/representation-probe.tar.gz": {
+      "bytes": 768751,
+      "path": "sources/archives/zero-payload-probe.tar.gz",
+      "sha256": "7f01d1dae3367f37c5961a80a6a2ba36aaca5f415fde437d52e1f6180bf5a62c"
+    }
+  },
+  "format": "ecdsafail-evidence-relocation-v1",
+  "original_zip_sha256": "97d1abfe1769e0c2b6ed9e98ad557a1a36816be992d65c0ad0b8498371028cd8"
+}

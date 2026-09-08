@@ -1,0 +1,9 @@
+format	bounded-qip-checkpoint-v1
+interface	baseline-classical-addend
+seed	ecdsafail-qip-bounded-development-20260908-v1
+window_bits	16
+target_shots	16384
+qubits	1375
+ops	15716533
+ops_fingerprint	5cb55556cb98b98606550e71749087b6
+qip_table_beta	0x1

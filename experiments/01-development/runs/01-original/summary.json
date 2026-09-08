@@ -1,0 +1,26 @@
+{
+  "n": 16384,
+  "Q": 1321,
+  "mean_T": "952714.3062744140625",
+  "QT": "1258535598.5885009765625",
+  "mean_Clifford": "11110730.6632080078125",
+  "classical_failure": 8,
+  "phase_failure": 5,
+  "ancilla_failure": 0,
+  "any_failure": 10,
+  "identity_rows": 0,
+  "identity_failures": 0,
+  "nonidentity_failures": 10,
+  "ops_fingerprint": "75f62d150f9d6ceef4e3a3cef8f19b99",
+  "manifest": {
+    "format": "bounded-qip-checkpoint-v1",
+    "interface": "baseline-classical-addend",
+    "seed": "ecdsafail-qip-bounded-development-20260908-v1",
+    "window_bits": "16",
+    "target_shots": "16384",
+    "qubits": "1321",
+    "ops": "13586833",
+    "ops_fingerprint": "75f62d150f9d6ceef4e3a3cef8f19b99",
+    "qip_table_beta": "0x1"
+  }
+}

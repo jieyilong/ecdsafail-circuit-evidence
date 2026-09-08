@@ -1,0 +1,25 @@
+=== quantum_ecc: eval_circuit (trusted stage) ===
+
+  loaded ops  : 13586833
+  qubits      : 1321
+  bits        : 1010987
+
+-- mixed-add comparison on 16-bit table cases (16384 shots) --
+  checkpoint directory     : /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-bounded-20260908/development/base/checkpoint
+  evaluator threads        : 8
+  paired interface         : baseline-classical-addend
+  progress                : 10048/16384 shots; 5 failures observed
+  tested shots            : 16384
+  identity-table rows     : 0 (0.0000%)
+  classical mismatches    : 8 (0.0488%)
+  phase-failure shots     : 5 (0.0305%; 5 batches)
+  ancilla-failure shots   : 0 (0.0000%; 0 batches)
+  shots failing any channel: 10 (0.0610%)
+
+=== mixed-add comparison metrics ===
+  avg executed Toffoli  : 952714.306
+  avg executed Clifford : 11110730.663
+  emitted ops           : 13586833
+  qubits                : 1321
+
+=== mixed-add comparison OK ===

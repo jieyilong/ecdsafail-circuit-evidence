@@ -1,0 +1,2 @@
+# Optional independent reference reconstruction. The frozen study used this version.
+cryptography==50.0.1

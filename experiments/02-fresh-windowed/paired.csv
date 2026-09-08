@@ -1,0 +1,4 @@
+comparison,baseline_only,both_fail,candidate_only,n,neither_fail
+jump2_vs_pingpong_base,215,0,39,100000,99746
+jump2_vs_pingpong_conservative,215,0,0,100000,99785
+pingpong_base_vs_pingpong_conservative,39,0,0,100000,99961

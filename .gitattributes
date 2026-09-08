@@ -1,0 +1,3 @@
+# Hashes cover exact bytes, including original line endings.
+* -text
+*.gz binary

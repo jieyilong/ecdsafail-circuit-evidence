@@ -1,0 +1,10 @@
+{
+  "beta": "0x1",
+  "mismatches": 0,
+  "oracle": "cryptography/OpenSSL secp256k1 scalar multiplication",
+  "random_bytes_consumed": 655360,
+  "rejected_equal_x": 0,
+  "rejected_identity_accumulators": 0,
+  "seed": "ecdsafail-qip-bounded-development-20260908-v1",
+  "verified_cases": 16384
+}

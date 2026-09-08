@@ -1,0 +1,16 @@
+{
+  "candidate": "jump2",
+  "evaluator_sha256": "7f20f2caee3c563744b42c505c535eb41f962df4010a027ff8b9cb724c33501e",
+  "freeze_sha256": "f34cd0753212710914c81b70adda97ab6bb5f227df81d6c26a3e9a9081946ece",
+  "ops_sha256": "32ae39ca60ca95f66724cb0854133b05ecbfb6734848d11e599479403bb4dccd",
+  "stratum": {
+    "base": "P1",
+    "base_scalar": "0xbdf25332c0f80bd8a8bb0a87aabe58a85cf5e719ec0316077bfba81b0d7c03d8",
+    "beta": "0x35805926746fb35886ef1b39dad0aaa421454dde23a80d06277b03d3dc38b268",
+    "n": 11111,
+    "name": "P1-s240",
+    "seed": "qip-bounded-final-v1:dc472ff20236d485a20ff17c0dd1aa605fd988389f00cb5100a263c756cc3d3c",
+    "shift": 240
+  },
+  "threads": 8
+}

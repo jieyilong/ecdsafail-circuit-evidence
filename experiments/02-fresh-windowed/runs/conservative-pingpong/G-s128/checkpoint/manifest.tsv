@@ -1,0 +1,9 @@
+format	bounded-qip-checkpoint-v1
+interface	runtime-table-windowed
+seed	qip-bounded-final-v1:c83c252a650c073b155a0394d6db4b53fc5aaf447400fcf5802a9932ba15d54b
+window_bits	16
+target_shots	11111
+qubits	1392
+ops	218437419
+ops_fingerprint	8ad431ee576bf32648eb2c66ce9437bd
+qip_table_beta	0x100000000000000000000000000000000

@@ -1,0 +1,14 @@
+{
+  "emission_settings": {
+    "QIP_PINGPONG_PROFILE": "guarded",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "TLM_MSBS": "40",
+    "WINDOWED_MODE": "1",
+    "WINDOWED_QROM_UNLOAD": "split",
+    "WINDOW_BITS": "16"
+  },
+  "frozen_ops_sha256": "9b1c169117e804991284c41850027af2f60ed7f01016aff0c481ef39b1b4b7f6",
+  "reproduced_ops_sha256": "9b1c169117e804991284c41850027af2f60ed7f01016aff0c481ef39b1b4b7f6",
+  "scope": "Byte comparison of the recorded source rebuild against the frozen stream, not another accuracy experiment",
+  "source_commit": "345c23fcf1073b7559a9d41e113f755259545bf2"
+}

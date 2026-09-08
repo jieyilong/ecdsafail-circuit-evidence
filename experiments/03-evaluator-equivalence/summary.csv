@@ -1,0 +1,3 @@
+evaluator,n,batches,total_T,total_Clifford,any_failure
+official,8192,128,7804692572,91019583257,4
+auxiliary,8192,128,7804692572,91019583257,4

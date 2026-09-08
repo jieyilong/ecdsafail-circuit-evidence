@@ -1,0 +1,8 @@
+format	paired-window-checkpoint-v1
+interface	baseline-classical-addend
+seed	ecdsafail-qip-bounded-development-20260908-v1
+window_bits	16
+target_shots	8192
+qubits	1321
+ops	13586833
+ops_fingerprint	75f62d150f9d6ceef4e3a3cef8f19b99

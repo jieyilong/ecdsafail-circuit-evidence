@@ -1,0 +1,3 @@
+direction,n,noncanonical_zero,phase_flags,denominator_mismatches,dirty_ancillas,output_mask,phase_mask,ancilla_mask
+Divide,64,28,19,0,0,0x9202b2f1a0d9b43c,0x8e019020b1425610,0x0000000000000000
+Multiply,64,46,26,0,0,0xff17baf3b5fbf6bc,0xe8103072a1f982b4,0x0000000000000000

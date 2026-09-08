@@ -1,0 +1,16 @@
+{
+  "candidate": "pingpong_base",
+  "evaluator_sha256": "7f20f2caee3c563744b42c505c535eb41f962df4010a027ff8b9cb724c33501e",
+  "freeze_sha256": "f34cd0753212710914c81b70adda97ab6bb5f227df81d6c26a3e9a9081946ece",
+  "ops_sha256": "53add94db5d25ac11f1e86ed66248fb2d5d4d4767fa07de966ecc473cf2e0d89",
+  "stratum": {
+    "base": "G",
+    "base_scalar": "0x1",
+    "beta": "0x1000000000000000000000000000000000000000000000000000000000000",
+    "n": 11111,
+    "name": "G-s240",
+    "seed": "qip-bounded-final-v1:bc2f41ce8de5da3047527545c291563f1e89fe5ffbb945e95cbf1f2367f61245",
+    "shift": 240
+  },
+  "threads": 8
+}

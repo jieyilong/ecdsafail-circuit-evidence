@@ -1,0 +1,33 @@
+=== quantum_ecc: eval_circuit (trusted stage) ===
+
+  loaded ops  : 15716533
+  qubits      : 1375
+  bits        : 1174047
+
+-- mixed-add comparison on 16-bit table cases (16384 shots) --
+  evaluator threads        : 2
+  paired interface         : baseline-classical-addend
+QIP_PHASE_TRACE batch=106 start=0 end=0 phase=start delta=0x0000000000000000 cumulative=0x0000000000000000
+QIP_PHASE_TRACE batch=106 start=0 end=6608 phase=tlm_coord_x_sub delta=0x0000100000000000 cumulative=0x0000100000000000
+QIP_PHASE_TRACE batch=106 start=6608 end=13216 phase=tlm_coord_y_sub delta=0x0000000000000000 cumulative=0x0000100000000000
+QIP_PHASE_TRACE batch=106 start=13216 end=7360927 phase=tlm_inverse delta=0x0000000000000000 cumulative=0x0000100000000000
+QIP_PHASE_TRACE batch=106 start=7360927 end=7402394 phase=tlm_coord_add3x delta=0x0000000000000000 cumulative=0x0000100000000000
+QIP_PHASE_TRACE batch=106 start=7402394 end=7402394 phase=tlm_square delta=0x0000000000000000 cumulative=0x0000100000000000
+QIP_PHASE_TRACE batch=106 start=7402394 end=8345745 phase=square_product_register delta=0x0000000000000000 cumulative=0x0000100000000000
+QIP_PHASE_TRACE batch=106 start=8345745 end=15697858 phase=tlm_forward_multiply delta=0x0000000000000000 cumulative=0x0000100000000000
+QIP_PHASE_TRACE batch=106 start=15697858 end=15704466 phase=tlm_coord_y_sub_final delta=0x0000000000000000 cumulative=0x0000100000000000
+QIP_PHASE_TRACE batch=106 start=15704466 end=15716533 phase=tlm_coord_rsub_final delta=0x0000000000000000 cumulative=0x0000100000000000
+  tested shots            : 16384
+  identity-table rows     : 0 (0.0000%)
+  classical mismatches    : 0 (0.0000%)
+  phase-failure shots     : 1 (0.0061%; 1 batches)
+  ancilla-failure shots   : 0 (0.0000%; 0 batches)
+  shots failing any channel: 1 (0.0061%)
+
+=== mixed-add comparison metrics ===
+  avg executed Toffoli  : 4210.377
+  avg executed Clifford : 48910.253
+  emitted ops           : 15716533
+  qubits                : 1375
+
+=== mixed-add comparison OK ===

@@ -1,0 +1,2 @@
+ZERO_PAYLOAD direction=Divide output_bad=28 noncanonical_zero=28 denominator_bad=0 phase_bad=19 ancilla_bad=0 output_mask=0x9202b2f1a0d9b43c phase_mask=0x8e019020b1425610 ancilla_mask=0x0000000000000000
+ZERO_PAYLOAD direction=Multiply output_bad=46 noncanonical_zero=46 denominator_bad=0 phase_bad=26 ancilla_bad=0 output_mask=0xff17baf3b5fbf6bc phase_mask=0xe8103072a1f982b4 ancilla_mask=0x0000000000000000
