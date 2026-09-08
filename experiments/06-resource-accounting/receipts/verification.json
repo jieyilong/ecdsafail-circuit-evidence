@@ -1,0 +1,75 @@
+{
+  "status": "verified_bounded",
+  "protected_source_files": 259,
+  "changed_emitter_files": {
+    "original-pingpong": [
+      "src/point_add/mod.rs",
+      "src/point_add/pingpong_div.rs",
+      "src/point_add/trailmix_ludicrous/gcd.rs",
+      "src/point_add/trailmix_ludicrous/qrom.rs"
+    ],
+    "conservative-pingpong": [
+      "src/point_add/mod.rs",
+      "src/point_add/pingpong_div.rs",
+      "src/point_add/trailmix_ludicrous/gcd.rs",
+      "src/point_add/trailmix_ludicrous/qrom.rs"
+    ],
+    "jump2": [
+      "src/point_add/mod.rs",
+      "src/point_add/trailmix_ludicrous/gcd.rs",
+      "src/point_add/trailmix_ludicrous/qrom.rs"
+    ]
+  },
+  "instrumentation_stream_identity_checks": 12,
+  "expected_superseded_failures": [
+    {
+      "name": "conservative-w4",
+      "check": "count_only_raw_operations",
+      "emitted": 15710441,
+      "counted": 15710357,
+      "passed": false
+    },
+    {
+      "name": "original-w4",
+      "check": "count_only_raw_operations",
+      "emitted": 13579145,
+      "counted": 13579061,
+      "passed": false
+    }
+  ],
+  "frozen_resource_bridge": {
+    "pingpong_base": {
+      "Q": 1338,
+      "raw_static_toffoli": 1184131,
+      "frozen_final_static_toffoli": 1184131,
+      "postcompiler_toffoli_delta": 0,
+      "raw_ops": 216306027,
+      "identity_tail_ops": 96,
+      "frozen_final_ops": 216306123,
+      "postcompiler_ops_delta": 0
+    },
+    "pingpong_conservative": {
+      "Q": 1392,
+      "raw_static_toffoli": 1347296,
+      "frozen_final_static_toffoli": 1347296,
+      "postcompiler_toffoli_delta": 0,
+      "raw_ops": 218437323,
+      "identity_tail_ops": 96,
+      "frozen_final_ops": 218437419,
+      "postcompiler_ops_delta": 0
+    },
+    "jump2": {
+      "Q": 1162,
+      "raw_static_toffoli": 1594698,
+      "frozen_final_static_toffoli": 1593346,
+      "postcompiler_toffoli_delta": -1352,
+      "raw_ops": 212091047,
+      "identity_tail_ops": 0,
+      "frozen_final_ops": 212090239,
+      "postcompiler_ops_delta": -808
+    }
+  },
+  "full_window_stream_identity": "Not rerun; only source-derived counts plus frozen totals are compared.",
+  "sampled_peak_process_group_kib": 1985936,
+  "evaluator_sha256": "ee964de7edc5c20964e68ac72ec6f9fc949dce7ff131e0bd2993583b57478670"
+}

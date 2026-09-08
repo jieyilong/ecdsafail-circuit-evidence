@@ -1,0 +1,8 @@
+{
+  "name": "mixed1321-count",
+  "source": "original-pingpong",
+  "instrumented": true,
+  "count_only": true,
+  "settings": {},
+  "exit_code": 0
+}

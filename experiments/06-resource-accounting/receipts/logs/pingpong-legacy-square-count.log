@@ -1,0 +1,21 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+        0.95 real         0.90 user         0.03 sys
+             4800512  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 417  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+                 211  involuntary context switches
+         15784960863  instructions retired
+          3129124655  cycles elapsed
+             3720192  peak memory footprint

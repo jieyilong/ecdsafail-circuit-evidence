@@ -2,7 +2,7 @@
 
 Reader-facing evidence for the September 8, 2026 conservative ping-pong and fresh multi-table study in the ECDSA.Fail manuscript. This repository contains the recorded inputs, outcomes, analysis, and source snapshots needed to inspect the results without running large circuits.
 
-**Version 1.0.0** preserves the original study in a reader-facing layout. See [citation guidance](docs/CITING.md) for versioned references, [the paper map](docs/PAPER_MAP.md) for the corresponding manuscript tables, and [publication checks](VERIFICATION.md). This is a research evidence package, not a challenge submission or an end-to-end Shor implementation.
+**Version 1.1.0** adds controlled backend/square accounting, structured-boundary diagnosis, and an external accounting audit. The original study, source snapshots, and [v1.0.0 release](https://github.com/jieyilong/ecdsafail-circuit-evidence/releases/tag/v1.0.0) remain unchanged. See [citation guidance](docs/CITING.md), [the paper map](docs/PAPER_MAP.md), [release changes](CHANGELOG.md), and [publication checks](VERIFICATION.md). This is a research evidence package, not a challenge submission or an end-to-end Shor implementation.
 
 ## Main Result
 
@@ -27,10 +27,12 @@ Means include failed cases. Any-channel failures are the union of classical-outp
 | Understand a ledger row, failure flag, or statistic | [Data dictionary](docs/DATA_DICTIONARY.md) |
 | Verify the records or repeat execution | [Reproduction guide](docs/REPRODUCTION.md) |
 | Check source identities and the relocation from the original ZIP | [Provenance](docs/PROVENANCE.md) |
+| Inspect the matched backend ablation and live resource ledgers | [Resource accounting](experiments/06-resource-accounting/README.md) |
+| Reproduce the boundary witnesses and inspect failed repair hypotheses | [Boundary diagnosis](experiments/07-boundary-diagnosis/README.md) |
 
 ## Verify Without Running Circuits
 
-From the repository root, using Python 3.10 or later:
+From the repository root, using Python 3.11 or later:
 
 ```sh
 python3 scripts/verify.py --output .work/verification.json
@@ -38,7 +40,7 @@ python3 scripts/results.py --check
 python3 scripts/query_case.py --candidate original-pingpong --stratum G-s0 --index 0
 ```
 
-Default verification uses only the Python standard library. It reconstructs the original layout in temporary storage, verifies the original records, and reruns the frozen analysis. It does not execute circuits or invoke the optional independent classical oracle. Builds and circuit runs are separate, explicit steps and can require about 32 GiB of RAM and hours of runtime.
+Default verification uses only the Python standard library. It reconstructs the original layout, reruns the frozen analysis, and verifies the added mechanism packages and scalar calculations. It does not execute circuits or invoke the optional independent classical oracle. Builds and circuit runs are separate, explicit steps and can require about 32 GiB of RAM and hours of runtime. See the individual experiment guides for the smaller diagnostic runs.
 
 ## Evidence Layout
 
@@ -49,6 +51,11 @@ Default verification uses only the Python standard library. It reconstructs the 
 | [03-evaluator-equivalence](experiments/03-evaluator-equivalence/README.md) | Official and auxiliary evaluator records on the same 8,192 mixed-addition cases. |
 | [04-coordinate-phase](experiments/04-coordinate-phase/README.md) | Stage trace localizing development case 6828. Diagnostic only. |
 | [05-zero-payload](experiments/05-zero-payload/README.md) | Guide to the separate 64-denominator component probe in each direction. |
+| [06-resource-accounting](experiments/06-resource-accounting/README.md) | Controlled 2x2 backend/square experiment, live allocation and static phase ledgers, retained smoke failures, portable source snapshots. |
+| [07-boundary-diagnosis](experiments/07-boundary-diagnosis/README.md) | Representation and phase witnesses, failed widening hypotheses, local negation regression, and offline source replay. |
+| [supporting/comparison](supporting/comparison/report.md) | Primary-source resource-boundary audit and exact sampling-bias calculations. |
+| [supporting/algebra](supporting/algebra/check_value_replay.py) | Exact small-prime value/replay identity checks, not circuit validation. |
+| [supporting/replay-analysis](supporting/replay-analysis/README.md) | Preserved local 446-to-393 replay-cell evidence and scalar fusion checks. |
 | [sources/archives](sources/archives/) | Byte-identical original source archives. |
 | [sources/trees](sources/trees/) | Browsable copies of archive contents, omitting only recorded cached bytecode. |
 | [sources/frozen-tools](sources/frozen-tools/) | Original experiment and analysis scripts. |

@@ -1,0 +1,64 @@
+{
+  "Divide": {
+    "PRERESET": {
+      "coefficient_nonzero": 0,
+      "phase": 10232618298449745424
+    },
+    "POSTRESET": {
+      "phase": 10232618298449745424
+    },
+    "COMPONENT": {
+      "output": 10521168430346384444,
+      "output_p": 10521168430346384444,
+      "denominator": 0,
+      "phase": 10232618298449745424,
+      "ancilla": 0,
+      "peak": 1375,
+      "toffoli_sum64": 32579736,
+      "ops": 7346835,
+      "bytes": 411422760
+    },
+    "derived": {
+      "output_p_count": 28,
+      "phase_count": 19,
+      "coefficient_prereset_nonzero_count": 0,
+      "reset_phase_xor": "0x0",
+      "reset_phase_xor_count": 0,
+      "remaining_restore_phase_xor": "0x0",
+      "output_p_and_phase": 11,
+      "representation_or_phase_count": 36,
+      "mean_executed_toffoli": 509058.375
+    }
+  },
+  "Multiply": {
+    "PRERESET": {
+      "coefficient_nonzero": 17228406797147723408,
+      "phase": 2595516219840513188
+    },
+    "POSTRESET": {
+      "phase": 16721918685328540340
+    },
+    "COMPONENT": {
+      "output": 18381365960028976828,
+      "output_p": 18381365960028976828,
+      "denominator": 0,
+      "phase": 16721918685328540340,
+      "ancilla": 0,
+      "peak": 1375,
+      "toffoli_sum64": 32580368,
+      "ops": 7351237,
+      "bytes": 411669272
+    },
+    "derived": {
+      "output_p_count": 46,
+      "phase_count": 26,
+      "coefficient_prereset_nonzero_count": 35,
+      "reset_phase_xor": "0xcc151032b5a24610",
+      "reset_phase_xor_count": 23,
+      "remaining_restore_phase_xor": "0x0",
+      "output_p_and_phase": 26,
+      "representation_or_phase_count": 46,
+      "mean_executed_toffoli": 509068.25
+    }
+  }
+}

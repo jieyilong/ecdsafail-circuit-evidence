@@ -1,0 +1,38 @@
+{
+  "source_commit": "897dda2b0cf267151ecd973252d2a5078cbf1b63",
+  "original_pingpong_div_sha256": "9725ef778f8bfff9f33dff2de92ee542ff287e1e927cde42c0cae96a8aa6b00d",
+  "scope": "Isolated static emission, before whole-circuit optimization. No input simulation or new full-circuit operating point.",
+  "fold_majority_one_toffoli": true,
+  "low56_unfused_override": "Enabled only for range_matched_unfused",
+  "data_and_sign_qubits": 513,
+  "rows": [
+    {
+      "cell": "unfused_inverse",
+      "static_toffoli": "512",
+      "peak_qubits": "602",
+      "workspace": "89",
+      "operations": "5621"
+    },
+    {
+      "cell": "range_matched_unfused",
+      "static_toffoli": "446",
+      "peak_qubits": "600",
+      "workspace": "87",
+      "operations": "5159"
+    },
+    {
+      "cell": "fused_inverse",
+      "static_toffoli": "393",
+      "peak_qubits": "601",
+      "workspace": "88",
+      "operations": "5227"
+    },
+    {
+      "cell": "fused_forward",
+      "static_toffoli": "393",
+      "peak_qubits": "600",
+      "workspace": "87",
+      "operations": "5223"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pingpong-legacy-square-count",
+  "source": "original-pingpong",
+  "instrumented": true,
+  "count_only": true,
+  "settings": {
+    "SUB4_LEGACY_SQUARE": "1"
+  },
+  "exit_code": 0
+}

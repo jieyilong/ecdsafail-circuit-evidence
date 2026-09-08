@@ -1,5 +1,11 @@
 # Provenance and Artifact Identity
 
+## Additive v1.1.0 Release
+
+Experiments 01-05, all original source archives/trees, and the pre-study freeze are byte-identical to v1.0.0. The preceding publication inventory is retained in [v1.0.0-publication-manifest.json](../provenance/v1.0.0-publication-manifest.json). `scripts/verify_mechanism.py` checks the old scientific files against it. The current publication inventory adds the new files and updated reader tools. It is not a rewritten experimental freeze.
+
+Experiments [06](../experiments/06-resource-accounting/README.md) and [07](../experiments/07-boundary-diagnosis/README.md) are copied from separately verified portable supplements, with their own manifests, source lineage, raw records, and documented exclusions. Their staging notes and embedded paths remain historical records. The current publication status is described in the root [changelog](../CHANGELOG.md), not those archived staging statements.
+
 [Repository overview](../README.md) | [Reproduction](REPRODUCTION.md)
 
 ## Preserved Records, New Layout

@@ -8,4 +8,6 @@ The upstream [NOTICE](sources/UPSTREAM_NOTICE.txt) is restored alongside the sou
 
 Original copyright notices and source text are retained. This publication does not assign a new blanket license or relicense material whose permissions are not specified by its source. Public availability is not a substitute for checking the applicable upstream terms.
 
+The v1.1.0 mechanism packages retain copied source notices and source diffs. Experiment 07 additionally includes locked third-party Cargo dependency sources with their licenses and checksums under `dependencies/`. The external accounting audit supplies citations and metadata, not copies of the cited papers. No blanket license is added to these materials.
+
 Repository curation, wrappers, and documentation were prepared with AI assistance under Jieyi Long's direction. Scientific attribution remains with the paper's authors and the original circuit contributors. The new organization changes paths and presentation, not frozen observations or analysis.

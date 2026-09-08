@@ -1,0 +1,255 @@
+   Compiling libc v0.2.185
+   Compiling version_check v0.9.5
+   Compiling typenum v1.19.0
+   Compiling generic-array v0.14.9
+   Compiling shlex v1.3.0
+   Compiling jobserver v0.1.34
+   Compiling proc-macro2 v1.0.106
+   Compiling find-msvc-tools v0.1.9
+   Compiling cc v1.2.60
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.45
+   Compiling pkg-config v0.3.33
+   Compiling zstd-sys v2.0.16+zstd.1.5.7
+   Compiling unicode-segmentation v1.13.2
+   Compiling convert_case v0.10.0
+   Compiling cpufeatures v0.2.17
+   Compiling syn v2.0.117
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.6
+   Compiling unicode-xid v0.2.6
+   Compiling paste v1.0.15
+   Compiling zstd-safe v7.2.4
+   Compiling derive_more-impl v2.1.1
+   Compiling digest v0.10.7
+   Compiling keccak v0.1.6
+   Compiling foldhash v0.2.0
+   Compiling cfg-if v1.0.4
+   Compiling ruint-macro v1.2.1
+   Compiling ruint v1.17.2
+   Compiling const-hex v1.18.1
+   Compiling hashbrown v0.16.1
+   Compiling sha3 v0.10.8
+   Compiling derive_more v2.1.1
+   Compiling rustc-hash v2.1.2
+   Compiling bytes v1.11.1
+   Compiling itoa v1.0.18
+   Compiling alloy-primitives v1.5.7
+   Compiling zstd v0.13.3
+   Compiling quantum_ecc v0.1.0 (/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2)
+warning: unused variable: `b`
+   --> src/point_add/arith/multiply.rs:638:24
+    |
+638 |     let borrow_lane = |b: &mut B, _need: usize| -> Vec<QubitId> {
+    |                        ^ help: if this is intentional, prefix it with an underscore: `_b`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `seg_w`
+   --> src/point_add/arith/multiply.rs:649:13
+    |
+649 |         let seg_w = hi - lo;
+    |             ^^^^^ help: if this is intentional, prefix it with an underscore: `_seg_w`
+
+warning: variable does not need to be mutable
+  --> src/point_add/dirtyscan.rs:57:9
+   |
+57 |     let mut note = |writers: &mut Vec<[usize; TRAIL]>, wpos: &mut Vec<u8>, q: u64, index: usize| {
+   |         ----^^^^
+   |         |
+   |         help: remove this `mut`
+   |
+   = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `apply_d2_deep_strip` is never used
+    --> src/point_add/mod.rs:1680:4
+     |
+1680 | fn apply_d2_deep_strip(ops: Vec<Op>) -> Vec<Op> {
+     |    ^^^^^^^^^^^^^^^^^^^
+     |
+     = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `add_vented_2clean_classical` is never used
+  --> src/point_add/venting.rs:71:15
+   |
+71 | pub(crate) fn add_vented_2clean_classical(
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `add_vented_2clean_qoffset` is never used
+   --> src/point_add/venting.rs:647:15
+    |
+647 | pub(crate) fn add_vented_2clean_qoffset(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `xor_right_shifted_carries_into_qoffset` is never used
+   --> src/point_add/venting.rs:748:15
+    |
+748 | pub(crate) fn xor_right_shifted_carries_into_qoffset(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `iadd_dirty_2clean_qoffset` is never used
+   --> src/point_add/venting.rs:812:15
+    |
+812 | pub(crate) fn iadd_dirty_2clean_qoffset(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `isub_dirty_2clean_qoffset` is never used
+   --> src/point_add/venting.rs:875:15
+    |
+875 | pub(crate) fn isub_dirty_2clean_qoffset(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `add_nbit_const_extcarry_clean` is never used
+   --> src/point_add/arith/const_arith.rs:238:15
+    |
+238 | pub(crate) fn add_nbit_const_extcarry_clean(b: &mut B, acc_ext: &[QubitId], c: U256) {
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `sub_nbit_const_extcarry_clean` is never used
+   --> src/point_add/arith/const_arith.rs:263:15
+    |
+263 | pub(crate) fn sub_nbit_const_extcarry_clean(b: &mut B, acc_ext: &[QubitId], c: U256) {
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `cadd_nbit_const_extcarry_clean` is never used
+   --> src/point_add/arith/const_arith.rs:274:15
+    |
+274 | pub(crate) fn cadd_nbit_const_extcarry_clean(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `csub_nbit_const_extcarry_clean` is never used
+   --> src/point_add/arith/const_arith.rs:300:15
+    |
+300 | pub(crate) fn csub_nbit_const_extcarry_clean(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `dialog_fuse_primitive_selftest` is never used
+   --> src/point_add/arith/modular.rs:348:15
+    |
+348 | pub(crate) fn dialog_fuse_primitive_selftest() -> Result<(), String> {
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `square_addsub_stage1` is never used
+    --> src/point_add/arith/multiply.rs:1896:15
+     |
+1896 | pub(crate) fn square_addsub_stage1(b: &mut B, x: &[QubitId], prod: &[QubitId]) {
+     |               ^^^^^^^^^^^^^^^^^^^^
+
+warning: function `dialog_gcd_selected_body_stream_topclean_bits` is never used
+   --> src/point_add/rounds/dialog/mod.rs:491:15
+    |
+491 | pub(crate) fn dialog_gcd_selected_body_stream_topclean_bits(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `dialog_gcd_cmod_add_materialized_pseudomersenne` is never used
+    --> src/point_add/rounds/dialog/mod.rs:1109:15
+     |
+1109 | pub(crate) fn dialog_gcd_cmod_add_materialized_pseudomersenne(
+     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `dialog_gcd_cmod_add_materialized_pseudomersenne_with_clean_scratch` is never used
+    --> src/point_add/rounds/dialog/mod.rs:1138:15
+     |
+1138 | pub(crate) fn dialog_gcd_cmod_add_materialized_pseudomersenne_with_clean_scratch(
+     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `dialog_gcd_cmod_sub_materialized_pseudomersenne` is never used
+    --> src/point_add/rounds/dialog/mod.rs:2246:15
+     |
+2246 | pub(crate) fn dialog_gcd_cmod_sub_materialized_pseudomersenne(
+     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `dialog_gcd_cmod_sub_materialized_pseudomersenne_with_clean_scratch` is never used
+    --> src/point_add/rounds/dialog/mod.rs:2275:15
+     |
+2275 | pub(crate) fn dialog_gcd_cmod_sub_materialized_pseudomersenne_with_clean_scratch(
+     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `dialog_gcd_cmod_sub_materialized_pseudomersenne_borrowed_subtrahend` is never used
+    --> src/point_add/rounds/dialog/mod.rs:2469:15
+     |
+2469 | pub(crate) fn dialog_gcd_cmod_sub_materialized_pseudomersenne_borrowed_subtrahend(
+     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `dialog_gcd_k5_tail3_top32_supports` is never used
+    --> src/point_add/rounds/dialog/compressed.rs:2097:15
+     |
+2097 | pub(crate) fn dialog_gcd_k5_tail3_top32_supports(pattern: u16) -> bool {
+     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: constant `DIALOG_GCD_RAW_PA_ENV` is never used
+  --> src/point_add/rounds/dialog/config.rs:32:11
+   |
+32 | pub const DIALOG_GCD_RAW_PA_ENV: &str = "DIALOG_GCD_RAW_PA";
+   |           ^^^^^^^^^^^^^^^^^^^^^
+
+warning: constant `MSBS` is never used
+   --> src/point_add/trailmix_ludicrous/arith.rs:454:11
+    |
+454 | pub const MSBS: usize = PAD;
+    |           ^^^^
+
+warning: function `mod_rsub_vented_loaded_lowpeak` is never used
+    --> src/point_add/trailmix_ludicrous/arith.rs:1608:8
+     |
+1608 | pub fn mod_rsub_vented_loaded_lowpeak(circ: &mut B, t1: &[QubitId], y: &[QubitId]) {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `add_cout_vented_unctrl_bounded` is never used
+    --> src/point_add/trailmix_ludicrous/arith.rs:1677:4
+     |
+1677 | fn add_cout_vented_unctrl_bounded(circ: &mut B, x: &[QubitId], y: &[QubitId], cout: &QubitId) {
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: fields `a` and `b` are never read
+  --> src/point_add/trailmix_ludicrous/constprop.rs:35:27
+   |
+35 |     DropComplementCtrls { a: QubitId, b: QubitId },
+   |     -------------------   ^           ^
+   |     |
+   |     fields in this variant
+   |
+   = note: `Decision` has derived impls for the traits `Debug` and `Clone`, but these are intentionally ignored during dead code analysis
+
+warning: fields `a` and `b` are never read
+  --> src/point_add/trailmix_ludicrous/constprop.rs:37:22
+   |
+37 |     FoldEqualCtrls { a: QubitId, b: QubitId, keep_ctrl: QubitId },
+   |     --------------   ^           ^
+   |     |
+   |     fields in this variant
+   |
+   = note: `Decision` has derived impls for the traits `Debug` and `Clone`, but these are intentionally ignored during dead code analysis
+
+warning: function `inc_khattar_gidney` is never used
+   --> src/point_add/trailmix_ludicrous/mcx.rs:293:8
+    |
+293 | pub fn inc_khattar_gidney(circ: &mut B, a: &[QubitId]) {
+    |        ^^^^^^^^^^^^^^^^^^
+
+warning: constant `D2_DEEP_STRIP` is never used
+ --> src/point_add/d2_deep_strip.rs:4:18
+  |
+4 | pub(crate) const D2_DEEP_STRIP: [usize; 1999] = [
+  |                  ^^^^^^^^^^^^^
+
+warning: `quantum_ecc` (lib) generated 30 warnings (run `cargo fix --lib -p quantum_ecc` to apply 3 suggestions)
+    Finished `release` profile [optimized] target(s) in 33.08s
+       33.11 real        37.62 user         2.50 sys
+           836616192  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              965264  page reclaims
+               29950  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                  52  signals received
+                1640  voluntary context switches
+               26783  involuntary context switches
+          1172168975  instructions retired
+           595807012  cycles elapsed
+            36374400  peak memory footprint

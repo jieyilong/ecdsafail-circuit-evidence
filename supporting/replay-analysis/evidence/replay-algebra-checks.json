@@ -1,0 +1,8 @@
+{
+  "scope": "Exhaustive small signed recurrence and guarded scalar replay checks. Not gate-level simulation, a 256-bit error estimate, or a replacement for the written proof.",
+  "signed_coprime_pairs": 52924,
+  "maximum_small_rounds": 27,
+  "guarded_fusion_cases": 151218,
+  "outside_fold_guard_cases": 2264,
+  "conservative_256_bit_bound": 197376
+}

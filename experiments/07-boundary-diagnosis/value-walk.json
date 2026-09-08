@@ -1,0 +1,6749 @@
+{
+  "scope": "Exact signed value schedule only, including pre-halving sums.",
+  "fixtures": [
+    {
+      "denominator": "0x24c7f7650f49c25315c627b0e702851023a01eb1c5c2971f3b8f9c02e1e23c6e",
+      "convergence": 613,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x73b1ae1deab328bf7c6630b196e3bf32552452cb67ad73d82e4e3f171866d354",
+      "convergence": 579,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x5bbcc8237074168eead8444272fb5e8fce310594ce4d154685d8fa746addeeec",
+      "convergence": 606,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xffb6a87460f241d2c1d26aa2994542695ce8f08443df9d37e95970e09b8c1884",
+      "convergence": 610,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x8c61e060920d1b20be1238ba6a0951bf54d718035e8bf07aebd6bfb086d81279",
+      "convergence": 635,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc3dc03462d5a7a0d228aee2c852a3dfd9adaafabe31a7f9574c2444f324d92d",
+      "convergence": 584,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xab48984ad8639ecc58bd5418d96766d2f4a21e5125a9f368c8aeeb47f9986565",
+      "convergence": 637,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x35d3aa71f86d118e6b90a80882e571d71b9637b9425c9a284e45907a203dbbc3",
+      "convergence": 652,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x894ab75dd000239509d50c0e83508fa3f410a86daec5aef21d2d04614270b63c",
+      "convergence": 573,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x14cdc9decf1e297a6a7d45e3856a5d039281ef8d01c065b1f265d4ca00e61faa",
+      "convergence": 593,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xbcdc278c060887c3c241d9fdb6d119895d87ce9a000ae5ed28a6752da34366b0",
+      "convergence": 652,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xaa6755f99c44e19aebd1976e36972921d45f6882d0f67e127f106e0dc157623e",
+      "convergence": 622,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x9ff9629e97984446f9ebac51d57dbb8de5fa22091bcbcc4df6641312a7fc5149",
+      "convergence": 615,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x9eeef6d661b5fbbaa2604b7b316ca26e7c80eedb473b86443bc5794fcb45a61c",
+      "convergence": 604,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x3e5febf6c43cbee2d8e2faefac452c52a74b711ea24670dbd3674f0f62f16ac2",
+      "convergence": 647,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x177b47ec1a1cc752094581f3cc5840d821f470a983042f7536948fc8378062e",
+      "convergence": 607,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x5fbd1cf286ea246edc54e0cd3e55c3f13787aadf724a643b5c3a5703e309e58c",
+      "convergence": 608,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x90ca5d74592034d57cf37d91553c1f8edc630ea9c37ecbf7b5f276453d607bc3",
+      "convergence": 562,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x9a655cbd8fb82c38de7eea67a1adb583de73fb30050068d243ce54807dc75d74",
+      "convergence": 644,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x35cef821dcbb86a74851ee4d02bb742d81b3630a871655b8760c4cd5340f0c32",
+      "convergence": 580,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x2917c902794aee00e1dc513b3d9395281cbce1c1b3a710ab03282c99e37f28de",
+      "convergence": 628,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x87ebd612773dbfe39c476a2998dfd21aadee943ba9d9c08ec9b26c760f5e596b",
+      "convergence": 601,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x846d6d8b0a96369190cb7e8f6b6d344c217ce371df88a7a55db13bbeb31ace89",
+      "convergence": 624,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xcf702db5f0585c6f6994629848c27094a54c18be62a612accb0d4b7bc693a62a",
+      "convergence": 611,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xe63f978fc51ccce9267293e66f9515ba58a76441785e36155607915743094818",
+      "convergence": 598,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x774b09caba7cbbbb556b80dd6840e6207fed35e17de4dee7ecfe1dd0cd6cad24",
+      "convergence": 623,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xb40e7749d23f7422c6cb1da8516c4d706c8d846b5deabfe01d919a79af0c27bb",
+      "convergence": 612,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xd4dc4b4ea4a7055642165944cbf40061961084fb8dd0605a421a442a33ff6206",
+      "convergence": 643,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x904a5c4e13bd45e3e9dbf5096777e6077b98920ba10a2020723b1ec5795482a2",
+      "convergence": 643,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x7d221243d39a5d3f8db11018dd6f177c85e278f61f206c1f55cb81af09a293b1",
+      "convergence": 644,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xb6357fe685db9b9179d77e242e0a2efb8a9b87ca105e22c8930236c2ee8f518f",
+      "convergence": 638,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x5d93e10ccc07d0c3a30a29e409bb3bddb450857364c6e1ef3824726ef04563aa",
+      "convergence": 630,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf96fc01215d8cbab94a90f89460182bf1e1e70f02125564d5afe8d9691e09812",
+      "convergence": 621,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x8668a6bc912bf88cbafe5c8e844a4f7cedc709e28ae0e67d59c32d66e5ccb1c2",
+      "convergence": 667,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x57728fc2701577491d6ff117b24efc90e0a2a8262e69538db154bf5f2ac9f537",
+      "convergence": 616,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xf4f8c777d46c9e62b9950020e824ec6d5bf74c9bff0d768077b8b351c8ecabf4",
+      "convergence": 625,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x9abb9bd92e484db0ff7fee4e8b056ad1aa73cb5f08056987239ed5daaf7493a9",
+      "convergence": 625,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x769437e5285f1b9e7a97f566320d6d554ae4133d5fb9805603238bbbcfc26d30",
+      "convergence": 617,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x67bb3e8d937fb5ceba2b3a8fd5f1e73a31218f222f5f7f860aef556d52a67566",
+      "convergence": 664,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x900ca3c064769b732491c23af1734dec48f60619a865581fcddb10cf6d3f2eba",
+      "convergence": 607,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x3c5fecf3ac0d68bfaa5f5ab7e48fd47eb434342758adc7ae08b55a66a93a7b64",
+      "convergence": 592,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xcc2116ce51fff6bff5de29282d75b9983cf94de31f2ebe08bb01cb2dee7105cc",
+      "convergence": 631,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xffe7443a603b4a0bee0f5aff778bf607f0ab30b20b7373e153b6effcc95f0fac",
+      "convergence": 632,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x36c432e93334611ce9b24133ec46c4878d1675161d9076ad2c32add790c99af2",
+      "convergence": 613,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x2c6db234f20927f1397392d028ca648e7b6c518178be448715080713bd62bc9b",
+      "convergence": 617,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xfbecff5ff4c67cde30f9d02546e83ea961be1f47ae6c1f559abbd1f2e581838d",
+      "convergence": 625,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x646a3deefd0ce80b2da1a53049265390679a3431b0ecf8a281773abb3381654f",
+      "convergence": 640,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x12001f1659a914e58e516ad1b88385cf44892d9fc0661cb888d3f9e726933009",
+      "convergence": 606,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x6e44c5379b3388d03948f538c010369d7bfbffc387465ae8bc6a82eb4350f8a0",
+      "convergence": 589,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf1e6b8192e948306f7f8daca2c5c0a1f4b71b649dce44a664051a03d1d6f4512",
+      "convergence": 593,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xb0a6d70a04784831547684aa7abd56c5c7167eb6c50a9ac5bfea5e005e5b91a",
+      "convergence": 649,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xa13270865b8f1797a8b72af6e270cfa10a2847260cf046c4052c12a7b1f85e",
+      "convergence": 607,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x20bed4f0d3120aae5a5f7c3166ee8c80e862e4a7cd34b1b7f6360b0c0e015e80",
+      "convergence": 607,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xbe109ab6963c6925648587d62e1d7da096653742ffcc3688b2181e61141fbd8d",
+      "convergence": 602,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x275ff717a191beaabf0494025d34b75576c8357c22e6c603acdf41b42ad92a87",
+      "convergence": 610,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xda7cbbf4b9bfbf8b10adab80e7883190721ad7e134d45a171ca816c09f52d07f",
+      "convergence": 614,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xd21f825e63c7af050ea3dede9ad48206c86e25c82875995e4a2c9853e2e09fc1",
+      "convergence": 633,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x3d99e1ad17337f5fb2c5a7c5f6069b1666a8b7dbd100d5399dd8c83490e417f0",
+      "convergence": 600,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x4e630df6738ae1ff72f0b48b213e0a7f8d7b224fa44a37506850b3112492fbb1",
+      "convergence": 628,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x51844e24b6a652fb6fbfa2150190a0cfa2bc6e1e1e26999b69be8eeb7e60c8db",
+      "convergence": 605,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x4f303731d027b43c1ba1ab505c2c44393cf2e58137b393d71f2f5c928b78164c",
+      "convergence": 667,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x3efba3f23e4dd57532db5eb9c20df0a52640cd418c2a1051df48754a434ffc29",
+      "convergence": 622,
+      "first_bad": null,
+      "terminal_u": -1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xb5e11053ee4ce1cfe9529531582b48294817b12bcf5d1ae11cce7c8908512c40",
+      "convergence": 637,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x714c710fc0a8f4be0f24647e35ccae16bb570601b4bf7d25cceb8694a415aa72",
+      "convergence": 656,
+      "first_bad": null,
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "small_integer_and_p_minus_one_prechecks": [
+    {
+      "denominator": "0x1",
+      "convergence": 512,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881064659754153502030463016202117355667705164672785612621742078"
+      },
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x2",
+      "convergence": 512,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881047920816192470881759454096988801890797046028202813392158718"
+      },
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x3",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759642507682806058228994543002296081362128121964837398744307597306"
+      },
+      "terminal_u": -369601615174413202057389813900186136622862014141,
+      "terminal_v": 473019285989588760782069932908830122606188725033,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x4",
+      "convergence": 513,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881047920816192470881759454096988801889588120208588184217452542"
+      },
+      "terminal_u": -1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x5",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881113301162620585342827310136759106479984297632909090980102142"
+      },
+      "terminal_u": 780753490801465113490679145210420251,
+      "terminal_v": 347309460333808287330603678785318773,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x6",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759642507682806058228994543002296081362166807591065066877898194938"
+      },
+      "terminal_u": 473019285989588760782069932908830122606188725033,
+      "terminal_v": 266183944359237643332709694891542150639535303249,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x7",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881066127818034515329323598557157092993625340057009012340686846"
+      },
+      "terminal_u": 8277775493303923470266811929,
+      "terminal_v": 1000364999145193807694470219,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x8",
+      "convergence": 514,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881047920816192470881759454096988801892005971847817442566864894"
+      },
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x9",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "485278929437951147175769775887515085222276433273431802517911301521390"
+      },
+      "terminal_u": -7795564215994933006285605800948631418961383,
+      "terminal_v": -7762843132928812944417416765420077583405153,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xa",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881113301162620585342827310136759106483006612181945663916867582"
+      },
+      "terminal_u": -347309460333808287330603678785318773,
+      "terminal_v": 1214197521269121939650754611635521729,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xb",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880343496406183310316195851134802809892520668513172916126351358"
+      },
+      "terminal_u": 125959726239577226017558811430043,
+      "terminal_v": -40924410311641860528812983570159,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759643025349428354712420477885032326603427885777763188058158530554"
+      },
+      "terminal_u": -8324607495968407542954412858955,
+      "terminal_v": -15006636575841119304823306802133,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xd",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882695323543179283215543885516011665632241471493929535077875710"
+      },
+      "terminal_u": 6450508059783894156874377660755,
+      "terminal_v": -9487143143673637331905866530723,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xe",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881264622600857492033437885096903405852746928125717162470932478"
+      },
+      "terminal_u": -469621608475935811467527263219,
+      "terminal_v": -1375986230023114166330923455,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759643432261885791273597012326791113578140917340504974333619208186"
+      },
+      "terminal_u": -295511140820935740896065795670572589,
+      "terminal_v": 604784809600981622967454057968545903,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x10",
+      "convergence": 511,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881014442940270408584352329886731694339398660378266473282404350"
+      },
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x11",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880976137575686656998217305353476811048926771122701964765298686"
+      },
+      "terminal_u": 14209809014745159690895376494738609,
+      "terminal_v": 57843375703912444706849828782431,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x12",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278926742412757484089896167604739289797439203443374264447378915310"
+      },
+      "terminal_u": -808326619043234450865266477155750444216513,
+      "terminal_v": -490609248593151972824989143214118163202261,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x13",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880781249223799009740331373652998340392768594230807597861044222"
+      },
+      "terminal_u": 4533006367696848242733634118233689,
+      "terminal_v": -2345116593223083147721389372987673,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x14",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881113301162620585342827310136759106476961983083872518043336702"
+      },
+      "terminal_u": 1214197521269121939650754611635521729,
+      "terminal_v": -519578600601505364989547254064884183,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x15",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759642621618741203138278199084203059897218055075969117710758969338"
+      },
+      "terminal_u": -1483851027440012820958328130689908300997,
+      "terminal_v": -960581814472165844358545130152439722691,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x16",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880343496406183310316195851134802809885871576505292455665467390"
+      },
+      "terminal_u": -40924410311641860528812983570159,
+      "terminal_v": -292843862790796312563930606430245,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x17",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1240157267711250724368530607974529991194224617902020336070650985709522"
+      },
+      "terminal_u": 1967566505148918002114226335269552637114537,
+      "terminal_v": 488797949661662924913727070683584889808745,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x18",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759643025349428354712420477885032326603273143272852515523796140026"
+      },
+      "terminal_u": 15006636575841119304823306802133,
+      "terminal_v": -1642578416095695781085518915777,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x19",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880871687915647669305418533144458588740139596320978770134564862"
+      },
+      "terminal_u": 26060537290575622578130430801029,
+      "terminal_v": 113360793518221761063895104651703,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x1a",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919882695323543179283215543885516011665640099489321424624713465854"
+      },
+      "terminal_u": 9487143143673637331905866530723,
+      "terminal_v": 22388159263241425645654621852233,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x1b",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "1455836785030091980522915557563477610403390771748244090226207210078154"
+      },
+      "terminal_u": 6260674933401452999124770010273940231,
+      "terminal_v": -7417326820855508349679063680431093135,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x1c",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881467719003351750021929717868781013368579136781503711171051518"
+      },
+      "terminal_u": -2006340695573242670773314901269,
+      "terminal_v": -1831768929157400812742686441033,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x1d",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879989706081968532949656137263393042787903007204848000837877758"
+      },
+      "terminal_u": 12132973779838127009243261342478303067,
+      "terminal_v": 11709282855460900313685954777421692557,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x1e",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759644279882216197581514263674403765830643944586227622456592433146"
+      },
+      "terminal_u": -2077892505167299696180348247558645,
+      "terminal_v": -4800747378177123782315387119306891,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x1f",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881338000767140811520202672172369975308278410673803998252761086"
+      },
+      "terminal_u": 4467383218066402185043290656937,
+      "terminal_v": -72410867704684563407424266271959,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x20",
+      "convergence": 515,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880947487188426283989538081466217479234184037439164534713483262"
+      },
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x21",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759642392784782983560279744050171825407274545536906302941281910778"
+      },
+      "terminal_u": 1044100857559200822287852402261,
+      "terminal_v": 20392125829020032059942114777015,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x22",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880630059343719344609121172568687799492971818453006025341534206"
+      },
+      "terminal_u": -967614445118700689813963323730035,
+      "terminal_v": 991085357362486171098693401722367,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x23",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881160275583099596567232915838189293019901659930569371941863422"
+      },
+      "terminal_u": 2627505020213833356921314858083,
+      "terminal_v": 2033350565836755655984594856369,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x24",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "485278926742412757484089896167604739289792487443286232743347782418414"
+      },
+      "terminal_u": -490609248593151972824989143214118163202261,
+      "terminal_v": 1126043989493316928905543811097382725230765,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x25",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880910241725096080811854525377627711458386325976271783282606078"
+      },
+      "terminal_u": -1241580532217708295144061,
+      "terminal_v": 6219120963605157440384845,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x26",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880781249223799009740331373652998340381283798944468620701335550"
+      },
+      "terminal_u": -2345116593223083147721389372987673,
+      "terminal_v": -11411129328616779633188657609455051,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x27",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759643664598426423481453865174589409746118376835421273205174697978"
+      },
+      "terminal_u": 865200606326728691760228865383267493,
+      "terminal_v": 1162846645613340697398997516060069059,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x28",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881113301162620585342827310136759106489051241280018809790398462"
+      },
+      "terminal_u": 519578600601505364989547254064884183,
+      "terminal_v": 1908816441936738514311961969206159275,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x29",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881227116758952235512994614678068154036315919462969668708335614"
+      },
+      "terminal_u": -1485064507481448958778343331,
+      "terminal_v": 1784445781407261765585329581,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x2a",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759642621618741203138278199084203059896947255692375440775624785914"
+      },
+      "terminal_u": 960581814472165844358545130152439722691,
+      "terminal_v": -2007120240407859797558111131227376879303,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x2b",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881503289095364595873613483929881290020393817302900285275897854"
+      },
+      "terminal_u": 3110907294119504687160200170013,
+      "terminal_v": -6180318599067058780047482589201,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x2c",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880152735208458671853182558933963488802850667563652405207760894"
+      },
+      "terminal_u": 23055042146742484381129128046257,
+      "terminal_v": -43789509729864944860279709982535,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x2d",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "485278845144895329243877352141220364077367280856682156294056271937518"
+      },
+      "terminal_u": 42750504116756285185954247814875,
+      "terminal_v": 1053422208818340459209457003343893,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x2e",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "1240157110002518759408818577124199252810718811546480558124244538490834"
+      },
+      "terminal_u": -335873335769231685780532098370627186561202276117,
+      "terminal_v": 237827859950360706136836625172494816188919941087,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x2f",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881365856044631398610212551137246720637404889198257763849863166"
+      },
+      "terminal_u": -966129601330686973145225492655301,
+      "terminal_v": -1943225909751292083703575047940425,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x30",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759642105948294993481425657511772996071284063282950612378145783802"
+      },
+      "terminal_u": 27964688794560230569767480573012021286802031029,
+      "terminal_v": -18484873550768431185957716967728341035725576011,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x31",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880738861750044878925176689543705597752926655168179276601098238"
+      },
+      "terminal_u": -898206061060941156327922431733,
+      "terminal_v": -1148224080481657415773640175039,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x32",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880600949880258947864779942826751244655537719700369644258852862"
+      },
+      "terminal_u": 3429356430673787343069553748199,
+      "terminal_v": 2963304183622410409646997428491,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x33",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759648658419812047654638433280558195799818598860632291360083279866"
+      },
+      "terminal_u": -5155201829133447213552355984185045,
+      "terminal_v": 4476236520949097056871524818981083,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x34",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882695323543179283215543885516011665624383453666434445442285566"
+      },
+      "terminal_u": 22388159263241425645654621852233,
+      "terminal_v": 3413872975894150981842888790787,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x35",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880864392374844405937390264586039150480660619682226240688750590"
+      },
+      "terminal_u": 9014638188915262659847049339259,
+      "terminal_v": 8444500649039714570045804557607,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x36",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1455836785030091980522915557563477610403370964707615524141808824090570"
+      },
+      "terminal_u": -7417326820855508349679063680431093135,
+      "terminal_v": -5104023045947397648570476340116787327,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x37",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881381293766170272880451295475886971537879936775547168315408382"
+      },
+      "terminal_u": -663802154736023023074713251526832515,
+      "terminal_v": -424821076888731436041637120732636967,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x38",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881467719003351750021929717868781013385504098256108519616937982"
+      },
+      "terminal_u": 1831768929157400812742686441033,
+      "terminal_v": -2180912461989084528803943361505,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x39",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759645659891274011766177966586596391158659503795396678860283052026"
+      },
+      "terminal_u": -210320619415179390513164524628479,
+      "terminal_v": 240877859601299891211705718609431,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x3a",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879989706081968532949656137263393042805432431589260123871117310"
+      },
+      "terminal_u": -11709282855460900313685954777421692557,
+      "terminal_v": 12556664704215353704800567907534913577,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x3b",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880801548404317395826501045257995468871222782910194382656241662"
+      },
+      "terminal_u": 789050264189742380894035183121,
+      "terminal_v": -762857168622538120791011527345,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x3c",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759641209484378453162420183629512523955385149343858326239468060666"
+      },
+      "terminal_u": 164081668900197792464208412903367479,
+      "terminal_v": 318132051157907190890663796053985621,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x3d",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879046460005294726715078085273803325735791823511008721164566526"
+      },
+      "terminal_u": -2701829811563590013116298085,
+      "terminal_v": -413461046908697258254325200513,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x3e",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881773817468202569502001766213890079778803464239405101643464702"
+      },
+      "terminal_u": 1072868328450624527699740315558643,
+      "terminal_v": -113222477900522135910795451426233,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x3f",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278932335493081971142235903112112703291565009809915512176777363438"
+      },
+      "terminal_u": -95224100299291253989982669834657413879299,
+      "terminal_v": 15569418195270698521075813187046417490171,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x40",
+      "convergence": 516,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880813575684738034799909584625189049023754791560960657575641086"
+      },
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x41",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880542221807635381412722933311581634277843521123661785946128382"
+      },
+      "terminal_u": -86403903615617337736694101650293951,
+      "terminal_v": -134858754226121131268480254712556649,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x42",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759641992286165718540180810789890686387075161395852061997558398970"
+      },
+      "terminal_u": 62070785896935132456005825646938977,
+      "terminal_v": -75722637243284326062944386666900129,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x43",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882424518139845307643038437078312155384778253229877030750781438"
+      },
+      "terminal_u": 2739542065026024735169568974717,
+      "terminal_v": -718784791691589073581168899451,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x44",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880630059343719344609121172568687799472420079519557329371529214"
+      },
+      "terminal_u": 991085357362486171098693401722367,
+      "terminal_v": 2926314247599887550726620049182437,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x45",
+      "convergence": null,
+      "first_bad": {
+        "round": 156,
+        "kind": "pre_halving_sum",
+        "width": 232,
+        "sum": "-3720471731765982446721083767794088968530034525822288541683029274263414"
+      },
+      "terminal_u": 47382628445215566747105227520360008487593,
+      "terminal_v": -44919882679868780423068631236934918198581,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x46",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881160275583099596567232915838189292998745458087313361384505342"
+      },
+      "terminal_u": 2033350565836755655984594856369,
+      "terminal_v": -3221659474590911057858034859797,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x47",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880309593837434485559338854367625803292346959406323274090545150"
+      },
+      "terminal_u": -57326485549339846843002006523,
+      "terminal_v": 81271656610279093430283690145,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x48",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278926742412757484089896167604739289802390963600515785546975412206"
+      },
+      "terminal_u": -1126043989493316928905543811097382725230765,
+      "terminal_v": -2107262486679620874555522097525619051635287,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x49",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880411558332465026170411673339680559945998927908397665117798398"
+      },
+      "terminal_u": -11596768920030468319987349973213,
+      "terminal_v": 16066810093524829337451391385,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x4a",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880910241725096080811854525377627711480751453639142423014670334"
+      },
+      "terminal_u": -6219120963605157440384845,
+      "terminal_v": 3735959899169740850096723,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x4b",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759652539607035959895222241478671002978176654193458388152396808186"
+      },
+      "terminal_u": -38514470815017780230343520356148399,
+      "terminal_v": -110376124601495635664212336890852601,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x4c",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880227185454146953686575510497053385630931048471145180467036158"
+      },
+      "terminal_u": 6693187548780048141905493581273,
+      "terminal_v": -52344550118778405458729354822725,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x4d",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919878155541858874275601307666340642249532435879967023767543087102"
+      },
+      "terminal_u": 338879697656900680518593625365061,
+      "terminal_v": -1152944779533627711111271332821957,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x4e",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759640979478252706764624988058640607074158387994233770458533068794"
+      },
+      "terminal_u": -106867221906997488949938632730338912863,
+      "terminal_v": 66049240471631691931934639132191321401,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x4f",
+      "convergence": null,
+      "first_bad": {
+        "round": 156,
+        "kind": "pre_halving_sum",
+        "width": 232,
+        "sum": "4259670681021578914772480361707454348781373705876391995027519772295010"
+      },
+      "terminal_u": 48448074267120824360795968056905971680908281,
+      "terminal_v": -56373725606703487413291328779452919258010869,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x50",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880692712869748411698613722989647794642697195854496788616577022"
+      },
+      "terminal_u": 726652614121377954071658219816462879841,
+      "terminal_v": -836261749891686615575566678258570499561,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x51",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1455836775695718854275645514486831246319884350563111573989380134535114"
+      },
+      "terminal_u": -30863451895972100641814429451680821991146505777,
+      "terminal_v": 6286973992642137441880717769084365805753591115,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x52",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919885899696594921363955111111708313068723548141832039690452074494"
+      },
+      "terminal_u": -24440435470674242747243285636141,
+      "terminal_v": 51623658851835723242773413261403,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x53",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919883461175450857827724807334339070369479152660653305903909437438"
+      },
+      "terminal_u": 1385901125160142027673981260381,
+      "terminal_v": 3600608890600084744682284786253,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x54",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759642621618741203138278199084203059897488854459562794645893152762"
+      },
+      "terminal_u": -2007120240407859797558111131227376879303,
+      "terminal_v": 85956611463528108841020870922497433921,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x55",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881381389547141576998504942872576168426159283848669158917013502"
+      },
+      "terminal_u": -7584150228085011040271847696067,
+      "terminal_v": 8415094167536980578099063594841,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x56",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881503289095364595873613483929881289994401912181185758019715070"
+      },
+      "terminal_u": -6180318599067058780047482589201,
+      "terminal_v": -41495989171950594272917750825,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x57",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759632538013142513157769937617052443673166927132711106067870777338"
+      },
+      "terminal_u": -11775130431866229310379372303320831,
+      "terminal_v": -3352042510322926561365904737979725,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x58",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880152735208458671853182558933963488829447035595174247051296766"
+      },
+      "terminal_u": 43789509729864944860279709982535,
+      "terminal_v": 89899594023349913622537966075049,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x59",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880789151161913347088433788350473474955008623247924630359375870"
+      },
+      "terminal_u": -54425986908051213211021737197,
+      "terminal_v": -6342005451214659259589594743,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x5a",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278845144895329243877352141220364077379660257075010096805263179758"
+      },
+      "terminal_u": -1053422208818340459209457003343893,
+      "terminal_v": -967921200584827888837548507714143,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x5b",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880987003607611204844343423683210568068577539599466640569270270"
+      },
+      "terminal_u": 1003536104404283152934457611185,
+      "terminal_v": -50631576022758135176590992443,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x5c",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1240157252926101545024242715859203876534577495593122348716979642171346"
+      },
+      "terminal_u": -27249751679909308720363547257398650386979053,
+      "terminal_v": -45884098431134829351474853960692243392798987,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x5d",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759638994960381266307965449764171573555092960421564119674016235514"
+      },
+      "terminal_u": 778255917994238790871161996552163,
+      "terminal_v": -1026197178186823865743283646358491,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x5e",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882242228593434071030987158761071702715733327853060701221289982"
+      },
+      "terminal_u": -100053126648064247596892999809723,
+      "terminal_v": 92791714428931894271807162165873,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x5f",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880549955831729838131031673534390118179981638079928459679760382"
+      },
+      "terminal_u": -72061911834015930515995919,
+      "terminal_v": 81446398231927329250598481,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x60",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759642120864269645545534490273094712898814016682375608068732878842"
+      },
+      "terminal_u": -4082433076445439757993898680411,
+      "terminal_v": 123684038626938999993894765134093,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x61",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880571421849963078320206021725974704012950031648612301051789310"
+      },
+      "terminal_u": 665946260565503162444390123,
+      "terminal_v": 3976703151997461788109193465,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x62",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879546908863718130844107220951164268678389383396379417934561278"
+      },
+      "terminal_u": -27820605592080357233050510089170407743,
+      "terminal_v": -13133923242955407720355594213667110289,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x63",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278956806596427893376750609367610823244507600014266580340817526766"
+      },
+      "terminal_u": -511487194506093731689766460030778317,
+      "terminal_v": -12790766303732763183018889425936121789,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x64",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880600949880258947864779942826751244625314574210003914891198462"
+      },
+      "terminal_u": 2963304183622410409646997428491,
+      "terminal_v": -3895408677725164276492110067907,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x65",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881203523389474097601113226511701769825631374642730558849810430"
+      },
+      "terminal_u": 279786567931086424426681850257909,
+      "terminal_v": 173373002705338887998917831492457,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x66",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759648658419812047654638433280558195800476254506502649631123439610"
+      },
+      "terminal_u": 4476236520949097056871524818981083,
+      "terminal_v": 5834167137317797370233187149389007,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x67",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881555582902150346225737660512998831174203670000043681317388286"
+      },
+      "terminal_u": -4210556327789415828056941,
+      "terminal_v": -3305964065677408260911633,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x68",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919882695323543179283215543885516011665655815524976414803984646142"
+      },
+      "terminal_u": -3413872975894150981842888790787,
+      "terminal_v": 41362445550588700309466354913679,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x69",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759641398142671030391634453949118932297182384740707313680868442106"
+      },
+      "terminal_u": 2443272877336738269122475641,
+      "terminal_v": 12656935504295978921990131583,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x6a",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880864392374844405937390264586039150512697153902013913818464254"
+      },
+      "terminal_u": -8444500649039714570045804557607,
+      "terminal_v": 9584775728790810749648294120911,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x6b",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882283400331292060088701653170113055372076471926893777820581886"
+      },
+      "terminal_u": 1031678217520963506164183725,
+      "terminal_v": -55345701149111663866719918507,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x6c",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1455836763871751552052267849008149236137663828336841380903697556438986"
+      },
+      "terminal_u": 1152334819752818590166961940886228425495553,
+      "terminal_v": -689793051482177502590042932044444328493237,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x6d",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919885945463935709515031745626092967651356203950377050040759746558"
+      },
+      "terminal_u": -51284895008367903626801233547008619,
+      "terminal_v": 243003405541745596332439177173586435,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x6e",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879545404974760694451840885293281625133067763793747037036478462"
+      },
+      "terminal_u": 937446492020974616088044724542182823,
+      "terminal_v": 7959433274116387600853368352594805335,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x6f",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759646076300451543998543263430531159432342905307567850708296269818"
+      },
+      "terminal_u": 15440021605794813126977583348237,
+      "terminal_v": -498150071479192033732628780323253,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x70",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880654269708273943921305517735022720093170662948648461159890942"
+      },
+      "terminal_u": 20674751212304397959965772929335957373,
+      "terminal_v": -20212275865154614105471174657554256193,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x71",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880540236755984569625822158544641468264859364405325665440628734"
+      },
+      "terminal_u": 2918403455428318237840046219,
+      "terminal_v": -302250623691864125115348207,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x72",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759638863567470145490994747943508953119388194562825237214022074362"
+      },
+      "terminal_u": 155141896280261200450348438975,
+      "terminal_v": -372721696041701403831585382743,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x73",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "1240159377861786615518226268882955654256276314191221930890154288873426"
+      },
+      "terminal_u": -9903062254860675357625040725631280351020877,
+      "terminal_v": 4318905997973660941112545565144277842683961,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x74",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879989706081968532949656137263393042770373582820435877804638206"
+      },
+      "terminal_u": 12556664704215353704800567907534913577,
+      "terminal_v": 10861901006706446922571341647308471537,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x75",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278928657981922501759133166887051815015469029967927356553242345454"
+      },
+      "terminal_u": 34390853478891721363245681399951793,
+      "terminal_v": -24355438264197323245479888747865343,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x76",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880801548404317395826501045257995468835559471231562822002409470"
+      },
+      "terminal_u": -762857168622538120791011527345,
+      "terminal_v": -815243359756946640997058838897,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x77",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919882144532353900765398033010845212064222186296898254923855036414"
+      },
+      "terminal_u": -51718831398153324903004023343175,
+      "terminal_v": -137906737089569918605420215227407,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x78",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759641209484378453162420183629512523954611436819304963567656108026"
+      },
+      "terminal_u": -318132051157907190890663796053985621,
+      "terminal_v": 10031286642488394037753029752749337,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x79",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880874712291107835107199969577594950088551859580087441496735742"
+      },
+      "terminal_u": 412115694017372946138541015,
+      "terminal_v": 579142988039554539788429833,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x7a",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879046460005294726715078085273803325772664061009254910993104894"
+      },
+      "terminal_u": 413461046908697258254325200513,
+      "terminal_v": 408057387285570078228092604343,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x7b",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759642009458321012779855470999171040178160289380246997991187021818"
+      },
+      "terminal_u": 1952782989573670013349235263,
+      "terminal_v": -2039075777508899861299261109,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x7c",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879809982890902418876734287293042931718672883374795078944948222"
+      },
+      "terminal_u": 3106954615370311246304642674745,
+      "terminal_v": 10740446946676900750118464578771,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x7d",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880852378471832759105803217971916494814202854717673527379492862"
+      },
+      "terminal_u": 7743731600115536494726247832627,
+      "terminal_v": -9095771455469325176756190351065,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x7e",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "485278940010296137103923916486337314145192592710773173835586779217902"
+      },
+      "terminal_u": -1286006187366017292575312948735989477581047,
+      "terminal_v": 397263551420938814921979373768755795500665,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x7f",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881672754687162876292992001716732985769866372029944741238931454"
+      },
+      "terminal_u": -1577453407758665324268305238781,
+      "terminal_v": -3804767228638450498559772610339,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x80",
+      "convergence": 517,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880545752677361536420652590943132188602896299804552903299956734"
+      },
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x81",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759638677669950326199559733821405827308874823244835883615480971258"
+      },
+      "terminal_u": 44673761831062174815698073814369904613,
+      "terminal_v": -1010695257648627589492407552304915921,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x82",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879175276651730764974770177319284282507397198705542420427177982"
+      },
+      "terminal_u": -2953688756334616150361229516963931,
+      "terminal_v": -3445543044814421337634289953757899,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x83",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919805182280764021354668718493522842519893049373652302101022244862"
+      },
+      "terminal_u": -31937318955893610893212414476963013,
+      "terminal_v": -29143734833807826064562981869160709,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x84",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759641992286165718540180810789890686387926245172860760936551546874"
+      },
+      "terminal_u": -75722637243284326062944386666900129,
+      "terminal_v": -48418934550585938849067264626977825,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x85",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881760638206094813074732496194866356265715229167871200631717886"
+      },
+      "terminal_u": 282044867477083498261552039,
+      "terminal_v": -60939269607154560682694028803,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x86",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919882424518139845307643038437078312155344279238272786953398124542"
+      },
+      "terminal_u": -718784791691589073581168899451,
+      "terminal_v": -4760299338360460396757969049983,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x87",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1455836782887185075783652776254700662174748022502700618638613312176074"
+      },
+      "terminal_u": 277776821619518718567431066958775148330137,
+      "terminal_v": 42166389946348212747394127033355111912617,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x88",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880630059343719344609121172568687799513523557386454721311539198"
+      },
+      "terminal_u": -2926314247599887550726620049182437,
+      "terminal_v": 4908484962324859892924006852627171,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x89",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880965610193349650078822866335970491221062742562765903140749310"
+      },
+      "terminal_u": 132312900191668986051576281151,
+      "terminal_v": -130544797053474173329573770215,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x8a",
+      "convergence": null,
+      "first_bad": {
+        "round": 156,
+        "kind": "pre_halving_sum",
+        "width": 232,
+        "sum": "3720471731765982446721083767794088968531302176422516771084525977468790"
+      },
+      "terminal_u": 44919882679868780423068631236934918198581,
+      "terminal_v": 49845374210562353071141823803785098776605,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x8b",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919878973207919694352333462479113672351341495354969269723140718590"
+      },
+      "terminal_u": 311097580652978018061786654953914567,
+      "terminal_v": -103249173093735143545843150374570751,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x8c",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880280401329876531242475986215105617038805559119216563143573502"
+      },
+      "terminal_u": -15166929323830897728519014164363479,
+      "terminal_v": 698411376361190991568878496176865,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x8d",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161760059931613498975575615467211176260100345115067160617305346408442"
+      },
+      "terminal_u": -6220595020553497628617141454314414011,
+      "terminal_v": 3415445346551926744021559274079640113,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x8e",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881425429637747210479572015870268900424838732077853933024837630"
+      },
+      "terminal_u": 12178403121278837502339561920813491,
+      "terminal_v": -25354023364882851761634148297926905,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x8f",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881705147875511909888147587041950501558274193593281682755026942"
+      },
+      "terminal_u": 26220517053678826676427121745,
+      "terminal_v": -3126551258413029376407061973,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x90",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278925094489452936492072085095248644769361785065867923885477855214"
+      },
+      "terminal_u": 222532291373931722025358938194633674362858049,
+      "terminal_v": -211075398069324976656637103499705877007838945,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x91",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879972817981108190854437028279153846415758377468545783608377342"
+      },
+      "terminal_u": 343418818271628927444983374828573,
+      "terminal_v": 463897204656643700083570002690341,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x92",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879046429965987601461053510109016676401517407261022353014915070"
+      },
+      "terminal_u": 238353149963743426710904569773,
+      "terminal_v": 152458122468830974280573358613,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x93",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759633041445590165306589352625842597684479465524687067518748065786"
+      },
+      "terminal_u": -14889046479805559859234683269849763,
+      "terminal_v": -40313700307921592066978334922868841,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x94",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880910241725096080811854525377627711436021198313401143550541822"
+      },
+      "terminal_u": 3735959899169740850096723,
+      "terminal_v": 8702282028040574030672967,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x95",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919877933023506340548539074034352300024624467329211107158410657790"
+      },
+      "terminal_u": 405843012894424637177097937364663,
+      "terminal_v": 952202585961794105041535456207063,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x96",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759652539607035959895222241478671002979143794849150091492161748986"
+      },
+      "terminal_u": -110376124601495635664212336890852601,
+      "terminal_v": -33347182971460075203525296178555803,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x97",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881777152467557236176313307676570216628058029629694519996841982"
+      },
+      "terminal_u": 28943118034216510900681145569,
+      "terminal_v": -49514966599955104440970338663,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x98",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880227185454146953686575510497053385676870229616501089105870846"
+      },
+      "terminal_u": 52344550118778405458729354822725,
+      "terminal_v": -38958175021218309174918367660179,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x99",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "485278926288792856180402666588350014945531039850058751718112136003566"
+      },
+      "terminal_u": -3851979288427604183504038850840580687,
+      "terminal_v": 2573477191802462037368554469842247527,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x9a",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919878155541858874275601307666340642249578979524022186990769274878"
+      },
+      "terminal_u": 1152944779533627711111271332821957,
+      "terminal_v": -475185384219826350074084082091835,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x9b",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880989771805389855594917904977390610589961424991123722746200062"
+      },
+      "terminal_u": -9228391887426660512719606664203,
+      "terminal_v": -227685345220585634549439240435361,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0x9c",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759638866796246688152814336397251345947856424586386269272316837882"
+      },
+      "terminal_u": -516915306990565167469650438987535757,
+      "terminal_v": 322218055019313760697447838149403119,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0x9d",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919863216679290126363414328709063567334175025893301464634362953726"
+      },
+      "terminal_u": -1416617173832301496246759508501,
+      "terminal_v": 344568838692235340371568634415,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0x9e",
+      "convergence": null,
+      "first_bad": {
+        "round": 156,
+        "kind": "pre_halving_sum",
+        "width": 232,
+        "sum": "-4259670755009646296822465969190657701184243476291262896320500476149602"
+      },
+      "terminal_u": -4519097184054532642842370765094647358467547497,
+      "terminal_v": 2865299620199414602995585656920824379342890999,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x9f",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759644875829009164026223753426477798896227044479266696442085900282"
+      },
+      "terminal_u": -670524758073147916146736793637,
+      "terminal_v": -1998562405269839843881348355305,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xa0",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880641989821504985553883492300294164675353732548979437353304062"
+      },
+      "terminal_u": -11972564572571420817738923450424331215,
+      "terminal_v": 14164209445223849173606269666444718951,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xa1",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "1240157234336986825824175946563927576592249983818911408088237897416658"
+      },
+      "terminal_u": -72968137442333747443206579725898271,
+      "terminal_v": -168960739134987337319508667117216987,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xa2",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "1455836728580577866180143036230875309401060996641472968357293471039434"
+      },
+      "terminal_u": 14602345991851351145472439231334860909598904731,
+      "terminal_v": -2722670642824829689256159824603404924518351693,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xa3",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919882824115969002202946383161476054841736172356665135691267571710"
+      },
+      "terminal_u": 236190461391664818479683667857,
+      "terminal_v": -3260182824897675926245575597705,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xa4",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919885899696594921363955111111708313068673982183227839894289121278"
+      },
+      "terminal_u": 51623658851835723242773413261403,
+      "terminal_v": -2742787910487237748286841989121,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xa5",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759642830461103530178148260726302531833371331922904422540778668026"
+      },
+      "terminal_u": 11832588136951305557972309343167725,
+      "terminal_v": 12288961190008986757506496878642139,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xa6",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919883461175450857827724807334339070369428982239139298793159131134"
+      },
+      "terminal_u": 3600608890600084744682284786253,
+      "terminal_v": 828806640279800689334322265491,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xa7",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919882532309278703191667668788133160826634678337518543520963493886"
+      },
+      "terminal_u": 43852685921522892462266605445191,
+      "terminal_v": -17792962670181729947644377699451,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xa8",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759642621618741203138278199084203059896405656925188086905356419066"
+      },
+      "terminal_u": -85956611463528108841020870922497433921,
+      "terminal_v": -4100197092279247703957243133377251192527,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xa9",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879744109259501748343590827395571628185929845518291323162984446"
+      },
+      "terminal_u": -633856888240264575285,
+      "terminal_v": -1931093154863946969583,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xaa",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881381389547141576998504942872576168477538631182290898842025982"
+      },
+      "terminal_u": -8415094167536980578099063594841,
+      "terminal_v": -6753206288633041502444631797293,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xab",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278933461979470876961606053721067460600293209172032850034868355054"
+      },
+      "terminal_u": 668032716435371838369890514038553527,
+      "terminal_v": 919402229004890328726506103106280369,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xac",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880331129741854350417817221158673842041902571647237875447103486"
+      },
+      "terminal_u": -220732550271868204206996895275585707,
+      "terminal_v": 3530412878772991141747043849647819,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xad",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919876768872107509534225966254181951017199199985184529969506680830"
+      },
+      "terminal_u": -355186606046308046120295,
+      "terminal_v": 1412282906890840328322299,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xae",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759638346912459404808678026911605855477046345017781795974295846906"
+      },
+      "terminal_u": -2976450042614383834528808635534207,
+      "terminal_v": -511878230351032632906940518033749,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xaf",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882153211770104421098406394873462582249490179279098465237336062"
+      },
+      "terminal_u": -1332229434030685107588401787813859,
+      "terminal_v": -1094423311309986047645844607756693,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xb0",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879753820664787564910679546122968751626418182637375118983036926"
+      },
+      "terminal_u": 1578099805725392778840003902649,
+      "terminal_v": -326740499146895098519852698499,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xb1",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759639153618112116612573066745480947398291862499176656212447985658"
+      },
+      "terminal_u": 196671115029782614367683119297591795683,
+      "terminal_v": 86937175516473893895100651626558357969,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xb2",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879189344960795913834489906944993522355374225287601099292803070"
+      },
+      "terminal_u": -71279729272128620713387594956031,
+      "terminal_v": 2412120604446198970325790205553815,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xb3",
+      "convergence": null,
+      "first_bad": {
+        "round": 174,
+        "kind": "pre_halving_sum",
+        "width": 226,
+        "sum": "-53919909575193059834863819097510364413198443088773801376510455578622"
+      },
+      "terminal_u": 9356634825716354337880600619,
+      "terminal_v": 16817363682897309324472586305,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xb4",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "485278845144895329243877352141220364077354901456289302491307280695278"
+      },
+      "terminal_u": -967921200584827888837548507714143,
+      "terminal_v": 1138923217051853029581365498973643,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xb5",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880083143324831829669236800038070852142776802052659279046901758"
+      },
+      "terminal_u": 10419303724269031113666139083,
+      "terminal_v": 66797171309774514322225227367,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xb6",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880987003607611204844343423683210568013571414807001013120139262"
+      },
+      "terminal_u": -50631576022758135176590992443,
+      "terminal_v": -1956440632785808170692324229927,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xb7",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759649019244450429958608362948654788003168293315035413035524030458"
+      },
+      "terminal_u": 173229268518682337615062157817,
+      "terminal_v": -183943421929978318357360126453,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xb8",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1240157252926101545024242715859203876534498267430608084379386098221010"
+      },
+      "terminal_u": 45884098431134829351474853960692243392798987,
+      "terminal_v": -8615404928683788089252240554105057381159119,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xb9",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880054359514678430024108845327223469124962930010102830605533182"
+      },
+      "terminal_u": 192205322159721681845731736591,
+      "terminal_v": 234153379962390986078714372977,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xba",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759638994960381266307965449764171573553893706008506407532707708922"
+      },
+      "terminal_u": 1026197178186823865743283646358491,
+      "terminal_v": 2582709014175301447485607639462817,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xbb",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882021565207462849819418498830796815702076708193168756383416318"
+      },
+      "terminal_u": -30427221306919203555648193,
+      "terminal_v": -46110961498816448035949317,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xbc",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919878714407634585776599351914700283790492051169365427538662260734"
+      },
+      "terminal_u": -1187734506971309389592443511,
+      "terminal_v": 927202731042883576217548483,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xbd",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "1455836750137452955026210337735441978159269902864259102331991656234954"
+      },
+      "terminal_u": 227692373105119001549206485283612496246743,
+      "terminal_v": -260348029605047350118295532827448248530425,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xbe",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882507528570391466767180990602007301605493476261958546582667262"
+      },
+      "terminal_u": 2523465049013470338449292739511229,
+      "terminal_v": 4962436136522183110620839429143697,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xbf",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882717100656011882277987354334388665211821749040916147382255614"
+      },
+      "terminal_u": 172449019547684237687533940177,
+      "terminal_v": 132478918351579523466622076753,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xc0",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759640499010250734491150115549680654908062571060314139447860920314"
+      },
+      "terminal_u": 5040741405172896816377340118524435639798826181,
+      "terminal_v": 740693261847035279051570281830369215459643461,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xc1",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879922632128424071464487183484747967990191190479245932595511294"
+      },
+      "terminal_u": -785358114174219744258079,
+      "terminal_v": 3245144175134086870202279,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc2",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880027887952953283092913992419849988261093080449297735915405310"
+      },
+      "terminal_u": -4820250479557712582003569872005,
+      "terminal_v": 3241464552176914959167376369371,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc3",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759652350185478790401806385525783957108944719955538180737347878906"
+      },
+      "terminal_u": 74712292678736279426947538076127,
+      "terminal_v": 32389558361172652147212692344657,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc4",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879546908863718130844107220951164268619152018235262588373958654"
+      },
+      "terminal_u": -13133923242955407720355594213667110289,
+      "terminal_v": 68775134427116122186456614392007925775,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc5",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879952182707203703572580822970210941580520976289964819535101950"
+      },
+      "terminal_u": 1718990676475486051589,
+      "terminal_v": -20814597083672393086077,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc6",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "485278956806596427893376750609367610823217272919149988214293036793838"
+      },
+      "terminal_u": -12790766303732763183018889425936121789,
+      "terminal_v": 13813740692744950646398422345997678423,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc7",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880603510416910063678737612094292717480553734164964915682476030"
+      },
+      "terminal_u": 4357815485376154562706385,
+      "terminal_v": 2443680265914311013070187,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc8",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880600949880258947864779942826751244685760865190735373626507262"
+      },
+      "terminal_u": 3895408677725164276492110067907,
+      "terminal_v": 2031199689519656542801884789075,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xc9",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759628040026857897290760769208368424532502495689934161001182134266"
+      },
+      "terminal_u": -2914766482565484042993858891,
+      "terminal_v": 3960561939864107715065389013,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xca",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881203523389474097601113226511701769886682128533269332172472318"
+      },
+      "terminal_u": -173373002705338887998917831492457,
+      "terminal_v": 386200133156833960854445869023361,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xcb",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881651858371013493487563292384027042888169824239859990448308222"
+      },
+      "terminal_u": 33667354183145805210497899,
+      "terminal_v": 22528796194844377247515443,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xcc",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759640032440450822330421299492569891970983476705587049405981130746"
+      },
+      "terminal_u": -390512300505001715786725184873,
+      "terminal_v": -3285706851209809485921026753249,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xcd",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919276652913756900142901248799845315054513906616711562384642146302"
+      },
+      "terminal_u": 3755171051447898772316510493007,
+      "terminal_v": 16317702025185947238202334596079,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xce",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919882735881823995153225201599908153070122798193015943418645315582"
+      },
+      "terminal_u": 14936663335938292604895405,
+      "terminal_v": -218987046423645762723631277,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xcf",
+      "convergence": null,
+      "first_bad": {
+        "round": 153,
+        "kind": "pre_halving_sum",
+        "width": 233,
+        "sum": "-11161415667993001156212117330448444157100241068915661202929224299576930"
+      },
+      "terminal_u": -479414367501480439203323404470340093928537873,
+      "terminal_v": -581041065721716751416206321845329521991294905,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xd0",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919881352351310801403181120482793656715376680892298050041326600190"
+      },
+      "terminal_u": -5077789102041742708771245104671683363,
+      "terminal_v": -4723075964173344074560785653845343513,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xd1",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879806822334356568415229543908941984966089281660352683518722046"
+      },
+      "terminal_u": 2090395268041128067542426385,
+      "terminal_v": 27649920053347587946055289367,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xd2",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759651955067261807419234997854364437035164462104379991657159852026"
+      },
+      "terminal_u": 1325740868775921474124117449966131,
+      "terminal_v": -1609009852060078074441748707037389,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xd3",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919873583629521862578979500909354380406399264331460446161354096638"
+      },
+      "terminal_u": -4509371208351529238048014034584321,
+      "terminal_v": 9395592799844853013800717872661433,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xd4",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880864392374844405937390264586039150448624085462438567559036926"
+      },
+      "terminal_u": 9584775728790810749648294120911,
+      "terminal_v": 7304225569288618390443314994303,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xd5",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759627783114707939910554887439997751974999565100124234920730034170"
+      },
+      "terminal_u": 21753955993669082522711435351113,
+      "terminal_v": -182638490187399893927337474364903,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xd6",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919882283400331292060088701653170113055307398940577511116973801470"
+      },
+      "terminal_u": -55345701149111663866719918507,
+      "terminal_v": 53282344714069736854391551057,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xd7",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919877933104728604214431183527344692463577555876988519713219805182"
+      },
+      "terminal_u": -1179777720285648978821483678581,
+      "terminal_v": 2243390917253680694857019919879,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xd8",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "1455836763871751552052267849008149236137743056499355645241291100389322"
+      },
+      "terminal_u": 689793051482177502590042932044444328493237,
+      "terminal_v": 1614876588023459677743880949728012522497869,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xd9",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880584755710540267202690383113871182089757918785322223522545662"
+      },
+      "terminal_u": 244164804606402319727911321673311,
+      "terminal_v": 247904300586038010974835119425617,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xda",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919885945463935709515031745626092967651422090407546047330781233150"
+      },
+      "terminal_u": -243003405541745596332439177173586435,
+      "terminal_v": -345573195558481403586041644267603673,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xdb",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759639287805132761973411530248235033449732132292111051648346882042"
+      },
+      "terminal_u": -53297955109251640005854403001,
+      "terminal_v": -57941666884782451984778690269,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xdc",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919873429170573378323429707686856136449275063880384286348860719102"
+      },
+      "terminal_u": -2450666107963813722687256868051,
+      "terminal_v": 2019818990028774026068363361225,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xdd",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879367568840436845091120735155961094356565165474572683857362942"
+      },
+      "terminal_u": 13654626838152696470660069,
+      "terminal_v": -249611567798095253560709,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xde",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759649901799086244484024792173850520509770976104257378035641090042"
+      },
+      "terminal_u": -594147747796466554474941416406799,
+      "terminal_v": -685250775239558156691859544984055,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xdf",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882323361685015679006572205427193026767857594089439232822083582"
+      },
+      "terminal_u": 14466650673319840961028806768191,
+      "terminal_v": -7675981024482445468892111574385,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xe0",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880076915550296664609270592657942580958540040249367779589750782"
+      },
+      "terminal_u": 11307877066575697644206849671406582855,
+      "terminal_v": 22607541257951004076509473403827818497,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xe1",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278917911759477675114287402440649742635161263452251487100653797358"
+      },
+      "terminal_u": 83468986175329662422599230966325661707,
+      "terminal_v": 37915029378616858751886471995407531385,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xe2",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919877099100732822966457909756234005912454667219856294052869701630"
+      },
+      "terminal_u": 171307664998046943741050088273887585481,
+      "terminal_v": -155634831463344249278840154906492046259,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xe3",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919886870950252802752240419098729439940342364621781268929366196222"
+      },
+      "terminal_u": 608165929498364103662921723713553,
+      "terminal_v": 596106899058144977780192589007693,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xe4",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759638863567470145490994747943508953120858248359476626290464784378"
+      },
+      "terminal_u": -372721696041701403831585382743,
+      "terminal_v": -683005488602223804732282260693,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xe5",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880744781393204484833026061013376527170508185311571873084997630"
+      },
+      "terminal_u": 16616496927335217830090616799,
+      "terminal_v": -19794475282500545052821576251,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xe6",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "1240159377861786615518226268882955654256375349394364761312146218811346"
+      },
+      "terminal_u": 4318905997973660941112545565144277842683961,
+      "terminal_v": 15487218511747689774137535886118282859357793,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xe7",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "161759643164485874944695105013656098365551245100300444712154618134522"
+      },
+      "terminal_u": -1358073809295875165179570099766637,
+      "terminal_v": 291886146503639995660840419641431,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xe8",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879989706081968532949656137263393042840491280358084369937596414"
+      },
+      "terminal_u": -10861901006706446922571341647308471537,
+      "terminal_v": 14251428401724260487029794167761355617,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xe9",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880118787512904304541538411419367186696570671640586866888015870"
+      },
+      "terminal_u": 825161950904792259422560361,
+      "terminal_v": -1287790752561989977316235051,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xea",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "485278928657981922501759133166887051815047655470989347243700619575278"
+      },
+      "terminal_u": 24355438264197323245479888747865343,
+      "terminal_v": 44426268693586119481011474052038243,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xeb",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919884073595980239257697463107818032383647926935451881684078690302"
+      },
+      "terminal_u": -2565725205788665651527626727041,
+      "terminal_v": 982142498512488286670199930395,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xec",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879990490719685456284751616737070943704497079222573852314828798"
+      },
+      "terminal_u": 121116392541998355552029887017019799131,
+      "terminal_v": -36167455880697348748836058889727665905,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xed",
+      "convergence": null,
+      "first_bad": {
+        "round": 153,
+        "kind": "pre_halving_sum",
+        "width": 233,
+        "sum": "-12779013102873462490185128434905747418761127307090636932325457885396518"
+      },
+      "terminal_u": 6022178561230048212519494833646487568447,
+      "terminal_v": -25719589389420728054397996298489505323513,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xee",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919885688936035063764121465577665962977688546860377467376638099454"
+      },
+      "terminal_u": -158339923430693426041550878815,
+      "terminal_v": -262629787452039394782156903367,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xef",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919882802031558886669838517573926633335337106493006150529217200126"
+      },
+      "terminal_u": -6521508237750513835064361472165,
+      "terminal_v": -40312176099058539508228168597969,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf0",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759640824565691279293865828999659898610125973886288696709084086266"
+      },
+      "terminal_u": 52461308065860414594734863,
+      "terminal_v": -65991256895639497696138871,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf1",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879792302266358516074033281866131757215744372063699599536160766"
+      },
+      "terminal_u": -4883957270016287044942802940145,
+      "terminal_v": -5540897790423110826440156892549,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf2",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919878014827096648275775740630677711290107264441004509905524097022"
+      },
+      "terminal_u": 289239355600026150969870388068585,
+      "terminal_v": -543526750474753598727927125096297,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf3",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1455835987956721354801068070130533633458084263144368161373350742982602"
+      },
+      "terminal_u": -55038503125712277765668188078986244091,
+      "terminal_v": 447010172656231117255453177476493528007,
+      "first_8_tape_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf4",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919879046460005294726715078085273803325698919586012762531336028158"
+      },
+      "terminal_u": 408057387285570078228092604343,
+      "terminal_v": -418864706531824438280557796683,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf5",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919883319238459584006483463722129454131420781902213783791037579262"
+      },
+      "terminal_u": -13028965765861900137618156303,
+      "terminal_v": -76362625781954271573298819997,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf6",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759642009458321012779855470999171040179746400055581391468401524730"
+      },
+      "terminal_u": -2039075777508899861299261109,
+      "terminal_v": -1866490201638440165399209417,
+      "first_8_tape_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf7",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919885952977761346380484818157068441769294325939203829635942973438"
+      },
+      "terminal_u": -299384458462249329690309098353,
+      "terminal_v": 1472020663608565575323996175047,
+      "first_8_tape_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xf8",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919879809982890902418876734287293042931793626284190902087776731134"
+      },
+      "terminal_u": -10740446946676900750118464578771,
+      "terminal_v": -4526537715936278257509179229281,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "denominator": "0xf9",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759643284723431753644923655307528319726240001383082286058968186874"
+      },
+      "terminal_u": 104457015651621697443386549104519,
+      "terminal_v": 67838293350447513389489458823049,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xfa",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "-53919880852378471832759105803217971916494889760718443587850798628862"
+      },
+      "terminal_u": 9095771455469325176756190351065,
+      "terminal_v": 6391691744761747812696305314189,
+      "first_8_tape_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xfb",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919872007705292257881260317938545070072055642235512965290241556478"
+      },
+      "terminal_u": 292398605696541737467504291,
+      "terminal_v": -11906043710509924020592252191,
+      "first_8_tape_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xfc",
+      "convergence": null,
+      "first_bad": {
+        "round": 165,
+        "kind": "pre_halving_sum",
+        "width": 229,
+        "sum": "-485278900171623789849790002008527108187191517740790622754615345545198"
+      },
+      "terminal_u": 64712353773357273021731908427288952673546049,
+      "terminal_v": 55218534188882152495222137733818184275835793,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xfd",
+      "convergence": null,
+      "first_bad": {
+        "round": 162,
+        "kind": "pre_halving_sum",
+        "width": 230,
+        "sum": "-1240157299040527031589095411977448160316387376904975844482161194303442"
+      },
+      "terminal_u": 1064993905333674676844536925455678746328135,
+      "terminal_v": -1026130559916753783354503150297998981050011,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "denominator": "0xfe",
+      "convergence": null,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919884109054095816042200923374072373073828135459729728929435484158"
+      },
+      "terminal_u": -222296021679675405988294165633806098069,
+      "terminal_v": 187975947755497941260030873369511948991,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "denominator": "0xff",
+      "convergence": null,
+      "first_bad": {
+        "round": 171,
+        "kind": "pre_halving_sum",
+        "width": 227,
+        "sum": "-161759651981758225810833465947595575159905048167485849223257078628346"
+      },
+      "terminal_u": -895071480911269753631645340351051,
+      "terminal_v": -5557456895259342653069085011019989,
+      "first_8_tape_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0x100",
+      "convergence": 518,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919880010106662608539662138603579018467761179316291737394748588030"
+      },
+      "terminal_u": 1,
+      "terminal_v": -1,
+      "first_8_tape_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "denominator": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2e",
+      "convergence": 512,
+      "first_bad": {
+        "round": 177,
+        "kind": "pre_halving_sum",
+        "width": 225,
+        "sum": "53919881064659754153502030463016202117355667705164672785612621742078"
+      },
+      "terminal_u": 1,
+      "terminal_v": 1,
+      "first_8_tape_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

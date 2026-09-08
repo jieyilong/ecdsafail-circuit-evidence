@@ -1,0 +1,26 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+windowed ping-pong: width=1380, QROM calls=6, Toffolis=78, payload CX=20480
+  emitted ops : 15710537
+  wrote       : ops.bin (55016997 bytes on disk, 879790088 uncompressed, 16.0x)
+
+=== build_circuit OK ===
+        2.25 real         1.81 user         0.15 sys
+          1357332480  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               82971  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  12  voluntary context switches
+                 479  involuntary context switches
+         32707409615  instructions retired
+          6574165198  cycles elapsed
+          1349537472  peak memory footprint

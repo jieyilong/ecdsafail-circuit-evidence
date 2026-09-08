@@ -1,0 +1,2 @@
+LOCAL_REGRESSION kernel=canonical_negate_exact canonical_values=575 sign_cases=1150 seeds=8 total_shots=9200 word_bad=0 field_bad=0 phase=0 ancilla=0 control_bad=0 peak=514 emitted_toffoli=777 toffoli_sum=7148400 mean_toffoli=777
+SCOPE canonical-input negation only; not inserted in replay; noncanonical input p is outside contract and its negative test is retained in cells logs

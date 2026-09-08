@@ -1,0 +1,23 @@
+--- a/REPORT.md
++++ b/REPORT.md
+@@ -21,7 +21,8 @@
+ 3. Overflow erasure compares the already corrected word with the source. At the
+    boundary this predicate need not equal the pre-correction carry, even with all
+    256 bits compared.
+-4. Multiplication releases a coefficient register containing `p` in 35/64 cases.
++4. Multiplication releases a nonzero coefficient register in 35/64 cases;
++   fixture 4 is confirmed to contain `p`.
+    The emitted resets make final ancillas zero but introduce additional sampled
+    phase changes. This qualifies the source comment claiming a proved-zero release.
+ 5. Boundary payload `1` exposes a separate halving underflow/parity assumption.
+@@ -194,7 +195,9 @@
+ times a random outcome into the phase, then clears the qubit.
+ 
+ In multiplication, the pre-release nonzero mask is `0xef1798b3b5ea5690` (35
+-lanes). Fixture 4's coefficient is specifically `p`, not canonical zero.
++lanes). The observer ORs the coefficient bits, so it establishes nonzeroness,
++not equality to `p` for all 35 registers. Fixture 4's coefficient is specifically
++`p`, not canonical zero; the other nonzero words are not classified by this count.
+ Across the release alone the phase changes by `0xcc151032b5a24610` (23 lanes).
+ The subsequent denominator restoration changes no phase in this 64-lane run.
+ The final phase count is 26, not the sum of the replay and reset counts.

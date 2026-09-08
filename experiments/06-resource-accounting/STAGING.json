@@ -1,0 +1,24 @@
+{
+  "status": "ready_for_repository_staging",
+  "intended_location": "experiments/06-resource-accounting",
+  "source_zip_bytes": 3433383,
+  "excluded": [
+    "ops.bin",
+    "compiled bins",
+    "build/",
+    "builds/",
+    "targets",
+    "temporary intermediates"
+  ],
+  "portable_verification": "python3 -B verify.py",
+  "network_for_verification": false,
+  "rebuild_limitations": [
+    "Rust toolchain and locked dependencies must already be cached for offline Cargo",
+    "new work directory required",
+    "no full-window operation-vector rebuild",
+    "historical hashes remain receipts until explicitly remeasured"
+  ],
+  "no_public_push": true,
+  "staged_files": 282,
+  "staged_bytes": 11303630
+}

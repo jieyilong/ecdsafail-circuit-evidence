@@ -1,0 +1,7 @@
+peak_qubits	1321
+max_wire_plus_one	1321
+peak_phase	pp_replay_halving_initial
+peak_op_index	1319752
+final_active	512
+count_only	true
+precompiler_ops	13586737

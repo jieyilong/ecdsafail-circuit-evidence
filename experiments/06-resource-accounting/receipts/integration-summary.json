@@ -1,0 +1,5666 @@
+{
+  "status": "verified_bounded",
+  "preferred_resource_runs": {
+    "mixed1321": {
+      "source": "original-pingpong",
+      "settings": {},
+      "live_peak": 1321,
+      "raw_operations": 13586737,
+      "raw_static_toffoli": 1009077,
+      "phase_live_peaks": {
+        "init": 512,
+        "pp_coefficient_allocate": 1232,
+        "pp_coefficient_clear": 1232,
+        "pp_endpoint": 1320,
+        "pp_replay_halving_initial": 1321,
+        "pp_replay_halving_ordinary": 1319,
+        "pp_replay_halving_seed": 1321,
+        "pp_replay_inverse_initial": 1321,
+        "pp_replay_inverse_ordinary": 1320,
+        "pp_replay_inverse_seed": 1321,
+        "pp_restore_layout": 775,
+        "pp_setup": 774,
+        "pp_value_forward": 1063,
+        "pp_value_reverse": 1063,
+        "square_product_register": 1287,
+        "tlm_coord_add3x": 1026,
+        "tlm_coord_rsub_final": 1026,
+        "tlm_coord_x_sub": 1026,
+        "tlm_coord_y_sub": 1026,
+        "tlm_coord_y_sub_final": 1026,
+        "tlm_forward_multiply": 512,
+        "tlm_inverse": 512,
+        "tlm_square": 512
+      },
+      "peak_owners": [
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1081",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1081",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1102",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1102",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        }
+      ],
+      "category_ledger": {
+        "coordinates": {
+          "ops": 73262,
+          "ccx": 1650,
+          "ccz": 10,
+          "hmr": 1655,
+          "reset": 2950,
+          "static_toffoli": 1660
+        },
+        "pp_setup": {
+          "ops": 500,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_value_forward": {
+          "ops": 2612570,
+          "ccx": 197884,
+          "ccz": 0,
+          "hmr": 197884,
+          "reset": 201706,
+          "static_toffoli": 197884
+        },
+        "pp_replay_halving_initial": {
+          "ops": 924,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "static_toffoli": 88
+        },
+        "pp_replay_halving_seed": {
+          "ops": 1935,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "static_toffoli": 152
+        },
+        "pp_replay_halving_ordinary": {
+          "ops": 3666546,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 280800,
+          "static_toffoli": 275886
+        },
+        "pp_endpoint": {
+          "ops": 3920,
+          "ccx": 348,
+          "ccz": 0,
+          "hmr": 352,
+          "reset": 352,
+          "static_toffoli": 348
+        },
+        "pp_coefficient_clear": {
+          "ops": 512,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 512,
+          "static_toffoli": 0
+        },
+        "pp_value_reverse": {
+          "ops": 2607322,
+          "ccx": 197484,
+          "ccz": 0,
+          "hmr": 197484,
+          "reset": 201710,
+          "static_toffoli": 197484
+        },
+        "pp_restore_layout": {
+          "ops": 2024,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 856,
+          "static_toffoli": 0
+        },
+        "square": {
+          "ops": 943351,
+          "ccx": 59431,
+          "ccz": 18,
+          "hmr": 59440,
+          "reset": 64211,
+          "static_toffoli": 59449
+        },
+        "pp_coefficient_allocate": {
+          "ops": 256,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_replay_inverse_ordinary": {
+          "ops": 3670758,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 282204,
+          "static_toffoli": 275886
+        },
+        "pp_replay_inverse_seed": {
+          "ops": 1934,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "static_toffoli": 152
+        },
+        "pp_replay_inverse_initial": {
+          "ops": 923,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "static_toffoli": 88
+        }
+      }
+    },
+    "windowed1338-exact-count": {
+      "source": "original-pingpong",
+      "settings": {
+        "WINDOWED_MODE": "1",
+        "WINDOWED_QROM_UNLOAD": "split",
+        "SINGLE_CCX_FANOUT_DISABLE": "1",
+        "WINDOW_BITS": "16",
+        "ACCOUNTING_EXACT_QROM": "1"
+      },
+      "live_peak": 1338,
+      "raw_operations": 216306027,
+      "raw_static_toffoli": 1184131,
+      "phase_live_peaks": {
+        "init": 1041,
+        "pp_coefficient_allocate": 1249,
+        "pp_coefficient_clear": 1249,
+        "pp_endpoint": 1337,
+        "pp_replay_halving_initial": 1338,
+        "pp_replay_halving_ordinary": 1336,
+        "pp_replay_halving_seed": 1338,
+        "pp_replay_inverse_initial": 1338,
+        "pp_replay_inverse_ordinary": 1337,
+        "pp_replay_inverse_seed": 1338,
+        "pp_restore_layout": 1042,
+        "pp_setup": 791,
+        "pp_value_forward": 1080,
+        "pp_value_reverse": 1080,
+        "square_product_register": 1338,
+        "tlm_coord_add3x": 1149,
+        "tlm_coord_x_sub": 1092,
+        "tlm_coord_y_sub": 1092,
+        "tlm_coord_y_sub_final": 1092,
+        "tlm_forward_multiply": 529,
+        "tlm_inverse": 529,
+        "tlm_square": 785,
+        "window_qrom_3x_load_clear": 1042,
+        "window_qrom_3x_load_walk": 1056,
+        "window_qrom_3x_unload_clear": 913,
+        "window_qrom_3x_unload_walk": 1041,
+        "window_qrom_recover_load_clear": 1041,
+        "window_qrom_recover_load_walk": 1056,
+        "window_qrom_recover_unload_clear": 1041,
+        "window_qrom_recover_unload_measure": 1041,
+        "window_qrom_xy_load_clear": 1041,
+        "window_qrom_xy_load_walk": 1056,
+        "window_qrom_xy_unload_clear": 1041,
+        "window_qrom_xy_unload_measure": 1041,
+        "window_recover_controlled_neg": 1065,
+        "window_recover_x_add": 1107
+      },
+      "peak_owners": [
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1242",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1243",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1244",
+          "count": "16"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1081",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1338",
+          "op_index": "68951437",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1242",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1243",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1244",
+          "count": "16"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1081",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1338",
+          "op_index": "68953372",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1242",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1243",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1244",
+          "count": "16"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1102",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1338",
+          "op_index": "113664467",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1242",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1243",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1244",
+          "count": "16"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1102",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1338",
+          "op_index": "113662533",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1242",
+          "count": "8"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1243",
+          "count": "256"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1244",
+          "count": "16"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "pp_restore_layout",
+          "file": "reacquire",
+          "line": "0",
+          "count": "83"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "pp_value_reverse",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "527",
+          "count": "165"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/arith.rs",
+          "line": "788",
+          "count": "38"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "120",
+          "count": "128"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "300",
+          "count": "1"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "301",
+          "count": "1"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "304",
+          "count": "129"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "314",
+          "count": "256"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1338",
+          "op_index": "107883600",
+          "allocation_phase": "tlm_square",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square.rs",
+          "line": "555",
+          "count": "256"
+        }
+      ],
+      "category_ledger": {
+        "other_init": {
+          "ops": 87,
+          "ccx": 29,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 3,
+          "static_toffoli": 29
+        },
+        "qrom": {
+          "ops": 202785205,
+          "ccx": 167179,
+          "ccz": 0,
+          "hmr": 165370,
+          "reset": 166782,
+          "static_toffoli": 167179
+        },
+        "coordinates": {
+          "ops": 26382,
+          "ccx": 3954,
+          "ccz": 33,
+          "hmr": 1308,
+          "reset": 1328,
+          "static_toffoli": 3987
+        },
+        "pp_setup": {
+          "ops": 500,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_value_forward": {
+          "ops": 2612570,
+          "ccx": 197884,
+          "ccz": 0,
+          "hmr": 197884,
+          "reset": 201706,
+          "static_toffoli": 197884
+        },
+        "pp_replay_halving_initial": {
+          "ops": 924,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "static_toffoli": 88
+        },
+        "pp_replay_halving_seed": {
+          "ops": 1935,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "static_toffoli": 152
+        },
+        "pp_replay_halving_ordinary": {
+          "ops": 3666546,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 280800,
+          "static_toffoli": 275886
+        },
+        "pp_endpoint": {
+          "ops": 3920,
+          "ccx": 348,
+          "ccz": 0,
+          "hmr": 352,
+          "reset": 352,
+          "static_toffoli": 348
+        },
+        "pp_coefficient_clear": {
+          "ops": 512,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 512,
+          "static_toffoli": 0
+        },
+        "pp_value_reverse": {
+          "ops": 2607322,
+          "ccx": 197484,
+          "ccz": 0,
+          "hmr": 197484,
+          "reset": 201710,
+          "static_toffoli": 197484
+        },
+        "pp_restore_layout": {
+          "ops": 2024,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 856,
+          "static_toffoli": 0
+        },
+        "square": {
+          "ops": 924229,
+          "ccx": 64968,
+          "ccz": 0,
+          "hmr": 55306,
+          "reset": 60837,
+          "static_toffoli": 64968
+        },
+        "pp_coefficient_allocate": {
+          "ops": 256,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_replay_inverse_ordinary": {
+          "ops": 3670758,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 282204,
+          "static_toffoli": 275886
+        },
+        "pp_replay_inverse_seed": {
+          "ops": 1934,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "static_toffoli": 152
+        },
+        "pp_replay_inverse_initial": {
+          "ops": 923,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "static_toffoli": 88
+        }
+      }
+    },
+    "conservative1392-exact-count": {
+      "source": "conservative-pingpong",
+      "settings": {
+        "WINDOWED_MODE": "1",
+        "WINDOWED_QROM_UNLOAD": "split",
+        "SINGLE_CCX_FANOUT_DISABLE": "1",
+        "QIP_PINGPONG_PROFILE": "guarded",
+        "TLM_MSBS": "40",
+        "WINDOW_BITS": "16",
+        "ACCOUNTING_EXACT_QROM": "1"
+      },
+      "live_peak": 1392,
+      "raw_operations": 218437323,
+      "raw_static_toffoli": 1347296,
+      "phase_live_peaks": {
+        "init": 1041,
+        "pp_coefficient_allocate": 1287,
+        "pp_coefficient_clear": 1287,
+        "pp_endpoint": 1391,
+        "pp_replay_halving_initial": 1392,
+        "pp_replay_halving_ordinary": 1374,
+        "pp_replay_halving_seed": 1392,
+        "pp_replay_inverse_initial": 1392,
+        "pp_replay_inverse_ordinary": 1375,
+        "pp_replay_inverse_seed": 1392,
+        "pp_restore_layout": 1042,
+        "pp_setup": 791,
+        "pp_value_forward": 1128,
+        "pp_value_reverse": 1128,
+        "square_product_register": 1338,
+        "tlm_coord_add3x": 1149,
+        "tlm_coord_x_sub": 1092,
+        "tlm_coord_y_sub": 1092,
+        "tlm_coord_y_sub_final": 1092,
+        "tlm_forward_multiply": 529,
+        "tlm_inverse": 529,
+        "tlm_square": 785,
+        "window_qrom_3x_load_clear": 1042,
+        "window_qrom_3x_load_walk": 1056,
+        "window_qrom_3x_unload_clear": 913,
+        "window_qrom_3x_unload_walk": 1041,
+        "window_qrom_recover_load_clear": 1041,
+        "window_qrom_recover_load_walk": 1056,
+        "window_qrom_recover_unload_clear": 1041,
+        "window_qrom_recover_unload_measure": 1041,
+        "window_qrom_xy_load_clear": 1041,
+        "window_qrom_xy_load_walk": 1056,
+        "window_qrom_xy_unload_clear": 1041,
+        "window_qrom_xy_unload_measure": 1041,
+        "window_recover_controlled_neg": 1065,
+        "window_recover_x_add": 1107
+      },
+      "peak_owners": [
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1269",
+          "count": "11"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1270",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1271",
+          "count": "16"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "100",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "104"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1103",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "11"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "287",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1392",
+          "op_index": "69095266",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "530",
+          "count": "735"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1269",
+          "count": "11"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1270",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1271",
+          "count": "16"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "100",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "104"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1103",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "11"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "287",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1392",
+          "op_index": "69097313",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "530",
+          "count": "735"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1269",
+          "count": "11"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1270",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1271",
+          "count": "16"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "100",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "104"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1124",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "11"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "287",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1392",
+          "op_index": "115651990",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "530",
+          "count": "735"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1269",
+          "count": "11"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1270",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1271",
+          "count": "16"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "499",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "100",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "104"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1124",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "11"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "287",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1392",
+          "op_index": "115649944",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "530",
+          "count": "735"
+        }
+      ],
+      "category_ledger": {
+        "other_init": {
+          "ops": 87,
+          "ccx": 29,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 3,
+          "static_toffoli": 29
+        },
+        "qrom": {
+          "ops": 202785205,
+          "ccx": 167179,
+          "ccz": 0,
+          "hmr": 165370,
+          "reset": 166782,
+          "static_toffoli": 167179
+        },
+        "coordinates": {
+          "ops": 27978,
+          "ccx": 4059,
+          "ccz": 33,
+          "hmr": 1413,
+          "reset": 1433,
+          "static_toffoli": 4092
+        },
+        "pp_setup": {
+          "ops": 500,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_value_forward": {
+          "ops": 2898884,
+          "ccx": 219782,
+          "ccz": 0,
+          "hmr": 219782,
+          "reset": 223720,
+          "static_toffoli": 219782
+        },
+        "pp_replay_halving_initial": {
+          "ops": 1036,
+          "ccx": 104,
+          "ccz": 0,
+          "hmr": 104,
+          "reset": 105,
+          "static_toffoli": 104
+        },
+        "pp_replay_halving_seed": {
+          "ops": 2047,
+          "ccx": 168,
+          "ccz": 0,
+          "hmr": 169,
+          "reset": 170,
+          "static_toffoli": 168
+        },
+        "pp_replay_halving_ordinary": {
+          "ops": 4444370,
+          "ccx": 335438,
+          "ccz": 0,
+          "hmr": 335438,
+          "reset": 340576,
+          "static_toffoli": 335438
+        },
+        "pp_endpoint": {
+          "ops": 4368,
+          "ccx": 412,
+          "ccz": 0,
+          "hmr": 416,
+          "reset": 416,
+          "static_toffoli": 412
+        },
+        "pp_coefficient_clear": {
+          "ops": 512,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 512,
+          "static_toffoli": 0
+        },
+        "pp_value_reverse": {
+          "ops": 2893936,
+          "ccx": 219414,
+          "ccz": 0,
+          "hmr": 219414,
+          "reset": 223832,
+          "static_toffoli": 219414
+        },
+        "pp_restore_layout": {
+          "ops": 2060,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 884,
+          "static_toffoli": 0
+        },
+        "square": {
+          "ops": 924229,
+          "ccx": 64968,
+          "ccz": 0,
+          "hmr": 55306,
+          "reset": 60837,
+          "static_toffoli": 64968
+        },
+        "pp_coefficient_allocate": {
+          "ops": 256,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_replay_inverse_ordinary": {
+          "ops": 4448774,
+          "ccx": 335438,
+          "ccz": 0,
+          "hmr": 335438,
+          "reset": 342044,
+          "static_toffoli": 335438
+        },
+        "pp_replay_inverse_seed": {
+          "ops": 2046,
+          "ccx": 168,
+          "ccz": 0,
+          "hmr": 169,
+          "reset": 170,
+          "static_toffoli": 168
+        },
+        "pp_replay_inverse_initial": {
+          "ops": 1035,
+          "ccx": 104,
+          "ccz": 0,
+          "hmr": 104,
+          "reset": 105,
+          "static_toffoli": 104
+        }
+      }
+    },
+    "jump2-windowed-exact-count": {
+      "source": "jump2",
+      "settings": {
+        "WINDOWED_MODE": "1",
+        "WINDOWED_QROM_UNLOAD": "split",
+        "SINGLE_CCX_FANOUT_DISABLE": "1",
+        "WINDOW_BITS": "16",
+        "ACCOUNTING_EXACT_QROM": "1"
+      },
+      "live_peak": 1162,
+      "raw_operations": 212091047,
+      "raw_static_toffoli": 1594698,
+      "phase_live_peaks": {
+        "init": 1041,
+        "square_a_lo_apply_shifted_128_add": 1043,
+        "square_a_lo_apply_unshifted_sub": 915,
+        "square_a_lo_build": 1043,
+        "square_a_lo_unbuild": 1043,
+        "square_b_hi_apply_f_times_sub": 916,
+        "square_b_hi_apply_shifted_128_add": 1043,
+        "square_b_hi_build": 1043,
+        "square_b_hi_unbuild": 1043,
+        "square_c_sum_apply_shifted_128_sub": 1045,
+        "square_c_sum_build": 1046,
+        "square_c_sum_unbuild": 1046,
+        "square_sum_hi_lo": 659,
+        "square_sum_hi_lo_unbuild": 660,
+        "tlm_apply_forward_fold": 1162,
+        "tlm_apply_forward_mod_add": 1155,
+        "tlm_apply_forward_mod_add_clean": 1154,
+        "tlm_apply_forward_mod_add_fold": 1157,
+        "tlm_apply_forward_mod_add_register": 1154,
+        "tlm_apply_forward_swap": 1155,
+        "tlm_apply_inverse_fold": 1162,
+        "tlm_apply_inverse_mod_sub": 1157,
+        "tlm_apply_inverse_mod_sub_clean": 1154,
+        "tlm_apply_inverse_mod_sub_fold": 1157,
+        "tlm_apply_inverse_mod_sub_register": 1154,
+        "tlm_apply_inverse_swap": 1155,
+        "tlm_coord_add3x": 1150,
+        "tlm_coord_x_sub": 1092,
+        "tlm_coord_y_sub": 1092,
+        "tlm_coord_y_sub_final": 1092,
+        "tlm_forward_multiply": 788,
+        "tlm_gcd_step_end": 1159,
+        "tlm_inverse": 1044,
+        "tlm_inverse_gcd_forward_apply": 1156,
+        "tlm_inverse_gcd_forward_body": 1156,
+        "tlm_inverse_gcd_forward_codec": 1161,
+        "tlm_inverse_gcd_forward_compare": 1158,
+        "tlm_inverse_gcd_forward_shift": 1157,
+        "tlm_inverse_gcd_reverse_apply": 901,
+        "tlm_inverse_gcd_reverse_body": 1064,
+        "tlm_inverse_gcd_reverse_decode": 905,
+        "tlm_multiply_gcd_forward_apply": 901,
+        "tlm_multiply_gcd_forward_body": 1064,
+        "tlm_multiply_gcd_forward_codec": 905,
+        "tlm_multiply_gcd_forward_compare": 928,
+        "tlm_multiply_gcd_forward_shift": 901,
+        "tlm_multiply_gcd_reverse_apply": 1157,
+        "tlm_multiply_gcd_reverse_body": 1158,
+        "tlm_multiply_gcd_reverse_decode": 1161,
+        "tlm_square": 529,
+        "window_qrom_3x_load_clear": 1042,
+        "window_qrom_3x_load_walk": 1056,
+        "window_qrom_3x_unload_clear": 913,
+        "window_qrom_3x_unload_walk": 1041,
+        "window_qrom_recover_load_clear": 1041,
+        "window_qrom_recover_load_walk": 1056,
+        "window_qrom_recover_unload_clear": 1041,
+        "window_qrom_recover_unload_measure": 1041,
+        "window_qrom_xy_load_clear": 1041,
+        "window_qrom_xy_load_walk": 1056,
+        "window_qrom_xy_unload_clear": 1041,
+        "window_qrom_xy_unload_measure": 1041,
+        "window_recover_controlled_neg": 1065,
+        "window_recover_x_add": 1107
+      },
+      "peak_owners": [
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "init",
+          "file": "src/point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "471",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "init",
+          "file": "src/point_add/trailmix_ludicrous/mod.rs",
+          "line": "461",
+          "count": "256"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "init",
+          "file": "src/point_add/trailmix_ludicrous/mod.rs",
+          "line": "469",
+          "count": "16"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_apply_forward_fold",
+          "file": "src/point_add/trailmix_ludicrous/fused.rs",
+          "line": "1196",
+          "count": "3"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_apply_forward_fold",
+          "file": "src/point_add/trailmix_ludicrous/fused.rs",
+          "line": "1386",
+          "count": "13"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_apply_forward_fold",
+          "file": "src/point_add/trailmix_ludicrous/fused.rs",
+          "line": "1872",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_apply_forward_fold",
+          "file": "src/point_add/trailmix_ludicrous/fused.rs",
+          "line": "1874",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_forward_multiply",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1200",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_gcd_step_end",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1461",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_gcd_step_end",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1462",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_gcd_step_end",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1463",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_gcd_step_end",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1918",
+          "count": "256"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_multiply_gcd_forward_codec",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1354",
+          "count": "585"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_multiply_gcd_reverse_decode",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1479",
+          "count": "13"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1162",
+          "op_index": "107581168",
+          "allocation_phase": "tlm_multiply_gcd_reverse_decode",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1482",
+          "count": "13"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "init",
+          "file": "src/point_add/trailmix_ludicrous/ec_add.rs",
+          "line": "471",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "init",
+          "file": "src/point_add/trailmix_ludicrous/mod.rs",
+          "line": "460",
+          "count": "13"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "init",
+          "file": "src/point_add/trailmix_ludicrous/mod.rs",
+          "line": "461",
+          "count": "256"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "init",
+          "file": "src/point_add/trailmix_ludicrous/mod.rs",
+          "line": "469",
+          "count": "16"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_apply_inverse_fold",
+          "file": "src/point_add/trailmix_ludicrous/fused.rs",
+          "line": "1196",
+          "count": "3"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_apply_inverse_fold",
+          "file": "src/point_add/trailmix_ludicrous/fused.rs",
+          "line": "1386",
+          "count": "13"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_apply_inverse_fold",
+          "file": "src/point_add/trailmix_ludicrous/fused.rs",
+          "line": "1927",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_apply_inverse_fold",
+          "file": "src/point_add/trailmix_ludicrous/fused.rs",
+          "line": "1929",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1189",
+          "count": "13"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1197",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1199",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1200",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1904",
+          "count": "256"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_inverse_gcd_forward_codec",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1354",
+          "count": "585"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_fold",
+          "active": "1162",
+          "op_index": "71092103",
+          "allocation_phase": "tlm_inverse_gcd_forward_compare",
+          "file": "src/point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1261",
+          "count": "1"
+        }
+      ],
+      "category_ledger": {
+        "other_init": {
+          "ops": 87,
+          "ccx": 29,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 3,
+          "static_toffoli": 29
+        },
+        "qrom": {
+          "ops": 202785548,
+          "ccx": 167179,
+          "ccz": 0,
+          "hmr": 165370,
+          "reset": 166782,
+          "static_toffoli": 167179
+        },
+        "coordinates": {
+          "ops": 26394,
+          "ccx": 3952,
+          "ccz": 33,
+          "hmr": 1310,
+          "reset": 1330,
+          "static_toffoli": 3985
+        },
+        "other_tlm_inverse": {
+          "ops": 506,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "jump2_value_initial": {
+          "ops": 26688,
+          "ccx": 5214,
+          "ccz": 6,
+          "hmr": 1138,
+          "reset": 1920,
+          "static_toffoli": 5220
+        },
+        "jump2_payload_initial": {
+          "ops": 202916,
+          "ccx": 22227,
+          "ccz": 299,
+          "hmr": 13943,
+          "reset": 16337,
+          "static_toffoli": 22526
+        },
+        "jump2_codec_initial": {
+          "ops": 38,
+          "ccx": 4,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 10,
+          "static_toffoli": 4
+        },
+        "jump2_value_ordinary": {
+          "ops": 3871748,
+          "ccx": 627046,
+          "ccz": 1728,
+          "hmr": 203710,
+          "reset": 207422,
+          "static_toffoli": 628774
+        },
+        "jump2_payload_ordinary": {
+          "ops": 4544493,
+          "ccx": 699406,
+          "ccz": 5533,
+          "hmr": 252084,
+          "reset": 266131,
+          "static_toffoli": 704939
+        },
+        "jump2_codec_ordinary": {
+          "ops": 59944,
+          "ccx": 6374,
+          "ccz": 0,
+          "hmr": 1206,
+          "reset": 3626,
+          "static_toffoli": 6374
+        },
+        "square": {
+          "ops": 572435,
+          "ccx": 55668,
+          "ccz": 0,
+          "hmr": 50558,
+          "reset": 3994,
+          "static_toffoli": 55668
+        },
+        "other_tlm_forward_multiply": {
+          "ops": 250,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        }
+      }
+    }
+  },
+  "ablation": {
+    "ablation-legacy-legacy": {
+      "name": "ablation-legacy-legacy",
+      "source": "original-pingpong",
+      "instrumented": true,
+      "count_only": false,
+      "settings": {
+        "CONSTPROP_DISABLE": "1",
+        "SINGLE_CCX_FANOUT_DISABLE": "1",
+        "TLM_TARGET_Q": "1150",
+        "TLM_FOLD_CHUNK_ZERO_CIN": "1",
+        "TLM_FFG_MAX_G": "47",
+        "TLM_APPLY_ADD_SKIP_LASTK": "1",
+        "DIALOG_TAIL_NONCE": "2430844",
+        "DIALOG_GCD_FOLD_MAJ1": "1",
+        "SUB4_LEGACY_POINT_ADD": "1",
+        "SUB4_LEGACY_SQUARE": "1"
+      },
+      "exit_code": 0,
+      "compressed_sha256": "498bdfef59b28ecd997230f7e7359c67ef121690a87fcc9ca0564e6fa2082e88",
+      "compressed_bytes": 30637478,
+      "operations": 9031983,
+      "stream": {
+        "operations": 9031983,
+        "static_toffoli": 1357682,
+        "raw_body_sha256": "7eeb195bc475814145194b7b2f1d65c03c83a4df8aafbe1c1fe96261aeade650",
+        "kind_counts": {
+          "15": 481782,
+          "6": 653084,
+          "16": 481782,
+          "8": 4232083,
+          "13": 1352408,
+          "12": 516613,
+          "11": 490389,
+          "9": 517682,
+          "7": 8021,
+          "14": 5274,
+          "10": 275125,
+          "0": 1568,
+          "4": 5965,
+          "3": 6302,
+          "5": 2877,
+          "2": 1024,
+          "1": 4
+        }
+      },
+      "allocator": {
+        "peak_qubits": 1150,
+        "max_wire_plus_one": 1150,
+        "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+        "peak_op_index": 2695508,
+        "final_active": 512,
+        "count_only": "false",
+        "precompiler_ops": 9031983
+      },
+      "category_ledger": {
+        "coordinates": {
+          "ops": 73601,
+          "ccx": 1650,
+          "ccz": 10,
+          "hmr": 1655,
+          "reset": 2950,
+          "static_toffoli": 1660
+        },
+        "other_tlm_inverse": {
+          "ops": 506,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "jump2_value_initial": {
+          "ops": 26098,
+          "ccx": 5172,
+          "ccz": 4,
+          "hmr": 1096,
+          "reset": 1876,
+          "static_toffoli": 5176
+        },
+        "jump2_payload_initial": {
+          "ops": 18539,
+          "ccx": 3111,
+          "ccz": 16,
+          "hmr": 1063,
+          "reset": 1072,
+          "static_toffoli": 3127
+        },
+        "jump2_codec_initial": {
+          "ops": 38,
+          "ccx": 4,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 10,
+          "static_toffoli": 4
+        },
+        "jump2_value_ordinary": {
+          "ops": 3682724,
+          "ccx": 609318,
+          "ccz": 798,
+          "hmr": 192202,
+          "reset": 195442,
+          "static_toffoli": 610116
+        },
+        "jump2_payload_ordinary": {
+          "ops": 4471901,
+          "ccx": 660017,
+          "ccz": 4294,
+          "hmr": 260227,
+          "reset": 270616,
+          "static_toffoli": 664311
+        },
+        "jump2_codec_ordinary": {
+          "ops": 60200,
+          "ccx": 5676,
+          "ccz": 0,
+          "hmr": 1204,
+          "reset": 3612,
+          "static_toffoli": 5676
+        },
+        "square": {
+          "ops": 698126,
+          "ccx": 67460,
+          "ccz": 152,
+          "hmr": 59166,
+          "reset": 14811,
+          "static_toffoli": 67612
+        },
+        "other_tlm_forward_multiply": {
+          "ops": 250,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        }
+      },
+      "phase_ledger": {
+        "tlm_coord_x_sub": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_coord_y_sub": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_inverse": {
+          "ops": 506,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_inverse_gcd_forward_shift_initial": {
+          "ops": 1532,
+          "ccx": 509,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 509
+        },
+        "tlm_inverse_gcd_forward_compare_initial": {
+          "ops": 766,
+          "ccx": 255,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 255
+        },
+        "tlm_inverse_gcd_forward_body_initial": {
+          "ops": 4384,
+          "ccx": 549,
+          "ccz": 2,
+          "hmr": 294,
+          "reset": 296,
+          "intervals": 1,
+          "static_toffoli": 551
+        },
+        "tlm_apply_inverse_fold_initial": {
+          "ops": 2858,
+          "ccx": 624,
+          "ccz": 4,
+          "hmr": 110,
+          "reset": 112,
+          "intervals": 1,
+          "static_toffoli": 628
+        },
+        "tlm_apply_inverse_swap_initial": {
+          "ops": 768,
+          "ccx": 256,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 256
+        },
+        "tlm_apply_inverse_mod_sub_register_initial": {
+          "ops": 5734,
+          "ccx": 648,
+          "ccz": 2,
+          "hmr": 391,
+          "reset": 392,
+          "intervals": 1,
+          "static_toffoli": 650
+        },
+        "tlm_apply_inverse_mod_sub_fold_initial": {
+          "ops": 659,
+          "ccx": 55,
+          "ccz": 2,
+          "hmr": 55,
+          "reset": 55,
+          "intervals": 1,
+          "static_toffoli": 57
+        },
+        "tlm_apply_inverse_mod_sub_clean_initial": {
+          "ops": 316,
+          "ccx": 19,
+          "ccz": 0,
+          "hmr": 20,
+          "reset": 22,
+          "intervals": 1,
+          "static_toffoli": 19
+        },
+        "tlm_inverse_gcd_forward_codec_initial": {
+          "ops": 9,
+          "ccx": 1,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 2,
+          "intervals": 1,
+          "static_toffoli": 1
+        },
+        "tlm_inverse_gcd_forward_shift": {
+          "ops": 139150,
+          "ccx": 34406,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 494,
+          "intervals": 258,
+          "static_toffoli": 34406
+        },
+        "tlm_inverse_gcd_forward_compare": {
+          "ops": 241296,
+          "ccx": 45379,
+          "ccz": 0,
+          "hmr": 9367,
+          "reset": 9625,
+          "intervals": 258,
+          "static_toffoli": 45379
+        },
+        "tlm_inverse_gcd_forward_body": {
+          "ops": 628072,
+          "ccx": 76822,
+          "ccz": 399,
+          "hmr": 42158,
+          "reset": 42618,
+          "intervals": 258,
+          "static_toffoli": 77221
+        },
+        "tlm_apply_inverse_fold": {
+          "ops": 486532,
+          "ccx": 83042,
+          "ccz": 7,
+          "hmr": 16031,
+          "reset": 19846,
+          "intervals": 258,
+          "static_toffoli": 83049
+        },
+        "tlm_apply_inverse_swap": {
+          "ops": 196608,
+          "ccx": 65536,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 256,
+          "static_toffoli": 65536
+        },
+        "tlm_apply_inverse_mod_sub_register": {
+          "ops": 1392328,
+          "ccx": 161727,
+          "ccz": 1428,
+          "hmr": 93816,
+          "reset": 94807,
+          "intervals": 257,
+          "static_toffoli": 163155
+        },
+        "tlm_apply_inverse_mod_sub_fold": {
+          "ops": 183931,
+          "ccx": 15569,
+          "ccz": 693,
+          "hmr": 15489,
+          "reset": 15489,
+          "intervals": 257,
+          "static_toffoli": 16262
+        },
+        "tlm_apply_inverse_mod_sub_clean": {
+          "ops": 81110,
+          "ccx": 4900,
+          "ccz": 0,
+          "hmr": 5123,
+          "reset": 5637,
+          "intervals": 257,
+          "static_toffoli": 4900
+        },
+        "tlm_inverse_gcd_forward_codec": {
+          "ops": 14878,
+          "ccx": 1376,
+          "ccz": 0,
+          "hmr": 344,
+          "reset": 602,
+          "intervals": 258,
+          "static_toffoli": 1376
+        },
+        "tlm_apply_inverse_mod_sub": {
+          "ops": 1,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_gcd_step_end": {
+          "ops": 558,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 298,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "tlm_inverse_gcd_reverse_decode": {
+          "ops": 15222,
+          "ccx": 1462,
+          "ccz": 0,
+          "hmr": 258,
+          "reset": 1204,
+          "intervals": 258,
+          "static_toffoli": 1462
+        },
+        "tlm_inverse_gcd_reverse_apply": {
+          "ops": 258,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 258,
+          "static_toffoli": 0
+        },
+        "tlm_inverse_gcd_reverse_body": {
+          "ops": 832565,
+          "ccx": 148052,
+          "ccz": 0,
+          "hmr": 44576,
+          "reset": 44835,
+          "intervals": 258,
+          "static_toffoli": 148052
+        },
+        "tlm_inverse_gcd_reverse_decode_initial": {
+          "ops": 10,
+          "ccx": 1,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 3,
+          "intervals": 1,
+          "static_toffoli": 1
+        },
+        "tlm_inverse_gcd_reverse_apply_initial": {
+          "ops": 1,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_inverse_gcd_reverse_body_initial": {
+          "ops": 5606,
+          "ccx": 1273,
+          "ccz": 0,
+          "hmr": 254,
+          "reset": 256,
+          "intervals": 1,
+          "static_toffoli": 1273
+        },
+        "tlm_gcd_step_end_initial": {
+          "ops": 1522,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 772,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "tlm_coord_add3x": {
+          "ops": 41467,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "square_sum_hi_lo": {
+          "ops": 1787,
+          "ccx": 128,
+          "ccz": 0,
+          "hmr": 128,
+          "reset": 128,
+          "intervals": 1,
+          "static_toffoli": 128
+        },
+        "square_c_sum_build": {
+          "ops": 95835,
+          "ccx": 9283,
+          "ccz": 0,
+          "hmr": 8513,
+          "reset": 518,
+          "intervals": 1,
+          "static_toffoli": 9283
+        },
+        "square_c_sum_apply_shifted_128_sub_initial": {
+          "ops": 22814,
+          "ccx": 2374,
+          "ccz": 12,
+          "hmr": 1232,
+          "reset": 1956,
+          "intervals": 1,
+          "static_toffoli": 2386
+        },
+        "square_c_sum_unbuild": {
+          "ops": 96092,
+          "ccx": 9283,
+          "ccz": 0,
+          "hmr": 8513,
+          "reset": 776,
+          "intervals": 1,
+          "static_toffoli": 9283
+        },
+        "square_a_lo_build": {
+          "ops": 94388,
+          "ccx": 9147,
+          "ccz": 0,
+          "hmr": 8383,
+          "reset": 514,
+          "intervals": 1,
+          "static_toffoli": 9147
+        },
+        "square_a_lo_apply_unshifted_sub_initial": {
+          "ops": 4780,
+          "ccx": 336,
+          "ccz": 2,
+          "hmr": 325,
+          "reset": 328,
+          "intervals": 1,
+          "static_toffoli": 338
+        },
+        "square_a_lo_apply_shifted_128_add_initial": {
+          "ops": 20548,
+          "ccx": 2372,
+          "ccz": 12,
+          "hmr": 1234,
+          "reset": 1968,
+          "intervals": 1,
+          "static_toffoli": 2384
+        },
+        "square_a_lo_unbuild": {
+          "ops": 94643,
+          "ccx": 9147,
+          "ccz": 0,
+          "hmr": 8383,
+          "reset": 770,
+          "intervals": 1,
+          "static_toffoli": 9147
+        },
+        "square_b_hi_build": {
+          "ops": 94388,
+          "ccx": 9147,
+          "ccz": 0,
+          "hmr": 8383,
+          "reset": 514,
+          "intervals": 1,
+          "static_toffoli": 9147
+        },
+        "square_b_hi_apply_shifted_128_add_initial": {
+          "ops": 20548,
+          "ccx": 2372,
+          "ccz": 12,
+          "hmr": 1234,
+          "reset": 1968,
+          "intervals": 1,
+          "static_toffoli": 2384
+        },
+        "square_b_hi_apply_f_times_sub_initial": {
+          "ops": 56240,
+          "ccx": 4466,
+          "ccz": 114,
+          "hmr": 4455,
+          "reset": 4470,
+          "intervals": 1,
+          "static_toffoli": 4580
+        },
+        "square_b_hi_unbuild": {
+          "ops": 94643,
+          "ccx": 9147,
+          "ccz": 0,
+          "hmr": 8383,
+          "reset": 770,
+          "intervals": 1,
+          "static_toffoli": 9147
+        },
+        "square_sum_hi_lo_unbuild": {
+          "ops": 1420,
+          "ccx": 258,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 131,
+          "intervals": 1,
+          "static_toffoli": 258
+        },
+        "tlm_forward_multiply": {
+          "ops": 250,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_multiply_gcd_forward_shift_initial": {
+          "ops": 1532,
+          "ccx": 509,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 509
+        },
+        "tlm_multiply_gcd_forward_compare_initial": {
+          "ops": 766,
+          "ccx": 255,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 255
+        },
+        "tlm_multiply_gcd_forward_body_initial": {
+          "ops": 3821,
+          "ccx": 509,
+          "ccz": 0,
+          "hmr": 254,
+          "reset": 255,
+          "intervals": 1,
+          "static_toffoli": 509
+        },
+        "tlm_multiply_gcd_forward_apply_initial": {
+          "ops": 1,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_multiply_gcd_forward_codec_initial": {
+          "ops": 9,
+          "ccx": 1,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 2,
+          "intervals": 1,
+          "static_toffoli": 1
+        },
+        "tlm_multiply_gcd_forward_shift": {
+          "ops": 139150,
+          "ccx": 34406,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 494,
+          "intervals": 258,
+          "static_toffoli": 34406
+        },
+        "tlm_multiply_gcd_forward_compare": {
+          "ops": 244566,
+          "ccx": 44834,
+          "ccz": 0,
+          "hmr": 9912,
+          "reset": 10170,
+          "intervals": 258,
+          "static_toffoli": 44834
+        },
+        "tlm_multiply_gcd_forward_body": {
+          "ops": 518928,
+          "ccx": 69070,
+          "ccz": 0,
+          "hmr": 34406,
+          "reset": 34664,
+          "intervals": 258,
+          "static_toffoli": 69070
+        },
+        "tlm_multiply_gcd_forward_apply": {
+          "ops": 258,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 258,
+          "static_toffoli": 0
+        },
+        "tlm_multiply_gcd_forward_codec": {
+          "ops": 14878,
+          "ccx": 1376,
+          "ccz": 0,
+          "hmr": 344,
+          "reset": 602,
+          "intervals": 258,
+          "static_toffoli": 1376
+        },
+        "tlm_multiply_gcd_reverse_decode": {
+          "ops": 15222,
+          "ccx": 1462,
+          "ccz": 0,
+          "hmr": 258,
+          "reset": 1204,
+          "intervals": 258,
+          "static_toffoli": 1462
+        },
+        "tlm_multiply_gcd_reverse_apply": {
+          "ops": 258,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 258,
+          "static_toffoli": 0
+        },
+        "tlm_apply_forward_fold": {
+          "ops": 459770,
+          "ccx": 82781,
+          "ccz": 6,
+          "hmr": 16274,
+          "reset": 19827,
+          "intervals": 258,
+          "static_toffoli": 82787
+        },
+        "tlm_multiply_gcd_reverse_body": {
+          "ops": 938439,
+          "ccx": 156349,
+          "ccz": 399,
+          "hmr": 51783,
+          "reset": 52244,
+          "intervals": 258,
+          "static_toffoli": 156748
+        },
+        "tlm_apply_forward_mod_add_register": {
+          "ops": 1244571,
+          "ccx": 160571,
+          "ccz": 1428,
+          "hmr": 92660,
+          "reset": 93662,
+          "intervals": 257,
+          "static_toffoli": 161999
+        },
+        "tlm_apply_forward_mod_add_fold": {
+          "ops": 158835,
+          "ccx": 15711,
+          "ccz": 732,
+          "hmr": 15711,
+          "reset": 15711,
+          "intervals": 257,
+          "static_toffoli": 16443
+        },
+        "tlm_apply_forward_mod_add_clean": {
+          "ops": 71601,
+          "ccx": 4900,
+          "ccz": 0,
+          "hmr": 5123,
+          "reset": 5637,
+          "intervals": 257,
+          "static_toffoli": 4900
+        },
+        "tlm_apply_forward_swap": {
+          "ops": 195840,
+          "ccx": 65280,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 255,
+          "static_toffoli": 65280
+        },
+        "tlm_multiply_gcd_reverse_decode_initial": {
+          "ops": 10,
+          "ccx": 1,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 3,
+          "intervals": 1,
+          "static_toffoli": 1
+        },
+        "tlm_multiply_gcd_reverse_apply_initial": {
+          "ops": 1,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_apply_forward_mod_add_register_initial": {
+          "ops": 3949,
+          "ccx": 557,
+          "ccz": 2,
+          "hmr": 300,
+          "reset": 302,
+          "intervals": 1,
+          "static_toffoli": 559
+        },
+        "tlm_apply_forward_mod_add_fold_initial": {
+          "ops": 553,
+          "ccx": 55,
+          "ccz": 2,
+          "hmr": 55,
+          "reset": 55,
+          "intervals": 1,
+          "static_toffoli": 57
+        },
+        "tlm_apply_forward_mod_add_clean_initial": {
+          "ops": 279,
+          "ccx": 19,
+          "ccz": 0,
+          "hmr": 20,
+          "reset": 22,
+          "intervals": 1,
+          "static_toffoli": 19
+        },
+        "tlm_apply_forward_swap_initial": {
+          "ops": 768,
+          "ccx": 256,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 256
+        },
+        "tlm_apply_forward_fold_initial": {
+          "ops": 2652,
+          "ccx": 622,
+          "ccz": 4,
+          "hmr": 112,
+          "reset": 112,
+          "intervals": 1,
+          "static_toffoli": 626
+        },
+        "tlm_multiply_gcd_reverse_body_initial": {
+          "ops": 6169,
+          "ccx": 1313,
+          "ccz": 2,
+          "hmr": 294,
+          "reset": 297,
+          "intervals": 1,
+          "static_toffoli": 1315
+        },
+        "tlm_coord_y_sub_final": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_coord_rsub_final": {
+          "ops": 12310,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        }
+      },
+      "raw_static_toffoli": 1357682,
+      "raw_operations": 9031983,
+      "live_peak": 1150,
+      "peak_owners": [
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/mod.rs",
+          "line": "464",
+          "count": "256"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_apply_forward_fold",
+          "file": "src/bin/../point_add/trailmix_ludicrous/arith.rs",
+          "line": "991",
+          "count": "9"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_apply_forward_fold",
+          "file": "src/bin/../point_add/trailmix_ludicrous/arith.rs",
+          "line": "1179",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_apply_forward_fold",
+          "file": "src/bin/../point_add/trailmix_ludicrous/arith.rs",
+          "line": "1207",
+          "count": "5"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_apply_forward_fold",
+          "file": "src/bin/../point_add/trailmix_ludicrous/fused.rs",
+          "line": "1911",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_forward_multiply",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1200",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_gcd_step_end",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1462",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_gcd_step_end",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1463",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_gcd_step_end",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1464",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_gcd_step_end",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1920",
+          "count": "256"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_multiply_gcd_forward_codec",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1355",
+          "count": "601"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_multiply_gcd_reverse_decode",
+          "file": "src/bin/../point_add/trailmix_ludicrous/codec.rs",
+          "line": "427",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_multiply_gcd_reverse_decode",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1481",
+          "count": "8"
+        },
+        {
+          "peak_phase": "tlm_apply_forward_fold",
+          "active": "1150",
+          "op_index": "5913573",
+          "allocation_phase": "tlm_multiply_gcd_reverse_decode",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1484",
+          "count": "8"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/mod.rs",
+          "line": "463",
+          "count": "63"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/mod.rs",
+          "line": "464",
+          "count": "256"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_apply_inverse_mod_sub",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1834",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_apply_inverse_mod_sub_fold",
+          "file": "src/bin/../point_add/trailmix_ludicrous/arith.rs",
+          "line": "991",
+          "count": "6"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_apply_inverse_mod_sub_fold",
+          "file": "src/bin/../point_add/trailmix_ludicrous/arith.rs",
+          "line": "1179",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_apply_inverse_mod_sub_fold",
+          "file": "src/bin/../point_add/trailmix_ludicrous/arith.rs",
+          "line": "1207",
+          "count": "31"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1189",
+          "count": "63"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1197",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1199",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1200",
+          "count": "1"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_inverse",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1906",
+          "count": "256"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_inverse_gcd_forward_codec",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1355",
+          "count": "469"
+        },
+        {
+          "peak_phase": "tlm_apply_inverse_mod_sub_fold",
+          "active": "1150",
+          "op_index": "2695508",
+          "allocation_phase": "tlm_inverse_gcd_forward_compare",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1262",
+          "count": "1"
+        }
+      ],
+      "phase_live_peaks": {
+        "init": 512,
+        "square_a_lo_apply_shifted_128_add": 1149,
+        "square_a_lo_apply_unshifted_sub": 1149,
+        "square_a_lo_build": 1026,
+        "square_a_lo_unbuild": 1026,
+        "square_b_hi_apply_f_times_sub": 1149,
+        "square_b_hi_apply_shifted_128_add": 1149,
+        "square_b_hi_build": 1026,
+        "square_b_hi_unbuild": 1026,
+        "square_c_sum_apply_shifted_128_sub": 1149,
+        "square_c_sum_build": 1029,
+        "square_c_sum_unbuild": 1029,
+        "square_sum_hi_lo": 769,
+        "square_sum_hi_lo_unbuild": 643,
+        "tlm_apply_forward_fold": 1150,
+        "tlm_apply_forward_mod_add": 1134,
+        "tlm_apply_forward_mod_add_clean": 1149,
+        "tlm_apply_forward_mod_add_fold": 1149,
+        "tlm_apply_forward_mod_add_register": 1149,
+        "tlm_apply_forward_swap": 1134,
+        "tlm_apply_inverse_fold": 1149,
+        "tlm_apply_inverse_mod_sub": 1136,
+        "tlm_apply_inverse_mod_sub_clean": 1149,
+        "tlm_apply_inverse_mod_sub_fold": 1150,
+        "tlm_apply_inverse_mod_sub_register": 1149,
+        "tlm_apply_inverse_swap": 1134,
+        "tlm_coord_add3x": 1026,
+        "tlm_coord_rsub_final": 1026,
+        "tlm_coord_x_sub": 1026,
+        "tlm_coord_y_sub": 1026,
+        "tlm_coord_y_sub_final": 1026,
+        "tlm_forward_multiply": 771,
+        "tlm_gcd_step_end": 1137,
+        "tlm_inverse": 1027,
+        "tlm_inverse_gcd_forward_apply": 1135,
+        "tlm_inverse_gcd_forward_body": 1149,
+        "tlm_inverse_gcd_forward_codec": 1144,
+        "tlm_inverse_gcd_forward_compare": 1149,
+        "tlm_inverse_gcd_forward_shift": 1136,
+        "tlm_inverse_gcd_reverse_apply": 880,
+        "tlm_inverse_gcd_reverse_body": 1047,
+        "tlm_inverse_gcd_reverse_decode": 888,
+        "tlm_multiply_gcd_forward_apply": 880,
+        "tlm_multiply_gcd_forward_body": 1047,
+        "tlm_multiply_gcd_forward_codec": 888,
+        "tlm_multiply_gcd_forward_compare": 912,
+        "tlm_multiply_gcd_forward_shift": 880,
+        "tlm_multiply_gcd_reverse_apply": 1136,
+        "tlm_multiply_gcd_reverse_body": 1149,
+        "tlm_multiply_gcd_reverse_decode": 1144,
+        "tlm_square": 512
+      }
+    },
+    "ablation-legacy-product": {
+      "name": "ablation-legacy-product",
+      "source": "original-pingpong",
+      "instrumented": true,
+      "count_only": false,
+      "settings": {
+        "CONSTPROP_DISABLE": "1",
+        "SINGLE_CCX_FANOUT_DISABLE": "1",
+        "TLM_TARGET_Q": "1150",
+        "TLM_FOLD_CHUNK_ZERO_CIN": "1",
+        "TLM_FFG_MAX_G": "47",
+        "TLM_APPLY_ADD_SKIP_LASTK": "1",
+        "DIALOG_TAIL_NONCE": "2430844",
+        "DIALOG_GCD_FOLD_MAJ1": "1",
+        "SUB4_LEGACY_POINT_ADD": "1"
+      },
+      "exit_code": 0,
+      "compressed_sha256": "79e70d9612d63decc405181d83d406a3a04b3de192ae9ef238be5b255c87de85",
+      "compressed_bytes": 31319124,
+      "operations": 9277283,
+      "stream": {
+        "operations": 9277283,
+        "static_toffoli": 1349527,
+        "raw_body_sha256": "4c72c18f84f41b04b73b7fc954a61c9482203a435a646c8f4fda7c275d0a8770",
+        "kind_counts": {
+          "15": 532612,
+          "6": 695182,
+          "16": 532612,
+          "8": 4292087,
+          "13": 1344377,
+          "12": 516885,
+          "11": 539787,
+          "9": 517843,
+          "7": 7882,
+          "14": 5150,
+          "10": 275126,
+          "0": 1568,
+          "4": 5965,
+          "3": 6302,
+          "5": 2877,
+          "2": 1024,
+          "1": 4
+        }
+      },
+      "allocator": {
+        "peak_qubits": 1287,
+        "max_wire_plus_one": 1287,
+        "peak_phase": "square_product_register",
+        "peak_op_index": 5056182,
+        "final_active": 512,
+        "count_only": "false",
+        "precompiler_ops": 9277283
+      },
+      "category_ledger": {
+        "coordinates": {
+          "ops": 73602,
+          "ccx": 1650,
+          "ccz": 10,
+          "hmr": 1655,
+          "reset": 2950,
+          "static_toffoli": 1660
+        },
+        "other_tlm_inverse": {
+          "ops": 506,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "jump2_value_initial": {
+          "ops": 26098,
+          "ccx": 5172,
+          "ccz": 4,
+          "hmr": 1096,
+          "reset": 1876,
+          "static_toffoli": 5176
+        },
+        "jump2_payload_initial": {
+          "ops": 18539,
+          "ccx": 3111,
+          "ccz": 16,
+          "hmr": 1063,
+          "reset": 1072,
+          "static_toffoli": 3127
+        },
+        "jump2_codec_initial": {
+          "ops": 38,
+          "ccx": 4,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 10,
+          "static_toffoli": 4
+        },
+        "jump2_value_ordinary": {
+          "ops": 3682724,
+          "ccx": 609318,
+          "ccz": 798,
+          "hmr": 192202,
+          "reset": 195442,
+          "static_toffoli": 610116
+        },
+        "jump2_payload_ordinary": {
+          "ops": 4471975,
+          "ccx": 660015,
+          "ccz": 4304,
+          "hmr": 260225,
+          "reset": 270614,
+          "static_toffoli": 664319
+        },
+        "jump2_codec_ordinary": {
+          "ops": 60200,
+          "ccx": 5676,
+          "ccz": 0,
+          "hmr": 1204,
+          "reset": 3612,
+          "static_toffoli": 5676
+        },
+        "square": {
+          "ops": 943351,
+          "ccx": 59431,
+          "ccz": 18,
+          "hmr": 59440,
+          "reset": 64211,
+          "static_toffoli": 59449
+        },
+        "other_tlm_forward_multiply": {
+          "ops": 250,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        }
+      },
+      "phase_ledger": {
+        "tlm_coord_x_sub": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_coord_y_sub": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_inverse": {
+          "ops": 506,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_inverse_gcd_forward_shift_initial": {
+          "ops": 1532,
+          "ccx": 509,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 509
+        },
+        "tlm_inverse_gcd_forward_compare_initial": {
+          "ops": 766,
+          "ccx": 255,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 255
+        },
+        "tlm_inverse_gcd_forward_body_initial": {
+          "ops": 4384,
+          "ccx": 549,
+          "ccz": 2,
+          "hmr": 294,
+          "reset": 296,
+          "intervals": 1,
+          "static_toffoli": 551
+        },
+        "tlm_apply_inverse_fold_initial": {
+          "ops": 2858,
+          "ccx": 624,
+          "ccz": 4,
+          "hmr": 110,
+          "reset": 112,
+          "intervals": 1,
+          "static_toffoli": 628
+        },
+        "tlm_apply_inverse_swap_initial": {
+          "ops": 768,
+          "ccx": 256,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 256
+        },
+        "tlm_apply_inverse_mod_sub_register_initial": {
+          "ops": 5734,
+          "ccx": 648,
+          "ccz": 2,
+          "hmr": 391,
+          "reset": 392,
+          "intervals": 1,
+          "static_toffoli": 650
+        },
+        "tlm_apply_inverse_mod_sub_fold_initial": {
+          "ops": 659,
+          "ccx": 55,
+          "ccz": 2,
+          "hmr": 55,
+          "reset": 55,
+          "intervals": 1,
+          "static_toffoli": 57
+        },
+        "tlm_apply_inverse_mod_sub_clean_initial": {
+          "ops": 316,
+          "ccx": 19,
+          "ccz": 0,
+          "hmr": 20,
+          "reset": 22,
+          "intervals": 1,
+          "static_toffoli": 19
+        },
+        "tlm_inverse_gcd_forward_codec_initial": {
+          "ops": 9,
+          "ccx": 1,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 2,
+          "intervals": 1,
+          "static_toffoli": 1
+        },
+        "tlm_inverse_gcd_forward_shift": {
+          "ops": 139150,
+          "ccx": 34406,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 494,
+          "intervals": 258,
+          "static_toffoli": 34406
+        },
+        "tlm_inverse_gcd_forward_compare": {
+          "ops": 241296,
+          "ccx": 45379,
+          "ccz": 0,
+          "hmr": 9367,
+          "reset": 9625,
+          "intervals": 258,
+          "static_toffoli": 45379
+        },
+        "tlm_inverse_gcd_forward_body": {
+          "ops": 628072,
+          "ccx": 76822,
+          "ccz": 399,
+          "hmr": 42158,
+          "reset": 42618,
+          "intervals": 258,
+          "static_toffoli": 77221
+        },
+        "tlm_apply_inverse_fold": {
+          "ops": 486532,
+          "ccx": 83042,
+          "ccz": 7,
+          "hmr": 16031,
+          "reset": 19846,
+          "intervals": 258,
+          "static_toffoli": 83049
+        },
+        "tlm_apply_inverse_swap": {
+          "ops": 196608,
+          "ccx": 65536,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 256,
+          "static_toffoli": 65536
+        },
+        "tlm_apply_inverse_mod_sub_register": {
+          "ops": 1392328,
+          "ccx": 161727,
+          "ccz": 1428,
+          "hmr": 93816,
+          "reset": 94807,
+          "intervals": 257,
+          "static_toffoli": 163155
+        },
+        "tlm_apply_inverse_mod_sub_fold": {
+          "ops": 183931,
+          "ccx": 15569,
+          "ccz": 693,
+          "hmr": 15489,
+          "reset": 15489,
+          "intervals": 257,
+          "static_toffoli": 16262
+        },
+        "tlm_apply_inverse_mod_sub_clean": {
+          "ops": 81110,
+          "ccx": 4900,
+          "ccz": 0,
+          "hmr": 5123,
+          "reset": 5637,
+          "intervals": 257,
+          "static_toffoli": 4900
+        },
+        "tlm_inverse_gcd_forward_codec": {
+          "ops": 14878,
+          "ccx": 1376,
+          "ccz": 0,
+          "hmr": 344,
+          "reset": 602,
+          "intervals": 258,
+          "static_toffoli": 1376
+        },
+        "tlm_apply_inverse_mod_sub": {
+          "ops": 1,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_gcd_step_end": {
+          "ops": 558,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 298,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "tlm_inverse_gcd_reverse_decode": {
+          "ops": 15222,
+          "ccx": 1462,
+          "ccz": 0,
+          "hmr": 258,
+          "reset": 1204,
+          "intervals": 258,
+          "static_toffoli": 1462
+        },
+        "tlm_inverse_gcd_reverse_apply": {
+          "ops": 258,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 258,
+          "static_toffoli": 0
+        },
+        "tlm_inverse_gcd_reverse_body": {
+          "ops": 832565,
+          "ccx": 148052,
+          "ccz": 0,
+          "hmr": 44576,
+          "reset": 44835,
+          "intervals": 258,
+          "static_toffoli": 148052
+        },
+        "tlm_inverse_gcd_reverse_decode_initial": {
+          "ops": 10,
+          "ccx": 1,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 3,
+          "intervals": 1,
+          "static_toffoli": 1
+        },
+        "tlm_inverse_gcd_reverse_apply_initial": {
+          "ops": 1,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_inverse_gcd_reverse_body_initial": {
+          "ops": 5606,
+          "ccx": 1273,
+          "ccz": 0,
+          "hmr": 254,
+          "reset": 256,
+          "intervals": 1,
+          "static_toffoli": 1273
+        },
+        "tlm_gcd_step_end_initial": {
+          "ops": 1522,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 772,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "tlm_coord_add3x": {
+          "ops": 41467,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "square_product_register": {
+          "ops": 943351,
+          "ccx": 59431,
+          "ccz": 18,
+          "hmr": 59440,
+          "reset": 64211,
+          "intervals": 1,
+          "static_toffoli": 59449
+        },
+        "tlm_forward_multiply": {
+          "ops": 250,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_multiply_gcd_forward_shift_initial": {
+          "ops": 1532,
+          "ccx": 509,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 509
+        },
+        "tlm_multiply_gcd_forward_compare_initial": {
+          "ops": 766,
+          "ccx": 255,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 255
+        },
+        "tlm_multiply_gcd_forward_body_initial": {
+          "ops": 3821,
+          "ccx": 509,
+          "ccz": 0,
+          "hmr": 254,
+          "reset": 255,
+          "intervals": 1,
+          "static_toffoli": 509
+        },
+        "tlm_multiply_gcd_forward_apply_initial": {
+          "ops": 1,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_multiply_gcd_forward_codec_initial": {
+          "ops": 9,
+          "ccx": 1,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 2,
+          "intervals": 1,
+          "static_toffoli": 1
+        },
+        "tlm_multiply_gcd_forward_shift": {
+          "ops": 139150,
+          "ccx": 34406,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 494,
+          "intervals": 258,
+          "static_toffoli": 34406
+        },
+        "tlm_multiply_gcd_forward_compare": {
+          "ops": 244566,
+          "ccx": 44834,
+          "ccz": 0,
+          "hmr": 9912,
+          "reset": 10170,
+          "intervals": 258,
+          "static_toffoli": 44834
+        },
+        "tlm_multiply_gcd_forward_body": {
+          "ops": 518928,
+          "ccx": 69070,
+          "ccz": 0,
+          "hmr": 34406,
+          "reset": 34664,
+          "intervals": 258,
+          "static_toffoli": 69070
+        },
+        "tlm_multiply_gcd_forward_apply": {
+          "ops": 258,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 258,
+          "static_toffoli": 0
+        },
+        "tlm_multiply_gcd_forward_codec": {
+          "ops": 14878,
+          "ccx": 1376,
+          "ccz": 0,
+          "hmr": 344,
+          "reset": 602,
+          "intervals": 258,
+          "static_toffoli": 1376
+        },
+        "tlm_multiply_gcd_reverse_decode": {
+          "ops": 15222,
+          "ccx": 1462,
+          "ccz": 0,
+          "hmr": 258,
+          "reset": 1204,
+          "intervals": 258,
+          "static_toffoli": 1462
+        },
+        "tlm_multiply_gcd_reverse_apply": {
+          "ops": 258,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 258,
+          "static_toffoli": 0
+        },
+        "tlm_apply_forward_fold": {
+          "ops": 459770,
+          "ccx": 82781,
+          "ccz": 6,
+          "hmr": 16274,
+          "reset": 19827,
+          "intervals": 258,
+          "static_toffoli": 82787
+        },
+        "tlm_multiply_gcd_reverse_body": {
+          "ops": 938439,
+          "ccx": 156349,
+          "ccz": 399,
+          "hmr": 51783,
+          "reset": 52244,
+          "intervals": 258,
+          "static_toffoli": 156748
+        },
+        "tlm_apply_forward_mod_add_register": {
+          "ops": 1244571,
+          "ccx": 160571,
+          "ccz": 1428,
+          "hmr": 92660,
+          "reset": 93662,
+          "intervals": 257,
+          "static_toffoli": 161999
+        },
+        "tlm_apply_forward_mod_add_fold": {
+          "ops": 158909,
+          "ccx": 15709,
+          "ccz": 742,
+          "hmr": 15709,
+          "reset": 15709,
+          "intervals": 257,
+          "static_toffoli": 16451
+        },
+        "tlm_apply_forward_mod_add_clean": {
+          "ops": 71601,
+          "ccx": 4900,
+          "ccz": 0,
+          "hmr": 5123,
+          "reset": 5637,
+          "intervals": 257,
+          "static_toffoli": 4900
+        },
+        "tlm_apply_forward_swap": {
+          "ops": 195840,
+          "ccx": 65280,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 255,
+          "static_toffoli": 65280
+        },
+        "tlm_multiply_gcd_reverse_decode_initial": {
+          "ops": 10,
+          "ccx": 1,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 3,
+          "intervals": 1,
+          "static_toffoli": 1
+        },
+        "tlm_multiply_gcd_reverse_apply_initial": {
+          "ops": 1,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "tlm_apply_forward_mod_add_register_initial": {
+          "ops": 3949,
+          "ccx": 557,
+          "ccz": 2,
+          "hmr": 300,
+          "reset": 302,
+          "intervals": 1,
+          "static_toffoli": 559
+        },
+        "tlm_apply_forward_mod_add_fold_initial": {
+          "ops": 553,
+          "ccx": 55,
+          "ccz": 2,
+          "hmr": 55,
+          "reset": 55,
+          "intervals": 1,
+          "static_toffoli": 57
+        },
+        "tlm_apply_forward_mod_add_clean_initial": {
+          "ops": 279,
+          "ccx": 19,
+          "ccz": 0,
+          "hmr": 20,
+          "reset": 22,
+          "intervals": 1,
+          "static_toffoli": 19
+        },
+        "tlm_apply_forward_swap_initial": {
+          "ops": 768,
+          "ccx": 256,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 256
+        },
+        "tlm_apply_forward_fold_initial": {
+          "ops": 2652,
+          "ccx": 622,
+          "ccz": 4,
+          "hmr": 112,
+          "reset": 112,
+          "intervals": 1,
+          "static_toffoli": 626
+        },
+        "tlm_multiply_gcd_reverse_body_initial": {
+          "ops": 6169,
+          "ccx": 1313,
+          "ccz": 2,
+          "hmr": 294,
+          "reset": 297,
+          "intervals": 1,
+          "static_toffoli": 1315
+        },
+        "tlm_coord_y_sub_final": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_coord_rsub_final": {
+          "ops": 12311,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        }
+      },
+      "raw_static_toffoli": 1349527,
+      "raw_operations": 9277283,
+      "live_peak": 1287,
+      "peak_owners": [
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/trailmix_ludicrous/mod.rs",
+          "line": "464",
+          "count": "256"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/arith.rs",
+          "line": "788",
+          "count": "257"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "120",
+          "count": "129"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "300",
+          "count": "1"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "301",
+          "count": "1"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "304",
+          "count": "129"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "square_product_register",
+          "file": "src/bin/../point_add/trailmix_ludicrous/square/product_register.rs",
+          "line": "332",
+          "count": "258"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "tlm_inverse_gcd_reverse_body",
+          "file": "reacquire",
+          "line": "0",
+          "count": "1"
+        },
+        {
+          "peak_phase": "square_product_register",
+          "active": "1287",
+          "op_index": "5056182",
+          "allocation_phase": "tlm_inverse_gcd_reverse_decode",
+          "file": "src/bin/../point_add/trailmix_ludicrous/gcd.rs",
+          "line": "1484",
+          "count": "255"
+        }
+      ],
+      "phase_live_peaks": {
+        "init": 512,
+        "square_product_register": 1287,
+        "tlm_apply_forward_fold": 1150,
+        "tlm_apply_forward_mod_add": 1134,
+        "tlm_apply_forward_mod_add_clean": 1149,
+        "tlm_apply_forward_mod_add_fold": 1150,
+        "tlm_apply_forward_mod_add_register": 1149,
+        "tlm_apply_forward_swap": 1134,
+        "tlm_apply_inverse_fold": 1149,
+        "tlm_apply_inverse_mod_sub": 1136,
+        "tlm_apply_inverse_mod_sub_clean": 1149,
+        "tlm_apply_inverse_mod_sub_fold": 1150,
+        "tlm_apply_inverse_mod_sub_register": 1149,
+        "tlm_apply_inverse_swap": 1134,
+        "tlm_coord_add3x": 1026,
+        "tlm_coord_rsub_final": 1026,
+        "tlm_coord_x_sub": 1026,
+        "tlm_coord_y_sub": 1026,
+        "tlm_coord_y_sub_final": 1026,
+        "tlm_forward_multiply": 771,
+        "tlm_gcd_step_end": 1137,
+        "tlm_inverse": 1027,
+        "tlm_inverse_gcd_forward_apply": 1135,
+        "tlm_inverse_gcd_forward_body": 1149,
+        "tlm_inverse_gcd_forward_codec": 1144,
+        "tlm_inverse_gcd_forward_compare": 1149,
+        "tlm_inverse_gcd_forward_shift": 1136,
+        "tlm_inverse_gcd_reverse_apply": 880,
+        "tlm_inverse_gcd_reverse_body": 1047,
+        "tlm_inverse_gcd_reverse_decode": 888,
+        "tlm_multiply_gcd_forward_apply": 880,
+        "tlm_multiply_gcd_forward_body": 1047,
+        "tlm_multiply_gcd_forward_codec": 888,
+        "tlm_multiply_gcd_forward_compare": 912,
+        "tlm_multiply_gcd_forward_shift": 880,
+        "tlm_multiply_gcd_reverse_apply": 1136,
+        "tlm_multiply_gcd_reverse_body": 1149,
+        "tlm_multiply_gcd_reverse_decode": 1144,
+        "tlm_square": 512
+      }
+    },
+    "ablation-pingpong-legacy": {
+      "name": "ablation-pingpong-legacy",
+      "source": "original-pingpong",
+      "instrumented": true,
+      "count_only": false,
+      "settings": {
+        "CONSTPROP_DISABLE": "1",
+        "SINGLE_CCX_FANOUT_DISABLE": "1",
+        "TLM_TARGET_Q": "1150",
+        "TLM_FOLD_CHUNK_ZERO_CIN": "1",
+        "TLM_FFG_MAX_G": "47",
+        "TLM_APPLY_ADD_SKIP_LASTK": "1",
+        "DIALOG_TAIL_NONCE": "2430844",
+        "DIALOG_GCD_FOLD_MAJ1": "1",
+        "SUB4_LEGACY_SQUARE": "1"
+      },
+      "exit_code": 0,
+      "compressed_sha256": "0736d94737265783ca4df8fc162381b19b3ecb69ec9eb4b07d84eedca01af44d",
+      "compressed_bytes": 51984839,
+      "operations": 13341608,
+      "stream": {
+        "operations": 13341608,
+        "static_toffoli": 1017240,
+        "raw_body_sha256": "38c6f8113cba3cf2db35473f7d4117b69f7fa9567960488505a0ed0aadc46c02",
+        "kind_counts": {
+          "15": 29534,
+          "6": 261802,
+          "16": 29534,
+          "8": 8220051,
+          "13": 1017078,
+          "12": 1008795,
+          "11": 986387,
+          "9": 1005878,
+          "7": 4403,
+          "14": 162,
+          "10": 761812,
+          "4": 5965,
+          "3": 6302,
+          "5": 2877,
+          "2": 1024,
+          "1": 4
+        }
+      },
+      "allocator": {
+        "peak_qubits": 1321,
+        "max_wire_plus_one": 1321,
+        "peak_phase": "pp_replay_halving_initial",
+        "peak_op_index": 1319752,
+        "final_active": 512,
+        "count_only": "false",
+        "precompiler_ops": 13341512
+      },
+      "category_ledger": {
+        "coordinates": {
+          "ops": 73262,
+          "ccx": 1650,
+          "ccz": 10,
+          "hmr": 1655,
+          "reset": 2950,
+          "static_toffoli": 1660
+        },
+        "pp_setup": {
+          "ops": 500,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_value_forward": {
+          "ops": 2612570,
+          "ccx": 197884,
+          "ccz": 0,
+          "hmr": 197884,
+          "reset": 201706,
+          "static_toffoli": 197884
+        },
+        "pp_replay_halving_initial": {
+          "ops": 924,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "static_toffoli": 88
+        },
+        "pp_replay_halving_seed": {
+          "ops": 1935,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "static_toffoli": 152
+        },
+        "pp_replay_halving_ordinary": {
+          "ops": 3666546,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 280800,
+          "static_toffoli": 275886
+        },
+        "pp_endpoint": {
+          "ops": 3920,
+          "ccx": 348,
+          "ccz": 0,
+          "hmr": 352,
+          "reset": 352,
+          "static_toffoli": 348
+        },
+        "pp_coefficient_clear": {
+          "ops": 512,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 512,
+          "static_toffoli": 0
+        },
+        "pp_value_reverse": {
+          "ops": 2607322,
+          "ccx": 197484,
+          "ccz": 0,
+          "hmr": 197484,
+          "reset": 201710,
+          "static_toffoli": 197484
+        },
+        "pp_restore_layout": {
+          "ops": 2024,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 856,
+          "static_toffoli": 0
+        },
+        "square": {
+          "ops": 698126,
+          "ccx": 67460,
+          "ccz": 152,
+          "hmr": 59166,
+          "reset": 14811,
+          "static_toffoli": 67612
+        },
+        "pp_coefficient_allocate": {
+          "ops": 256,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_replay_inverse_ordinary": {
+          "ops": 3670758,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 282204,
+          "static_toffoli": 275886
+        },
+        "pp_replay_inverse_seed": {
+          "ops": 1934,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "static_toffoli": 152
+        },
+        "pp_replay_inverse_initial": {
+          "ops": 923,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "static_toffoli": 88
+        }
+      },
+      "phase_ledger": {
+        "tlm_coord_x_sub": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_coord_y_sub": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "pp_setup": {
+          "ops": 500,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "pp_value_forward": {
+          "ops": 2612570,
+          "ccx": 197884,
+          "ccz": 0,
+          "hmr": 197884,
+          "reset": 201706,
+          "intervals": 2,
+          "static_toffoli": 197884
+        },
+        "pp_replay_halving_initial": {
+          "ops": 924,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "intervals": 1,
+          "static_toffoli": 88
+        },
+        "pp_replay_halving_seed": {
+          "ops": 1935,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "intervals": 1,
+          "static_toffoli": 152
+        },
+        "pp_replay_halving_ordinary": {
+          "ops": 3666546,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 280800,
+          "intervals": 702,
+          "static_toffoli": 275886
+        },
+        "pp_endpoint": {
+          "ops": 3920,
+          "ccx": 348,
+          "ccz": 0,
+          "hmr": 352,
+          "reset": 352,
+          "intervals": 2,
+          "static_toffoli": 348
+        },
+        "pp_coefficient_clear": {
+          "ops": 512,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 512,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "pp_value_reverse": {
+          "ops": 2607322,
+          "ccx": 197484,
+          "ccz": 0,
+          "hmr": 197484,
+          "reset": 201710,
+          "intervals": 2,
+          "static_toffoli": 197484
+        },
+        "pp_restore_layout": {
+          "ops": 2024,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 856,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "tlm_coord_add3x": {
+          "ops": 41467,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "square_sum_hi_lo": {
+          "ops": 1787,
+          "ccx": 128,
+          "ccz": 0,
+          "hmr": 128,
+          "reset": 128,
+          "intervals": 1,
+          "static_toffoli": 128
+        },
+        "square_c_sum_build": {
+          "ops": 95835,
+          "ccx": 9283,
+          "ccz": 0,
+          "hmr": 8513,
+          "reset": 518,
+          "intervals": 1,
+          "static_toffoli": 9283
+        },
+        "square_c_sum_apply_shifted_128_sub": {
+          "ops": 22814,
+          "ccx": 2374,
+          "ccz": 12,
+          "hmr": 1232,
+          "reset": 1956,
+          "intervals": 1,
+          "static_toffoli": 2386
+        },
+        "square_c_sum_unbuild": {
+          "ops": 96092,
+          "ccx": 9283,
+          "ccz": 0,
+          "hmr": 8513,
+          "reset": 776,
+          "intervals": 1,
+          "static_toffoli": 9283
+        },
+        "square_a_lo_build": {
+          "ops": 94388,
+          "ccx": 9147,
+          "ccz": 0,
+          "hmr": 8383,
+          "reset": 514,
+          "intervals": 1,
+          "static_toffoli": 9147
+        },
+        "square_a_lo_apply_unshifted_sub": {
+          "ops": 4780,
+          "ccx": 336,
+          "ccz": 2,
+          "hmr": 325,
+          "reset": 328,
+          "intervals": 1,
+          "static_toffoli": 338
+        },
+        "square_a_lo_apply_shifted_128_add": {
+          "ops": 20548,
+          "ccx": 2372,
+          "ccz": 12,
+          "hmr": 1234,
+          "reset": 1968,
+          "intervals": 1,
+          "static_toffoli": 2384
+        },
+        "square_a_lo_unbuild": {
+          "ops": 94643,
+          "ccx": 9147,
+          "ccz": 0,
+          "hmr": 8383,
+          "reset": 770,
+          "intervals": 1,
+          "static_toffoli": 9147
+        },
+        "square_b_hi_build": {
+          "ops": 94388,
+          "ccx": 9147,
+          "ccz": 0,
+          "hmr": 8383,
+          "reset": 514,
+          "intervals": 1,
+          "static_toffoli": 9147
+        },
+        "square_b_hi_apply_shifted_128_add": {
+          "ops": 20548,
+          "ccx": 2372,
+          "ccz": 12,
+          "hmr": 1234,
+          "reset": 1968,
+          "intervals": 1,
+          "static_toffoli": 2384
+        },
+        "square_b_hi_apply_f_times_sub": {
+          "ops": 56240,
+          "ccx": 4466,
+          "ccz": 114,
+          "hmr": 4455,
+          "reset": 4470,
+          "intervals": 1,
+          "static_toffoli": 4580
+        },
+        "square_b_hi_unbuild": {
+          "ops": 94643,
+          "ccx": 9147,
+          "ccz": 0,
+          "hmr": 8383,
+          "reset": 770,
+          "intervals": 1,
+          "static_toffoli": 9147
+        },
+        "square_sum_hi_lo_unbuild": {
+          "ops": 1420,
+          "ccx": 258,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 131,
+          "intervals": 1,
+          "static_toffoli": 258
+        },
+        "pp_coefficient_allocate": {
+          "ops": 256,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "pp_replay_inverse_ordinary": {
+          "ops": 3670758,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 282204,
+          "intervals": 702,
+          "static_toffoli": 275886
+        },
+        "pp_replay_inverse_seed": {
+          "ops": 1934,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "intervals": 1,
+          "static_toffoli": 152
+        },
+        "pp_replay_inverse_initial": {
+          "ops": 923,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "intervals": 1,
+          "static_toffoli": 88
+        },
+        "tlm_coord_y_sub_final": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_coord_rsub_final": {
+          "ops": 11971,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        }
+      },
+      "raw_static_toffoli": 1017240,
+      "raw_operations": 13341512,
+      "live_peak": 1321,
+      "peak_owners": [
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1081",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1081",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12017337",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12017337",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12017337",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12017337",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12017337",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1102",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12017337",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12017337",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12017337",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12015403",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12015403",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12015403",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12015403",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12015403",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1102",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12015403",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12015403",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12015403",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        }
+      ],
+      "phase_live_peaks": {
+        "init": 512,
+        "pp_coefficient_allocate": 1232,
+        "pp_coefficient_clear": 1232,
+        "pp_endpoint": 1320,
+        "pp_replay_halving_initial": 1321,
+        "pp_replay_halving_ordinary": 1319,
+        "pp_replay_halving_seed": 1321,
+        "pp_replay_inverse_initial": 1321,
+        "pp_replay_inverse_ordinary": 1320,
+        "pp_replay_inverse_seed": 1321,
+        "pp_restore_layout": 775,
+        "pp_setup": 774,
+        "pp_value_forward": 1063,
+        "pp_value_reverse": 1063,
+        "square_a_lo_apply_shifted_128_add": 1149,
+        "square_a_lo_apply_unshifted_sub": 1149,
+        "square_a_lo_build": 1026,
+        "square_a_lo_unbuild": 1026,
+        "square_b_hi_apply_f_times_sub": 1149,
+        "square_b_hi_apply_shifted_128_add": 1149,
+        "square_b_hi_build": 1026,
+        "square_b_hi_unbuild": 1026,
+        "square_c_sum_apply_shifted_128_sub": 1149,
+        "square_c_sum_build": 1029,
+        "square_c_sum_unbuild": 1029,
+        "square_sum_hi_lo": 769,
+        "square_sum_hi_lo_unbuild": 643,
+        "tlm_coord_add3x": 1026,
+        "tlm_coord_rsub_final": 1026,
+        "tlm_coord_x_sub": 1026,
+        "tlm_coord_y_sub": 1026,
+        "tlm_coord_y_sub_final": 1026,
+        "tlm_forward_multiply": 512,
+        "tlm_inverse": 512,
+        "tlm_square": 512
+      }
+    },
+    "ablation-pingpong-product": {
+      "name": "ablation-pingpong-product",
+      "source": "original-pingpong",
+      "instrumented": true,
+      "count_only": false,
+      "settings": {
+        "CONSTPROP_DISABLE": "1",
+        "SINGLE_CCX_FANOUT_DISABLE": "1",
+        "TLM_TARGET_Q": "1150",
+        "TLM_FOLD_CHUNK_ZERO_CIN": "1",
+        "TLM_FFG_MAX_G": "47",
+        "TLM_APPLY_ADD_SKIP_LASTK": "1",
+        "DIALOG_TAIL_NONCE": "2430844",
+        "DIALOG_GCD_FOLD_MAJ1": "1"
+      },
+      "exit_code": 0,
+      "compressed_sha256": "8d135db0aa0123fd143fc78ee1dbbe5fe6b851af9003352fde0f2fcc90458b34",
+      "compressed_bytes": 52675661,
+      "operations": 13586833,
+      "stream": {
+        "operations": 13586833,
+        "static_toffoli": 1009077,
+        "raw_body_sha256": "e88796915ac65ad39e9ecf1af0cf9931f9d910a56749997f1ee9de131667471d",
+        "kind_counts": {
+          "15": 80366,
+          "6": 303880,
+          "16": 80366,
+          "8": 8280017,
+          "13": 1009049,
+          "12": 1009069,
+          "11": 1035787,
+          "9": 1006033,
+          "7": 4254,
+          "14": 28,
+          "10": 761812,
+          "4": 5965,
+          "3": 6302,
+          "5": 2877,
+          "2": 1024,
+          "1": 4
+        }
+      },
+      "allocator": {
+        "peak_qubits": 1321,
+        "max_wire_plus_one": 1321,
+        "peak_phase": "pp_replay_halving_initial",
+        "peak_op_index": 1319752,
+        "final_active": 512,
+        "count_only": "false",
+        "precompiler_ops": 13586737
+      },
+      "category_ledger": {
+        "coordinates": {
+          "ops": 73262,
+          "ccx": 1650,
+          "ccz": 10,
+          "hmr": 1655,
+          "reset": 2950,
+          "static_toffoli": 1660
+        },
+        "pp_setup": {
+          "ops": 500,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_value_forward": {
+          "ops": 2612570,
+          "ccx": 197884,
+          "ccz": 0,
+          "hmr": 197884,
+          "reset": 201706,
+          "static_toffoli": 197884
+        },
+        "pp_replay_halving_initial": {
+          "ops": 924,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "static_toffoli": 88
+        },
+        "pp_replay_halving_seed": {
+          "ops": 1935,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "static_toffoli": 152
+        },
+        "pp_replay_halving_ordinary": {
+          "ops": 3666546,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 280800,
+          "static_toffoli": 275886
+        },
+        "pp_endpoint": {
+          "ops": 3920,
+          "ccx": 348,
+          "ccz": 0,
+          "hmr": 352,
+          "reset": 352,
+          "static_toffoli": 348
+        },
+        "pp_coefficient_clear": {
+          "ops": 512,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 512,
+          "static_toffoli": 0
+        },
+        "pp_value_reverse": {
+          "ops": 2607322,
+          "ccx": 197484,
+          "ccz": 0,
+          "hmr": 197484,
+          "reset": 201710,
+          "static_toffoli": 197484
+        },
+        "pp_restore_layout": {
+          "ops": 2024,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 856,
+          "static_toffoli": 0
+        },
+        "square": {
+          "ops": 943351,
+          "ccx": 59431,
+          "ccz": 18,
+          "hmr": 59440,
+          "reset": 64211,
+          "static_toffoli": 59449
+        },
+        "pp_coefficient_allocate": {
+          "ops": 256,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "static_toffoli": 0
+        },
+        "pp_replay_inverse_ordinary": {
+          "ops": 3670758,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 282204,
+          "static_toffoli": 275886
+        },
+        "pp_replay_inverse_seed": {
+          "ops": 1934,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "static_toffoli": 152
+        },
+        "pp_replay_inverse_initial": {
+          "ops": 923,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "static_toffoli": 88
+        }
+      },
+      "phase_ledger": {
+        "tlm_coord_x_sub": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_coord_y_sub": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "pp_setup": {
+          "ops": 500,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "pp_value_forward": {
+          "ops": 2612570,
+          "ccx": 197884,
+          "ccz": 0,
+          "hmr": 197884,
+          "reset": 201706,
+          "intervals": 2,
+          "static_toffoli": 197884
+        },
+        "pp_replay_halving_initial": {
+          "ops": 924,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "intervals": 1,
+          "static_toffoli": 88
+        },
+        "pp_replay_halving_seed": {
+          "ops": 1935,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "intervals": 1,
+          "static_toffoli": 152
+        },
+        "pp_replay_halving_ordinary": {
+          "ops": 3666546,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 280800,
+          "intervals": 702,
+          "static_toffoli": 275886
+        },
+        "pp_endpoint": {
+          "ops": 3920,
+          "ccx": 348,
+          "ccz": 0,
+          "hmr": 352,
+          "reset": 352,
+          "intervals": 2,
+          "static_toffoli": 348
+        },
+        "pp_coefficient_clear": {
+          "ops": 512,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 512,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "pp_value_reverse": {
+          "ops": 2607322,
+          "ccx": 197484,
+          "ccz": 0,
+          "hmr": 197484,
+          "reset": 201710,
+          "intervals": 2,
+          "static_toffoli": 197484
+        },
+        "pp_restore_layout": {
+          "ops": 2024,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 856,
+          "intervals": 2,
+          "static_toffoli": 0
+        },
+        "tlm_coord_add3x": {
+          "ops": 41467,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "square_product_register": {
+          "ops": 943351,
+          "ccx": 59431,
+          "ccz": 18,
+          "hmr": 59440,
+          "reset": 64211,
+          "intervals": 1,
+          "static_toffoli": 59449
+        },
+        "pp_coefficient_allocate": {
+          "ops": 256,
+          "ccx": 0,
+          "ccz": 0,
+          "hmr": 0,
+          "reset": 0,
+          "intervals": 1,
+          "static_toffoli": 0
+        },
+        "pp_replay_inverse_ordinary": {
+          "ops": 3670758,
+          "ccx": 275886,
+          "ccz": 0,
+          "hmr": 275886,
+          "reset": 282204,
+          "intervals": 702,
+          "static_toffoli": 275886
+        },
+        "pp_replay_inverse_seed": {
+          "ops": 1934,
+          "ccx": 152,
+          "ccz": 0,
+          "hmr": 153,
+          "reset": 154,
+          "intervals": 1,
+          "static_toffoli": 152
+        },
+        "pp_replay_inverse_initial": {
+          "ops": 923,
+          "ccx": 88,
+          "ccz": 0,
+          "hmr": 88,
+          "reset": 89,
+          "intervals": 1,
+          "static_toffoli": 88
+        },
+        "tlm_coord_y_sub_final": {
+          "ops": 6608,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        },
+        "tlm_coord_rsub_final": {
+          "ops": 11971,
+          "ccx": 330,
+          "ccz": 2,
+          "hmr": 331,
+          "reset": 590,
+          "intervals": 1,
+          "static_toffoli": 332
+        }
+      },
+      "raw_static_toffoli": 1009077,
+      "raw_operations": 13586737,
+      "live_peak": 1321,
+      "peak_owners": [
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_replay_halving_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1081",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_initial",
+          "active": "1321",
+          "op_index": "1319752",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_replay_halving_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1081",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_halving_seed",
+          "active": "1321",
+          "op_index": "1321687",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_replay_inverse_initial",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1102",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_initial",
+          "active": "1321",
+          "op_index": "12262562",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1194",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "init",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1195",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_coefficient_allocate",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "76",
+          "count": "256"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/arith/const_arith.rs",
+          "line": "417",
+          "count": "88"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_replay_inverse_seed",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "1102",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_setup",
+          "file": "src/bin/../point_add/arith/adder.rs",
+          "line": "341",
+          "count": "8"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "265",
+          "count": "1"
+        },
+        {
+          "peak_phase": "pp_replay_inverse_seed",
+          "active": "1321",
+          "op_index": "12260628",
+          "allocation_phase": "pp_value_forward",
+          "file": "src/bin/../point_add/pingpong_div.rs",
+          "line": "508",
+          "count": "703"
+        }
+      ],
+      "phase_live_peaks": {
+        "init": 512,
+        "pp_coefficient_allocate": 1232,
+        "pp_coefficient_clear": 1232,
+        "pp_endpoint": 1320,
+        "pp_replay_halving_initial": 1321,
+        "pp_replay_halving_ordinary": 1319,
+        "pp_replay_halving_seed": 1321,
+        "pp_replay_inverse_initial": 1321,
+        "pp_replay_inverse_ordinary": 1320,
+        "pp_replay_inverse_seed": 1321,
+        "pp_restore_layout": 775,
+        "pp_setup": 774,
+        "pp_value_forward": 1063,
+        "pp_value_reverse": 1063,
+        "square_product_register": 1287,
+        "tlm_coord_add3x": 1026,
+        "tlm_coord_rsub_final": 1026,
+        "tlm_coord_x_sub": 1026,
+        "tlm_coord_y_sub": 1026,
+        "tlm_coord_y_sub_final": 1026,
+        "tlm_forward_multiply": 512,
+        "tlm_inverse": 512,
+        "tlm_square": 512
+      }
+    }
+  },
+  "ablation_controls": {
+    "legacy": {
+      "effective_settings_differences": {
+        "SUB4_LEGACY_POINT_ADD": [
+          "1",
+          null
+        ]
+      },
+      "square_category_identical": true,
+      "static_toffoli_reduction": 340442,
+      "compiler": "No post-emission pass in either path; built-in emitter specializations retained."
+    },
+    "product": {
+      "effective_settings_differences": {
+        "SUB4_LEGACY_POINT_ADD": [
+          "1",
+          null
+        ]
+      },
+      "square_category_identical": true,
+      "static_toffoli_reduction": 340450,
+      "compiler": "No post-emission pass in either path; built-in emitter specializations retained."
+    }
+  },
+  "smoke": {
+    "ablation-legacy-legacy": {
+      "n": 64,
+      "mean_executed_toffoli": 1300656.40625,
+      "static_cost_is_separate": true,
+      "identity_rows": 5,
+      "failures": {
+        "classical_failure": 5,
+        "phase_failure": 0,
+        "ancilla_failure": 0,
+        "any_failure": 5
+      },
+      "nonidentity_failures": 0,
+      "failed_indices": [
+        27,
+        30,
+        33,
+        37,
+        55
+      ]
+    },
+    "ablation-legacy-product": {
+      "n": 64,
+      "mean_executed_toffoli": 1292819.59375,
+      "static_cost_is_separate": true,
+      "identity_rows": 5,
+      "failures": {
+        "classical_failure": 5,
+        "phase_failure": 0,
+        "ancilla_failure": 0,
+        "any_failure": 5
+      },
+      "nonidentity_failures": 0,
+      "failed_indices": [
+        27,
+        30,
+        33,
+        37,
+        55
+      ]
+    },
+    "ablation-pingpong-legacy": {
+      "n": 64,
+      "mean_executed_toffoli": 960575.90625,
+      "static_cost_is_separate": true,
+      "identity_rows": 5,
+      "failures": {
+        "classical_failure": 6,
+        "phase_failure": 0,
+        "ancilla_failure": 0,
+        "any_failure": 6
+      },
+      "nonidentity_failures": 1,
+      "failed_indices": [
+        27,
+        30,
+        33,
+        37,
+        50,
+        55
+      ]
+    },
+    "ablation-pingpong-product": {
+      "n": 64,
+      "mean_executed_toffoli": 952684.21875,
+      "static_cost_is_separate": true,
+      "identity_rows": 5,
+      "failures": {
+        "classical_failure": 6,
+        "phase_failure": 0,
+        "ancilla_failure": 0,
+        "any_failure": 6
+      },
+      "nonidentity_failures": 1,
+      "failed_indices": [
+        27,
+        30,
+        33,
+        37,
+        50,
+        55
+      ]
+    },
+    "mixed1321": {
+      "n": 64,
+      "mean_executed_toffoli": 952684.21875,
+      "static_cost_is_separate": true,
+      "identity_rows": 5,
+      "failures": {
+        "classical_failure": 6,
+        "phase_failure": 0,
+        "ancilla_failure": 0,
+        "any_failure": 6
+      },
+      "nonidentity_failures": 1,
+      "failed_indices": [
+        27,
+        30,
+        33,
+        37,
+        50,
+        55
+      ]
+    },
+    "pingpong-legacy-square": {
+      "n": 64,
+      "mean_executed_toffoli": 960575.90625,
+      "static_cost_is_separate": true,
+      "identity_rows": 5,
+      "failures": {
+        "classical_failure": 6,
+        "phase_failure": 0,
+        "ancilla_failure": 0,
+        "any_failure": 6
+      },
+      "nonidentity_failures": 1,
+      "failed_indices": [
+        27,
+        30,
+        33,
+        37,
+        50,
+        55
+      ]
+    }
+  },
+  "frozen_resource_bridge": {
+    "pingpong_base": {
+      "Q": 1338,
+      "raw_static_toffoli": 1184131,
+      "frozen_final_static_toffoli": 1184131,
+      "postcompiler_toffoli_delta": 0,
+      "raw_ops": 216306027,
+      "identity_tail_ops": 96,
+      "frozen_final_ops": 216306123,
+      "postcompiler_ops_delta": 0
+    },
+    "pingpong_conservative": {
+      "Q": 1392,
+      "raw_static_toffoli": 1347296,
+      "frozen_final_static_toffoli": 1347296,
+      "postcompiler_toffoli_delta": 0,
+      "raw_ops": 218437323,
+      "identity_tail_ops": 96,
+      "frozen_final_ops": 218437419,
+      "postcompiler_ops_delta": 0
+    },
+    "jump2": {
+      "Q": 1162,
+      "raw_static_toffoli": 1594698,
+      "frozen_final_static_toffoli": 1593346,
+      "postcompiler_toffoli_delta": -1352,
+      "raw_ops": 212091047,
+      "identity_tail_ops": 0,
+      "frozen_final_ops": 212090239,
+      "postcompiler_ops_delta": -808
+    }
+  },
+  "caution": "Raw static counts are not mean executed T. Smoke errors are retained. No full-window stream identity rerun; no equal-error or historical residual attribution."
+}

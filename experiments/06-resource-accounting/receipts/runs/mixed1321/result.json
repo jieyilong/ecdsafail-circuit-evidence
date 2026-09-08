@@ -1,0 +1,11 @@
+{
+  "name": "mixed1321",
+  "source": "original-pingpong",
+  "instrumented": true,
+  "count_only": false,
+  "settings": {},
+  "exit_code": 0,
+  "compressed_sha256": "8d135db0aa0123fd143fc78ee1dbbe5fe6b851af9003352fde0f2fcc90458b34",
+  "compressed_bytes": 52675661,
+  "operations": 13586833
+}

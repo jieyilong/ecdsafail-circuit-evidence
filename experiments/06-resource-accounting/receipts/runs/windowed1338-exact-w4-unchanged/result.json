@@ -1,0 +1,16 @@
+{
+  "name": "windowed1338-exact-w4-unchanged",
+  "source": "original-pingpong",
+  "instrumented": false,
+  "count_only": false,
+  "settings": {
+    "WINDOWED_MODE": "1",
+    "WINDOWED_QROM_UNLOAD": "split",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "WINDOW_BITS": "4"
+  },
+  "exit_code": 0,
+  "compressed_sha256": "01b64fac8d6b1dee7faead078b72ddc6ca8cf44ffeee064a7d7dfcb31f75d635",
+  "compressed_bytes": 50428502,
+  "operations": 13579241
+}

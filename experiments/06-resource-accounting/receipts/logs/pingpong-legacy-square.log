@@ -1,0 +1,25 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+  emitted ops : 13341608
+  wrote       : ops.bin (51984839 bytes on disk, 747130064 uncompressed, 14.4x)
+
+=== build_circuit OK ===
+        2.01 real         1.80 user         0.16 sys
+          1225424896  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               74844  page reclaims
+                  77  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  12  voluntary context switches
+                 460  involuntary context switches
+         31830811894  instructions retired
+          6619350703  cycles elapsed
+          1217498560  peak memory footprint

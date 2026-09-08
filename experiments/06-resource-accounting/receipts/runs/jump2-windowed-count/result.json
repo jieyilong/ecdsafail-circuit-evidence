@@ -1,0 +1,13 @@
+{
+  "name": "jump2-windowed-count",
+  "source": "jump2",
+  "instrumented": true,
+  "count_only": true,
+  "settings": {
+    "WINDOWED_MODE": "1",
+    "WINDOW_BITS": "16",
+    "WINDOWED_QROM_UNLOAD": "split",
+    "SINGLE_CCX_FANOUT_DISABLE": "1"
+  },
+  "exit_code": 0
+}

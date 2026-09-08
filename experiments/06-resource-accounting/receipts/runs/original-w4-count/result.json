@@ -1,0 +1,12 @@
+{
+  "name": "original-w4-count",
+  "source": "original-pingpong",
+  "instrumented": true,
+  "count_only": true,
+  "settings": {
+    "WINDOWED_MODE": "1",
+    "WINDOW_BITS": "4",
+    "WINDOWED_QROM_UNLOAD": "split"
+  },
+  "exit_code": 0
+}

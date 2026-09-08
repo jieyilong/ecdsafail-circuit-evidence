@@ -1,0 +1,43 @@
+=== quantum_ecc: eval_bounded (research input driver) ===
+
+  loaded ops  : 13586833
+  qubits      : 1321
+  bits        : 1010987
+
+-- mixed-add comparison on 4-bit table cases (64 shots) --
+  checkpoint directory     : /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/ablation-pingpong-product/smoke
+  evaluator threads        : 1
+  paired interface         : baseline-classical-addend
+  progress                : 64/64 shots; 6 failures observed
+  tested shots            : 64
+  identity-table rows     : 5 (7.8125%)
+  classical mismatches    : 6 (9.3750%)
+  phase-failure shots     : 0 (0.0000%; 0 batches)
+  ancilla-failure shots   : 0 (0.0000%; 0 batches)
+  shots failing any channel: 6 (9.3750%)
+
+=== mixed-add comparison metrics ===
+  avg executed Toffoli  : 952684.219
+  avg executed Clifford : 11110420.078
+  emitted ops           : 13586833
+  qubits                : 1321
+
+=== mixed-add comparison OK ===
+        1.80 real         1.58 user         0.10 sys
+           774471680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               47737  page reclaims
+                   8  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  16  voluntary context switches
+                1216  involuntary context switches
+         20978500526  instructions retired
+          5538780461  cycles elapsed
+           771770752  peak memory footprint

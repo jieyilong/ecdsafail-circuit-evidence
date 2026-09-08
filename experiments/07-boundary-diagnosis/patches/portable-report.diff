@@ -1,0 +1,80 @@
+--- a/REPORT.md
++++ b/REPORT.md
+@@ -41,12 +41,16 @@
+ published diagnostic is `sources/trees/zero-payload-probe`, derived from source
+ `345c23fcf1073b7559a9d41e113f755259545bf2` according to its retained README.
+ 
+-All new files and copied-source changes are inside this `boundary/` directory.
+-`frozen-sha256.json` and `integrity.json` verify both frozen trees are unchanged.
++The original diagnosis was confined to `boundary/`. This portable export is
++intended for `experiments/07-boundary-diagnosis`. Historical receipts under
++`provenance/original/frozen-sha256.json` and `provenance/original/integrity.json`
++record the original frozen-tree checks. The staged verifier checks recorded
++hash lineage using bundled files; it does not require or reread those trees.
+ The copied simulator, circuit definitions, field/curve reference, library, all
+ three evaluator entrypoints, Cargo manifest, and lockfile remain byte-identical.
+ The original zero-probe helper and production selfcheck assertions remain intact.
+-`source.diff` contains all diagnostic additions and explicitly gated hypotheses.
++`patches/diagnostic-source.diff` contains all diagnostic additions and explicitly
++gated hypotheses, with the required upstream patch bases bundled locally.
+ 
+ The only runs are individual cells, local negation regression, and the original
+ single multiplication/division components. Each component operation vector is
+@@ -285,36 +289,29 @@
+ 
+ ## Reproduction
+ 
+-Run from this directory. The runner records exact subprocess commands, sanitized
+-knobs, elapsed time, return code, and final binary/source SHA-256 hashes in the
+-matching JSON receipts. Build dependencies are already cached; build is offline
+-and single-job. These commands generate only local diagnostics.
++Run from this package directory. Python 3.11+ verifies the staged evidence
++offline without any original-workspace files. Rebuild additionally requires an
++installed Rust/Cargo toolchain and native C compiler/linker. All locked dependency
++sources are bundled, so a preexisting Cargo registry cache is unnecessary.
+ 
+ ```sh
+-python3 run.py build --tag reproduce-build
+-python3 run.py baseline --tag baseline-final
+-python3 run.py component --tag component-final
+-python3 run.py cells --tag cells-final-baseline
+-python3 run.py cells --variant full_compare --tag cells-final-full_compare
+-python3 run.py cells --variant full_width --tag cells-final-full_width
+-python3 run.py witnesses --tag witnesses-final-baseline
+-python3 run.py witnesses --variant full_compare --tag witnesses-final-full_compare
+-python3 run.py witnesses --variant full_width --tag witnesses-final-full_width
+-python3 run.py local_regression
+-python3 value_walk.py
+-python3 analyze.py
+-python3 summarize_component.py
+-python3 run.py verify
+-python3 test_receipts.py
+-```
+-
+-`frozen-sha256.json` is the initial immutable-source receipt; do not regenerate
+-it as a substitute for verification. Earlier instrumentation logs are preserved
+-alongside the `*-final*` records. `test-results.json` records the receipt tests.
+-All eight receipt tests pass. `runtime.json` records the local toolchain, and
+-`artifacts-sha256.json` hashes the retained sources, logs, scripts, and report
+-(excluding generated build/cache directories). Run `python3 finalize.py` after
+-reproduction to refresh that local artifact manifest.
++python3 -B verify.py
++python3 -B rebuild.py --work-dir /tmp/qip07-offline-rebuild
++```
++
++The work directory must be new and outside this package. Build outputs and
++new run logs remain there; the script compares all nine rebuilt raw diagnostic
++logs byte-for-byte with the retained final logs. The package source and
++original evaluator/reference checks remain unchanged. See `README.md` for the
++full standalone instructions and provenance model.
++
++The original eight passing receipt tests are recorded separately in
++`provenance/original/test-results.json`. New portable verification has seven
++check groups and its own `metadata/stage-verification.json`. The original
++manifests and run receipts are retained verbatim as historical provenance; paths
++inside them are never used to locate dependencies. `manifest.json` hashes this
++new stage independently. Earlier intermediate logs and all compiled outputs
++are excluded from the export but retained with the original diagnosis.
+ 
+ ## Integration-Ready Finding
+ 

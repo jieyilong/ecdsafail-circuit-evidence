@@ -1,5 +1,13 @@
 # Reproducing the Evidence
 
+## Added in v1.1.0
+
+The root `python3 scripts/verify.py` command now also verifies the two added mechanism packages and scalar calculations. Python 3.11 or later is required for this complete check. To verify only the added evidence, run `python3 scripts/verify_mechanism.py`. Both commands are offline unless the optional `--oracle` dependency needs installation, and neither executes circuits.
+
+For rebuilding or replaying the new studies, use the [accounting guide](../experiments/06-resource-accounting/README.md) and [boundary guide](../experiments/07-boundary-diagnosis/README.md). These self-contained packages preserve their original staging receipts and paths as historical metadata. Accounting rebuilds need cached Cargo dependencies. The boundary package vendors its locked dependencies and records an offline rebuild/replay. The root `reproduce.py` commands below still target the original frozen study, not the new ablation or repair hypotheses.
+
+The [local replay-cell guide](../supporting/replay-analysis/README.md) covers the preserved 446-to-393 cell evidence. The [external audit](../supporting/comparison/report.md) can be checked with `python3 supporting/comparison/check_accounting.py --math-only`, without local copies of the cited papers. This arithmetic-only mode does not rerun the source-document audit.
+
 [Repository overview](../README.md) | [Data dictionary](DATA_DICTIONARY.md)
 
 Run the commands below from the root of the versioned repository checkout. Original data and source records are immutable inputs. Build products, emitted streams, new ledgers, and verification receipts belong under `.work/`. The report command regenerates derived `RESULTS.md` and CSV summaries, not the original records.

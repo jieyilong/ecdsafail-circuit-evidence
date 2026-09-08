@@ -1,0 +1,8 @@
+{
+  "name": "jump2-mixed-count",
+  "source": "jump2",
+  "instrumented": true,
+  "count_only": true,
+  "settings": {},
+  "exit_code": 0
+}

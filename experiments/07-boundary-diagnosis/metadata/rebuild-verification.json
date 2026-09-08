@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "successful": true,
+  "scope": "New offline source rebuild and nine small diagnostic replays, not full point-addition evaluation.",
+  "stage_manifest_sha256": "15623668a9c1147d38860041f4383cc673e9af9047f2c220fb70c8ad671df304",
+  "cargo_home_started_empty": true,
+  "vendored_dependencies_only": true,
+  "cargo_network_offline": true,
+  "source_and_lockfile_unchanged": true,
+  "sequential_jobs": 1,
+  "runs": [
+    {
+      "log": "logs/baseline-final.log",
+      "mode": "original-zero-probe",
+      "variant": "baseline",
+      "sha256": "dfe07c52f9008fabbe6ce39c21baf5902cbd125c3e1d27969e8fed49ef6011a8",
+      "matches_retained_raw_log": true
+    },
+    {
+      "log": "logs/component-final.log",
+      "mode": "component",
+      "variant": "baseline",
+      "sha256": "bf250827c93e88b0d915787879f91677fe857d683595ff0d4523029e47470361",
+      "matches_retained_raw_log": true
+    },
+    {
+      "log": "logs/local_regression-baseline.log",
+      "mode": "local_regression",
+      "variant": "baseline",
+      "sha256": "8695fb92ded273d8205f09af0289594f171ed79e1cc2287748101227b084f008",
+      "matches_retained_raw_log": true
+    },
+    {
+      "log": "logs/cells-final-baseline.log",
+      "mode": "cells",
+      "variant": "baseline",
+      "sha256": "5400122529cc3eaa308791514f01652e8162ca893d9e9926075dbe5765613325",
+      "matches_retained_raw_log": true
+    },
+    {
+      "log": "logs/cells-final-full_compare.log",
+      "mode": "cells",
+      "variant": "full_compare",
+      "sha256": "c1b87e8ac98ff6d4b9394aae9948f3e44f5ff6465d16eef24a8838fcbd963199",
+      "matches_retained_raw_log": true
+    },
+    {
+      "log": "logs/cells-final-full_width.log",
+      "mode": "cells",
+      "variant": "full_width",
+      "sha256": "0e975e01f68b893ea4cf90ffa00f0fd67985c07d9213feb551a3b01b0a5ab195",
+      "matches_retained_raw_log": true
+    },
+    {
+      "log": "logs/witnesses-final-baseline.log",
+      "mode": "witnesses",
+      "variant": "baseline",
+      "sha256": "639cc28d9424a66ca2fedb9dd9050f424a35f70552a7f9bdd4445548ca291483",
+      "matches_retained_raw_log": true
+    },
+    {
+      "log": "logs/witnesses-final-full_compare.log",
+      "mode": "witnesses",
+      "variant": "full_compare",
+      "sha256": "c043a9a27544404393c913bf4908e956e45158a6fa6cbcc8065f167c68222d82",
+      "matches_retained_raw_log": true
+    },
+    {
+      "log": "logs/witnesses-final-full_width.log",
+      "mode": "witnesses",
+      "variant": "full_width",
+      "sha256": "e827c8bc63841dc9ce465e747c6596af51bcc574ffeb0686464868f4976404f4",
+      "matches_retained_raw_log": true
+    }
+  ],
+  "elapsed_seconds": 60.77634491699973,
+  "binary_sha256": "9e050e7eb0d3593cf536cd65783ceb59d58fdc8c5947f2caaa3e45030a08c11c",
+  "runtime": {
+    "rustc --version": "rustc 1.93.0 (254b59607 2026-01-19) (Homebrew)",
+    "cargo --version": "cargo 1.93.0 (Homebrew)",
+    "python3 --version": "Python 3.14.2"
+  }
+}

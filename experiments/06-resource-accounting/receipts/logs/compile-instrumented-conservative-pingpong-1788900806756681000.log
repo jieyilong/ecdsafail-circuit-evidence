@@ -1,0 +1,45 @@
+   Compiling quantum_ecc v0.1.0 (/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/conservative-pingpong)
+warning: unused variable: `b`
+   --> src/bin/../point_add/arith/multiply.rs:638:24
+    |
+638 |     let borrow_lane = |b: &mut B, _need: usize| -> Vec<QubitId> {
+    |                        ^ help: if this is intentional, prefix it with an underscore: `_b`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `seg_w`
+   --> src/bin/../point_add/arith/multiply.rs:649:13
+    |
+649 |         let seg_w = hi - lo;
+    |             ^^^^^ help: if this is intentional, prefix it with an underscore: `_seg_w`
+
+warning: variable does not need to be mutable
+  --> src/bin/../point_add/dirtyscan.rs:57:9
+   |
+57 |     let mut note = |writers: &mut Vec<[usize; TRAIL]>, wpos: &mut Vec<u8>, q: u64, index: usize| {
+   |         ----^^^^
+   |         |
+   |         help: remove this `mut`
+   |
+   = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: `quantum_ecc` (bin "build_circuit") generated 3 warnings (run `cargo fix --bin "build_circuit" -p quantum_ecc` to apply 3 suggestions)
+    Finished `release` profile [optimized] target(s) in 14.99s
+       15.01 real        14.10 user         0.25 sys
+           753795072  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               63822  page reclaims
+                4913  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   2  signals received
+                 757  voluntary context switches
+                6209  involuntary context switches
+           737310086  instructions retired
+           255165236  cycles elapsed
+            33588928  peak memory footprint

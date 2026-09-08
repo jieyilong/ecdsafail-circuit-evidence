@@ -1,0 +1,7 @@
+peak_qubits	1151
+max_wire_plus_one	1151
+peak_phase	tlm_apply_inverse_mod_sub_fold
+peak_op_index	2408512
+final_active	516
+count_only	false
+precompiler_ops	9294065

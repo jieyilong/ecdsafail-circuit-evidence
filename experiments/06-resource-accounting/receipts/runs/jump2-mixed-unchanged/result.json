@@ -1,0 +1,11 @@
+{
+  "name": "jump2-mixed-unchanged",
+  "source": "jump2",
+  "instrumented": false,
+  "count_only": false,
+  "settings": {},
+  "exit_code": 0,
+  "compressed_sha256": "2e352317d264504ebecb4513239b4171f06b263f9a19c73824a8f6f2c23b3141",
+  "compressed_bytes": 29968460,
+  "operations": 9133449
+}

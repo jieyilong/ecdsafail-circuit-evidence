@@ -1,0 +1,9 @@
+format	bounded-qip-checkpoint-v1
+interface	baseline-classical-addend
+seed	qip-accounting-smoke-20260908-v1
+window_bits	4
+target_shots	64
+qubits	1287
+ops	9277283
+ops_fingerprint	3190b5f65a8daa48610bdca1c08d1ad2
+qip_table_beta	0x1

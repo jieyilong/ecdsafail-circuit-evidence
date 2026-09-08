@@ -1,5 +1,13 @@
 # Publication Checks
 
+## v1.1.0 Additions
+
+The root verification command and CI now check the portable accounting and boundary packages, preserve the original v1.0.0 scientific files, and rerun scalar algebra/accounting checks. These are offline record and source checks, not new circuit experiments. Nineteen root regression tests cover the original wrappers and the added verification paths.
+
+The accounting package retains 12 successful bounded instrumented/unchanged stream comparisons and all six smoke runs, including failures. Omitted operation streams remain historical hash receipts. The boundary package has seven portable verification groups and a separately recorded offline rebuild/replay. Its preserved eight-test diagnosis receipt is not misreported as a new CI circuit execution. The local 9,200-case negation result is not a complete repair.
+
+The new files were verified in their staged and relocated layouts before publication. No frozen outcome, original source snapshot, pre-study freeze, or v1.0.0 tag is replaced. The checks below describe the original publication and retain their historical scope.
+
 The reorganization preserves all **235 original bundle files byte for byte**. Four source archives are unchanged. Their browsable trees omit only the explicitly recorded cached-bytecode copies.
 
 ## Completed Checks

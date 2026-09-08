@@ -1,0 +1,7 @@
+peak_qubits	1287
+max_wire_plus_one	1287
+peak_phase	square_product_register
+peak_op_index	5056182
+final_active	512
+count_only	false
+precompiler_ops	9277283

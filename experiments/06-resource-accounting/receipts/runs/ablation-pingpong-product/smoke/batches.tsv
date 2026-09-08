@@ -1,0 +1,2 @@
+batch	shots	toffoli	clifford	classical_failures	phase_failure_shots	ancilla_failure_shots	any_failure_shots	phase_garbage_batches	ancilla_garbage_batches	inputs_end_offset
+0	64	60971790	711066885	6	0	0	6	0	0	35037

@@ -1,0 +1,277 @@
+diff -ruN /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2/src/point_add/accounting.rs /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/jump2/src/point_add/accounting.rs
+--- /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2/src/point_add/accounting.rs	1969-12-31 16:00:00
++++ /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/jump2/src/point_add/accounting.rs	2026-09-08 13:52:04
+@@ -0,0 +1,86 @@
++use super::*;
++use std::collections::BTreeMap;
++use std::io::Write;
++
++type Owner = (&'static str, &'static str, u32);
++
++#[derive(Default)]
++pub struct Accounting {
++    live: BTreeMap<u64, Owner>,
++    peaks: BTreeMap<&'static str, (usize, usize, BTreeMap<Owner, usize>)>,
++    pub rounds: Vec<(usize, usize)>,
++}
++
++impl B {
++    pub(crate) fn accounting_round(&mut self, round: usize) {
++        self.accounting.rounds.push((self.current_ops_len(), round));
++    }
++
++    fn accounting_label(&self, phase: &str, index: usize) -> String {
++        let round = self.accounting.rounds.iter().rev().find(|(i, _)| *i <= index).map(|(_, r)| *r);
++        if round == Some(0) && (phase.contains("gcd") || phase.contains("apply")) {
++            format!("{phase}_initial")
++        } else { phase.to_string() }
++    }
++    pub(crate) fn accounting_alloc(&mut self, q: u64, file: &'static str, line: u32) {
++        let (file, line) = self.b0.batch_ctx.unwrap_or((file, line));
++        assert!(self.accounting.live.insert(q, (self.phase, file, line)).is_none(), "duplicate live allocation {q}");
++        self.accounting_sample();
++    }
++
++    pub(crate) fn accounting_free(&mut self, q: u64) {
++        assert!(self.accounting.live.remove(&q).is_some(), "free of unowned qubit {q}");
++        assert_eq!(self.accounting.live.len(), self.active_qubits as usize);
++    }
++
++    pub(crate) fn accounting_sample(&mut self) {
++        assert_eq!(self.accounting.live.len(), self.active_qubits as usize);
++        let n = self.accounting.live.len();
++        if n > self.accounting.peaks.get(self.phase).map_or(0, |p| p.0) {
++            let mut owners = BTreeMap::new();
++            for owner in self.accounting.live.values() { *owners.entry(*owner).or_insert(0) += 1; }
++            self.accounting.peaks.insert(self.phase, (n, self.current_ops_len(), owners));
++        }
++    }
++
++    pub(crate) fn accounting_dump(&mut self) {
++        let Ok(dir) = std::env::var("ACCOUNTING_DIR") else { return; };
++        self.close_counted_phase();
++        let mut f = std::fs::File::create(format!("{dir}/owners.tsv")).unwrap();
++        writeln!(f, "peak_phase\tactive\top_index\tallocation_phase\tfile\tline\tcount").unwrap();
++        for (phase, (active, index, owners)) in &self.accounting.peaks {
++            assert_eq!(*active, owners.values().sum::<usize>());
++            for ((allocated, file, line), count) in owners {
++                writeln!(f, "{phase}\t{active}\t{index}\t{allocated}\t{file}\t{line}\t{count}").unwrap();
++            }
++        }
++        let mut f = std::fs::File::create(format!("{dir}/phases.tsv")).unwrap();
++        writeln!(f, "phase\tstart\tend\tops\tccx\tccz\thmr\treset").unwrap();
++        if self.count_only {
++            for p in &self.counted_phase_rows {
++                writeln!(f, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}", self.accounting_label(p.phase, p.start), p.start, p.end, p.ops, p.ccx_ops, p.ccz_ops, p.hmr_ops, p.r_ops).unwrap();
++            }
++        } else {
++            let mut bounds = vec![(0, "init")];
++            bounds.extend_from_slice(&self.phase_transitions);
++            bounds.push((self.ops.len(), "end"));
++            for w in bounds.windows(2) {
++                let (start, phase) = w[0];
++                let end = w[1].0;
++                assert!(end >= start && end <= self.ops.len());
++                let mut counts = [0usize; 18];
++                for op in &self.ops[start..end] { counts[op.kind as usize] += 1; }
++                if end > start { writeln!(f, "{}\t{start}\t{end}\t{}\t{}\t{}\t{}\t{}", self.accounting_label(phase, start), end-start, counts[13], counts[14], counts[12], counts[11]).unwrap(); }
++            }
++        }
++        let mut f = std::fs::File::create(format!("{dir}/allocator.tsv")).unwrap();
++        writeln!(f, "peak_qubits\t{}\nmax_wire_plus_one\t{}\npeak_phase\t{}\npeak_op_index\t{}\nfinal_active\t{}\ncount_only\t{}\nprecompiler_ops\t{}", self.peak_qubits, self.next_qubit, self.peak_phase, self.peak_ops_idx, self.active_qubits, self.count_only, self.current_ops_len()).unwrap();
++        let mut env: Vec<_> = std::env::vars().collect();
++        env.sort();
++        let mut f = std::fs::File::create(format!("{dir}/emitter-settings.tsv")).unwrap();
++        for (k, v) in env {
++            if ["SUB4_", "TLM_", "DIALOG_", "QIP_", "WINDOWED_", "CONSTPROP_", "W1155_", "ACCOUNTING_", "SINGLE_", "KAL_", "ROUND", "SQUARE_", "LUD_"].iter().any(|p| k.starts_with(p)) { writeln!(f, "{k}\t{v}").unwrap(); }
++        }
++        if self.count_only { std::process::exit(0); }
++    }
++}
+diff -ruN /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2/src/point_add/mod.rs /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/jump2/src/point_add/mod.rs
+--- /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2/src/point_add/mod.rs	2026-09-08 09:34:54
++++ /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/jump2/src/point_add/mod.rs	2026-09-08 13:52:04
+@@ -100,7 +100,10 @@
+     OP_SITE_TRACE.with(|sites| std::mem::take(&mut *sites.borrow_mut()))
+ }
+ 
++mod accounting;
++
+ pub struct B {
++    pub accounting: accounting::Accounting,
+     pub ops: Vec<Op>,
+     pub count_only: bool,
+     pub counted_ops: usize,
+@@ -176,8 +179,9 @@
+     fn new() -> Self {
+         reset_op_site_trace();
+         Self {
++            accounting: accounting::Accounting::default(),
+             ops: Vec::new(),
+-            count_only: false,
++            count_only: std::env::var_os("ACCOUNTING_COUNT_ONLY").is_some(),
+             counted_ops: 0,
+             counted_kind_ops: [0; 18],
+             counted_phase_kind_ops: [0; 18],
+@@ -311,6 +315,7 @@
+         self.close_phase_active_region();
+         self.close_counted_phase();
+         self.phase = p;
++        self.accounting_sample();
+         if std::env::var("TRACE_PHASE_ACTIVE").is_ok() {
+             self.current_phase_active_max = self.active_qubits;
+         }
+@@ -346,6 +351,7 @@
+     }
+ 
+     fn b0_on_alloc(&mut self, qid: u64, file: &'static str, line: u32) {
++        self.accounting_alloc(qid, file, line);
+         if !self.b0.enabled || self.count_only {
+             return;
+         }
+@@ -357,6 +363,7 @@
+         self.b0_sample();
+     }
+     fn b0_on_free(&mut self, qid: u64) {
++        self.accounting_free(qid);
+         if !self.b0.enabled || self.count_only {
+             return;
+         }
+@@ -386,6 +393,7 @@
+     }
+ 
+     pub fn b0_finalize(&mut self) {
++        self.accounting_dump();
+         if self.b0.enabled && !self.b0.printed {
+             self.b0_print();
+         }
+@@ -466,7 +474,7 @@
+             self.next_qubit += 1;
+             QubitId(q.into())
+         };
+-        if self.b0.enabled && !self.count_only {
++        if true {
+             let caller = std::panic::Location::caller();
+             self.b0_on_alloc(qid.0, caller.file(), caller.line());
+         }
+@@ -474,7 +482,7 @@
+     }
+     #[track_caller]
+     fn alloc_qubits(&mut self, n: usize) -> Vec<QubitId> {
+-        if self.b0.enabled {
++        if true {
+             let c = std::panic::Location::caller();
+             self.b0.batch_ctx = Some((c.file(), c.line()));
+             let out = (0..n).map(|_| self.alloc_qubit()).collect();
+@@ -535,7 +543,7 @@
+                 .push((self.active_qubits, self.phase, self.current_ops_len()));
+         }
+ 
+-        if self.b0.enabled && !self.count_only {
++        if true {
+             self.b0_on_alloc(q.0, "reacquire", 0);
+         }
+     }
+diff -ruN /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2/src/point_add/trailmix_ludicrous/gcd.rs /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/jump2/src/point_add/trailmix_ludicrous/gcd.rs
+--- /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2/src/point_add/trailmix_ludicrous/gcd.rs	2026-09-08 09:34:54
++++ /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/jump2/src/point_add/trailmix_ludicrous/gcd.rs	2026-09-08 13:52:04
+@@ -1211,6 +1211,7 @@
+     let mut pending: Vec<QubitId> = Vec::new();
+     let mut tail4_prefix_encoded = false;
+     for i in 0..iters {
++        circ.accounting_round(i);
+         let trace_region_start = circ.phase_active_regions.len();
+         // DIAGNOSTIC (TRACE_OP_SITES): stamp every op emitted by this divstep with
+         // its pass and iteration index so a dirty `free` can be attributed to a
+@@ -1463,6 +1464,7 @@
+     let mut step0_t1: Option<QubitId> = None;
+ 
+     for i in (0..iters).rev() {
++        circ.accounting_round(i);
+         let trace_region_start = circ.phase_active_regions.len();
+         crate::point_add::set_op_trace_context(
+             0xa200_0000 | (u32::from(apply_fwd.is_none()) << 24) | ((i as u32) & 0xffff),
+diff -ruN /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2/src/point_add/trailmix_ludicrous/qrom.rs /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/jump2/src/point_add/trailmix_ludicrous/qrom.rs
+--- /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2/src/point_add/trailmix_ludicrous/qrom.rs	2026-09-08 09:34:54
++++ /Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/instrumented/jump2/src/point_add/trailmix_ludicrous/qrom.rs	2026-09-08 13:56:44
+@@ -411,7 +411,7 @@
+         QROM_TOFFOLIS.fetch_add(toffolis as u64, Ordering::Relaxed);
+         QROM_PAYLOAD_CX.fetch_add(payload_cx as u64, Ordering::Relaxed);
+ 
+-        if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++        if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+             model_qroam2_load(circ, address, target, table, walk_phase, clear_phase);
+         } else {
+             circ.set_phase(walk_phase);
+@@ -426,7 +426,7 @@
+     QROM_TOFFOLIS.fetch_add(nodes as u64, Ordering::Relaxed);
+     QROM_PAYLOAD_CX.fetch_add(payload_cx as u64, Ordering::Relaxed);
+ 
+-    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+         model_load(circ, address, table, walk_phase, clear_phase);
+         return QromWorkspace::Unary;
+     }
+@@ -461,7 +461,7 @@
+     QROM_TOFFOLIS.fetch_add(nodes as u64, Ordering::Relaxed);
+     QROM_PAYLOAD_CX.fetch_add(payload_cx as u64, Ordering::Relaxed);
+ 
+-    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+         model_two_load(
+             circ,
+             address,
+@@ -932,7 +932,7 @@
+         QROM_CALLS.fetch_add(1, Ordering::Relaxed);
+         QROM_TOFFOLIS.fetch_add(toffolis as u64, Ordering::Relaxed);
+ 
+-        if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++        if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+             model_qroam2_measurement_unload(
+                 circ,
+                 address,
+@@ -986,7 +986,7 @@
+     QROM_CALLS.fetch_add(1, Ordering::Relaxed);
+     QROM_TOFFOLIS.fetch_add(nodes as u64, Ordering::Relaxed);
+ 
+-    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+         model_measurement_unload(circ, address, target, table, measure_phase, discharge_phase);
+         return;
+     }
+@@ -1030,7 +1030,7 @@
+     QROM_CALLS.fetch_add(1, Ordering::Relaxed);
+     QROM_TOFFOLIS.fetch_add(nodes as u64, Ordering::Relaxed);
+ 
+-    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+         model_two_measurement_unload(
+             circ,
+             address,
+@@ -1098,7 +1098,7 @@
+             QROM_TOFFOLIS.fetch_add(toffolis as u64, Ordering::Relaxed);
+             QROM_PAYLOAD_CX.fetch_add(payload_operation_count(table) as u64, Ordering::Relaxed);
+ 
+-            if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++            if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+                 circ.set_phase(replay_phase);
+                 let path = circ.alloc_qubits(address.len().saturating_sub(2));
+                 for qubit in path.into_iter().rev() {
+@@ -1133,7 +1133,7 @@
+             QROM_TOFFOLIS.fetch_add(nodes as u64, Ordering::Relaxed);
+             QROM_PAYLOAD_CX.fetch_add(payload_operation_count(table) as u64, Ordering::Relaxed);
+ 
+-            if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++            if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+                 model_load(circ, address, table, replay_phase, clear_phase);
+                 circ.add_counted_kind(OperationType::R, target.len());
+                 for qubit in target.iter().rev() {
+@@ -1175,7 +1175,7 @@
+     QROM_TOFFOLIS.fetch_add(nodes as u64, Ordering::Relaxed);
+     QROM_PAYLOAD_CX.fetch_add(payload_cx as u64, Ordering::Relaxed);
+ 
+-    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || circ.count_only {
++    if std::env::var_os("WINDOWED_QROM_COUNT_ONLY").is_some() || (circ.count_only && std::env::var_os("ACCOUNTING_EXACT_QROM").is_none()) {
+         model_two_load(
+             circ,
+             address,

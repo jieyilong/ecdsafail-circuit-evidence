@@ -1,0 +1,6 @@
+{
+  "rustc --version": "rustc 1.93.0 (254b59607 2026-01-19) (Homebrew)",
+  "cargo --version": "cargo 1.93.0 (Homebrew)",
+  "python3 --version": "Python 3.14.2",
+  "uname -sm": "Darwin arm64"
+}

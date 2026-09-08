@@ -1,0 +1,29 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+CONSTPROP iter=1 ccx_total=1385315 dropped=504 folded_cx=29 folded_x=0 inverse_pairs=61 aff_drop=41 aff_fold=1 (this-iter toffoli removed = 697)
+CONSTPROP iter=2 ccx_total=1384618 dropped=93 folded_cx=0 folded_x=0 inverse_pairs=0 aff_drop=0 aff_fold=0 (this-iter toffoli removed = 93)
+CONSTPROP iter=3 ccx_total=1384525 dropped=0 folded_cx=0 folded_x=0 inverse_pairs=0 aff_drop=0 aff_fold=0 (this-iter toffoli removed = 0)
+CONSTPROP TOTAL iters=3 dropped=597 folded_cx=29 folded_x=0 inverse_pairs=61 aff_drop=41 aff_fold=1 (toffoli removed = 790)
+  emitted ops : 9293305
+  wrote       : ops.bin (30540235 bytes on disk, 520425096 uncompressed, 17.0x)
+
+=== build_circuit OK ===
+        4.01 real         3.30 user         0.40 sys
+          2283094016  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              177000  page reclaims
+                  76  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  11  voluntary context switches
+                1301  involuntary context switches
+         48044781616  instructions retired
+         12503074853  cycles elapsed
+          1750570688  peak memory footprint

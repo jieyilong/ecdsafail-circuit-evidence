@@ -1,5 +1,11 @@
 # Data Dictionary
 
+## Added Mechanism Records
+
+The v1.1.0 additions use separate schemas. [Experiment 06](../experiments/06-resource-accounting/README.md) records allocator ownership at each phase maximum, raw static CCX+CCZ counts, source/configuration controls, and 64-case smoke outcomes. These are not the frozen study's mean executed counts or an equal-error comparison. Its complete schema is demonstrated by [integration-summary.json](../experiments/06-resource-accounting/receipts/integration-summary.json).
+
+[Experiment 07](../experiments/07-boundary-diagnosis/README.md) records raw component/cell traces, measurement masks, and local regression results. Thirty-five pre-release coefficients are nonzero, with fixture 4 individually confirmed as p. This is not an all-35 equality-to-p count. Reset-phase changes combine by XOR and are not added to final phase-failure counts. See the [diagnostic report](../experiments/07-boundary-diagnosis/REPORT.md) before interpreting these fields. Neither new schema is pooled with the fresh-study records below.
+
 [Repository overview](../README.md) | [Reproduction](REPRODUCTION.md)
 
 ## Names and Notation

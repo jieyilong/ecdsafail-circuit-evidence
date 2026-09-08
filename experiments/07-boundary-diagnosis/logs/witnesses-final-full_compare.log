@@ -1,0 +1,34 @@
+WITNESS signed_add sign=1 source=0x1 target=0x0 ops=8956 randomness_events=1577
+UNCANCELLED hot=506 op=2799 kind=Hmr qubit=599 bit=253 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=506 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=1062 op=5622 kind=Hmr qubit=513 bit=530 site=src/bin/../point_add/pingpong_div.rs:1108 context=chunk_after_erase phase=0xffffffffffffffff
+PAIRED hot=1062 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2e
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_halve sign=1 source=0x2 target=0x0 ops=9643 randomness_events=1519
+UNCANCELLED hot=506 op=2799 kind=Hmr qubit=599 bit=253 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=506 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=1003 op=6051 kind=Hmr qubit=513 bit=499 site=src/bin/../point_add/pingpong_div.rs:963 context=halve_before_overflow_erase phase=0xffffffffffffffff
+PAIRED hot=1003 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2e
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_halve sign=0 source=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f target=0x0 ops=9643 randomness_events=1519
+UNCANCELLED hot=1003 op=6051 kind=Hmr qubit=513 bit=499 site=src/bin/../point_add/pingpong_div.rs:963 context=halve_before_overflow_erase phase=0xffffffffffffffff
+PAIRED hot=1003 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_halve sign=0 source=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f target=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f ops=9643 randomness_events=1519
+UNCANCELLED hot=506 op=2799 kind=Hmr qubit=599 bit=253 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=506 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_double sign=0 source=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f target=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f ops=9647 randomness_events=1521
+UNCANCELLED hot=506 op=3055 kind=Hmr qubit=600 bit=253 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=506 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=1006 op=6313 kind=Hmr qubit=514 bit=499 site=src/bin/../point_add/pingpong_div.rs:1077 context=double_before_overflow_erase phase=0xffffffffffffffff
+PAIRED hot=1006 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_double sign=1 source=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f target=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f ops=9647 randomness_events=1521
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true

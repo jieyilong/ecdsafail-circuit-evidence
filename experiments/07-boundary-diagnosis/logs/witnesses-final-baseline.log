@@ -1,0 +1,42 @@
+WITNESS signed_add sign=1 source=0x1 target=0x0 ops=5368 randomness_events=979
+UNCANCELLED hot=506 op=2799 kind=Hmr qubit=599 bit=253 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=506 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=589 op=3285 kind=Hmr qubit=514 bit=294 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=589 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=880 op=4530 kind=Hmr qubit=513 bit=439 site=src/bin/../point_add/pingpong_div.rs:1108 context=chunk_after_erase phase=0xffffffffffffffff
+PAIRED hot=880 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2e
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_halve sign=1 source=0x2 target=0x0 ops=6055 randomness_events=921
+UNCANCELLED hot=506 op=2799 kind=Hmr qubit=599 bit=253 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=506 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=589 op=3285 kind=Hmr qubit=514 bit=294 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=589 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=821 op=4959 kind=Hmr qubit=513 bit=408 site=src/bin/../point_add/pingpong_div.rs:963 context=halve_before_overflow_erase phase=0xffffffffffffffff
+PAIRED hot=821 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2e
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_halve sign=0 source=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f target=0x0 ops=6055 randomness_events=921
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_halve sign=0 source=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f target=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f ops=6055 randomness_events=921
+UNCANCELLED hot=506 op=2799 kind=Hmr qubit=599 bit=253 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=506 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=589 op=3285 kind=Hmr qubit=514 bit=294 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=589 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=821 op=4959 kind=Hmr qubit=513 bit=408 site=src/bin/../point_add/pingpong_div.rs:963 context=halve_before_overflow_erase phase=0xffffffffffffffff
+PAIRED hot=821 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_double sign=0 source=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f target=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f ops=6059 randomness_events=923
+UNCANCELLED hot=506 op=3055 kind=Hmr qubit=600 bit=253 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=506 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=589 op=3541 kind=Hmr qubit=515 bit=294 site=src/bin/../point_add/pingpong_div.rs:763 context=chunk_before_erase phase=0xffffffffffffffff
+PAIRED hot=589 zero_controls_vs_witness phase=0xffffffff00000000
+UNCANCELLED hot=824 op=5221 kind=Hmr qubit=514 bit=408 site=src/bin/../point_add/pingpong_div.rs:1077 context=double_before_overflow_erase phase=0xffffffffffffffff
+PAIRED hot=824 zero_controls_vs_witness phase=0xffffffff00000000
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true
+WITNESS fused_double sign=1 source=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f target=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f ops=6059 randomness_events=923
+ALL_ZERO_RANDOM phase=0x0000000000000000 got=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
+PHASE_RULE_CHECK seeds=8 lanes_per_seed=64 matched=true

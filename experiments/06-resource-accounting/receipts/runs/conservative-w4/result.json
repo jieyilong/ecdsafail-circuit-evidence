@@ -1,0 +1,17 @@
+{
+  "name": "conservative-w4",
+  "source": "conservative-pingpong",
+  "instrumented": true,
+  "count_only": false,
+  "settings": {
+    "WINDOWED_MODE": "1",
+    "WINDOW_BITS": "4",
+    "WINDOWED_QROM_UNLOAD": "split",
+    "QIP_PINGPONG_PROFILE": "guarded",
+    "TLM_MSBS": "40"
+  },
+  "exit_code": 0,
+  "compressed_sha256": "560ef4f46783d71e4541de51a8e9cc64699da407ae0d6c674ba2543e017d9367",
+  "compressed_bytes": 55016997,
+  "operations": 15710537
+}

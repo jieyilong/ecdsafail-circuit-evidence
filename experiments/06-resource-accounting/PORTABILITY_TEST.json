@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "tested_verification_command": "python3 -B verify.py",
+  "tested_working_directory": "release/",
+  "direct": {
+    "command": [
+      "python3",
+      "-B",
+      "verify.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.482,
+    "stdout": {
+      "status": "PASS",
+      "protected_source_files": 259,
+      "archived_source_members": 521,
+      "changed_emitter_files": 11,
+      "reconstructed_runs": 38,
+      "matching_stream_receipt_pairs": 12,
+      "smoke_runs": 6,
+      "smoke_cases_per_run": 64,
+      "known_superseded_count_failures": 2,
+      "frozen_resource_bridge": {
+        "pingpong_base": {
+          "Q": 1338,
+          "raw_static_toffoli": 1184131,
+          "frozen_final_static_toffoli": 1184131,
+          "postcompiler_toffoli_delta": 0,
+          "raw_ops": 216306027,
+          "identity_tail_ops": 96,
+          "frozen_final_ops": 216306123,
+          "postcompiler_ops_delta": 0
+        },
+        "pingpong_conservative": {
+          "Q": 1392,
+          "raw_static_toffoli": 1347296,
+          "frozen_final_static_toffoli": 1347296,
+          "postcompiler_toffoli_delta": 0,
+          "raw_ops": 218437323,
+          "identity_tail_ops": 96,
+          "frozen_final_ops": 218437419,
+          "postcompiler_ops_delta": 0
+        },
+        "jump2": {
+          "Q": 1162,
+          "raw_static_toffoli": 1594698,
+          "frozen_final_static_toffoli": 1593346,
+          "postcompiler_toffoli_delta": -1352,
+          "raw_ops": 212091047,
+          "identity_tail_ops": 0,
+          "frozen_final_ops": 212090239,
+          "postcompiler_ops_delta": -808
+        }
+      },
+      "verification_mode": "offline read-only receipt/source verification; operation streams and executable hashes are historical receipts, not remeasured",
+      "network_required": false,
+      "workspace_paths_required": false
+    },
+    "stderr": ""
+  },
+  "relocated": {
+    "command": [
+      "python3",
+      "-B",
+      "verify.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.477,
+    "stdout": {
+      "status": "PASS",
+      "protected_source_files": 259,
+      "archived_source_members": 521,
+      "changed_emitter_files": 11,
+      "reconstructed_runs": 38,
+      "matching_stream_receipt_pairs": 12,
+      "smoke_runs": 6,
+      "smoke_cases_per_run": 64,
+      "known_superseded_count_failures": 2,
+      "frozen_resource_bridge": {
+        "pingpong_base": {
+          "Q": 1338,
+          "raw_static_toffoli": 1184131,
+          "frozen_final_static_toffoli": 1184131,
+          "postcompiler_toffoli_delta": 0,
+          "raw_ops": 216306027,
+          "identity_tail_ops": 96,
+          "frozen_final_ops": 216306123,
+          "postcompiler_ops_delta": 0
+        },
+        "pingpong_conservative": {
+          "Q": 1392,
+          "raw_static_toffoli": 1347296,
+          "frozen_final_static_toffoli": 1347296,
+          "postcompiler_toffoli_delta": 0,
+          "raw_ops": 218437323,
+          "identity_tail_ops": 96,
+          "frozen_final_ops": 218437419,
+          "postcompiler_ops_delta": 0
+        },
+        "jump2": {
+          "Q": 1162,
+          "raw_static_toffoli": 1594698,
+          "frozen_final_static_toffoli": 1593346,
+          "postcompiler_toffoli_delta": -1352,
+          "raw_ops": 212091047,
+          "identity_tail_ops": 0,
+          "frozen_final_ops": 212090239,
+          "postcompiler_ops_delta": -808
+        }
+      },
+      "verification_mode": "offline read-only receipt/source verification; operation streams and executable hashes are historical receipts, not remeasured",
+      "network_required": false,
+      "workspace_paths_required": false
+    },
+    "stderr": ""
+  },
+  "repository_root_detection": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "source_extraction": {
+    "exit_code": 0,
+    "members_verified": 521
+  },
+  "evidence_layout_autodetection": true,
+  "tamper_test_rejected": true,
+  "verifier_read_only": true,
+  "original_receipts_unchanged": 270,
+  "network_used": false,
+  "rust_build_rerun": false,
+  "limitations": "Tests check receipt reconstruction, source extraction and manifests; omitted ops/binaries were not rehashed."
+}

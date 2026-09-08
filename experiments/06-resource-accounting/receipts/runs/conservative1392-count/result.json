@@ -1,0 +1,15 @@
+{
+  "name": "conservative1392-count",
+  "source": "conservative-pingpong",
+  "instrumented": true,
+  "count_only": true,
+  "settings": {
+    "WINDOWED_MODE": "1",
+    "WINDOW_BITS": "16",
+    "WINDOWED_QROM_UNLOAD": "split",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "QIP_PINGPONG_PROFILE": "guarded",
+    "TLM_MSBS": "40"
+  },
+  "exit_code": 0
+}

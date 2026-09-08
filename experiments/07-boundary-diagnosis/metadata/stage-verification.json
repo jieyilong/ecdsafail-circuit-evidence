@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "successful": true,
+  "portable_check_groups": 7,
+  "mode": "Read-only verification of this staged package; no network or original-workspace lookup.",
+  "checks": {
+    "stage_manifest": {
+      "files": 157,
+      "manifest_sha256": "0a6977014e1d37b11e6851f1a1ffc0828c247b3490b93a63d8ab8f7233b163c1"
+    },
+    "recorded_provenance": {
+      "recorded_original_receipt_tests": 8,
+      "original_upstream_trees_reread": false,
+      "editorial_correction": "35 nonzero coefficient registers; fixture 4 confirmed p; aggregate word-p count unmeasured.",
+      "status": "Bundled artifacts matched recorded upstream hashes; original external trees are not required or freshly verified."
+    },
+    "source_patch_and_protected_checks": {
+      "source_files": 105,
+      "explicit_changed_files": [
+        "src/bin/build_circuit.rs",
+        "src/point_add/mod.rs",
+        "src/point_add/pingpong_div.rs"
+      ],
+      "added_files": [
+        "src/point_add/boundary_probe.rs"
+      ],
+      "protected_checks_unchanged": true
+    },
+    "retained_results": {
+      "original_masks_reproduced": true,
+      "nonzero_multiply_prereset": 35,
+      "reset_phase_changes": 23,
+      "scope": "Raw emitted cells and isolated components, not an entire-kernel zero-error claim."
+    },
+    "local_regression": {
+      "evaluations": 9200,
+      "peak_qubits": 514,
+      "toffoli_per_input": 777,
+      "integrated_into_replay": false
+    },
+    "exact_value_walk": {
+      "valid_fixture_count": 64,
+      "small_denominator_width_failures_retained": 257
+    },
+    "offline_dependencies": {
+      "vendored_crates": 192,
+      "network_needed": false
+    }
+  },
+  "portability_audit": {
+    "successful": true,
+    "relocated_copy": true,
+    "original_workspace_access_denied_except_relocated_package": true,
+    "socket_operations_denied": true,
+    "verified_manifest_sha256": "0a6977014e1d37b11e6851f1a1ffc0828c247b3490b93a63d8ab8f7233b163c1",
+    "original_diagnostic_artifacts_checked_unchanged": 168,
+    "original_scientific_report_has_documented_p2_wording_correction": true,
+    "fresh_offline_rebuild_logs_matching_original": 9,
+    "rebuild_input_manifest_and_current_noneditorial_file_hashes_match": true,
+    "new_circuit_experiment_for_editorial_correction": false
+  }
+}

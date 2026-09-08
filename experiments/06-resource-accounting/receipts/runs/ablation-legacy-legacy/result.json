@@ -1,0 +1,22 @@
+{
+  "name": "ablation-legacy-legacy",
+  "source": "original-pingpong",
+  "instrumented": true,
+  "count_only": false,
+  "settings": {
+    "CONSTPROP_DISABLE": "1",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "TLM_TARGET_Q": "1150",
+    "TLM_FOLD_CHUNK_ZERO_CIN": "1",
+    "TLM_FFG_MAX_G": "47",
+    "TLM_APPLY_ADD_SKIP_LASTK": "1",
+    "DIALOG_TAIL_NONCE": "2430844",
+    "DIALOG_GCD_FOLD_MAJ1": "1",
+    "SUB4_LEGACY_POINT_ADD": "1",
+    "SUB4_LEGACY_SQUARE": "1"
+  },
+  "exit_code": 0,
+  "compressed_sha256": "498bdfef59b28ecd997230f7e7359c67ef121690a87fcc9ca0564e6fa2082e88",
+  "compressed_bytes": 30637478,
+  "operations": 9031983
+}

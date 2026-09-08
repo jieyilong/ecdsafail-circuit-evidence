@@ -1,0 +1,16 @@
+{
+  "name": "jump2-windowed-exact-w4-unchanged",
+  "source": "jump2",
+  "instrumented": false,
+  "count_only": false,
+  "settings": {
+    "WINDOWED_MODE": "1",
+    "WINDOWED_QROM_UNLOAD": "split",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "WINDOW_BITS": "4"
+  },
+  "exit_code": 0,
+  "compressed_sha256": "57903f2658e002e05d46ab43bef1ff5f6afa02deb6a554c752b88dae79dd4d25",
+  "compressed_bytes": 30540235,
+  "operations": 9293305
+}

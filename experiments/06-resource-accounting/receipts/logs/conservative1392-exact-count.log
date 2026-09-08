@@ -1,0 +1,22 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+windowed ping-pong: width=1392, QROM calls=6, Toffolis=167150, payload CX=83886080
+        2.29 real         2.07 user         0.10 sys
+           820871168  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               50226  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 626  involuntary context switches
+         30419575280  instructions retired
+          7232403109  cycles elapsed
+           820202176  peak memory footprint

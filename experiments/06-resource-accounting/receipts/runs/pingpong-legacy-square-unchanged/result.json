@@ -1,0 +1,13 @@
+{
+  "name": "pingpong-legacy-square-unchanged",
+  "source": "original-pingpong",
+  "instrumented": false,
+  "count_only": false,
+  "settings": {
+    "SUB4_LEGACY_SQUARE": "1"
+  },
+  "exit_code": 0,
+  "compressed_sha256": "0736d94737265783ca4df8fc162381b19b3ecb69ec9eb4b07d84eedca01af44d",
+  "compressed_bytes": 51984839,
+  "operations": 13341608
+}

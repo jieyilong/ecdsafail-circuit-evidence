@@ -1,0 +1,27 @@
+   Compiling quantum_ecc v0.1.0 (/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/sources/jump2)
+error[E0432]: unresolved import `quantum_ecc::point_add`
+  --> src/bin/build_circuit.rs:10:5
+   |
+10 | use quantum_ecc::point_add;
+   |     ^^^^^^^^^^^^^^^^^^^^^^ no `point_add` in the root
+
+For more information about this error, try `rustc --explain E0432`.
+error: could not compile `quantum_ecc` (bin "build_circuit") due to 1 previous error
+        0.11 real         0.06 user         0.04 sys
+           105988096  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               11108  page reclaims
+                 281  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                  60  voluntary context switches
+                 183  involuntary context switches
+           684364937  instructions retired
+           233706620  cycles elapsed
+            34834048  peak memory footprint

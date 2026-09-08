@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-08",
+  "target": "outputs/ECDSA_Fail_QIP2027_github_linked/sections/06a-resource-evaluation.tex",
+  "notation": {"p": "field modulus", "r": "subgroup order", "Q": "peak logical qubits", "T": "mean executed Toffoli-equivalent work", "C_core": "source-reported arithmetic work; not necessarily T"},
+  "sources": {
+    "google": {"url": "https://arxiv.org/pdf/2603.28846v2", "locators": ["A.1-A.2 pp.54-55", "A.3 pp.55-56 Eqs.A1-A3", "A.5-A.6 pp.56-57", "II.B pp.7-10 (HTML II.2)"]},
+    "schrottenloher": {"url": "https://arxiv.org/pdf/2606.02235v1", "locators": ["Table 1 and Eq.1 p.3", "Table 2 p.4", "Implementation pp.5-6", "Section 2 pp.6-8 Algorithm 1", "Section 3.1 p.10"]},
+    "trailmix": {"url": "https://github.com/trailofbits/trailmix/blob/main/README.md", "locators": ["The circuits", "Quick start"], "pin_status": "mutable_branch"},
+    "fresh": {"url": "https://github.com/jieyilong/ecdsafail-circuit-evidence/blob/da2dfdeff554adb6773852c9cd7767f8a4f00ef6/experiments/02-fresh-windowed/analysis.json", "verified_via": "local_release"}
+  },
+  "families": {
+    "google": {"cost_kind": "upper_threshold_on_mean_executed", "gate_weights": {"CCX": 1, "CCZ": 1}, "window_width_model": 16, "window_allowance_in_original_rows": false, "unlookup": "small separately described cost; not an exact included bill", "error_evidence": "ZK-attested circuit-dependent FS acceptance, 0/9024", "independent_error_estimate": false, "toffoli_depth": null, "full_shor": "resource extrapolation; disclosed verification target is point addition"},
+    "schrottenloher": {"cost_kind": "rounded_reported_construction_count", "mean_executed_verified": false, "static_instruction_total_verified": false, "gate_weights": {"CCX": 1, "CCZ": 1, "AND": 1}, "window_width_model": 16, "window_allowance_in_original_rows": false, "unlookup": "Algorithm 1 includes it; cost model treats it as nearly free", "error_evidence": "reported 10000 random successes and epsilon<=2^-13.3", "simulation": "exact arithmetic subcircuits replaced by classical functions", "confidence_level": null, "held_out_provenance": null, "toffoli_depth": null, "full_shor": "high-level construction and resource model, not complete execution evidence"},
+    "trailmix": {"cost_kind": "approximate_author_report_mean_executed", "gate_weights": {"CCX": 1, "CCZ": 1}, "interface": "classical_addend_mixed", "window_width": null, "coherent_lookup_included": false, "error_evidence": "author-reported 0/9000 FS", "cost_error_same_support_verified": false, "toffoli_depth": null, "full_shor": "not established for these rows"},
+    "fresh": {"cost_kind": "measured_mean_executed_including_failed_cases", "gate_weights": {"CCX": 1, "CCZ": 1}, "interface": "single_call_coherent_window_kernel", "window_width": 16, "lookup_unlookup_included": true, "address_qubits_included": true, "error_evidence": "frozen fresh stratified any-channel failures", "cases_per_circuit": 100000, "strata": 9, "identity_rows": 3, "toffoli_depth": null, "feed_forward_rounds": null, "full_shor": "not integrated"}
+  },
+  "rows": [
+    {"id": "google_low_q", "source": "google", "Q_cap": 1175, "T_cap": 2700000, "Q_window_model_cap": 1191, "C_window_model_cap": 2896608},
+    {"id": "google_low_gate", "source": "google", "Q_cap": 1425, "T_cap": 2100000, "Q_window_model_cap": 1441, "C_window_model_cap": 2296608},
+    {"id": "schrottenloher_low_q", "source": "schrottenloher", "Q_core": 1192, "C_core_expression": "2^21.19", "Q_window_model": 1208, "C_window_model_expression": "2^21.19 + 196608", "C_window_model_M_rounded": 2.59},
+    {"id": "schrottenloher_low_gate", "source": "schrottenloher", "Q_core": 1446, "C_core_expression": "2^20.83", "Q_window_model": 1462, "C_window_model_expression": "2^20.83 + 196608", "C_window_model_M_rounded": 2.06},
+    {"id": "trailmix_jump", "source": "trailmix", "Q": 1169, "T_M_approx": 2.09},
+    {"id": "trailmix_shrunken_pz", "source": "trailmix", "Q": 1050, "T_M_approx": 32.3},
+    {"id": "fresh_jump2", "source": "fresh", "Q": 1162, "T": "1523121.58073", "static_toffoli": 1593346, "any_failures": 215},
+    {"id": "fresh_pingpong", "source": "fresh", "Q": 1338, "T": "1127527.39827", "static_toffoli": 1184131, "any_failures": 39},
+    {"id": "fresh_conservative", "source": "fresh", "Q": 1392, "T": "1252854.89397", "static_toffoli": 1347296, "any_failures": 0}
+  ],
+  "window_model": {"w": 16, "additional_Q": 16, "additional_lookup_work": 196608, "addition_calls": 28, "exact_lookup_plus_unlookup_cost": false, "full_circuit_certified_cap": false, "apply_to_fresh_rows": false, "optimal_for_fresh_kernels_verified": false},
+  "sampling": {
+    "parameter_source": "https://www.secg.org/sec2-v2.pdf#page=13",
+    "parameter_locator": "Section 2.4.1 printed p.9; source n is canonical r",
+    "r_hex": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141",
+    "N_expression": "2^256",
+    "d_decimal": "432420386565659656852420866394968145599",
+    "prefilter_tv_exact": "d*(r-d)/(2^256*r), d=2^256-r",
+    "prefilter_tv_decimal": "3.73445534504013415275958254801764716e-39",
+    "conditioned_tv_conservative_upper": "7.469e-39",
+    "conditions": ["R!=O", "nonzero j implies R!=+/-A"],
+    "R_equals_minus_2A_filtered": false,
+    "accepted_address_exactly_uniform": false,
+    "frozen_corpus_preserved": true,
+    "rng_assumption": "XOF draws modeled as independent uniform bits; seed is fixed",
+    "exact_arithmetic_details": "audit_checks.json"
+  },
+  "unsupported_claims": [
+    "Google published thresholds equal hidden actual costs",
+    "Current Google and Schrottenloher table rows have the same window boundary",
+    "196608 is an exact complete lookup/unlookup cost",
+    "Schrottenloher counts are verified runtime means or static instruction totals",
+    "Schrottenloher epsilon is an established 95% confidence bound",
+    "Selected FS 0/9024 and fresh 0/100000 establish comparable errors",
+    "w=16 is established optimal for the new kernels",
+    "Q*T measures depth, physical spacetime, or full-Shor runtime",
+    "All-in external costs can be recovered from rounded or capped values"
+  ]
+}

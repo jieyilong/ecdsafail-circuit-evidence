@@ -1,0 +1,18 @@
+{
+  "scope": "Ideal exact signed integers and canonical field arithmetic only. No circuit gates, measurements, truncations, or large-input error probabilities are tested.",
+  "primes": [
+    3,
+    5,
+    7,
+    11,
+    19,
+    31,
+    61,
+    127
+  ],
+  "denominator_payload_cases": 1008,
+  "terminal_signed_pairs": 4,
+  "value_inverse": "pass",
+  "division_and_multiplication_identities": "pass",
+  "zero_payload_field_arithmetic": "pass; does not certify circuit encodings or phases"
+}

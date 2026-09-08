@@ -12,6 +12,10 @@
 | Independent classical oracle | A separate implementation reproduced the recorded inputs and expected point sums | Circuit phases, coherent correctness, or physical execution |
 | Coordinate-phase trace | One development failure was localized to the initial x-coordinate subtraction | An explanation of every historical phase failure |
 | Zero-payload probe | Selected component inputs exposed noncanonical outputs and phase flags | A full point-addition failure rate or a replacement for the fresh-study statistics |
+| Controlled backend/square ablation | Static cost effect with a shared shell and disabled post-emission passes | Equal-error performance, a universal GCD advantage, or a decomposition of the historical parent result |
+| Structured boundary diagnosis | Specific representation and carry-predicate witnesses, including nonzero pre-release coefficients | A complete replay repair or a new full point-addition error rate |
+
+The new [boundary study](../experiments/07-boundary-diagnosis/REPORT.md) explains why simply widening comparisons does not fix all tested defects. Its zero-aware canonical-negation candidate passes 9,200 local evaluations but is not installed in a complete circuit. The [accounting study](../experiments/06-resource-accounting/README.md) retains every smoke failure, including unsupported identity inputs. Allocation counts are not proofs of clean uncomputation.
 
 ## Zero Failures and Boundary Failures
 

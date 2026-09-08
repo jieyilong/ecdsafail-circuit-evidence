@@ -1,0 +1,34 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+CONSTPROP iter=1 ccx_total=1365127 dropped=364 folded_cx=23 folded_x=0 inverse_pairs=25 aff_drop=9 aff_fold=1 (this-iter toffoli removed = 447)
+CONSTPROP iter=2 ccx_total=1364680 dropped=3 folded_cx=0 folded_x=0 inverse_pairs=0 aff_drop=0 aff_fold=0 (this-iter toffoli removed = 3)
+CONSTPROP iter=3 ccx_total=1364677 dropped=0 folded_cx=0 folded_x=0 inverse_pairs=0 aff_drop=0 aff_fold=0 (this-iter toffoli removed = 0)
+CONSTPROP TOTAL iters=3 dropped=367 folded_cx=23 folded_x=0 inverse_pairs=25 aff_drop=9 aff_fold=1 (toffoli removed = 450)
+SINGLE_CCX_FANOUT: STOP passes=28 input_ops=9143155 output_ops=9143127 reason=no target-fanout conjugation found
+SINGLE_CCX_FANOUT: SUMMARY input_ops=9143155 output_ops=9143127 passes=28
+  [M-60] disabled -> emitting C1 (unfiltered)
+  [W018 CCZ straddle] total_ccz=5588 same_triple_candidates=0 cancelled_pairs=0 removed_ccz=0 -> 9143127 ops
+[deep-strip-identity] removed 9678 / 9678 dead; downgraded 2243 / 2243 to CX/CZ; 0 stale keys skipped
+  emitted ops : 9133449
+  wrote       : ops.bin (29968460 bytes on disk, 511473160 uncompressed, 17.1x)
+
+=== build_circuit OK ===
+       10.47 real         7.94 user         1.78 sys
+          2033172480  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              214047  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   9  voluntary context switches
+                3984  involuntary context switches
+        108551085389  instructions retired
+         32620244295  cycles elapsed
+          2032539072  peak memory footprint

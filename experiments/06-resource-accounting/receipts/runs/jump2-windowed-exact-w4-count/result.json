@@ -1,0 +1,14 @@
+{
+  "name": "jump2-windowed-exact-w4-count",
+  "source": "jump2",
+  "instrumented": true,
+  "count_only": true,
+  "settings": {
+    "WINDOWED_MODE": "1",
+    "WINDOWED_QROM_UNLOAD": "split",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "WINDOW_BITS": "4",
+    "ACCOUNTING_EXACT_QROM": "1"
+  },
+  "exit_code": 0
+}

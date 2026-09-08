@@ -1,0 +1,45 @@
+{
+  "status": "complete_bounded_scope",
+  "report": "REPORT.md",
+  "integration": "integration-summary.json",
+  "verification": "verification.json",
+  "full_results": "results.json",
+  "successful_stream_identity_pairs": 12,
+  "common_input_smoke_runs": 6,
+  "smoke_cases_per_run": 64,
+  "successful_goals": [
+    "simultaneous_live_peak_owners_all_requested_profiles",
+    "static_source_phase_ledgers_two_backends",
+    "source_knob_2x2_backend_square_no_postcompiler",
+    "unchanged_evaluator_common_input_smoke_all_failures_retained"
+  ],
+  "not_done": [
+    "full_window_stream_reemission_and_hash_identity",
+    "postcompiler_per_category_attribution",
+    "individual_identity_address_cost",
+    "large_corpus_accuracy",
+    "trace_cause_of_8_toffoli_interaction"
+  ],
+  "maximum_sampled_process_group_kib": 1985936,
+  "frozen_sources_and_data_modified": false,
+  "paper_modified": false,
+  "trusted_simulator_or_scoring_modified": false,
+  "nonce_search": false,
+  "commit_or_push": false,
+  "expected_superseded_failures": [
+    {
+      "name": "conservative-w4",
+      "check": "count_only_raw_operations",
+      "emitted": 15710441,
+      "counted": 15710357,
+      "passed": false
+    },
+    {
+      "name": "original-w4",
+      "check": "count_only_raw_operations",
+      "emitted": 13579145,
+      "counted": 13579061,
+      "passed": false
+    }
+  ]
+}
