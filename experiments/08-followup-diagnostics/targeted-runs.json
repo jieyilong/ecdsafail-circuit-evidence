@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ablation-pingpong-product-smoke",
+    "command": [
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/target/release/eval_followup",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/ablation-pingpong-product/ops.bin",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/smoke.tsv",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/ablation-pingpong-product/phases.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 1.0544421672821045,
+    "ops_sha256": "8d135db0aa0123fd143fc78ee1dbbe5fe6b851af9003352fde0f2fcc90458b34",
+    "input_sha256": "a306eebf62716d53ed6522ba1d81516c6f2b63e5c247ca764a4d9c6372fa6b9a",
+    "unsegmented_output_identical": true,
+    "binary_sha256": "9eb16929421dadf45c85d16efee0735133266b1ccd9d37d2a71b28cb78c49c78"
+  },
+  {
+    "name": "ablation-pingpong-product-zero-slope",
+    "command": [
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/target/release/eval_followup",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/ablation-pingpong-product/ops.bin",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/zero-slope.tsv",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/ablation-pingpong-product/phases.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8368499279022217,
+    "ops_sha256": "8d135db0aa0123fd143fc78ee1dbbe5fe6b851af9003352fde0f2fcc90458b34",
+    "input_sha256": "4553311f34567e738ecf373bc89cdc36cbd12f330a8143e0659c09a4162b671e",
+    "unsegmented_output_identical": true,
+    "binary_sha256": "9eb16929421dadf45c85d16efee0735133266b1ccd9d37d2a71b28cb78c49c78"
+  },
+  {
+    "name": "mixed1321-smoke",
+    "command": [
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/target/release/eval_followup",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/mixed1321/ops.bin",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/smoke.tsv",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/mixed1321/phases.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8947100639343262,
+    "ops_sha256": "8d135db0aa0123fd143fc78ee1dbbe5fe6b851af9003352fde0f2fcc90458b34",
+    "input_sha256": "a306eebf62716d53ed6522ba1d81516c6f2b63e5c247ca764a4d9c6372fa6b9a",
+    "unsegmented_output_identical": true,
+    "binary_sha256": "9eb16929421dadf45c85d16efee0735133266b1ccd9d37d2a71b28cb78c49c78"
+  },
+  {
+    "name": "mixed1321-zero-slope",
+    "command": [
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/target/release/eval_followup",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/mixed1321/ops.bin",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/zero-slope.tsv",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/mixed1321/phases.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8377447128295898,
+    "ops_sha256": "8d135db0aa0123fd143fc78ee1dbbe5fe6b851af9003352fde0f2fcc90458b34",
+    "input_sha256": "4553311f34567e738ecf373bc89cdc36cbd12f330a8143e0659c09a4162b671e",
+    "unsegmented_output_identical": true,
+    "binary_sha256": "9eb16929421dadf45c85d16efee0735133266b1ccd9d37d2a71b28cb78c49c78"
+  },
+  {
+    "name": "original-w4-smoke",
+    "command": [
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/target/release/eval_followup",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/original-w4/ops.bin",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/smoke.tsv",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/original-w4/phases.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.886354923248291,
+    "ops_sha256": "01b64fac8d6b1dee7faead078b72ddc6ca8cf44ffeee064a7d7dfcb31f75d635",
+    "input_sha256": "a306eebf62716d53ed6522ba1d81516c6f2b63e5c247ca764a4d9c6372fa6b9a",
+    "unsegmented_output_identical": true,
+    "binary_sha256": "9eb16929421dadf45c85d16efee0735133266b1ccd9d37d2a71b28cb78c49c78"
+  },
+  {
+    "name": "original-w4-zero-slope",
+    "command": [
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/target/release/eval_followup",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/original-w4/ops.bin",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/zero-slope.tsv",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/original-w4/phases.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8343291282653809,
+    "ops_sha256": "01b64fac8d6b1dee7faead078b72ddc6ca8cf44ffeee064a7d7dfcb31f75d635",
+    "input_sha256": "4553311f34567e738ecf373bc89cdc36cbd12f330a8143e0659c09a4162b671e",
+    "unsegmented_output_identical": true,
+    "binary_sha256": "9eb16929421dadf45c85d16efee0735133266b1ccd9d37d2a71b28cb78c49c78"
+  },
+  {
+    "name": "conservative-w4-smoke",
+    "command": [
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/target/release/eval_followup",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/conservative-w4/ops.bin",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/smoke.tsv",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/conservative-w4/phases.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.9893109798431396,
+    "ops_sha256": "560ef4f46783d71e4541de51a8e9cc64699da407ae0d6c674ba2543e017d9367",
+    "input_sha256": "a306eebf62716d53ed6522ba1d81516c6f2b63e5c247ca764a4d9c6372fa6b9a",
+    "unsegmented_output_identical": true,
+    "binary_sha256": "9eb16929421dadf45c85d16efee0735133266b1ccd9d37d2a71b28cb78c49c78"
+  },
+  {
+    "name": "conservative-w4-zero-slope",
+    "command": [
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/target/release/eval_followup",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/conservative-w4/ops.bin",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-followup-diagnostics/zero-slope.tsv",
+      "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/outputs/qip2027-mechanism-revision-20260908/accounting/runs/conservative-w4/phases.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.9283180236816406,
+    "ops_sha256": "560ef4f46783d71e4541de51a8e9cc64699da407ae0d6c674ba2543e017d9367",
+    "input_sha256": "4553311f34567e738ecf373bc89cdc36cbd12f330a8143e0659c09a4162b671e",
+    "unsegmented_output_identical": true,
+    "binary_sha256": "9eb16929421dadf45c85d16efee0735133266b1ccd9d37d2a71b28cb78c49c78"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "summaries": {
+    "ablation-pingpong-product-smoke": {
+      "classical": 6,
+      "phase": 0,
+      "ancilla": 0,
+      "all_interfaces_preserved": true
+    },
+    "ablation-pingpong-product-zero-slope": {
+      "classical": 0,
+      "phase": 33,
+      "ancilla": 0,
+      "all_interfaces_preserved": true
+    },
+    "conservative-w4-smoke": {
+      "classical": 0,
+      "phase": 0,
+      "ancilla": 0,
+      "all_interfaces_preserved": true
+    },
+    "conservative-w4-zero-slope": {
+      "classical": 0,
+      "phase": 35,
+      "ancilla": 0,
+      "all_interfaces_preserved": true
+    },
+    "mixed1321-smoke": {
+      "classical": 6,
+      "phase": 0,
+      "ancilla": 0,
+      "all_interfaces_preserved": true
+    },
+    "mixed1321-zero-slope": {
+      "classical": 0,
+      "phase": 33,
+      "ancilla": 0,
+      "all_interfaces_preserved": true
+    },
+    "original-w4-smoke": {
+      "classical": 1,
+      "phase": 1,
+      "ancilla": 0,
+      "all_interfaces_preserved": true
+    },
+    "original-w4-zero-slope": {
+      "classical": 0,
+      "phase": 27,
+      "ancilla": 0,
+      "all_interfaces_preserved": true
+    }
+  },
+  "fixture_50_division": {
+    "output": "0xfa1bdb9c3b3e450cb8a067fbe53524c492bef3eecf8215d1cf7777c5de9a90f6",
+    "expected": "0xfa1bdb9c3b3e450cb8a067fbe53524c492bef3eecf8215d1cf7777c5de9a90f6",
+    "classical": false,
+    "convergence": 616,
+    "first_width": null,
+    "events": {},
+    "coefficient": "0x0",
+    "first_value": null
+  },
+  "fixture_50_multiplication": {
+    "output": "0xf16a9790258f4d673bb8fcdada78a91c95c35082d4fe10939e48e8f53eb3381b",
+    "expected": "0xf16a9790311ae43dce94fb155a8a1a8525682cf1ab2ca54ea848e8f53eb3381b",
+    "classical": true,
+    "convergence": 638,
+    "first_width": null,
+    "events": {
+      "fold_width": 1,
+      "ordinary_value": 1
+    },
+    "coefficient": "0x1eca20430f2e39d59e9f66fd43eff1c329adc46ec100000000000000",
+    "first_value": {
+      "round": 271,
+      "source": "0x5b88282fe27b2d0dc99674ca4ad9af610bca38bf9b201acca32c7dadcb82bf10",
+      "target_before": "0xf5faa0aaa65bab91984862a913811a3342fcf7af294130e36f69c1291149d50d",
+      "result": "0x477d69852f328430fa273a1c71dbe3c791c4281deda27c9381000001ee1670cc"
+    }
+  },
+  "fold_witness": {
+    "round_zero_based": 271,
+    "source": "0x5b88282fe27b2d0dc99674ca4ad9af610bca38bf9b201acca32c7dadcb82bf10",
+    "target": "0xf5faa0aaa65bab91984862a913811a3342fcf7af294130e36f69c1291149d50d",
+    "sign": 0,
+    "raw_word": "0x477d69852f328430fa273a1c71dbe3c791c4281deda27c9381ffffffee16692a",
+    "correction": 8589936546,
+    "folded_56": "0x477d69852f328430fa273a1c71dbe3c791c4281deda27c9381000001ee1670cc",
+    "full_fold": "0x477d69852f328430fa273a1c71dbe3c791c4281deda27c9382000001ee1670cc",
+    "fold_difference": "-72057594037927936",
+    "expected_cell_output": "0x477d69852f328430fa273a1c71dbe3c791c4281deda27c9382000001ee1670cc",
+    "actual_cell_output": "0x477d69852f328430fa273a1c71dbe3c791c4281deda27c9381000001ee1670cc",
+    "matched_ordinary_round_boundaries": 702
+  },
+  "complete_coordinate_model_matches": 246,
+  "scope": "Source-word model verified against 702 emitted inverse-round boundaries for fixture 50 and 246 final point outputs. No general phase-model equivalence claim."
+}

@@ -1,0 +1,12 @@
+test_chunk_equality_positive_control (__main__.Diagnostics.test_chunk_equality_positive_control) ... ok
+test_gmp_against_python (__main__.Diagnostics.test_gmp_against_python) ... ok
+test_reproduce_prior_smoke (__main__.Diagnostics.test_reproduce_prior_smoke) ... ok
+test_segmented_equals_whole_stream (__main__.Diagnostics.test_segmented_equals_whole_stream) ... ok
+test_supported_zero_slope (__main__.Diagnostics.test_supported_zero_slope) ... ok
+test_unchanged_trusted_modules (__main__.Diagnostics.test_unchanged_trusted_modules) ... ok
+test_width_repair_of_smoke_cell (__main__.Diagnostics.test_width_repair_of_smoke_cell) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.133s
+
+OK

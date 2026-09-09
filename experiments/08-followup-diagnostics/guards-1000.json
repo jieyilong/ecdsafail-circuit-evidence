@@ -1,0 +1,66 @@
+{
+  "scope": "Post-hoc ordinary replay guard diagnostics on actual frozen affine inputs.\n\nUses raw noncanonical payload words and their correlations. Counts predicate\ndisagreements, not measured phase failures. Does not model the coordinate shell's\ninternal carry guards, specialized seed phases, or general coherent error.\n",
+  "per_stratum_prefix": 1000,
+  "strata": {
+    "G-s0.tsv.gz": {
+      "evaluated": 1000,
+      "skipped": 0,
+      "affected": {}
+    },
+    "G-s128.tsv.gz": {
+      "evaluated": 1000,
+      "skipped": 0,
+      "affected": {}
+    },
+    "G-s240.tsv.gz": {
+      "evaluated": 1000,
+      "skipped": 0,
+      "affected": {}
+    },
+    "P1-s0.tsv.gz": {
+      "evaluated": 1000,
+      "skipped": 0,
+      "affected": {}
+    },
+    "P1-s128.tsv.gz": {
+      "evaluated": 1000,
+      "skipped": 0,
+      "affected": {}
+    },
+    "P1-s240.tsv.gz": {
+      "evaluated": 1000,
+      "skipped": 0,
+      "affected": {}
+    },
+    "P2-s0.tsv.gz": {
+      "evaluated": 1000,
+      "skipped": 0,
+      "affected": {}
+    },
+    "P2-s128.tsv.gz": {
+      "evaluated": 999,
+      "skipped": 1,
+      "affected": {}
+    },
+    "P2-s240.tsv.gz": {
+      "evaluated": 1000,
+      "skipped": 0,
+      "affected": {}
+    }
+  },
+  "events": {},
+  "affected_inputs": {},
+  "witnesses": [],
+  "input_hashes": {
+    "G-s0.tsv.gz": "4d87e304abcd5875f262bae4a73321f3480941b32cc0fdf3734c0dedd1531956",
+    "G-s128.tsv.gz": "1603a27ebac6cc3a4a89b04c78f4b96f9c951eba9807be869686395ec8002b3d",
+    "G-s240.tsv.gz": "1dda641a10d345c10bff2da0165b6f8216b90167e0f8df6b0d2e92564c9aca59",
+    "P1-s0.tsv.gz": "efa92673483665b304414c38643f2f598547fadcb6b3f7c283c3b24eb42cfb2c",
+    "P1-s128.tsv.gz": "e841fe167fabcea6bfc3fff3161cd5aa9acfcffd1dfe744beed9d132cf687b88",
+    "P1-s240.tsv.gz": "73a11594d15adffaa8003207e7a6c003031eb4211daa7a35c1a1d0ccf2c3163f",
+    "P2-s0.tsv.gz": "bd45acc94906990f4b738c10353e0313fd9e4a98fd3b1ec0e460d663a41b6cfc",
+    "P2-s128.tsv.gz": "dc81af90f0f186af90ade95d6ed39319704b97a2507fffa06d8256f7b72268c2",
+    "P2-s240.tsv.gz": "5f2840869df0e0dc6bf0957b3a107b53075a6fe68c8e2a7af76606d67abce779"
+  },
+  "seconds": 47.55664086341858
+}

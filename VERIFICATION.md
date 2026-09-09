@@ -1,5 +1,21 @@
 # Publication Checks
 
+## v1.2.0 Additions
+
+The root verifier also checks experiment 08, all 148 original supplement files,
+and preservation of v1.1.0 scientific records. It recomputes the scalar/trace
+correspondence and runs six standard-library diagnostic tests without circuits.
+The original seven-test receipt includes a GMP crosscheck, available separately
+through the scratch-space reproduction wrapper. The 10-million-trial loop and
+full circuit executions are not rerun in CI. No high-cost reference circuit is
+included, and the original frozen outcomes remain unchanged.
+
+Publication testing passed all 22 root regression tests. The scratch-space
+wrapper also rebuilt the GMP diagnostic, reproduced the 10,000-case prefix,
+and passed the original seven-test suite including the 1,033-case GMP/Python
+comparison. These small publication checks are not new ten-million-trial or
+full-circuit runs.
+
 ## v1.1.0 Additions
 
 The root verification command and CI now check the portable accounting and boundary packages, preserve the original v1.0.0 scientific files, and rerun scalar algebra/accounting checks. These are offline record and source checks, not new circuit experiments. Nineteen root regression tests cover the original wrappers and the added verification paths.

@@ -2,7 +2,7 @@
 
 [Repository overview](../README.md) | [Results](../RESULTS.md) | [Citation guidance](CITING.md)
 
-This map follows the **35-page mechanism-focused September 8, 2026 manuscript**. Section titles and LaTeX labels are included because numbering can change. The [v1.0.0 map](https://github.com/jieyilong/ecdsafail-circuit-evidence/blob/v1.0.0/docs/PAPER_MAP.md) retains the preceding draft's numbering. Experiments 01-05 are scientifically unchanged.
+This map follows the **37-page manuscript with Appendix C.4 follow-up diagnostics**. Section titles and LaTeX labels are included because numbering can change. The [v1.0.0 map](https://github.com/jieyilong/ecdsafail-circuit-evidence/blob/v1.0.0/docs/PAPER_MAP.md) retains the preceding draft's numbering. All v1.0.0/v1.1.0 scientific records remain unchanged. The later 34-page canonical-reference version is outside this release.
 
 ## Evidence in This Repository
 
@@ -12,6 +12,10 @@ This map follows the **35-page mechanism-focused September 8, 2026 manuscript**.
 | Table 4 and Section 7.2.1 (`tab:mechanism-ablation`) | Controlled backend/square experiment | [Protocol and reproduction](../experiments/06-resource-accounting/README.md), [integration data](../experiments/06-resource-accounting/receipts/integration-summary.json) |
 | Tables 5-6 and Section 7.2.2 (`tab:mechanism-peak`, `tab:mechanism-static`) | Simultaneous allocation and static phase counts | [Allocation/phase records](../experiments/06-resource-accounting/receipts/runs/), [ledger CSV](../experiments/06-resource-accounting/receipts/integration-ledger.csv) |
 | Appendix C.3 (`sec:boundary-mechanisms`) | Representation, phase predicates, nonzero resets, local negation | [Diagnostic report](../experiments/07-boundary-diagnosis/REPORT.md), [raw logs](../experiments/07-boundary-diagnosis/logs/), [reproduction](../experiments/07-boundary-diagnosis/README.md) |
+| Appendix C.4, smoke outlier (`app:targeted-followup`) | Input 50, lost bit-56 carry at inverse-replay round 271 | [Analysis and exact operands](../experiments/08-followup-diagnostics/targeted-analysis.json), [702-round trace](../experiments/08-followup-diagnostics/logs/ablation-pingpong-product-smoke.trace) |
+| Appendix C.4, supported zero slope | Two valid inputs, repeated measurement lanes, full w=4 calls | [Fixture proof](../experiments/08-followup-diagnostics/fixture-proof.json), [conservative outcomes](../experiments/08-followup-diagnostics/logs/conservative-w4-zero-slope.tsv), [original outcomes](../experiments/08-followup-diagnostics/logs/original-w4-zero-slope.tsv) |
+| Appendix C.4, denominator tail | Ten million exact signed walks, budgets 704/736/768/800 | [Histogram and generator specification](../experiments/08-followup-diagnostics/tail-10000000.json), [native implementation](../experiments/08-followup-diagnostics/round_tail.c) |
+| Appendix C.4, guard checks | Raw-word model on 99,997 nonidentity cases from the existing corpus | [Results](../experiments/08-followup-diagnostics/guards-11112.json), [model](../experiments/08-followup-diagnostics/replay_model.py), [guide](../experiments/08-followup-diagnostics/README.md) |
 | Lemma 1 and field replay identities | Exact signed/field algebra, not circuit validation | [Small-prime checks](../supporting/algebra/check_value_replay.py) and [recorded result](../supporting/algebra/value-replay-checks.json) |
 | Section 7.4, "Conservative Parameters and Fresh Multi-Table Validation" (`sec:bounded-validation`) | Parameter selection followed by a frozen fresh-corpus comparison | [Development](../experiments/01-development/README.md), [fresh study](../experiments/02-fresh-windowed/README.md), and [frozen protocol](../sources/frozen-tools/bounded_qip/PROTOCOL.md) |
 | Table 8 (`tab:bounded-development`) | Five cumulative development configurations on 16,384 mixed-addition cases | [All five runs and summaries](../experiments/01-development/runs/) |

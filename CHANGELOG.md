@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2.0 - 2026-09-09
+
+- Added Appendix C.4 evidence for the 37-page manuscript under experiments/08-followup-diagnostics.
+- Preserved the smoke-input-50 carry trace, supported zero-slope complete-call tests at w=4, 10-million-denominator histogram, and 99,997-case guard diagnostics.
+- Added read-only verification, scratch-only reproduction, and paper-to-record navigation.
+- Preserved every prior scientific file and both existing release tags. No new circuit experiment is represented as part of the old frozen study.
+- Excluded the later expensive canonical-replay reference, which is outside this manuscript version.
+
 ## v1.1.0 - 2026-09-08
 
 - Added a controlled two-by-two backend/square experiment and source-derived qubit and static-Toffoli ledgers.

@@ -2,7 +2,7 @@
 
 Reader-facing evidence for the September 8, 2026 conservative ping-pong and fresh multi-table study in the ECDSA.Fail manuscript. This repository contains the recorded inputs, outcomes, analysis, and source snapshots needed to inspect the results without running large circuits.
 
-**Version 1.1.0** adds controlled backend/square accounting, structured-boundary diagnosis, and an external accounting audit. The original study, source snapshots, and [v1.0.0 release](https://github.com/jieyilong/ecdsafail-circuit-evidence/releases/tag/v1.0.0) remain unchanged. See [citation guidance](docs/CITING.md), [the paper map](docs/PAPER_MAP.md), [release changes](CHANGELOG.md), and [publication checks](VERIFICATION.md). This is a research evidence package, not a challenge submission or an end-to-end Shor implementation.
+**Version 1.2.0** adds the follow-up diagnostics reported in Appendix C.4 of the 37-page manuscript: the smoke-failure trace, supported zero-slope full-call tests, ten-million-denominator tail study, and replay-guard checks. The v1.0.0 and v1.1.0 scientific records remain unchanged. The later expensive canonical-replay reference is not part of this release. See [citation guidance](docs/CITING.md), [the paper map](docs/PAPER_MAP.md), [release changes](CHANGELOG.md), and [publication checks](VERIFICATION.md). This is a research evidence package, not a challenge submission or an end-to-end Shor implementation.
 
 ## Main Result
 
@@ -18,6 +18,8 @@ Means include failed cases. Any-channel failures are the union of classical-outp
 
 **Zero observed failures is not an all-input correctness claim.** A separate post-hoc zero-payload probe found noncanonical zero representations and phase flags in division and multiplication subroutines. Those diagnostics are not full point-addition trials and are not pooled with the frozen random study. Read [what the evidence establishes](docs/INTERPRETATION.md) before using these numbers as correctness or attack-cost estimates.
 
+The newer [follow-up study](experiments/08-followup-diagnostics/README.md) also records phase failures in complete four-bit-window calls on two supported zero-slope points. These structured outcomes are distinct from both the earlier component probes and the frozen random study. No circuit repair is claimed.
+
 ## Start Here
 
 | Reader task | Where to go |
@@ -29,6 +31,7 @@ Means include failed cases. Any-channel failures are the union of classical-outp
 | Check source identities and the relocation from the original ZIP | [Provenance](docs/PROVENANCE.md) |
 | Inspect the matched backend ablation and live resource ledgers | [Resource accounting](experiments/06-resource-accounting/README.md) |
 | Reproduce the boundary witnesses and inspect failed repair hypotheses | [Boundary diagnosis](experiments/07-boundary-diagnosis/README.md) |
+| Inspect Appendix C.4: smoke outlier, zero-slope calls, round tail, and guard checks | [Follow-up diagnostics](experiments/08-followup-diagnostics/README.md) |
 
 ## Verify Without Running Circuits
 
@@ -53,6 +56,7 @@ Default verification uses only the Python standard library. It reconstructs the 
 | [05-zero-payload](experiments/05-zero-payload/README.md) | Guide to the separate 64-denominator component probe in each direction. |
 | [06-resource-accounting](experiments/06-resource-accounting/README.md) | Controlled 2x2 backend/square experiment, live allocation and static phase ledgers, retained smoke failures, portable source snapshots. |
 | [07-boundary-diagnosis](experiments/07-boundary-diagnosis/README.md) | Representation and phase witnesses, failed widening hypotheses, local negation regression, and offline source replay. |
+| [08-followup-diagnostics](experiments/08-followup-diagnostics/README.md) | Smoke-failure diagnosis, supported-domain full-call witnesses, 10-million-denominator tail, and 99,997-case replay-guard model. |
 | [supporting/comparison](supporting/comparison/report.md) | Primary-source resource-boundary audit and exact sampling-bias calculations. |
 | [supporting/algebra](supporting/algebra/check_value_replay.py) | Exact small-prime value/replay identity checks, not circuit validation. |
 | [supporting/replay-analysis](supporting/replay-analysis/README.md) | Preserved local 446-to-393 replay-cell evidence and scalar fusion checks. |

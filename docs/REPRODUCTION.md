@@ -1,5 +1,14 @@
 # Reproducing the Evidence
 
+## Added in v1.2.0
+
+The [Appendix C.4 guide](../experiments/08-followup-diagnostics/README.md) maps
+the smoke trace, supported zero-slope calls, denominator tail, and guard model
+to their retained records. Root verification includes its read-only checks.
+Its reproduction wrapper prepares an isolated copy under `.work/` before any
+experiment or derived-output command runs. GMP is optional and is needed only
+for native denominator reproduction, not the default repository verification.
+
 ## Added in v1.1.0
 
 The root `python3 scripts/verify.py` command now also verifies the two added mechanism packages and scalar calculations. Python 3.11 or later is required for this complete check. To verify only the added evidence, run `python3 scripts/verify_mechanism.py`. Both commands are offline unless the optional `--oracle` dependency needs installation, and neither executes circuits.

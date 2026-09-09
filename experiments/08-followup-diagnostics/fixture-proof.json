@@ -1,0 +1,36 @@
+{
+  "beta": "0x7ae96a2b657c07106e64479eac3434e99cf0497512f58995c1396c28719501ee",
+  "fixtures": [
+    {
+      "power": 1,
+      "r": [
+        "0xbcace2e99da01887ab0102b696902325872844067f15e98da7bba04400b88fcb",
+        "0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8"
+      ],
+      "a": [
+        "0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+        "0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8"
+      ],
+      "out": [
+        "0xc994b69768832bcbff5e9ab39ae8d1d3763bbf1e531bed98fe51de5ee84f50fb",
+        "0xb7c52588d95c3b9aa25b0403f1eef75702e84bb7597aabe663b82f6f04ef2777"
+      ]
+    },
+    {
+      "power": 2,
+      "r": [
+        "0xc994b69768832bcbff5e9ab39ae8d1d3763bbf1e531bed98fe51de5ee84f50fb",
+        "0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8"
+      ],
+      "a": [
+        "0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+        "0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8"
+      ],
+      "out": [
+        "0xbcace2e99da01887ab0102b696902325872844067f15e98da7bba04400b88fcb",
+        "0xb7c52588d95c3b9aa25b0403f1eef75702e84bb7597aabe663b82f6f04ef2777"
+      ]
+    }
+  ],
+  "original_smoke_sha256": "9e26bab20f8b45e14e37476e00d9a1df54085cbd9eb5a4f79fd5181d1b76e8de"
+}

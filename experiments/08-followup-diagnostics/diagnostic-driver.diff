@@ -1,0 +1,93 @@
+--- eval_bounded.rs
++++ src/bin/eval_followup.rs
+@@ -1452,6 +1452,90 @@
+ }
+ 
+ fn main() {
++    let args: Vec<String> = std::env::args().collect();
++    assert!(args.len() >= 4, "eval_followup OPS FIXTURES PHASES_OR_DASH");
++    let ops = load_ops(&args[1]).unwrap();
++    let (nq, nb, _, regs) = analyze_ops(ops.iter());
++    let text = std::fs::read_to_string(&args[2]).unwrap();
++    let rows: Vec<Vec<&str>> = text.lines().skip(1).map(|x| x.split('\t').collect()).collect();
++    assert!(rows.len() <= 64);
++    let value = |s: &str| U256::from_str_radix(s.trim_start_matches("0x"), 16).unwrap();
++    let windowed = regs.len() > 4;
++    let mask = if rows.len() == 64 { u64::MAX } else { (1u64 << rows.len()) - 1 };
++    let mut xof = parallel_batch_seed(0);
++    let mut sim = Simulator::new(nq as usize, nb as usize, &mut xof);
++    if windowed {
++        let table = qip_table_from_scalar(regs[2].len(), U256::from(1));
++        set_window_table_inputs(&mut sim, &regs, &table, mask);
++    }
++    for (i, row) in rows.iter().enumerate() {
++        sim.set_register(&regs[0], value(row[1]), i);
++        sim.set_register(&regs[1], value(row[2]), i);
++        if windowed {
++            sim.set_register(&regs[2], U256::from(row[7].parse::<u64>().unwrap()), i);
++        } else {
++            sim.set_register(&regs[2], value(row[3]), i);
++            sim.set_register(&regs[3], value(row[4]), i);
++        }
++        assert_eq!(secp256k1().add(value(row[1]), value(row[2]), value(row[3]), value(row[4])), (value(row[5]), value(row[6])));
++    }
++    let trace_lane = std::env::var("TRACE_LANE").unwrap_or("50".into()).parse::<usize>().unwrap();
++    let mut pos = 0;
++    let mut coefficient = Vec::<QubitOrBit>::new();
++    if args[3] != "-" {
++        let phases = std::fs::read_to_string(&args[3]).unwrap();
++        let phases: Vec<Vec<&str>> = phases.lines().skip(1).map(|x| x.split('\t').collect()).collect();
++        for (i, row) in phases.iter().enumerate() {
++            let end: usize = row[2].parse().unwrap();
++            let mut depth = 0i64;
++            for op in &ops[pos..end] {
++                match op.kind {
++                    OperationType::PushCondition => depth += 1,
++                    OperationType::PopCondition => {depth -= 1; assert!(depth >= 0, "unbalanced trace start");},
++                    _ => {}
++                }
++            }
++            assert_eq!(depth,0,"trace boundary crosses classical control scope: {}",row[0]);
++            if row[0] == "pp_coefficient_allocate" && end-pos == 256 {
++                coefficient = ops[pos..end].iter().enumerate().map(|(j,op)| {
++                    assert_eq!(op.kind, OperationType::CX);
++                    assert_eq!(QubitOrBit::Qubit(op.q_control1), regs[1][j]);
++                    QubitOrBit::Qubit(op.q_target)
++                }).collect();
++            }
++            sim.apply_iter_masked(ops[pos..end].iter(), mask);
++            pos = end;
++            if trace_lane < rows.len() && (std::env::var_os("TRACE_ALL").is_some() || i+1 == phases.len() || phases[i+1][0] != row[0]) {
++                eprintln!("TRACE\t{}\t{}\t{:#x}\t{:#x}\t{}", row[0], end,
++                    sim.get_register(&regs[0],trace_lane), sim.get_register(&regs[1],trace_lane), (sim.phase >> trace_lane)&1);
++                if !coefficient.is_empty() {
++                    eprintln!("COEFFICIENT\t{}\t{}\t{:#x}", row[0],end,sim.get_register(&coefficient,trace_lane));
++                }
++            }
++        }
++    }
++    sim.apply_iter_masked(ops[pos..].iter(), mask);
++    let got: Vec<_> = rows.iter().enumerate().map(|(i,_)| (sim.get_register(&regs[0],i),sim.get_register(&regs[1],i))).collect();
++    let phase = sim.phase;
++    let mut interface_ok = Vec::new();
++    for (i,row) in rows.iter().enumerate() {
++        interface_ok.push(if windowed { sim.get_register(&regs[2],i)==U256::from(row[7].parse::<u64>().unwrap()) }
++                         else { sim.get_register(&regs[2],i)==value(row[3]) && sim.get_register(&regs[3],i)==value(row[4]) });
++    }
++    for reg in &regs[..if windowed {3} else {2}] {
++        for qb in reg { if let QubitOrBit::Qubit(q) = qb { *sim.qubit_mut(*q)=0; } }
++    }
++    let garbage = (0..nq).fold(0u64, |a,q| a | sim.qubit(QubitId(q)));
++    println!("label\tgot_x\tgot_y\tclassical\tphase\tancilla\tinterface_ok");
++    for (i,row) in rows.iter().enumerate() {
++        println!("{}\t{:#x}\t{:#x}\t{}\t{}\t{}\t{}", row[0],got[i].0,got[i].1,
++            usize::from(got[i] != (value(row[5]),value(row[6]))), (phase>>i)&1, (garbage>>i)&1, interface_ok[i]);
++    }
++    eprintln!("RESOURCE\tqubits={nq}\tops={}\ttoffoli_sum={}\tlanes={}", ops.len(), sim.stats.toffoli_gates,rows.len());
++}
++
++#[allow(dead_code)]
++fn original_main() {
+     let note = parse_note();
+     println!("=== quantum_ecc: eval_bounded (research input driver) ===\n");
+ 
