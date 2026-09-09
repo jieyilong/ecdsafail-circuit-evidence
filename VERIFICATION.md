@@ -1,5 +1,27 @@
 # Publication Checks
 
+## v1.3.0 Additions
+
+The canonical-reference verifier checks the original supplement, available
+frozen source hashes, all 4,096 pilot rows and batch totals, 576 passing
+canonical cell cases, 124 retained noncanonical cases, both zero-payload
+components, and all 256 targeted outcomes. It independently reconstructs the
+4,096 classical reference sums in Python and verifies the retained replay-only
+phase failures. Original native and large-stream hashes remain receipts because
+those files are omitted. Default verification does not rerun circuits or
+remeasure their static count. The intermediate emitter count is explicitly
+reconciled with the authoritative recorded stream count.
+
+All v1.2.0 scientific files are preserved and checked by hash. The new study is
+a separate high-cost correctness reference, not a replacement benchmark record.
+
+Publication testing passed all 25 root regression tests. The new scratch-space
+wrapper built the locked source offline and reproduced the complete cell-grid
+log and both zero-payload component logs byte for byte. These are small
+reproduction checks on the existing fixtures, not a new fresh accuracy study.
+The full sixteen-bit-window operation stream and pilot were not reexecuted
+during publication.
+
 ## v1.2.0 Additions
 
 The root verifier also checks experiment 08, all 148 original supplement files,

@@ -1,0 +1,12 @@
+{
+  "name": "target-w16-zero-slope-canonical",
+  "seconds": 21.239640951156616,
+  "ops_sha256": "5fb5bc54f0640d6c13f2ccb5984ff826e6df27aea58d98fea7c7622ee1bcd768",
+  "input_sha256": "4553311f34567e738ecf373bc89cdc36cbd12f330a8143e0659c09a4162b671e",
+  "failures": {
+    "classical": 0,
+    "phase": 0,
+    "ancilla": 0
+  },
+  "interfaces_restored": true
+}

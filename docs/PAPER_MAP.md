@@ -2,7 +2,7 @@
 
 [Repository overview](../README.md) | [Results](../RESULTS.md) | [Citation guidance](CITING.md)
 
-This map follows the **37-page manuscript with Appendix C.4 follow-up diagnostics**. Section titles and LaTeX labels are included because numbering can change. The [v1.0.0 map](https://github.com/jieyilong/ecdsafail-circuit-evidence/blob/v1.0.0/docs/PAPER_MAP.md) retains the preceding draft's numbering. All v1.0.0/v1.1.0 scientific records remain unchanged. The later 34-page canonical-reference version is outside this release.
+The primary map follows the **37-page manuscript and its 35-page editorial compression**, with Appendix C.4 follow-up diagnostics. Section labels are included because numbering can change. All earlier scientific records remain unchanged. The alternate **34-page canonical-reference manuscript** has a separate map below and uses the new v1.3.0 experiment 09. Do not mix its pilot with the original frozen study.
 
 ## Evidence in This Repository
 
@@ -29,6 +29,20 @@ This map follows the **37-page manuscript with Appendix C.4 follow-up diagnostic
 | Appendix B.4, "Fresh Frozen Study" (`app:fresh-artifacts`) | Frozen artifacts and reconstruction | [Provenance](PROVENANCE.md) and [reproduction guide](REPRODUCTION.md) |
 
 The three fresh-study rows of Table 10 derive from the frozen study. The other rows have separate sources, audited in [supporting/comparison/report.md](../supporting/comparison/report.md). Published arithmetic costs, leading-order window allowances, and measured window kernels are distinct.
+
+## Alternate 34-Page Correctness-Reference Version
+
+| Paper location | Subject | Evidence |
+|---|---|---|
+| Appendix C.4 (`sec:canonical-reference`) | Canonical replay construction and conditional argument | [Source and contract](../experiments/09-canonical-reference/README.md), [canonical primitives](../experiments/09-canonical-reference/source/src/point_add/canonical_replay.rs) |
+| Appendix C.4, failed first repair | Replay-only phase failures and final coordinate-subtraction diagnosis | [Preserved attempt](../experiments/09-canonical-reference/attempts/replay-only/), [phase trace](../experiments/09-canonical-reference/attempts/replay-only/logs/shell-trace.log) |
+| Appendix C.4, full-call regression | Supported zero-slope and smoke cases at w=4 and w=16 | [Fixtures](../experiments/09-canonical-reference/fixtures/), [all outcomes](../experiments/09-canonical-reference/logs/) |
+| Section 7.4 and Appendix C.4 | Q=1,804, 5,188,043 static Toffolis, and 4,096-input pilot | [Results](../experiments/09-canonical-reference/results.json), [emitted counts](../experiments/09-canonical-reference/emitted-counts.json), [freeze](../experiments/09-canonical-reference/candidate-freeze.json), [complete pilot](../experiments/09-canonical-reference/emit-window-16/fresh-4096/) |
+| Appendix C.3 | Earlier follow-up diagnostics, called C.4 in the low-cost version | [Experiment 08](../experiments/08-followup-diagnostics/README.md) |
+
+The reference is more expensive and is not a low-cost record. Its conditional
+replay argument does not certify every inherited full-circuit arithmetic path.
+The low-cost manuscript's operating points and the original study are unchanged.
 
 ## Separate September 7 Evidence
 

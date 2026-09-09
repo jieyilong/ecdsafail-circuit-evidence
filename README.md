@@ -1,8 +1,8 @@
 # ECDSA.Fail Circuit Evidence
 
-Reader-facing evidence for the September 8, 2026 conservative ping-pong and fresh multi-table study in the ECDSA.Fail manuscript. This repository contains the recorded inputs, outcomes, analysis, and source snapshots needed to inspect the results without running large circuits.
+Reader-facing evidence for the ECDSA.Fail point-addition manuscripts, including the September 8, 2026 frozen study and a separately identified correctness reference. This repository contains recorded inputs, outcomes, analysis, and source snapshots for inspection without running large circuits.
 
-**Version 1.2.0** adds the follow-up diagnostics reported in Appendix C.4 of the 37-page manuscript: the smoke-failure trace, supported zero-slope full-call tests, ten-million-denominator tail study, and replay-guard checks. The v1.0.0 and v1.1.0 scientific records remain unchanged. The later expensive canonical-replay reference is not part of this release. See [citation guidance](docs/CITING.md), [the paper map](docs/PAPER_MAP.md), [release changes](CHANGELOG.md), and [publication checks](VERIFICATION.md). This is a research evidence package, not a challenge submission or an end-to-end Shor implementation.
+**Version 1.3.0** adds a separately identified [canonical-replay correctness reference](experiments/09-canonical-reference/README.md) for the alternate 34-page manuscript. It is more expensive than the low-cost circuits and is not a new benchmark record. All v1.0.0, v1.1.0, and v1.2.0 scientific files remain unchanged. The 35-page low-cost manuscript can continue to cite v1.2.0. See [citation guidance](docs/CITING.md), [the paper map](docs/PAPER_MAP.md), [release changes](CHANGELOG.md), and [publication checks](VERIFICATION.md). This is a research evidence package, not a challenge submission or an end-to-end Shor implementation.
 
 ## Main Result
 
@@ -22,6 +22,12 @@ The newer [follow-up study](experiments/08-followup-diagnostics/README.md) also 
 
 ## Start Here
 
+The separate correctness reference uses **1,804 qubits and 5,188,043 static
+Toffolis**, with mean 5,187,616.277587891 and 0 detected failures in a new
+4,096-input pilot. These are full single-call window-selected resources, not
+full-Shor costs. Its [source, failed attempt, and pilot](experiments/09-canonical-reference/README.md)
+remain separate from the original table above.
+
 | Reader task | Where to go |
 |---|---|
 | Find a paper table or distinguish September 7 from September 8 data | [Paper map](docs/PAPER_MAP.md) |
@@ -32,6 +38,7 @@ The newer [follow-up study](experiments/08-followup-diagnostics/README.md) also 
 | Inspect the matched backend ablation and live resource ledgers | [Resource accounting](experiments/06-resource-accounting/README.md) |
 | Reproduce the boundary witnesses and inspect failed repair hypotheses | [Boundary diagnosis](experiments/07-boundary-diagnosis/README.md) |
 | Inspect Appendix C.4: smoke outlier, zero-slope calls, round tail, and guard checks | [Follow-up diagnostics](experiments/08-followup-diagnostics/README.md) |
+| Inspect the alternate 34-page high-cost reference and its pilot | [Canonical reference](experiments/09-canonical-reference/README.md) |
 
 ## Verify Without Running Circuits
 
@@ -57,6 +64,7 @@ Default verification uses only the Python standard library. It reconstructs the 
 | [06-resource-accounting](experiments/06-resource-accounting/README.md) | Controlled 2x2 backend/square experiment, live allocation and static phase ledgers, retained smoke failures, portable source snapshots. |
 | [07-boundary-diagnosis](experiments/07-boundary-diagnosis/README.md) | Representation and phase witnesses, failed widening hypotheses, local negation regression, and offline source replay. |
 | [08-followup-diagnostics](experiments/08-followup-diagnostics/README.md) | Smoke-failure diagnosis, supported-domain full-call witnesses, 10-million-denominator tail, and 99,997-case replay-guard model. |
+| [09-canonical-reference](experiments/09-canonical-reference/README.md) | Separate high-cost correctness reference, failed replay-only attempt, targeted regression, and 4,096-input pilot. |
 | [supporting/comparison](supporting/comparison/report.md) | Primary-source resource-boundary audit and exact sampling-bias calculations. |
 | [supporting/algebra](supporting/algebra/check_value_replay.py) | Exact small-prime value/replay identity checks, not circuit validation. |
 | [supporting/replay-analysis](supporting/replay-analysis/README.md) | Preserved local 446-to-393 replay-cell evidence and scalar fusion checks. |

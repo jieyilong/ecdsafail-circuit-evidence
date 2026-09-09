@@ -1,0 +1,28 @@
+{
+  "Q": 1804,
+  "static_toffoli": 5188043,
+  "operations": 250012176,
+  "fresh_inputs": 4096,
+  "toffoli_sum": 21248476273,
+  "mean_T": 5187616.277587891,
+  "Q_times_mean_T": 9358459764.768555,
+  "failures": {
+    "classical": 0,
+    "phase": 0,
+    "ancilla": 0,
+    "any": 0
+  },
+  "zero_failure_one_sided_95_bound": 0.0007311125564754343,
+  "independent_python_oracle_cases": 4096,
+  "canonical_cell_cases": 576,
+  "zero_component_cases": 128,
+  "targeted_passes": {
+    "target-w4-zero-slope-canonical": 64,
+    "target-w4-smoke-canonical": 64,
+    "target-w16-zero-slope-canonical": 64,
+    "target-w16-smoke-canonical": 64
+  },
+  "freeze_files_unchanged": true,
+  "scope": "Canonical replay and three exact coordinate subtractions. Finite value schedule, square, and remaining coordinate routines are inherited. Not an all-input full-point-addition proof.",
+  "accounting_note": "The emitted stream is authoritative. REFERENCE_COUNTS in the builder includes 6144 temporary forward-construction Toffolis discarded when three inverse subtraction blocks are emitted. They are absent from ops.bin."
+}

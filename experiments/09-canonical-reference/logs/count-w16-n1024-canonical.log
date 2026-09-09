@@ -1,0 +1,9 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+windowed ping-pong: width=1804, QROM calls=6, Toffolis=167150, payload CX=83886080
+REFERENCE_COUNTS Q=1804 static_toffoli=5183726 ops=249675175 count_only=true
+  emitted ops : 96
+  wrote       : ops.bin (79 bytes on disk, 5392 uncompressed, 68.3x)
+
+=== build_circuit OK ===

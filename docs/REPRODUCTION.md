@@ -1,5 +1,14 @@
 # Reproducing the Evidence
 
+## Added in v1.3.0
+
+The [canonical-reference guide](../experiments/09-canonical-reference/README.md)
+covers the separate high-cost reference from the alternate 34-page manuscript.
+Default verification reconstructs its 4,096 recorded classical outputs and
+checks source/record integrity without loading the omitted circuit. Rebuilding,
+targeted execution, and the fresh pilot are separate explicit scratch-space
+stages. This study is not pooled with the low-cost frozen comparison.
+
 ## Added in v1.2.0
 
 The [Appendix C.4 guide](../experiments/08-followup-diagnostics/README.md) maps

@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.0 - 2026-09-09
+
+- Added the alternate 34-page manuscript's canonical-replay correctness reference as experiment 09.
+- Included the final source, frozen 4,096-input pilot, authoritative emitted counts, targeted outcomes, and failed replay-only attempt.
+- Added read-only record/source verification and independent Python curve reconstruction, plus scratch-only reproduction commands.
+- Kept the higher-cost reference separate from the low-cost benchmark and the earlier three-circuit study.
+- Preserved every earlier scientific file and all v1.0.0/v1.1.0/v1.2.0 tags and releases.
+
 ## v1.2.0 - 2026-09-09
 
 - Added Appendix C.4 evidence for the 37-page manuscript under experiments/08-followup-diagnostics.

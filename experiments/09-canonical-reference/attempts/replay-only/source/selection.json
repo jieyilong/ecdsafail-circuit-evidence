@@ -1,0 +1,326 @@
+{
+  "scope": "Post-hoc zero-payload boundary probe, not part of the frozen random study",
+  "selection": "First 64 G-s0 division denominators satisfying exact value-walk width and convergence conditions",
+  "selected": [
+    {
+      "index": 0,
+      "denominator": "0x24c7f7650f49c25315c627b0e702851023a01eb1c5c2971f3b8f9c02e1e23c6e",
+      "rounds": 613
+    },
+    {
+      "index": 1,
+      "denominator": "0x73b1ae1deab328bf7c6630b196e3bf32552452cb67ad73d82e4e3f171866d354",
+      "rounds": 579
+    },
+    {
+      "index": 2,
+      "denominator": "0x5bbcc8237074168eead8444272fb5e8fce310594ce4d154685d8fa746addeeec",
+      "rounds": 606
+    },
+    {
+      "index": 3,
+      "denominator": "0xffb6a87460f241d2c1d26aa2994542695ce8f08443df9d37e95970e09b8c1884",
+      "rounds": 610
+    },
+    {
+      "index": 4,
+      "denominator": "0x8c61e060920d1b20be1238ba6a0951bf54d718035e8bf07aebd6bfb086d81279",
+      "rounds": 635
+    },
+    {
+      "index": 5,
+      "denominator": "0xc3dc03462d5a7a0d228aee2c852a3dfd9adaafabe31a7f9574c2444f324d92d",
+      "rounds": 584
+    },
+    {
+      "index": 6,
+      "denominator": "0xab48984ad8639ecc58bd5418d96766d2f4a21e5125a9f368c8aeeb47f9986565",
+      "rounds": 637
+    },
+    {
+      "index": 7,
+      "denominator": "0x35d3aa71f86d118e6b90a80882e571d71b9637b9425c9a284e45907a203dbbc3",
+      "rounds": 652
+    },
+    {
+      "index": 8,
+      "denominator": "0x894ab75dd000239509d50c0e83508fa3f410a86daec5aef21d2d04614270b63c",
+      "rounds": 573
+    },
+    {
+      "index": 9,
+      "denominator": "0x14cdc9decf1e297a6a7d45e3856a5d039281ef8d01c065b1f265d4ca00e61faa",
+      "rounds": 593
+    },
+    {
+      "index": 10,
+      "denominator": "0xbcdc278c060887c3c241d9fdb6d119895d87ce9a000ae5ed28a6752da34366b0",
+      "rounds": 652
+    },
+    {
+      "index": 11,
+      "denominator": "0xaa6755f99c44e19aebd1976e36972921d45f6882d0f67e127f106e0dc157623e",
+      "rounds": 622
+    },
+    {
+      "index": 12,
+      "denominator": "0x9ff9629e97984446f9ebac51d57dbb8de5fa22091bcbcc4df6641312a7fc5149",
+      "rounds": 615
+    },
+    {
+      "index": 13,
+      "denominator": "0x9eeef6d661b5fbbaa2604b7b316ca26e7c80eedb473b86443bc5794fcb45a61c",
+      "rounds": 604
+    },
+    {
+      "index": 14,
+      "denominator": "0x3e5febf6c43cbee2d8e2faefac452c52a74b711ea24670dbd3674f0f62f16ac2",
+      "rounds": 647
+    },
+    {
+      "index": 15,
+      "denominator": "0x177b47ec1a1cc752094581f3cc5840d821f470a983042f7536948fc8378062e",
+      "rounds": 607
+    },
+    {
+      "index": 16,
+      "denominator": "0x5fbd1cf286ea246edc54e0cd3e55c3f13787aadf724a643b5c3a5703e309e58c",
+      "rounds": 608
+    },
+    {
+      "index": 17,
+      "denominator": "0x90ca5d74592034d57cf37d91553c1f8edc630ea9c37ecbf7b5f276453d607bc3",
+      "rounds": 562
+    },
+    {
+      "index": 18,
+      "denominator": "0x9a655cbd8fb82c38de7eea67a1adb583de73fb30050068d243ce54807dc75d74",
+      "rounds": 644
+    },
+    {
+      "index": 19,
+      "denominator": "0x35cef821dcbb86a74851ee4d02bb742d81b3630a871655b8760c4cd5340f0c32",
+      "rounds": 580
+    },
+    {
+      "index": 20,
+      "denominator": "0x2917c902794aee00e1dc513b3d9395281cbce1c1b3a710ab03282c99e37f28de",
+      "rounds": 628
+    },
+    {
+      "index": 21,
+      "denominator": "0x87ebd612773dbfe39c476a2998dfd21aadee943ba9d9c08ec9b26c760f5e596b",
+      "rounds": 601
+    },
+    {
+      "index": 22,
+      "denominator": "0x846d6d8b0a96369190cb7e8f6b6d344c217ce371df88a7a55db13bbeb31ace89",
+      "rounds": 624
+    },
+    {
+      "index": 23,
+      "denominator": "0xcf702db5f0585c6f6994629848c27094a54c18be62a612accb0d4b7bc693a62a",
+      "rounds": 611
+    },
+    {
+      "index": 24,
+      "denominator": "0xe63f978fc51ccce9267293e66f9515ba58a76441785e36155607915743094818",
+      "rounds": 598
+    },
+    {
+      "index": 25,
+      "denominator": "0x774b09caba7cbbbb556b80dd6840e6207fed35e17de4dee7ecfe1dd0cd6cad24",
+      "rounds": 623
+    },
+    {
+      "index": 26,
+      "denominator": "0xb40e7749d23f7422c6cb1da8516c4d706c8d846b5deabfe01d919a79af0c27bb",
+      "rounds": 612
+    },
+    {
+      "index": 27,
+      "denominator": "0xd4dc4b4ea4a7055642165944cbf40061961084fb8dd0605a421a442a33ff6206",
+      "rounds": 643
+    },
+    {
+      "index": 28,
+      "denominator": "0x904a5c4e13bd45e3e9dbf5096777e6077b98920ba10a2020723b1ec5795482a2",
+      "rounds": 643
+    },
+    {
+      "index": 29,
+      "denominator": "0x7d221243d39a5d3f8db11018dd6f177c85e278f61f206c1f55cb81af09a293b1",
+      "rounds": 644
+    },
+    {
+      "index": 30,
+      "denominator": "0xb6357fe685db9b9179d77e242e0a2efb8a9b87ca105e22c8930236c2ee8f518f",
+      "rounds": 638
+    },
+    {
+      "index": 31,
+      "denominator": "0x5d93e10ccc07d0c3a30a29e409bb3bddb450857364c6e1ef3824726ef04563aa",
+      "rounds": 630
+    },
+    {
+      "index": 32,
+      "denominator": "0xf96fc01215d8cbab94a90f89460182bf1e1e70f02125564d5afe8d9691e09812",
+      "rounds": 621
+    },
+    {
+      "index": 33,
+      "denominator": "0x8668a6bc912bf88cbafe5c8e844a4f7cedc709e28ae0e67d59c32d66e5ccb1c2",
+      "rounds": 667
+    },
+    {
+      "index": 34,
+      "denominator": "0x57728fc2701577491d6ff117b24efc90e0a2a8262e69538db154bf5f2ac9f537",
+      "rounds": 616
+    },
+    {
+      "index": 35,
+      "denominator": "0xf4f8c777d46c9e62b9950020e824ec6d5bf74c9bff0d768077b8b351c8ecabf4",
+      "rounds": 625
+    },
+    {
+      "index": 36,
+      "denominator": "0x9abb9bd92e484db0ff7fee4e8b056ad1aa73cb5f08056987239ed5daaf7493a9",
+      "rounds": 625
+    },
+    {
+      "index": 37,
+      "denominator": "0x769437e5285f1b9e7a97f566320d6d554ae4133d5fb9805603238bbbcfc26d30",
+      "rounds": 617
+    },
+    {
+      "index": 38,
+      "denominator": "0x67bb3e8d937fb5ceba2b3a8fd5f1e73a31218f222f5f7f860aef556d52a67566",
+      "rounds": 664
+    },
+    {
+      "index": 39,
+      "denominator": "0x900ca3c064769b732491c23af1734dec48f60619a865581fcddb10cf6d3f2eba",
+      "rounds": 607
+    },
+    {
+      "index": 40,
+      "denominator": "0x3c5fecf3ac0d68bfaa5f5ab7e48fd47eb434342758adc7ae08b55a66a93a7b64",
+      "rounds": 592
+    },
+    {
+      "index": 41,
+      "denominator": "0xcc2116ce51fff6bff5de29282d75b9983cf94de31f2ebe08bb01cb2dee7105cc",
+      "rounds": 631
+    },
+    {
+      "index": 42,
+      "denominator": "0xffe7443a603b4a0bee0f5aff778bf607f0ab30b20b7373e153b6effcc95f0fac",
+      "rounds": 632
+    },
+    {
+      "index": 43,
+      "denominator": "0x36c432e93334611ce9b24133ec46c4878d1675161d9076ad2c32add790c99af2",
+      "rounds": 613
+    },
+    {
+      "index": 44,
+      "denominator": "0x2c6db234f20927f1397392d028ca648e7b6c518178be448715080713bd62bc9b",
+      "rounds": 617
+    },
+    {
+      "index": 45,
+      "denominator": "0xfbecff5ff4c67cde30f9d02546e83ea961be1f47ae6c1f559abbd1f2e581838d",
+      "rounds": 625
+    },
+    {
+      "index": 46,
+      "denominator": "0x646a3deefd0ce80b2da1a53049265390679a3431b0ecf8a281773abb3381654f",
+      "rounds": 640
+    },
+    {
+      "index": 47,
+      "denominator": "0x12001f1659a914e58e516ad1b88385cf44892d9fc0661cb888d3f9e726933009",
+      "rounds": 606
+    },
+    {
+      "index": 48,
+      "denominator": "0x6e44c5379b3388d03948f538c010369d7bfbffc387465ae8bc6a82eb4350f8a0",
+      "rounds": 589
+    },
+    {
+      "index": 49,
+      "denominator": "0xf1e6b8192e948306f7f8daca2c5c0a1f4b71b649dce44a664051a03d1d6f4512",
+      "rounds": 593
+    },
+    {
+      "index": 50,
+      "denominator": "0xb0a6d70a04784831547684aa7abd56c5c7167eb6c50a9ac5bfea5e005e5b91a",
+      "rounds": 649
+    },
+    {
+      "index": 51,
+      "denominator": "0xa13270865b8f1797a8b72af6e270cfa10a2847260cf046c4052c12a7b1f85e",
+      "rounds": 607
+    },
+    {
+      "index": 52,
+      "denominator": "0x20bed4f0d3120aae5a5f7c3166ee8c80e862e4a7cd34b1b7f6360b0c0e015e80",
+      "rounds": 607
+    },
+    {
+      "index": 53,
+      "denominator": "0xbe109ab6963c6925648587d62e1d7da096653742ffcc3688b2181e61141fbd8d",
+      "rounds": 602
+    },
+    {
+      "index": 54,
+      "denominator": "0x275ff717a191beaabf0494025d34b75576c8357c22e6c603acdf41b42ad92a87",
+      "rounds": 610
+    },
+    {
+      "index": 55,
+      "denominator": "0xda7cbbf4b9bfbf8b10adab80e7883190721ad7e134d45a171ca816c09f52d07f",
+      "rounds": 614
+    },
+    {
+      "index": 56,
+      "denominator": "0xd21f825e63c7af050ea3dede9ad48206c86e25c82875995e4a2c9853e2e09fc1",
+      "rounds": 633
+    },
+    {
+      "index": 57,
+      "denominator": "0x3d99e1ad17337f5fb2c5a7c5f6069b1666a8b7dbd100d5399dd8c83490e417f0",
+      "rounds": 600
+    },
+    {
+      "index": 58,
+      "denominator": "0x4e630df6738ae1ff72f0b48b213e0a7f8d7b224fa44a37506850b3112492fbb1",
+      "rounds": 628
+    },
+    {
+      "index": 59,
+      "denominator": "0x51844e24b6a652fb6fbfa2150190a0cfa2bc6e1e1e26999b69be8eeb7e60c8db",
+      "rounds": 605
+    },
+    {
+      "index": 60,
+      "denominator": "0x4f303731d027b43c1ba1ab505c2c44393cf2e58137b393d71f2f5c928b78164c",
+      "rounds": 667
+    },
+    {
+      "index": 61,
+      "denominator": "0x3efba3f23e4dd57532db5eb9c20df0a52640cd418c2a1051df48754a434ffc29",
+      "rounds": 622
+    },
+    {
+      "index": 62,
+      "denominator": "0xb5e11053ee4ce1cfe9529531582b48294817b12bcf5d1ae11cce7c8908512c40",
+      "rounds": 637
+    },
+    {
+      "index": 63,
+      "denominator": "0x714c710fc0a8f4be0f24647e35ccae16bb570601b4bf7d25cceb8694a415aa72",
+      "rounds": 656
+    }
+  ]
+}

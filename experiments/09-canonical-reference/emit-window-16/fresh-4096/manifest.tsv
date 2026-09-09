@@ -1,0 +1,9 @@
+format	bounded-qip-checkpoint-v1
+interface	runtime-table-windowed
+seed	qip-canonical-replay-fresh-20260909-v1
+window_bits	16
+target_shots	4096
+qubits	1804
+ops	250012176
+ops_fingerprint	aadd499953a8e2e1b278cea8b4ca4fbf
+qip_table_beta	0x1

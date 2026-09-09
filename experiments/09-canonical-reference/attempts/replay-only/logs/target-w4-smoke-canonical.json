@@ -1,0 +1,12 @@
+{
+  "name": "target-w4-smoke-canonical",
+  "seconds": 3.7552340030670166,
+  "ops_sha256": "4bd300abe70b09a0fe3c2d133ed2d1baadabee4ec3f42e1e89cd63e700d95bea",
+  "input_sha256": "a306eebf62716d53ed6522ba1d81516c6f2b63e5c247ca764a4d9c6372fa6b9a",
+  "failures": {
+    "classical": 0,
+    "phase": 0,
+    "ancilla": 0
+  },
+  "interfaces_restored": true
+}

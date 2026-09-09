@@ -2,13 +2,13 @@ cff-version: 1.2.0
 message: "Cite the scientific manuscript for the circuit contributions. Cite this versioned artifact for the preserved data and reproduction package."
 type: dataset
 title: "ECDSA.Fail Circuit Validation Evidence"
-version: 1.2.0
+version: 1.3.0
 date-released: '2026-09-09'
 authors:
   - family-names: Long
     given-names: Jieyi
 repository-code: 'https://github.com/jieyilong/ecdsafail-circuit-evidence'
-url: 'https://github.com/jieyilong/ecdsafail-circuit-evidence/releases/tag/v1.2.0'
+url: 'https://github.com/jieyilong/ecdsafail-circuit-evidence/releases/tag/v1.3.0'
 abstract: "Curated experimental evidence for reversible secp256k1 point-addition circuits, including frozen random-input validation, development results, evaluator checks, and negative structured-input diagnostics. The listed author is the artifact maintainer; inherited scientific and source contributions retain their original attribution."
 keywords:
   - quantum circuits

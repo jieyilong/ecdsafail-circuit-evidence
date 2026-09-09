@@ -11,6 +11,7 @@ import time
 from common import ROOT, FRESH, FREEZE_SHA256, atomic_write, ensure_checks_enabled, legacy_layout, read_json, safe_path, sha, verify_original, verify_sources, work_path
 from verify_mechanism import verify_mechanism
 from verify_followup import verify_followup
+from verify_reference import verify_reference
 
 
 def publication_check():
@@ -36,6 +37,7 @@ def verify(oracle=False):
     subprocess.run([sys.executable, str(ROOT/"scripts/results.py"), "--check"], check=True)
     mechanisms = verify_mechanism()
     followup = verify_followup()
+    reference = verify_reference()
     report = read_json(FRESH/"analysis.json")
     receipt = dict(verified_utc=datetime.now(timezone.utc).isoformat(), elapsed_seconds=round(time.monotonic()-started, 3), freeze_sha256=FREEZE_SHA256,
                    original_files=count, source_trees=trees, final_outcomes=300000, development_outcomes=5*16384,
@@ -43,6 +45,7 @@ def verify(oracle=False):
                    any_channel_failures={k:v["any_failure"] for k,v in report["circuits"].items()},
                    mechanism_studies=mechanisms,
                    followup_diagnostics=followup,
+                   canonical_reference=reference,
                    scope="Evidence reconstruction and optional classical-reference check, not new circuit simulation or all-input correctness")
     print(json.dumps(receipt, indent=2))
     return receipt

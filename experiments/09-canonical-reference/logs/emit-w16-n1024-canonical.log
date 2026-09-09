@@ -1,0 +1,31 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+windowed ping-pong: width=1804, QROM calls=6, Toffolis=167150, payload CX=83886080
+REFERENCE_COUNTS Q=1804 static_toffoli=5194187 ops=250033728 count_only=false
+QIP_PHASE_BOUND 87 window_qrom_xy_load_walk
+QIP_PHASE_BOUND 34078793 window_qrom_xy_load_clear
+QIP_PHASE_BOUND 34078793 tlm_coord_x_sub
+QIP_PHASE_BOUND 34085488 tlm_coord_y_sub
+QIP_PHASE_BOUND 34092183 window_qrom_xy_unload_measure
+QIP_PHASE_BOUND 34093207 window_qrom_xy_unload_clear
+QIP_PHASE_BOUND 67651731 tlm_inverse
+QIP_PHASE_BOUND 90776677 window_qrom_3x_load_walk
+QIP_PHASE_BOUND 107816791 window_qrom_3x_load_clear
+QIP_PHASE_BOUND 107816791 tlm_coord_add3x
+QIP_PHASE_BOUND 107825614 window_qrom_3x_unload_walk
+QIP_PHASE_BOUND 107827406 window_qrom_3x_unload_clear
+QIP_PHASE_BOUND 124608074 tlm_square
+QIP_PHASE_BOUND 124608330 square_product_register
+QIP_PHASE_BOUND 125532303 tlm_forward_multiply
+QIP_PHASE_BOUND 148672701 window_qrom_recover_load_walk
+QIP_PHASE_BOUND 182751407 window_qrom_recover_load_clear
+QIP_PHASE_BOUND 182751407 tlm_coord_y_sub_final
+QIP_PHASE_BOUND 182758102 window_recover_controlled_neg
+QIP_PHASE_BOUND 182763155 window_recover_x_add
+QIP_PHASE_BOUND 182766409 window_qrom_recover_unload_measure
+QIP_PHASE_BOUND 182767433 window_qrom_recover_unload_clear
+  emitted ops : 250012176
+  wrote       : ops.bin (315805018 bytes on disk, 14000681872 uncompressed, 44.3x)
+
+=== build_circuit OK ===
