@@ -1,0 +1,44 @@
+{
+  "mode": "emit",
+  "label": "canonical-pingpong",
+  "window_bits": 4,
+  "exit_code": 0,
+  "elapsed_seconds": 11.833657334005693,
+  "env": {
+    "QIP_PINGPONG_PROFILE": "guarded",
+    "TLM_MSBS": "40",
+    "CONSTPROP_DISABLE": "1",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "QIP_CANONICAL_REPLAY": "1",
+    "QIP_CANONICAL_COORDS": "1",
+    "WINDOWED_MODE": "1",
+    "WINDOW_BITS": "4",
+    "WINDOWED_QROM_UNLOAD": "split"
+  },
+  "binary_sha256": "242005fd36cecbfa1c48aeb776c395ca3d2fc399a05808076aadaf290179ea89",
+  "serialized_counts": {
+    "operations": 47285294,
+    "static_toffoli": 5020617,
+    "kinds": [
+      0,
+      35,
+      8708,
+      0,
+      1280,
+      0,
+      9085886,
+      1029,
+      15972311,
+      5828877,
+      823472,
+      5417512,
+      5008459,
+      5020590,
+      27,
+      58554,
+      58554,
+      0
+    ]
+  },
+  "ops_sha256": "805207057d3fa5b41c09c1ff796ad20ef7bdccf15918e6f9ebc1b944bcd3718e"
+}

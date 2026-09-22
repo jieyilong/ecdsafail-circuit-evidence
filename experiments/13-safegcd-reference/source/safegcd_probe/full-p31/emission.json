@@ -1,0 +1,62 @@
+{
+  "Q_static_allocated": 94,
+  "static_T": 5211,
+  "gate_counts": {
+    "X": 1117,
+    "CX": 10583,
+    "CCX": 5211
+  },
+  "phase_gate_counts": {
+    "setup": {
+      "X": 6
+    },
+    "value_forward": {
+      "CX": 2793,
+      "X": 266,
+      "CCX": 1463
+    },
+    "coefficient_forward": {
+      "CX": 4959,
+      "CCX": 2261,
+      "X": 551
+    },
+    "endpoint": {
+      "X": 22,
+      "CCX": 24,
+      "CX": 38
+    },
+    "value_inverse": {
+      "CX": 2793,
+      "CCX": 1463,
+      "X": 266
+    },
+    "teardown": {
+      "X": 6
+    }
+  },
+  "sha256": "a89d647adf29e5363f1bee73058d7a7cfa597e44f95f595c2b95c23de9d19d8d",
+  "bytes": 199256,
+  "label": "unoptimized canonical coherent safegcd DIV/MUL reference",
+  "prime": "31",
+  "n": 5,
+  "rounds": 19,
+  "cases_each_direction": 930,
+  "multiply_stream": "exact reverse of div.kmx",
+  "denominator_wires": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "payload_wires": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "coefficient_lowering": "frozen canonical contracts; measurement-free Cuccaro",
+  "full_point_addition": false,
+  "source_sha256": "62e78d995b58081556210c77baac6d48b1b9bd2c6c3e0ef392a468b3d66bb3f9"
+}

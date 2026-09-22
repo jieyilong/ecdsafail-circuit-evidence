@@ -1,0 +1,2 @@
+windowed ping-pong: width=1418, QROM calls=6, Toffolis=167150, payload CX=83886080
+REFERENCE_COUNTS Q=1418 static_toffoli=1377224 ops=218509503 count_only=true

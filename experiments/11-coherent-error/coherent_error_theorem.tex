@@ -1,0 +1,244 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\ket}[1]{\lvert #1\rangle}
+\newcommand{\bra}[1]{\langle #1\rvert}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\id}{\operatorname{id}}
+\newcommand{\Dtr}{d_{\mathrm{tr}}}
+\newcommand{\Dpur}{d_{\mathrm{pur}}}
+\newcommand{\good}{\mathcal G}
+\newcommand{\bad}{\mathcal B}
+\newcommand{\EE}{\mathcal E}
+\newcommand{\UU}{\mathcal U}
+\newcommand{\VV}{\mathsf V}
+\newcommand{\OO}{\mathcal O}
+\title{A State-Dependent Coherent Error Bound\newline for Measured Arithmetic Circuits}
+\author{Standalone research note}
+\date{September 22, 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We give a sufficient and necessary good-subspace condition for a measured circuit to implement an ideal isometry coherently, and derive a sharp one-call error bound from the state's weight outside that subspace. The condition is equality of corrected branch amplitudes, including their phases and all discarded degrees of freedom, not equality of computational-basis outputs. A hybrid argument evaluates every local weight on the ideal intermediate state and allows arbitrary correlations between calls. We give the exact counting expression for dyadic Shor window prefixes and identify why the first sparse prefixes cannot be replaced by uniform group elements. The results are conditional certificates, not a correctness proof for the current ECDSA.Fail arithmetic or its unassembled full-Shor schedule.
+\end{abstract}
+
+\section{Model and the coherence hypothesis}
+
+All spaces are finite dimensional. Let $U:\mathsf S\to\mathsf S'$ be an isometry, with ideal channel $\UU(\rho)=U\rho U^\dagger$. Let $\EE$ be a completely positive trace-preserving (CPTP) implementation. Measured qubits, classical records, resets, and discarded garbage belong to its environment. A Kraus index $\mu$ refines the complete measurement record by any additional discarded-environment index. Thus
+\begin{equation}
+ \EE(\rho)=\sum_\mu K_\mu\rho K_\mu^\dagger,
+ \qquad \sum_\mu K_\mu^\dagger K_\mu=I,
+ \qquad \VV=\sum_\mu K_\mu\otimes\ket{\mu}_E
+ \label{eq:dilation}
+\end{equation}
+defines a Stinespring isometry. All branch operators include feed-forward corrections. Registers used by subsequent calls are part of $\mathsf S'$, not discarded environmental memory. For arithmetic, clean output workspace can be included in $U$.
+
+Let $\good$ be a set of computational-basis inputs, including any required clean workspace, and put $\Pi=\sum_{z\in\good}\ket z\bra z$. The hypothesis is the existence of a \emph{single} vector $\ket\gamma_E=\sum_\mu\gamma_\mu\ket\mu_E$, with $\sum_\mu|\gamma_\mu|^2=1$, such that
+\begin{equation}
+ K_\mu\ket z=\gamma_\mu U\ket z
+ \quad\text{for every $z\in\good$ and every $\mu$}.
+ \label{eq:branch}
+\end{equation}
+In particular, $\gamma_\mu$ cannot depend on the basis input, address, accumulator, or an inaccessible quantum reference. Equivalently,
+\begin{equation}
+ \VV\Pi=(U\otimes\ket\gamma_E)\Pi=:\VV_0\Pi.
+ \label{eq:environment}
+\end{equation}
+This is equality of vectors, not equality modulo a basis-dependent phase. A branch-dependent global phase independent of $z$ is harmless and can be included in $\gamma_\mu$.
+
+\begin{proposition}[Exact good-subspace criterion]
+For a nonzero $\Pi$, condition \eqref{eq:branch} is equivalent to $\EE(\rho)=\UU(\rho)$ for every density operator supported on $\Pi$. It also implies equality after tensoring with an arbitrary reference system.
+\end{proposition}
+\begin{proof}
+Condition \eqref{eq:branch} extends linearly to the subspace. Summing branches gives the channel equality, including with a reference. Conversely, equality on a pure input $\ket\psi$ makes $\sum_\mu K_\mu\ket\psi\bra\psi K_\mu^\dagger$ rank one with support $U\ket\psi$. Hence every $K_\mu\ket\psi$ is proportional to $U\ket\psi$. For a basis of the good subspace, write these proportionality coefficients as $\gamma_{\mu,z}$. Applying the same fact to $(\ket z+\ket{z'})/\sqrt2$, and using orthogonality of $U\ket z,U\ket{z'}$, gives $\gamma_{\mu,z}=\gamma_{\mu,z'}$. Trace preservation supplies the normalization. The one-dimensional case follows directly.
+\end{proof}
+
+The Stinespring and information-disturbance viewpoint is standard~\cite{ksw}. This note uses exact agreement on a subspace, rather than inferring a worst-case channel norm from sampled outputs. Define normalized-state distances by
+\begin{equation}
+ \Dtr(\rho,\sigma)=\tfrac12\|\rho-\sigma\|_1,
+ \quad F(\rho,\sigma)=\|\sqrt\rho\sqrt\sigma\|_1,
+ \quad \Dpur(\rho,\sigma)=\sqrt{1-F(\rho,\sigma)^2}.
+\end{equation}
+Here $F$ is root fidelity. We use $\Dtr\leq\Dpur$, contractivity under CPTP maps, and the triangle inequality for purified distance~\cite{fvdg,tcr}. For pure states both distances equal $\sqrt{1-|\langle\psi|\phi\rangle|^2}$.
+
+\section{The state-dependent bound}
+
+\begin{theorem}[Good-subspace coherent error]\label{thm:one}
+Suppose \eqref{eq:branch} holds. For any normalized state $\rho_{\mathsf S Z}$, with arbitrary reference $Z$, define
+\begin{equation}
+ \epsilon=\tr\bigl[((I-\Pi)\otimes I_Z)\rho_{\mathsf S Z}\bigr],
+ \qquad
+ b(\epsilon)=\sqrt{1-\max\{0,1-2\epsilon\}^2}
+ =\begin{cases}
+ 2\sqrt{\epsilon(1-\epsilon)},&0\leq\epsilon\leq\tfrac12,\\
+ 1,&\tfrac12\leq\epsilon\leq1.
+ \end{cases}
+ \label{eq:b}
+\end{equation}
+Then
+\begin{equation}
+ \Dtr\bigl((\EE\otimes\id_Z)(\rho),(\UU\otimes\id_Z)(\rho)\bigr)
+ \leq
+ \Dpur\bigl((\EE\otimes\id_Z)(\rho),(\UU\otimes\id_Z)(\rho)\bigr)
+ \leq b(\epsilon)\leq \min\{1,2\sqrt\epsilon\}.
+ \label{eq:bound}
+\end{equation}
+More strongly, any purification $\ket\Psi_{\mathsf S Z F}$ admits the explicit pair of output purifications
+\begin{equation}
+ \ket{\widetilde\Psi}=(\VV\otimes I_{ZF})\ket\Psi,
+ \qquad \ket{\Psi_0}=(\VV_0\otimes I_{ZF})\ket\Psi,
+\end{equation}
+whose trace distance is at most $b(\epsilon)$ and whose vector-norm distance is at most $2\sqrt\epsilon$. The scalar bound $b$ cannot be improved uniformly over all such implementations and states.
+\end{theorem}
+\begin{proof}
+Suppress identities on $ZF$ and decompose $\ket\Psi=\ket g+\ket a$ with $\ket g=\Pi\ket\Psi$, $\ket a=(I-\Pi)\ket\Psi$. Then $\|g\|^2=1-\epsilon$, $\|a\|^2=\epsilon$, and $\VV g=\VV_0g$. Since both dilations are isometries,
+\begin{equation}
+ \langle\VV_0g,\VV a\rangle
+ =\langle\VV g,\VV a\rangle=0,
+ \qquad
+ \langle\VV_0a,\VV g\rangle
+ =\langle\VV_0a,\VV_0g\rangle=0.
+\end{equation}
+Consequently,
+\begin{equation}
+ \langle\Psi_0|\widetilde\Psi\rangle
+ =1-\epsilon+\langle\VV_0a,\VV a\rangle,
+ \quad |\langle\VV_0a,\VV a\rangle|\leq\epsilon,
+\end{equation}
+so its absolute value is at least $\max\{0,1-2\epsilon\}$. The pure-state distance formula proves the claimed purified trace-distance bound. Tracing out $E,F$ proves \eqref{eq:bound}. Also,
+\begin{equation}
+ \|\widetilde\Psi-\Psi_0\|
+ =\|(\VV-\VV_0)a\|\leq2\sqrt\epsilon.
+\end{equation}
+For sharpness when $\epsilon\leq1/2$, take $U=I$, $\Pi=\ket0\bra0$, implementation $\operatorname{diag}(1,-1)$, and input $\sqrt{1-\epsilon}\ket0+\sqrt\epsilon\ket1$. The output overlap is $1-2\epsilon$. When $\epsilon\geq1/2$, use a third basis state and rotate the bad subspace $\operatorname{span}\{\ket1,\ket2\}$ with cosine $-(1-\epsilon)/\epsilon$. On the same input the overlap is zero. The good vector remains fixed in both constructions.
+\end{proof}
+
+\begin{remark}[What the theorem does not say]
+The bad weight is a property of the algorithmic input state and a \emph{certified} good subspace. It is not the sampled basis-output failure frequency, and it does not describe independent trials of a rerunnable subroutine. A global phase discrepancy confined to the bad subspace already gives order-$\sqrt\epsilon$ error. The theorem imposes no independence of measurement outcomes or bad events across different calls.
+\end{remark}
+
+\begin{corollary}[Approximate good-subspace agreement]
+If, instead, $\|(\VV-\VV_0)\Pi\|_{\mathrm{op}}\leq\eta$, then the same two output states have purified distance at most
+\begin{equation}
+ \min\{1,\eta\sqrt{1-\epsilon}+2\sqrt\epsilon\}.
+\end{equation}
+\end{corollary}
+\begin{proof}
+Decompose the input purification as above and apply the triangle inequality to the vector difference. Pure-state trace distance is no greater than vector distance. Then discard the purifying registers.
+\end{proof}
+
+\section{Composition on ideal intermediate states}
+
+\begin{theorem}[Ideal-prefix hybrid]\label{thm:hybrid}
+Consider $m$ implemented calls $\EE_i$, ideal isometries $U_i$, and good projectors $\Pi_i$ satisfying \eqref{eq:branch}. Allow exact CPTP interleavings $\Lambda_i$ after each call. Include all retained memory and any external reference in the state. Set
+\begin{align}
+ \sigma_0&=\rho_0, &
+ \sigma_i&=\Lambda_i\UU_i(\sigma_{i-1}), &
+ \rho_i&=\Lambda_i\EE_i(\rho_{i-1}),\\
+ \epsilon_i&=\tr[(I-\Pi_i)\sigma_{i-1}].&&&
+ \label{eq:ideal-prefix}
+\end{align}
+The weights are evaluated on the \emph{ideal} pre-call states $\sigma_{i-1}$, not the implemented states or a sampled stationary distribution. Then
+\begin{equation}
+ \Dtr(\rho_m,\sigma_m)\leq\Dpur(\rho_m,\sigma_m)
+ \leq\min\left\{1,\sum_{i=1}^m b(\epsilon_i)\right\}
+ \leq\min\left\{1,2\sum_{i=1}^m\sqrt{\epsilon_i}\right\}.
+ \label{eq:hybrid}
+\end{equation}
+In particular, $2\sqrt{m\sum_i\epsilon_i}$ is a further, potentially looser bound. Any common final measurement and classical postprocessing have total-variation error at most the right-hand side. For a fixed success event their success probabilities differ by at most that amount.
+\end{theorem}
+\begin{proof}
+For either $d=\Dtr$ or $d=\Dpur$, contractivity and the triangle inequality give
+\begin{align}
+ d(\rho_i,\sigma_i)
+ &\leq d\bigl(\EE_i(\rho_{i-1}),\UU_i(\sigma_{i-1})\bigr)\\
+ &\leq d\bigl(\EE_i(\rho_{i-1}),\EE_i(\sigma_{i-1})\bigr)
+       +d\bigl(\EE_i(\sigma_{i-1}),\UU_i(\sigma_{i-1})\bigr)\\
+ &\leq d(\rho_{i-1},\sigma_{i-1})+b(\epsilon_i).
+\end{align}
+Induction proves the result. Equivalently, adjacent hybrids use an ideal prefix and an implemented suffix, so the suffix contracts their local discrepancy. The reference and any correlated retained memory were arbitrary in Theorem~\ref{thm:one}. Cauchy--Schwarz gives the further estimate. Measurement contractivity proves the operational statement.
+\end{proof}
+
+This is the usual hybrid method specialized to an exact good-subspace hypothesis, not a new general composition principle. Hybrid reasoning has a long history in quantum computation~\cite{bbbv}. If preparation or exact interleavings are themselves approximate, their separately justified discrepancies must be added. Conditioning on a postselected Fourier outcome is not a CPTP map and is not covered by an unchanged bound.
+
+\section{Two necessary counterexamples and an exact cleanup example}
+
+Let $\Pi=I$, $U=I$, and $\ket+= (\ket0+\ket1)/\sqrt2$. A deterministic Pauli $Z$ maps both computational-basis density operators correctly, yet maps $\ket+$ to an orthogonal state, with trace distance one. Thus basis outputs alone cannot justify \eqref{eq:branch} even without measurement or dirty workspace.
+
+For a measured example, let $K_0=I/\sqrt2$ and $K_1=Z/\sqrt2$. Every branch has probability $1/2$ for \emph{every} input, every basis output is correct, and visible workspace can be clean. Nevertheless the channel completely dephases $\ket+$, producing trace distance $1/2$ and purified distance $1/\sqrt2$. Equal branch probabilities do not imply equal branch amplitudes. A discarded environment retains the missing coherence.
+
+Conversely, consider a restored lookup payload $c_j\in\{0,1\}^d$ associated with an address $j$. Measuring it in the $X$ basis gives the branch factor $2^{-d/2}(-1)^{m\cdot c_j}$. Applying the diagonal correction $(-1)^{m\cdot c_j}$ gives exactly $2^{-d/2}$ on every good basis input. If the arithmetic and other measured ancillas separately meet \eqref{eq:branch}, composing these corrected payload operations preserves it. This is the measurement-uncomputation mechanism of windowed arithmetic~\cite{gidney}. It does not establish the arithmetic premise.
+
+\section{What the weights mean for Shor windows}
+
+Use the canonical elliptic-curve notation: field modulus $p$, subgroup order $r$, generator $G$, public point $P=[k]G$, and probe $f(u,v)=[u+kv]G$. The affine slope remains $\lambda=(y_R-y_A)/(x_R-x_A)$. All scalar congruences below are modulo $r$, not $p$. Let an ordered schedule process disjoint unsigned windows $j_i$ of widths $w_i$, with $L_i=2^{w_i}$. A $G$-window beginning at bit $s_i$ has coefficient $a_i=2^{s_i}$, and a $P$-window has $a_i=k2^{s_i}$. For a fixed initial offset $C=[c]G$,
+\begin{equation}
+ A_i=[a_i j_i]G,\qquad
+ R_i=\left[c+\sum_{\ell<i}a_\ell j_\ell\right]G.
+ \label{eq:prefix-point}
+\end{equation}
+Known additive table offsets, if used, must also be included in this prefix. They are distinct from the bit-position factor $2^{s_i}$.
+
+\begin{proposition}[Exact dyadic-prefix weight]\label{prop:prefix}
+Suppose the exponent registers are prepared independently and uniformly over all their bit strings and ideal group additions have so far been applied. Let $\bad_i$ be the complement of a certified good set of address--accumulator inputs for call $i$. Then
+\begin{equation}
+ \epsilon_i=
+ \frac{1}{\prod_{\ell\leq i}L_\ell}
+ \sum_{j_1=0}^{L_1-1}\cdots\sum_{j_i=0}^{L_i-1}
+ \mathbf1\left[(j_i,R_i(j_1,\ldots,j_{i-1}))\in\bad_i\right].
+ \label{eq:exact-weight}
+\end{equation}
+Repeated occurrences of an accumulator point are counted with their multiplicities. Equivalently, if $\nu_i(s)$ is the scalar-prefix distribution immediately before call $i$, then
+\begin{align}
+ \nu_1(s)&=\mathbf1[s=c],&
+ \nu_{i+1}(s)&=\frac1{L_i}\sum_{j=0}^{L_i-1}\nu_i(s-a_i j),\\
+ \epsilon_i&=\frac1{L_i}\sum_{j=0}^{L_i-1}\sum_{s\in\mathbb Z_r}
+ \nu_i(s)\mathbf1[(j,[s]G)\in\bad_i].&&
+ \label{eq:convolution}
+\end{align}
+\end{proposition}
+\begin{proof}
+In the fully coherent implementation the exponent labels are orthogonal and retained. The ideal pre-call state is a uniform-amplitude sum of labeled exponent strings with accumulator \eqref{eq:prefix-point}. The projector onto bad address--accumulator basis states is diagonal. Its expectation is therefore the sum of the corresponding squared amplitudes, regardless of coincident accumulator points. Marginalizing the unused windows yields \eqref{eq:exact-weight}, and grouping prefixes by their scalar residue yields \eqref{eq:convolution}.
+\end{proof}
+
+For standard semiclassical recycling, the same \emph{unconditional diagonal} recursion holds when each fresh window has equal computational-basis probabilities and Fourier feed-forward changes only its phases. After controlled addition, a measurement of that window, averaged over its outcomes, leaves the accumulator diagonal averaged over the translations. A state conditioned on a particular Fourier transcript need not have this distribution. General schedules must instead evaluate the expectation in \eqref{eq:ideal-prefix} on their actual ideal states. Windowed ECDLP constructions and the direct-initialization/omitted-call accounting are described in~\cite{schrottenloher,babbush}. A call count alone does not specify an ordered schedule.
+
+\paragraph{The first sparse prefix.}
+Take unshifted low-to-high $G$ windows, $L=2^{16}$, and direct initialization $R=[j_0]G$ from the first lookup. Immediately before the next addition, $A=[Lj_1]G$ and $R$ has only $L$ possible values, not $r$ equiprobable values. The unsupported pairs $R=\OO$, $A\ne\OO$ have weight
+\begin{equation}
+ \frac{L-1}{L^2}=\frac{65535}{4294967296}\simeq1.52586\cdot10^{-5}.
+ \label{eq:first-prefix}
+\end{equation}
+The additional pair $(R,A)=(\OO,\OO)$ has weight $L^{-2}$ and needs its own identity-path proof. Starting the generic arithmetic directly at $R=\OO$ without initialization would instead expose weight $1-1/L$. A different initial offset or window order changes these counts.
+
+\paragraph{Geometry is not the whole bad set.}
+For nonidentity $A$, the generic in-place affine domain excludes $R\in\{\OO,A,-A,-2A\}$. On secp256k1, write $\phi(x,y)=(\beta x,y)$ for its cubic endomorphism and $\phi(G)=[\zeta]G$, where $\beta^3=1\pmod p$ and $\zeta^2+\zeta+1=0\pmod r$. The two additional zero-slope points for a fixed $A$ are $\phi(A),\phi^2(A)$, since equality of $y$ implies equality of $x^3$. These form a family over \emph{every} nonzero table row, not two points for the entire algorithm. Excluding this family does not exclude finite-round failures, width loss, noncanonical words, incorrect carry predicates, residual phases, square errors, or other cleanup failures. The companion report distinguishes known defects from unproved domains.
+
+\paragraph{Later prefixes.}
+After $t<16$ ascending $G$ windows, the accumulator is uniform on $\{[s]G:0\leq s<L^t\}$, with no modular wrap. After all 16 windows, let $N=2^{256}$ and $d=N-r$. The exact residue probability is $(1+\mathbf1[s<d])/N$, not $1/r$. After a subsequent independent prefix $v_{<t}$ with $0\leq v_{<t}<L^t$, it is
+\begin{equation}
+ \nu_t(s)=\frac{1}{NL^t}\sum_{v=0}^{L^t-1}
+ \left(1+\mathbf1[(s-kv)\bmod r<d]\right)\leq\frac2N.
+ \label{eq:post-g}
+\end{equation}
+This gives at most $12/N$ weight for any set of at most six accumulator points per current address, but only for this later-stage schedule. It does not bound the full arithmetic bad set. Exact-integer checks of all $65535$ nonzero current addresses per $G$-window are supplied separately.
+
+\paragraph{Status.}
+Theorems~\ref{thm:one} and~\ref{thm:hybrid} provide a route from proved corrected-branch behavior and ideal-prefix bad weights to an algorithmic output guarantee. Neither basis sampling nor the two supported zero-slope witnesses supplies those premises. No full-Shor error bound or oral-acceptance claim follows for the present artifacts without additional arithmetic and schedule certification.
+
+\begin{thebibliography}{9}
+\bibitem{ksw} D. Kretschmann, D. Schlingemann, and R. F. Werner, \emph{The Information-Disturbance Tradeoff and the Continuity of Stinespring's Representation} (2006), \href{https://arxiv.org/abs/quant-ph/0605009}{arXiv:quant-ph/0605009}.
+\bibitem{fvdg} C. A. Fuchs and J. van de Graaf, \emph{Cryptographic Distinguishability Measures for Quantum Mechanical States} (1997), \href{https://arxiv.org/abs/quant-ph/9712042}{arXiv:quant-ph/9712042}.
+\bibitem{tcr} M. Tomamichel, R. Colbeck, and R. Renner, \emph{Duality Between Smooth Min- and Max-Entropies} (2009), Definition 4 and Lemmas 5--8, \href{https://arxiv.org/abs/0907.5238}{arXiv:0907.5238}.
+\bibitem{bbbv} C. H. Bennett, E. Bernstein, G. Brassard, and U. Vazirani, \emph{Strengths and Weaknesses of Quantum Computing} (1997), \href{https://arxiv.org/abs/quant-ph/9701001}{arXiv:quant-ph/9701001}.
+\bibitem{gidney} C. Gidney, \emph{Windowed Quantum Arithmetic} (2019), Section 2, \href{https://arxiv.org/abs/1905.07682}{arXiv:1905.07682}.
+\bibitem{schrottenloher} A. Schrottenloher, \emph{Optimized Point Addition Circuits for Elliptic Curve Discrete Logarithms} (2026), Section 2, \href{https://arxiv.org/abs/2606.02235v1}{arXiv:2606.02235v1}.
+\bibitem{babbush} R. Babbush et al., \emph{Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations} (2026), Appendix A.3--A.4, \href{https://arxiv.org/abs/2603.28846v2}{arXiv:2603.28846v2}.
+\end{thebibliography}
+\end{document}

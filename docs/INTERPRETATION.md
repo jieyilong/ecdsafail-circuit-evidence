@@ -48,3 +48,10 @@ $Q$ is peak logical width and $T$ is mean executed Toffoli count on the stated c
 The reported $Q\times T/\hat p$ uses empirical per-call success $\hat p$ in an independently rerunnable classical-success model. A coherent Shor computation cannot in general detect and retry each internal point addition that way. Do not multiply these pass fractions across a 28-call schedule or describe this study as an implemented full-Shor attack.
 
 The architecture follows the record-and-replay Euclidean approach introduced by Khattar et al. and adapted to ECDLP point addition by Schrottenloher, as attributed in the manuscript. The present evidence package documents particular circuit implementations and experiments, not independent invention of that architecture.
+## September 22 Scope Update
+
+The targeted repair passes its separate frozen 100,000-input study and the retained zero-slope fixtures, but fails six supported schedule-counterexample points over all48 tested output lanes. It is not all-input-safe arithmetic. Its mixed/windowed widths are 1,402/1,419, so windowing itself still adds17 at fixed arithmetic settings.
+
+The coherent-error theorem is conditional on a certified good subspace with common corrected branch amplitudes and on its weights in the ideal algorithm states. Those premises have not been established for the complete Shor computation. The 768-round candidate is explicitly insufficient on all field inputs. Full-width safegcd and ping-pong references match their canonical payload primitives but are deliberately unoptimized, with different budget guarantees. Their resource ordering is not a universal claim about either recurrence.
+
+The original interpretation above continues to apply to its unchanged candidates.

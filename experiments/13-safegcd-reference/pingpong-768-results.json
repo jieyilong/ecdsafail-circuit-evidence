@@ -1,0 +1,30 @@
+{
+  "fixed_preexisting_horizon": 768,
+  "same_common_corpus": true,
+  "reports": [
+    {
+      "status": "FAIL",
+      "scope": "fixed_PP768_div",
+      "Q": 2320,
+      "static_T": 6289400,
+      "cases": 128,
+      "output_failures": 12,
+      "scratch_failures": 12,
+      "any_failures": 12,
+      "inverse_restoration": true,
+      "phase_failures": 0
+    },
+    {
+      "status": "FAIL",
+      "scope": "fixed_PP768_mul",
+      "Q": 2320,
+      "static_T": 6289400,
+      "cases": 128,
+      "output_failures": 12,
+      "scratch_failures": 12,
+      "any_failures": 12,
+      "inverse_restoration": true,
+      "phase_failures": 0
+    }
+  ]
+}

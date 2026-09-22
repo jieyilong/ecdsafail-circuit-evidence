@@ -1,0 +1,2840 @@
+{
+  "release": "v1.4.0",
+  "files": [
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/plan.json",
+      "published": "experiments/10-targeted-repair/fresh-study/plan.json",
+      "original_sha256": "eaf48155c7a6f62b1db76e77a1de6a9b03c304019de656dcdd7bbec336450b14",
+      "published_sha256": "eaf48155c7a6f62b1db76e77a1de6a9b03c304019de656dcdd7bbec336450b14",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/completed.json",
+      "published": "experiments/10-targeted-repair/fresh-study/completed.json",
+      "original_sha256": "83d0956587dad271f29931078d52a31264d831c383a21bcd38c8a5a7996a47ab",
+      "published_sha256": "83d0956587dad271f29931078d52a31264d831c383a21bcd38c8a5a7996a47ab",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/verified-results.json",
+      "published": "experiments/10-targeted-repair/fresh-study/verified-results.json",
+      "original_sha256": "4a890c5fd883e0d8bc6d19e30838d8cba3aa0b22c729e4e61b9cf2eba3fa33f8",
+      "published_sha256": "4a890c5fd883e0d8bc6d19e30838d8cba3aa0b22c729e4e61b9cf2eba3fa33f8",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/progress.json",
+      "published": "experiments/10-targeted-repair/fresh-study/progress.json",
+      "original_sha256": "935f44a82222a4ea4d9f9b75edb9c6d069d4829a2b7063e6261654fdac17efad",
+      "published_sha256": "935f44a82222a4ea4d9f9b75edb9c6d069d4829a2b7063e6261654fdac17efad",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/freeze.json",
+      "published": "experiments/10-targeted-repair/fresh-study/freeze.json",
+      "original_sha256": "2fec200ef647eae17b6887505f35903812a34def2f79def405a4b051c9194b81",
+      "published_sha256": "2fec200ef647eae17b6887505f35903812a34def2f79def405a4b051c9194b81",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-7/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-7/stdout",
+      "original_sha256": "23ca937656251747578695f864e8a3e75c50193bad102843d0cbd682e731ff0a",
+      "published_sha256": "23ca937656251747578695f864e8a3e75c50193bad102843d0cbd682e731ff0a",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-7/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-7/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-0/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-0/stdout",
+      "original_sha256": "9f6e7457ce570893b1ca6ad4f15f1966c7069b733c8abd3180d78b20affa715b",
+      "published_sha256": "9f6e7457ce570893b1ca6ad4f15f1966c7069b733c8abd3180d78b20affa715b",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-0/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-0/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-8/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-8/stdout",
+      "original_sha256": "c3f12ea14f09068ecd79225a3015c8223b76cadfa1cb793dce4304c98bc3ec7d",
+      "published_sha256": "c3f12ea14f09068ecd79225a3015c8223b76cadfa1cb793dce4304c98bc3ec7d",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-8/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-8/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-1/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-1/stdout",
+      "original_sha256": "ccdb4e5c25b8ecc60c7a78eadc8e40c6ebc4306ab11f1e10ed9048a6342ffc7b",
+      "published_sha256": "ccdb4e5c25b8ecc60c7a78eadc8e40c6ebc4306ab11f1e10ed9048a6342ffc7b",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-1/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-1/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-6/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-6/stdout",
+      "original_sha256": "e5504e421cb5e33de89dd347934d36d0d8c51b4495bc31ae7c8ee611fcafc409",
+      "published_sha256": "e5504e421cb5e33de89dd347934d36d0d8c51b4495bc31ae7c8ee611fcafc409",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-6/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-6/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-3/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-3/stdout",
+      "original_sha256": "805bfecd3264f6858061d56bc4321181f0f0384558ffedba7d9dd1fbebf8c09c",
+      "published_sha256": "805bfecd3264f6858061d56bc4321181f0f0384558ffedba7d9dd1fbebf8c09c",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-3/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-3/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-4/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-4/stdout",
+      "original_sha256": "ea5a1888cd7824975dd9534ca3ae1a2141fa5d1ae2f47480c38d7002d8e29ea3",
+      "published_sha256": "ea5a1888cd7824975dd9534ca3ae1a2141fa5d1ae2f47480c38d7002d8e29ea3",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-4/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-4/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-5/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-5/stdout",
+      "original_sha256": "f5146fd68c8c40c6c67fae64e9139b6cd883991999f1e7efbea3a332ad1359ac",
+      "published_sha256": "f5146fd68c8c40c6c67fae64e9139b6cd883991999f1e7efbea3a332ad1359ac",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-5/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-5/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-2/stdout",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-2/stdout",
+      "original_sha256": "4c3ba85174437998f498e8fa13d6bbc3194fd9e2d81670fe81bb71e6910875a2",
+      "published_sha256": "4c3ba85174437998f498e8fa13d6bbc3194fd9e2d81670fe81bb71e6910875a2",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-2/stderr",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-2/stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-2/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-2/checkpoint/batches.tsv",
+      "original_sha256": "197955206ac2e4ff54377bad03fb7c08672d741da1d6242038c6df482c2f036e",
+      "published_sha256": "197955206ac2e4ff54377bad03fb7c08672d741da1d6242038c6df482c2f036e",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-2/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-2/checkpoint/manifest.tsv",
+      "original_sha256": "6397ae4873a924d1eead067531878f98ae5672f0d264efdee725ca19ccd07c65",
+      "published_sha256": "6397ae4873a924d1eead067531878f98ae5672f0d264efdee725ca19ccd07c65",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-2/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-2/checkpoint/inputs.tsv.gz",
+      "original_sha256": "13ecce6fddc86ea149c2525601b1809d0819872c1f8168687aa2d1cfaa9bc803",
+      "published_sha256": "e95b6ac72e314b988b4509f5397b17e23dc4845d4fc35306b913ddbc50eb4434",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-5/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-5/checkpoint/batches.tsv",
+      "original_sha256": "afa693532984d72bd98bea80972df0e55e5f3d71fcccceed8924285822b2bfd6",
+      "published_sha256": "afa693532984d72bd98bea80972df0e55e5f3d71fcccceed8924285822b2bfd6",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-5/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-5/checkpoint/manifest.tsv",
+      "original_sha256": "27edb13965ebe11d80e6d8a7423194d082731f8861831559dc545f8b007244f7",
+      "published_sha256": "27edb13965ebe11d80e6d8a7423194d082731f8861831559dc545f8b007244f7",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-5/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-5/checkpoint/inputs.tsv.gz",
+      "original_sha256": "efc9cd7d23571aa5959728803e882312ab502ab802874f43a73d13a12a6bc522",
+      "published_sha256": "7029d5656d6993ee40ea43fde6fd12dfbb44aba624f29062424c102c2abb53c2",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-4/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-4/checkpoint/batches.tsv",
+      "original_sha256": "93c5e8bb6d47adad295aa8cf40ab16599a7acd3ddb69234645cf7d150553294e",
+      "published_sha256": "93c5e8bb6d47adad295aa8cf40ab16599a7acd3ddb69234645cf7d150553294e",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-4/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-4/checkpoint/manifest.tsv",
+      "original_sha256": "68f23a81ec2258fd4998c9fdf593621dfbdfd5d71703d88308297c9c8c440984",
+      "published_sha256": "68f23a81ec2258fd4998c9fdf593621dfbdfd5d71703d88308297c9c8c440984",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-4/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-4/checkpoint/inputs.tsv.gz",
+      "original_sha256": "451b1fde26fc119599b567fcbb7a3b7b96aa646d7b7e1cf5caa5a0cdab60b668",
+      "published_sha256": "61cf033279deb145a1ceb2262de475c8d4092883c5ab8b612ab8d1572f4d7677",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-3/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-3/checkpoint/batches.tsv",
+      "original_sha256": "30a91474b42b978f6c1311d695d4f6dc90c407a51b5541f19e1094b486e15f8e",
+      "published_sha256": "30a91474b42b978f6c1311d695d4f6dc90c407a51b5541f19e1094b486e15f8e",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-3/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-3/checkpoint/manifest.tsv",
+      "original_sha256": "198a0ec507bb1c9bdb4b024557ca17b983cae050f466d89ab122bc6ed61aca66",
+      "published_sha256": "198a0ec507bb1c9bdb4b024557ca17b983cae050f466d89ab122bc6ed61aca66",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-3/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-3/checkpoint/inputs.tsv.gz",
+      "original_sha256": "dc565d9305423b119d8fe6ebe3fc8d9ae823fa7ae558643298856d9552240e93",
+      "published_sha256": "d9353dac404ed9e924e33a5d45fbb55a19ddb339f1b85509ab16ff658f33a08e",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-6/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-6/checkpoint/batches.tsv",
+      "original_sha256": "844e59072df51c2cb5eef7d8c985d24c7fff59c8c03e178bbd928def1306d268",
+      "published_sha256": "844e59072df51c2cb5eef7d8c985d24c7fff59c8c03e178bbd928def1306d268",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-6/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-6/checkpoint/manifest.tsv",
+      "original_sha256": "91b1e48ad5fdc67eb47f2c0211b7846f399b3193589337feb6e52a7bad928615",
+      "published_sha256": "91b1e48ad5fdc67eb47f2c0211b7846f399b3193589337feb6e52a7bad928615",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-6/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-6/checkpoint/inputs.tsv.gz",
+      "original_sha256": "2c79ef618df0f999af44f206940ab2132c2b48a1bd429d86c04267f68ccde885",
+      "published_sha256": "f5ed227af38027197b30800f724b0dbef2411d2c557b19ceb335c00c1d38665f",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-1/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-1/checkpoint/batches.tsv",
+      "original_sha256": "44089945aa1926bca4be31b9b5ae67a1349bc58645822a8583576fc5f7bf9ceb",
+      "published_sha256": "44089945aa1926bca4be31b9b5ae67a1349bc58645822a8583576fc5f7bf9ceb",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-1/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-1/checkpoint/manifest.tsv",
+      "original_sha256": "6857a1642daa92c15bbd3d16500cb0a413523af29c5885f56404561d2b122fe8",
+      "published_sha256": "6857a1642daa92c15bbd3d16500cb0a413523af29c5885f56404561d2b122fe8",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-1/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-1/checkpoint/inputs.tsv.gz",
+      "original_sha256": "ec1fcffae021206fdc3d6b39e0700536bad7228dfa8dbc93a08f9741bca14a22",
+      "published_sha256": "b626562c93537c4706cf81dd7b22390a15c2034e2d5155f6812aac48283bdf38",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-8/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-8/checkpoint/batches.tsv",
+      "original_sha256": "745f737914922b13231fc2dd22d80c3825e6f3cd6e3c0ec191d38ea17fea7b64",
+      "published_sha256": "745f737914922b13231fc2dd22d80c3825e6f3cd6e3c0ec191d38ea17fea7b64",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-8/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-8/checkpoint/manifest.tsv",
+      "original_sha256": "debc1115b42d24f519f2bdec0fff848dee1f05e084f79e5434d85e29fa8cbc07",
+      "published_sha256": "debc1115b42d24f519f2bdec0fff848dee1f05e084f79e5434d85e29fa8cbc07",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-8/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-8/checkpoint/inputs.tsv.gz",
+      "original_sha256": "f6575723f8d63bcfde35ec660e6983e90f7190ea9953aad7e8f7d2a2f718fda9",
+      "published_sha256": "f57212c7e25442e379d703865ff95b8e6444ac189be50c6912b29539cdb48e83",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-0/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-0/checkpoint/batches.tsv",
+      "original_sha256": "58331de917d9a86ebffc16ac16c548adb47f0a410ccc287991620e1fd6a29320",
+      "published_sha256": "58331de917d9a86ebffc16ac16c548adb47f0a410ccc287991620e1fd6a29320",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-0/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-0/checkpoint/manifest.tsv",
+      "original_sha256": "b9ed111614946aaae00af21878e10e7bff869dc86ed4bc73a0d23a0df5200087",
+      "published_sha256": "b9ed111614946aaae00af21878e10e7bff869dc86ed4bc73a0d23a0df5200087",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-0/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-0/checkpoint/inputs.tsv.gz",
+      "original_sha256": "a05e5550a258b3ef25cc67952ab0746db51d77edbff652417b4cc065f74f7c65",
+      "published_sha256": "1b1611e80771b8c0130f4808c81dc95462d51ada9252c19869a75af459ea84a2",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-7/checkpoint/batches.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-7/checkpoint/batches.tsv",
+      "original_sha256": "21cd4b9e9a56ca10c0f37385f326fffa40a550850c30e211591b3c64f16f43a2",
+      "published_sha256": "21cd4b9e9a56ca10c0f37385f326fffa40a550850c30e211591b3c64f16f43a2",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-7/checkpoint/manifest.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-7/checkpoint/manifest.tsv",
+      "original_sha256": "c51f5f28479c3e3741af101067a3e389a3636bec41c53771c70e92cd8754a8d5",
+      "published_sha256": "c51f5f28479c3e3741af101067a3e389a3636bec41c53771c70e92cd8754a8d5",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh-zero-mask-100k/stratum-7/checkpoint/inputs.tsv",
+      "published": "experiments/10-targeted-repair/fresh-study/stratum-7/checkpoint/inputs.tsv.gz",
+      "original_sha256": "89468fe614600143f7b4e32d08a63f4a0b24aa63677e6e067e1d14502f2d2750",
+      "published_sha256": "37aaa5807ea3dbd717a666129512113f22fd743c62a8b0ace3a3317790f22071",
+      "gzip": true
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/schedule-points-w4.tsv",
+      "published": "experiments/10-targeted-repair/diagnostics/schedule-points-w4.tsv",
+      "original_sha256": "9ee078cd3bc14cec1e0eaeb1d9002426d0d02f58a16bf4f0d38ee6fdcf9716e9",
+      "published_sha256": "9ee078cd3bc14cec1e0eaeb1d9002426d0d02f58a16bf4f0d38ee6fdcf9716e9",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/chunk_and_endpoints.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/chunk_and_endpoints.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/exact_chunk.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/exact_chunk.stdout",
+      "original_sha256": "b0e2350ee07cd7dd83ac1ed2be1d890f4624421df0d4054f6bc2a94b02f4fc63",
+      "published_sha256": "b0e2350ee07cd7dd83ac1ed2be1d890f4624421df0d4054f6bc2a94b02f4fc63",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/exact_chunk.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/exact_chunk.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/chunk_and_endpoints.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/chunk_and_endpoints.stdout",
+      "original_sha256": "dd9b6f08f25808001388672b053271e878445fee7894306567eb560f613c5748",
+      "published_sha256": "dd9b6f08f25808001388672b053271e878445fee7894306567eb560f613c5748",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/canonical_reference.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/canonical_reference.stdout",
+      "original_sha256": "513250776713e337b94e215d758aee37eb660ed2ee88f3e708927ec0db4dac13",
+      "published_sha256": "513250776713e337b94e215d758aee37eb660ed2ee88f3e708927ec0db4dac13",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/guarded.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/guarded.stdout",
+      "original_sha256": "8898527c838c8a96a66449ff2092660b0f7d0d46c742cb2e0894152dab727f11",
+      "published_sha256": "8898527c838c8a96a66449ff2092660b0f7d0d46c742cb2e0894152dab727f11",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/guarded.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/guarded.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/schedule-points.tsv",
+      "published": "experiments/10-targeted-repair/diagnostics/schedule-points.tsv",
+      "original_sha256": "9d3904ca147b7c003cc68b24d2701eb5b80c91b2a8698ea17966cf0059ed5a91",
+      "published_sha256": "9d3904ca147b7c003cc68b24d2701eb5b80c91b2a8698ea17966cf0059ed5a91",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/cell-summary.json",
+      "published": "experiments/10-targeted-repair/diagnostics/cell-summary.json",
+      "original_sha256": "5fe1cc0882fa6a77e6b004bdf69a2135847a2440578aee2df04f04282205beea",
+      "published_sha256": "5fe1cc0882fa6a77e6b004bdf69a2135847a2440578aee2df04f04282205beea",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/canonical_reference.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/canonical_reference.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/schedule-points-w4.log",
+      "published": "experiments/10-targeted-repair/diagnostics/schedule-points-w4.log",
+      "original_sha256": "79494356e6e52c3f431392f7b3c8c98c8afe26f4f9cd1c8a2a4c99ed7efdb341",
+      "published_sha256": "79494356e6e52c3f431392f7b3c8c98c8afe26f4f9cd1c8a2a4c99ed7efdb341",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/zero-slope.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/zero-slope.json",
+      "original_sha256": "31f645c69897618d93179db3111a2df929b1b313b6d0375bf0ad4f0ca974ef37",
+      "published_sha256": "17e476f36e9f755d6df43cf3a5ba6ec6cb6fa4576bcd26d0c1903d6dd1754f3f",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/smoke.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/smoke.stdout",
+      "original_sha256": "26113e1a215b0f57fe8e98b8a4006c3380854f860b79e07b2917b890764be82c",
+      "published_sha256": "26113e1a215b0f57fe8e98b8a4006c3380854f860b79e07b2917b890764be82c",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/emit.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/emit.stdout",
+      "original_sha256": "6aedc66cb5a2e2405c9c49fb21a2802745b5c9cc28292c3829c663692f8baee4",
+      "published_sha256": "6aedc66cb5a2e2405c9c49fb21a2802745b5c9cc28292c3829c663692f8baee4",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/smoke.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/smoke.stderr",
+      "original_sha256": "8937da7d30af73fc30fd547f2f184a3366c3098219b76421bb64b8f364f2b9f8",
+      "published_sha256": "8937da7d30af73fc30fd547f2f184a3366c3098219b76421bb64b8f364f2b9f8",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/emit.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/emit.stderr",
+      "original_sha256": "750b12f8510e0144d54e485213a0f58e2a99ec5eb1e591f47bed4e76819059ce",
+      "published_sha256": "750b12f8510e0144d54e485213a0f58e2a99ec5eb1e591f47bed4e76819059ce",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/research-score.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/research-score.json",
+      "original_sha256": "ce48c3cf207c3526d85f0d8b183de3ec06629ec4e55707b1425db01b34beecae",
+      "published_sha256": "ce48c3cf207c3526d85f0d8b183de3ec06629ec4e55707b1425db01b34beecae",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/emit.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/emit.json",
+      "original_sha256": "68e5f6136a10a7c043034bc80b883f77717d9ccb74658ba11cf097003fe8530e",
+      "published_sha256": "a1a8c17d209c56296f076dc94b614fc2356b36da723ba90abc53a35e089c634f",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/stats.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/stats.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/zero-slope.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/zero-slope.stderr",
+      "original_sha256": "8937da7d30af73fc30fd547f2f184a3366c3098219b76421bb64b8f364f2b9f8",
+      "published_sha256": "8937da7d30af73fc30fd547f2f184a3366c3098219b76421bb64b8f364f2b9f8",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/research-results.tsv",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/research-results.tsv",
+      "original_sha256": "742c4be6da7691890f0ea277a1bf2e16d6691b0cc33b33ad8f6bde5dfdcd7c5a",
+      "published_sha256": "742c4be6da7691890f0ea277a1bf2e16d6691b0cc33b33ad8f6bde5dfdcd7c5a",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/zero-slope.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/zero-slope.stdout",
+      "original_sha256": "3aa6b4c19e508c17dff6635a78586dd7ea8681a14281d1116c0772a586e05305",
+      "published_sha256": "3aa6b4c19e508c17dff6635a78586dd7ea8681a14281d1116c0772a586e05305",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/smoke.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/smoke.json",
+      "original_sha256": "0c97fb04269166063ce5aa33338620b9bcff8a1580337d49f6d50aab652c1515",
+      "published_sha256": "5025221817aea29ae46943167b764ce1cd5eedf01b258844ee148ad5a7ea06f7",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/stats.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/stats.stdout",
+      "original_sha256": "cc2e5a2d7076f4382302fa39731d8fdc91654604840bfa227dfedbf87c571130",
+      "published_sha256": "cc2e5a2d7076f4382302fa39731d8fdc91654604840bfa227dfedbf87c571130",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/stats.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w16/stats.json",
+      "original_sha256": "331cf040e600019469e8a28197ed3ddd38d6241292afa000eef5cfc1523e45d6",
+      "published_sha256": "7a6014c986189d0e2adb87a25214380be964791ae3ab0e52385170cf551d4353",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/mixed-repair/emit.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/mixed-repair/emit.stdout",
+      "original_sha256": "0e0a0772d132dd5d13708d19be5157d4896e9dadb533f6275bdaca26c4336890",
+      "published_sha256": "0e0a0772d132dd5d13708d19be5157d4896e9dadb533f6275bdaca26c4336890",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/mixed-repair/emit.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/mixed-repair/emit.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/mixed-repair/zero-slope.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/mixed-repair/zero-slope.stderr",
+      "original_sha256": "fb2b7d681e7bcb4f3705571e342baad488dac0b9085677bdc1ec5f7531ad180f",
+      "published_sha256": "fb2b7d681e7bcb4f3705571e342baad488dac0b9085677bdc1ec5f7531ad180f",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/mixed-repair/zero-slope.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/mixed-repair/zero-slope.stdout",
+      "original_sha256": "3aa6b4c19e508c17dff6635a78586dd7ea8681a14281d1116c0772a586e05305",
+      "published_sha256": "3aa6b4c19e508c17dff6635a78586dd7ea8681a14281d1116c0772a586e05305",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/zero-slope.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/zero-slope.json",
+      "original_sha256": "20370de2484659f0d4264d27071c6a74e765e60a597a22bf458515368073cc6d",
+      "published_sha256": "c64eb48c2ee70eef2aca4682b8e60ce64d0c134a3798a3adc2f3f2b59cde78a1",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/smoke.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/smoke.stdout",
+      "original_sha256": "26113e1a215b0f57fe8e98b8a4006c3380854f860b79e07b2917b890764be82c",
+      "published_sha256": "26113e1a215b0f57fe8e98b8a4006c3380854f860b79e07b2917b890764be82c",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/emit.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/emit.stdout",
+      "original_sha256": "6957c327ab26e8c10f4f1d73faee51010b7c710203620b74eb2d9dbb70affdda",
+      "published_sha256": "6957c327ab26e8c10f4f1d73faee51010b7c710203620b74eb2d9dbb70affdda",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/smoke.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/smoke.stderr",
+      "original_sha256": "0a989e41f41e958be52504ddada1c11ad48fdfb92ada4b8d1aa7c72442c8265d",
+      "published_sha256": "0a989e41f41e958be52504ddada1c11ad48fdfb92ada4b8d1aa7c72442c8265d",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/emit.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/emit.stderr",
+      "original_sha256": "41c9a1719742517413d1f923671d22fe0334a11f1fd55570308bb03b7c462760",
+      "published_sha256": "41c9a1719742517413d1f923671d22fe0334a11f1fd55570308bb03b7c462760",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/emit.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/emit.json",
+      "original_sha256": "63ac97fc719fb07bcde2b5a48ace861248d93f52a85c50c9fe18e8ff88f57a9c",
+      "published_sha256": "eaa780eaa6bb56c1d67e13ce11ef820e80a13cde55ffa62c200eb90df256cc01",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/stats.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/stats.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/zero-slope.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/zero-slope.stderr",
+      "original_sha256": "0a989e41f41e958be52504ddada1c11ad48fdfb92ada4b8d1aa7c72442c8265d",
+      "published_sha256": "0a989e41f41e958be52504ddada1c11ad48fdfb92ada4b8d1aa7c72442c8265d",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/zero-slope.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/zero-slope.stdout",
+      "original_sha256": "3aa6b4c19e508c17dff6635a78586dd7ea8681a14281d1116c0772a586e05305",
+      "published_sha256": "3aa6b4c19e508c17dff6635a78586dd7ea8681a14281d1116c0772a586e05305",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/smoke.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/smoke.json",
+      "original_sha256": "beda6025e75ebb67a9099a23f81b6b96083eaf7cf96dc25cb2ffec03fda4f16d",
+      "published_sha256": "53c84fed2ab844c3231f24117e8d26262b5016e8394c024b8544c60e0bd33d52",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/stats.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/stats.stdout",
+      "original_sha256": "79751974969e2876b372ba10f32d7edd623a2760e460141e8d7e0f4ab20ed806",
+      "published_sha256": "79751974969e2876b372ba10f32d7edd623a2760e460141e8d7e0f4ab20ed806",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk_coords-w4/stats.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk_coords-w4/stats.json",
+      "original_sha256": "2d4d1f4cecdf576864afbebdafa3c43ca758bdd9c9318e5a40114aeb4f269499",
+      "published_sha256": "6b6e33eb0c4e256ccfb5b1bce3c581fb0c279775d7a3d8f44fc1322645860dc0",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/guarded768-w16/counts.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/guarded768-w16/counts.stdout",
+      "original_sha256": "33984701db31b25a297f7d6ab4c03ff220eefb3098736988a64b4727e7bbf0fa",
+      "published_sha256": "33984701db31b25a297f7d6ab4c03ff220eefb3098736988a64b4727e7bbf0fa",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/guarded768-w16/counts.json",
+      "published": "experiments/10-targeted-repair/diagnostics/guarded768-w16/counts.json",
+      "original_sha256": "78c977b4c6c239fe26aab3641a10868eb379eef6dc077d9c0ee4a9375cacd423",
+      "published_sha256": "b3f747dd083c68ef19dea23171f2102b2d5a38d5346bac639b9ff9d2f6ed435b",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/guarded768-w16/counts.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/guarded768-w16/counts.stderr",
+      "original_sha256": "bc5fdb758359440878f637f4d233af167b001af1b8e986359dff0fdaa8ccccf2",
+      "published_sha256": "bc5fdb758359440878f637f4d233af167b001af1b8e986359dff0fdaa8ccccf2",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk-w4/component.json",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk-w4/component.json",
+      "original_sha256": "a627b5745441c0f46ad48cc68d60d5c5381dfa4516617932f4ad8c5d7e9ed82a",
+      "published_sha256": "fa28d5aec77c35f1896372d993b7ca20c790fc0fbe2bd348b7c6c39c5673df15",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk-w4/component.stdout",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk-w4/component.stdout",
+      "original_sha256": "847d960bd9478c38940e3988f90e537b753bdc3087a4730fb80a7b994452542f",
+      "published_sha256": "847d960bd9478c38940e3988f90e537b753bdc3087a4730fb80a7b994452542f",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/repair-results/masked_chunk-w4/component.stderr",
+      "published": "experiments/10-targeted-repair/diagnostics/masked_chunk-w4/component.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/REPORT.md",
+      "published": "experiments/10-targeted-repair/provenance/REPORT.md",
+      "original_sha256": "01b23ae7269a2d0dabd8b549dc250c82e5d4c9ed4b993230dad97722478eaebd",
+      "published_sha256": "01b23ae7269a2d0dabd8b549dc250c82e5d4c9ed4b993230dad97722478eaebd",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/run_cell_repairs.py",
+      "published": "experiments/10-targeted-repair/provenance/run_cell_repairs.py",
+      "original_sha256": "4806b1157603d6d96f8b7ae0164e1dd31c39e9b6c29c9dad640ac7d8392f9fb6",
+      "published_sha256": "4806b1157603d6d96f8b7ae0164e1dd31c39e9b6c29c9dad640ac7d8392f9fb6",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/run_targeted.py",
+      "published": "experiments/10-targeted-repair/provenance/run_targeted.py",
+      "original_sha256": "a449d7eca365a62ecde7b790e12893d568c0ad50b6f4113a2e1b16f4942949fb",
+      "published_sha256": "a449d7eca365a62ecde7b790e12893d568c0ad50b6f4113a2e1b16f4942949fb",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/fresh_study.py",
+      "published": "experiments/10-targeted-repair/provenance/fresh_study.py",
+      "original_sha256": "ed4ce7ec10c29d86520d53d7f216a83072025ff822f267dce7c0001b236ae80e",
+      "published_sha256": "ed4ce7ec10c29d86520d53d7f216a83072025ff822f267dce7c0001b236ae80e",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/verify_fresh.py",
+      "published": "experiments/10-targeted-repair/provenance/verify_fresh.py",
+      "original_sha256": "c4bbea1979c898ab974f088b7a8d7ff09bf3109aabf7cfa80c42ca50c7f8cdb5",
+      "published_sha256": "c4bbea1979c898ab974f088b7a8d7ff09bf3109aabf7cfa80c42ca50c7f8cdb5",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule_curve_fixtures.py",
+      "published": "experiments/10-targeted-repair/provenance/schedule_curve_fixtures.py",
+      "original_sha256": "9a1f7b6104f862228b0f9fac3503bdec36dfd65f16ed7c5bd669990338059da2",
+      "published_sha256": "9a1f7b6104f862228b0f9fac3503bdec36dfd65f16ed7c5bd669990338059da2",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/Cargo.toml",
+      "published": "experiments/10-targeted-repair/source/Cargo.toml",
+      "original_sha256": "3c80178b08d29a158abb29a7dcb8eefc67c66f60f2c3bd14483b65eeca0740dc",
+      "published_sha256": "3c80178b08d29a158abb29a7dcb8eefc67c66f60f2c3bd14483b65eeca0740dc",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/Cargo.lock",
+      "published": "experiments/10-targeted-repair/source/Cargo.lock",
+      "original_sha256": "42ff16919e551891ad1b21821329b116d133194245a0e0734a33573dfe598e07",
+      "published_sha256": "42ff16919e551891ad1b21821329b116d133194245a0e0734a33573dfe598e07",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/probe-denominators.txt",
+      "published": "experiments/10-targeted-repair/source/probe-denominators.txt",
+      "original_sha256": "8d9a24411c494ac2557a82e6d88c74197f07c0d6aac55f9e89224c4d637b2e66",
+      "published_sha256": "8d9a24411c494ac2557a82e6d88c74197f07c0d6aac55f9e89224c4d637b2e66",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/QIP_TARGETED_REPAIR.md",
+      "published": "experiments/10-targeted-repair/source/QIP_TARGETED_REPAIR.md",
+      "original_sha256": "94e8bca4cc4fa1d118a80a2d0d11b6aa5a2ac541a8481056fe94dc955f4ec777",
+      "published_sha256": "94e8bca4cc4fa1d118a80a2d0d11b6aa5a2ac541a8481056fe94dc955f4ec777",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/windowed_table.rs",
+      "published": "experiments/10-targeted-repair/source/src/windowed_table.rs",
+      "original_sha256": "8226d5a016f61457fcbe6c25de6535c569506a2b0a184afcbe9c1e07ddf91315",
+      "published_sha256": "8226d5a016f61457fcbe6c25de6535c569506a2b0a184afcbe9c1e07ddf91315",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/weierstrass_elliptic_curve.rs",
+      "published": "experiments/10-targeted-repair/source/src/weierstrass_elliptic_curve.rs",
+      "original_sha256": "ecfca15ee3b831c243fbea559ff4b8937be47fe591a4f14786ec2b9bfb30bded",
+      "published_sha256": "ecfca15ee3b831c243fbea559ff4b8937be47fe591a4f14786ec2b9bfb30bded",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/circuit.rs",
+      "published": "experiments/10-targeted-repair/source/src/circuit.rs",
+      "original_sha256": "ac2255f6bcb6895c9da2dfe21c3a051a0ef8fc4e0af9598634fec0035dbf35c6",
+      "published_sha256": "ac2255f6bcb6895c9da2dfe21c3a051a0ef8fc4e0af9598634fec0035dbf35c6",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/lib.rs",
+      "published": "experiments/10-targeted-repair/source/src/lib.rs",
+      "original_sha256": "059245c8b5686667a9d2baba276dc7c8961be84d5d0841c08b6d4571f3188d7d",
+      "published_sha256": "059245c8b5686667a9d2baba276dc7c8961be84d5d0841c08b6d4571f3188d7d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/sim.rs",
+      "published": "experiments/10-targeted-repair/source/src/sim.rs",
+      "original_sha256": "7ae27124632a9881301a2d1eca4b1be07d1c0b3498572144824965b16138415f",
+      "published_sha256": "7ae27124632a9881301a2d1eca4b1be07d1c0b3498572144824965b16138415f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/bin/build_circuit.rs",
+      "published": "experiments/10-targeted-repair/source/src/bin/build_circuit.rs",
+      "original_sha256": "e1ab2edd1467fe7e5ad34ece1a292c4b8017071289fb1e2241bdeb23620e7149",
+      "published_sha256": "e1ab2edd1467fe7e5ad34ece1a292c4b8017071289fb1e2241bdeb23620e7149",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/bin/eval_repairtrace.rs",
+      "published": "experiments/10-targeted-repair/source/src/bin/eval_repairtrace.rs",
+      "original_sha256": "c6ce7400c8b2395d9f8360f451a1f726b104b85fd21a4a3ed808e992da1480cd",
+      "published_sha256": "c6ce7400c8b2395d9f8360f451a1f726b104b85fd21a4a3ed808e992da1480cd",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/bin/eval_bounded.rs",
+      "published": "experiments/10-targeted-repair/source/src/bin/eval_bounded.rs",
+      "original_sha256": "52ec27372b87c8da9e364908dca44e1d40b2575212691dc583e6d662a260a6d8",
+      "published_sha256": "52ec27372b87c8da9e364908dca44e1d40b2575212691dc583e6d662a260a6d8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/bin/stats_stream.rs",
+      "published": "experiments/10-targeted-repair/source/src/bin/stats_stream.rs",
+      "original_sha256": "268ebba2532484b8878722a760c733b9f1dc578d2688c37b3fee9997e27fcf3a",
+      "published_sha256": "268ebba2532484b8878722a760c733b9f1dc578d2688c37b3fee9997e27fcf3a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/bin/eval_circuit.rs",
+      "published": "experiments/10-targeted-repair/source/src/bin/eval_circuit.rs",
+      "original_sha256": "1b273b46098c5c782bfbcfda243f20279c934da2b15871e5957828af7d5bc766",
+      "published_sha256": "1b273b46098c5c782bfbcfda243f20279c934da2b15871e5957828af7d5bc766",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/bin/eval_followup.rs",
+      "published": "experiments/10-targeted-repair/source/src/bin/eval_followup.rs",
+      "original_sha256": "ff15e23cb35b15a095cae85673da26ec53f3bb4f4b49bb8b6b98b0322ac41492",
+      "published_sha256": "ff15e23cb35b15a095cae85673da26ec53f3bb4f4b49bb8b6b98b0322ac41492",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/bin/eval_phase_diagnostic.rs",
+      "published": "experiments/10-targeted-repair/source/src/bin/eval_phase_diagnostic.rs",
+      "original_sha256": "95b739ec93440e2089f5ad00283e50e26c6b11e1d5f4b86b0a468502c3e6b53a",
+      "published_sha256": "95b739ec93440e2089f5ad00283e50e26c6b11e1d5f4b86b0a468502c3e6b53a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/deep_strip_keys.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/deep_strip_keys.rs",
+      "original_sha256": "ddb1cf3327c80d05b1020850e5d1764e9982df14f8b96ab8726f0811fccc128f",
+      "published_sha256": "ddb1cf3327c80d05b1020850e5d1764e9982df14f8b96ab8726f0811fccc128f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/dirtyscan.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/dirtyscan.rs",
+      "original_sha256": "b65519fa63f9a6e3d891df82395ef9c11fecdd210b8fc027a6abfa27dcfbbca8",
+      "published_sha256": "b65519fa63f9a6e3d891df82395ef9c11fecdd210b8fc027a6abfa27dcfbbca8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/mod.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/mod.rs",
+      "original_sha256": "8029ebe4b46acfef9053161ae7942f39153f7ff06bd7e31892dd4436b979f747",
+      "published_sha256": "8029ebe4b46acfef9053161ae7942f39153f7ff06bd7e31892dd4436b979f747",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/boundary_probe.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/boundary_probe.rs",
+      "original_sha256": "93a55b66d23854ad418a11c9b9bd215f49de96fe2af962a4980b6c3eec040df5",
+      "published_sha256": "93a55b66d23854ad418a11c9b9bd215f49de96fe2af962a4980b6c3eec040df5",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/single_ccx_fanout.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/single_ccx_fanout.rs",
+      "original_sha256": "1ff49d471df2994caa26cec33df4a0dfeed06c333722cc6177181c8139f4fec7",
+      "published_sha256": "1ff49d471df2994caa26cec33df4a0dfeed06c333722cc6177181c8139f4fec7",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/emit.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/emit.rs",
+      "original_sha256": "a7ecf65fa9f5aaece118ea70bff22fba99afb941b13c843159bdbcd4a098eb63",
+      "published_sha256": "a7ecf65fa9f5aaece118ea70bff22fba99afb941b13c843159bdbcd4a098eb63",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/route_042_action_mask.tsv",
+      "published": "experiments/10-targeted-repair/source/src/point_add/route_042_action_mask.tsv",
+      "original_sha256": "25cc32f7aa47e3760c5b1459fb838e824fc44d361c64ea2aa4bc6a592ff82a57",
+      "published_sha256": "25cc32f7aa47e3760c5b1459fb838e824fc44d361c64ea2aa4bc6a592ff82a57",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/m60_dead_t10.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/m60_dead_t10.rs",
+      "original_sha256": "829a32698984589f75c6104cc44a12aa730fe7a01fe003e91dcea81de3a0e14f",
+      "published_sha256": "829a32698984589f75c6104cc44a12aa730fe7a01fe003e91dcea81de3a0e14f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/canonical_replay.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/canonical_replay.rs",
+      "original_sha256": "cd6c827cdae01e1746a1589b003c672fd48cc43976abde567ef3a0ca78627eed",
+      "published_sha256": "cd6c827cdae01e1746a1589b003c672fd48cc43976abde567ef3a0ca78627eed",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/dialog_gcd_classical_filter.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/dialog_gcd_classical_filter.rs",
+      "original_sha256": "f005347ee5c9ad51c9c94198298b7de61af28b100d114b2052b47f1ac38ec12c",
+      "published_sha256": "f005347ee5c9ad51c9c94198298b7de61af28b100d114b2052b47f1ac38ec12c",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/d2_deep_strip.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/d2_deep_strip.rs",
+      "original_sha256": "a8d1fdffd40bcee2a0557ea520fd2ab1aede4415062b406a23ce9389cb8a498e",
+      "published_sha256": "a8d1fdffd40bcee2a0557ea520fd2ab1aede4415062b406a23ce9389cb8a498e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/pingpong_div.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/pingpong_div.rs",
+      "original_sha256": "456f7ba6ee90df7cfa65d154b448486548e842a02437838107cf56ad6bab89c9",
+      "published_sha256": "456f7ba6ee90df7cfa65d154b448486548e842a02437838107cf56ad6bab89c9",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/venting.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/venting.rs",
+      "original_sha256": "b86f058fdcf7a0e30302aec00aef1d1c4f88862e486e7db229510e619a19339d",
+      "published_sha256": "b86f058fdcf7a0e30302aec00aef1d1c4f88862e486e7db229510e619a19339d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/qrom_branch_tests.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/qrom_branch_tests.rs",
+      "original_sha256": "36907065750680b30952fbba4550e4ee5ab274f05309fcd800cf9c6114250863",
+      "published_sha256": "36907065750680b30952fbba4550e4ee5ab274f05309fcd800cf9c6114250863",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/fused.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/fused.rs",
+      "original_sha256": "a7983b1e50ac1f748548a2081d734bd3bd41d607df82bccc4c2b750e50525072",
+      "published_sha256": "a7983b1e50ac1f748548a2081d734bd3bd41d607df82bccc4c2b750e50525072",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/gcd.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/gcd.rs",
+      "original_sha256": "5c4e679400eb1b5295b0c95248eeae76673aeb5b304d6a1116e2c29a89b8318b",
+      "published_sha256": "5c4e679400eb1b5295b0c95248eeae76673aeb5b304d6a1116e2c29a89b8318b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/constprop.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/constprop.rs",
+      "original_sha256": "bcc24e0b96b2369174b8f0f86cd27f131c39d34b907caf626d4d192d5cc02587",
+      "published_sha256": "bcc24e0b96b2369174b8f0f86cd27f131c39d34b907caf626d4d192d5cc02587",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/qrom.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/qrom.rs",
+      "original_sha256": "6e1f44602f3b67574315306033fff28b128af4e34f52ae72446a81e670c26d7f",
+      "published_sha256": "6e1f44602f3b67574315306033fff28b128af4e34f52ae72446a81e670c26d7f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/ec_add.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/ec_add.rs",
+      "original_sha256": "e9c4e3e9c9c3d9c63ae4c3eddf7572a62c4b8297d32a94d61764028bb41a9990",
+      "published_sha256": "e9c4e3e9c9c3d9c63ae4c3eddf7572a62c4b8297d32a94d61764028bb41a9990",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/comparator.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/comparator.rs",
+      "original_sha256": "b7ea3d0a4abd76a1e597141cc57e32496e9ac94373dc2c12c9c7896352c17802",
+      "published_sha256": "b7ea3d0a4abd76a1e597141cc57e32496e9ac94373dc2c12c9c7896352c17802",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/mcx.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/mcx.rs",
+      "original_sha256": "2bf30b1616f4e74f8c5b45c8cb0860ad6b6e46f2656c0430d7cfad62a9594c5a",
+      "published_sha256": "2bf30b1616f4e74f8c5b45c8cb0860ad6b6e46f2656c0430d7cfad62a9594c5a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/mod.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/mod.rs",
+      "original_sha256": "bd1c904f7f2bffcc5641619ff7eefbc72bb4c1d95ab3a248df3e0cd3e9364e80",
+      "published_sha256": "bd1c904f7f2bffcc5641619ff7eefbc72bb4c1d95ab3a248df3e0cd3e9364e80",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/square.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/square.rs",
+      "original_sha256": "f11c7cd8d464ead57b7e44d4e4b6d05d175b66cdf750502fa4ea6cc410041384",
+      "published_sha256": "f11c7cd8d464ead57b7e44d4e4b6d05d175b66cdf750502fa4ea6cc410041384",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/schedule.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/schedule.rs",
+      "original_sha256": "a06ad249d9a7ecd8edae5373e42d8750dedfefdf9f3ecc00cd340cceefd4ebee",
+      "published_sha256": "a06ad249d9a7ecd8edae5373e42d8750dedfefdf9f3ecc00cd340cceefd4ebee",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/qrom_split_phase.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/qrom_split_phase.rs",
+      "original_sha256": "f5590091aa00f6074197e69ce2d88217d6a5300676a55e5ad0b364e4d0c4ab10",
+      "published_sha256": "f5590091aa00f6074197e69ce2d88217d6a5300676a55e5ad0b364e4d0c4ab10",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/codec.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/codec.rs",
+      "original_sha256": "42bf73b74ef193baa3cc090ac496beea951bcf4bdd066ad69e1193aa39201834",
+      "published_sha256": "42bf73b74ef193baa3cc090ac496beea951bcf4bdd066ad69e1193aa39201834",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/gidney.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/gidney.rs",
+      "original_sha256": "2fefdfd2276758bc183cc0effb97f8c4001bcbc3a105f1d444cf7e3aa3a217db",
+      "published_sha256": "2fefdfd2276758bc183cc0effb97f8c4001bcbc3a105f1d444cf7e3aa3a217db",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/arith.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/arith.rs",
+      "original_sha256": "73419c06ffd8ca577fe463c055a2f8f9bc09368afce36d90a5953a7914e7471a",
+      "published_sha256": "73419c06ffd8ca577fe463c055a2f8f9bc09368afce36d90a5953a7914e7471a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/arith/const_arith.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/arith/const_arith.rs",
+      "original_sha256": "3b755dfc6f1e3cd4842b649b5b1d3adda3488c37b1af069bd14698f738121eb6",
+      "published_sha256": "3b755dfc6f1e3cd4842b649b5b1d3adda3488c37b1af069bd14698f738121eb6",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/arith/multiply.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/arith/multiply.rs",
+      "original_sha256": "aa0c1be376002113cdeba95e17fdff62f112f77d07219c4c85f9984dc5151d9b",
+      "published_sha256": "aa0c1be376002113cdeba95e17fdff62f112f77d07219c4c85f9984dc5151d9b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/arith/compare.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/arith/compare.rs",
+      "original_sha256": "673602fbb5c90757320bc2ce1cd6afb59c69c82df9f40b3d927d8f2d2b8ac565",
+      "published_sha256": "673602fbb5c90757320bc2ce1cd6afb59c69c82df9f40b3d927d8f2d2b8ac565",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/arith/mod.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/arith/mod.rs",
+      "original_sha256": "d47795091dc2e7fde55f6719b6e081fbc6684b5d5ae9ec25cc3057fa4af5a686",
+      "published_sha256": "d47795091dc2e7fde55f6719b6e081fbc6684b5d5ae9ec25cc3057fa4af5a686",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/arith/modular.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/arith/modular.rs",
+      "original_sha256": "eabf995082958fdd8b3afbaa09f3c7ea5f6a3a8b5fe79e88206eab07709dcb6e",
+      "published_sha256": "eabf995082958fdd8b3afbaa09f3c7ea5f6a3a8b5fe79e88206eab07709dcb6e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/arith/adder.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/arith/adder.rs",
+      "original_sha256": "4e8502d0bb590381e51d94345ac9337502e71c4e6f5bfe36f1597b15a03f4e5f",
+      "published_sha256": "4e8502d0bb590381e51d94345ac9337502e71c4e6f5bfe36f1597b15a03f4e5f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/arith/nbit.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/arith/nbit.rs",
+      "original_sha256": "a9be1277f558e2d17158c26e344d7b42578d78be69f3d4be74823451996f3338",
+      "published_sha256": "a9be1277f558e2d17158c26e344d7b42578d78be69f3d4be74823451996f3338",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/rounds/mod.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/rounds/mod.rs",
+      "original_sha256": "ee67df42ab05a34bac4295567de7d757c5e4950bb0fc620ba13f5217e3502483",
+      "published_sha256": "ee67df42ab05a34bac4295567de7d757c5e4950bb0fc620ba13f5217e3502483",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/rounds/dialog/compressed.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/rounds/dialog/compressed.rs",
+      "original_sha256": "cf3c4f61b22fc0e3beb17794da649d1f68802effa2a353a4eb0ece01ba888d1a",
+      "published_sha256": "cf3c4f61b22fc0e3beb17794da649d1f68802effa2a353a4eb0ece01ba888d1a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/rounds/dialog/config.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/rounds/dialog/config.rs",
+      "original_sha256": "bdfd21d4ee97c3c4813557ea0fb4978118264ed11ed4270aa75ac18745640ea8",
+      "published_sha256": "bdfd21d4ee97c3c4813557ea0fb4978118264ed11ed4270aa75ac18745640ea8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/rounds/dialog/mod.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/rounds/dialog/mod.rs",
+      "original_sha256": "401f554f545c7e6aa9619542af85228e35a342a737c7cd4312b958b47d1bc574",
+      "published_sha256": "401f554f545c7e6aa9619542af85228e35a342a737c7cd4312b958b47d1bc574",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-oral-repairs-20260922/src/point_add/trailmix_ludicrous/square/product_register.rs",
+      "published": "experiments/10-targeted-repair/source/src/point_add/trailmix_ludicrous/square/product_register.rs",
+      "original_sha256": "f959993568a1eed55d859f78327510e72abe3dd4b770f967db624349e8173ece",
+      "published_sha256": "f959993568a1eed55d859f78327510e72abe3dd4b770f967db624349e8173ece",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/applicability_report.md",
+      "published": "experiments/11-coherent-error/applicability_report.md",
+      "original_sha256": "000018bc52a8588b29068db5a37f6b6754f1b7e67bad7679729c016a0061bf58",
+      "published_sha256": "000018bc52a8588b29068db5a37f6b6754f1b7e67bad7679729c016a0061bf58",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/prefix_support.py",
+      "published": "experiments/11-coherent-error/prefix_support.py",
+      "original_sha256": "cbee3553d26d4b4b608579e90a51d54ea165ad07354aa3df70ccd29bfda7ae67",
+      "published_sha256": "cbee3553d26d4b4b608579e90a51d54ea165ad07354aa3df70ccd29bfda7ae67",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/check_results.json",
+      "published": "experiments/11-coherent-error/check_results.json",
+      "original_sha256": "7a36aa591f5d0ee760e4e87ce754c4942926b86237c077e746e4e03e7d43f783",
+      "published_sha256": "7a36aa591f5d0ee760e4e87ce754c4942926b86237c077e746e4e03e7d43f783",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/manuscript_short_result.tex",
+      "published": "experiments/11-coherent-error/manuscript_short_result.tex",
+      "original_sha256": "08a2fdd0617a4e02488d5e1716054ca278b7147eaf0e480a282be936e5137225",
+      "published_sha256": "08a2fdd0617a4e02488d5e1716054ca278b7147eaf0e480a282be936e5137225",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/README.md",
+      "published": "experiments/11-coherent-error/ORIGINAL_README.md",
+      "original_sha256": "d259f0b725a28da5cde062df3ae990efce9c9ed3b52c577436abf7fc8f72bb8b",
+      "published_sha256": "d259f0b725a28da5cde062df3ae990efce9c9ed3b52c577436abf7fc8f72bb8b",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/coherent_error_theorem.tex",
+      "published": "experiments/11-coherent-error/coherent_error_theorem.tex",
+      "original_sha256": "72911223daac3b04ff78a7fd9a90de5a405b2f0e125c5300187baac58668fece",
+      "published_sha256": "72911223daac3b04ff78a7fd9a90de5a405b2f0e125c5300187baac58668fece",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/run_checks.py",
+      "published": "experiments/11-coherent-error/run_checks.py",
+      "original_sha256": "8c967b8646b78b4431348821b5e5e8ccc1491decfc823ad21baed1c810608f4d",
+      "published_sha256": "8c967b8646b78b4431348821b5e5e8ccc1491decfc823ad21baed1c810608f4d",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/matrix_checks.py",
+      "published": "experiments/11-coherent-error/matrix_checks.py",
+      "original_sha256": "9d3e9b2c1a4c7fc8ff5659859124638d5d5522d596d1dee0c9b535a6333c7924",
+      "published_sha256": "9d3e9b2c1a4c7fc8ff5659859124638d5d5522d596d1dee0c9b535a6333c7924",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/coherent_error_theorem.pdf",
+      "published": "experiments/11-coherent-error/coherent_error_theorem.pdf",
+      "original_sha256": "9079adc43e1786fb18dc136d8559e670dde57a900d5d38eff84fc5503c920da8",
+      "published_sha256": "9079adc43e1786fb18dc136d8559e670dde57a900d5d38eff84fc5503c920da8",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/coherence/search_plan.json",
+      "published": "experiments/11-coherent-error/search_plan.json",
+      "original_sha256": "8efe5872284d0717bb341ce4a413d40fa89f2681a5fe030477289673e7fb6bd4",
+      "published_sha256": "8efe5872284d0717bb341ce4a413d40fa89f2681a5fe030477289673e7fb6bd4",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/width_schedule.csv",
+      "published": "experiments/12-schedule-audit/width_schedule.csv",
+      "original_sha256": "6fac60f3cb2d0c0e96f30f3825fadb834d712d1b18643a9dcfbae1d6a134de57",
+      "published_sha256": "6fac60f3cb2d0c0e96f30f3825fadb834d712d1b18643a9dcfbae1d6a134de57",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/structured_witnesses.json",
+      "published": "experiments/12-schedule-audit/structured_witnesses.json",
+      "original_sha256": "f82d05e99555589ff9f5d33f7771864e93b9263d48a7537a2506ad82eec4dde5",
+      "published_sha256": "f82d05e99555589ff9f5d33f7771864e93b9263d48a7537a2506ad82eec4dde5",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/audit.py",
+      "published": "experiments/12-schedule-audit/audit.py",
+      "original_sha256": "167212a1f2a7a6b1c0b0fb06bbecae21434edfa8f5c138453854695c3c3f1a2a",
+      "published_sha256": "167212a1f2a7a6b1c0b0fb06bbecae21434edfa8f5c138453854695c3c3f1a2a",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/extracted_schedule.rs",
+      "published": "experiments/12-schedule-audit/extracted_schedule.rs",
+      "original_sha256": "ca0b897d188301f4c37eec90b1fbacfcf1ed7699cf1ece1a0a38b15567cec394",
+      "published_sha256": "ca0b897d188301f4c37eec90b1fbacfcf1ed7699cf1ece1a0a38b15567cec394",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/frozen-pilot.bin",
+      "published": "experiments/12-schedule-audit/frozen-pilot.bin",
+      "original_sha256": "7e62e32b974427e0db7ba5a18a3345594ccfd01ae770ff605ac919df0c7c16a6",
+      "published_sha256": "7e62e32b974427e0db7ba5a18a3345594ccfd01ae770ff605ac919df0c7c16a6",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/REPORT.md",
+      "published": "experiments/12-schedule-audit/REPORT.md",
+      "original_sha256": "5ff20c0598ca109fb5a2adf32da73686c82118c8ce80c1aa31c4bdac6563f026",
+      "published_sha256": "5ff20c0598ca109fb5a2adf32da73686c82118c8ce80c1aa31c4bdac6563f026",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/trace-d2pow255.csv",
+      "published": "experiments/12-schedule-audit/trace-d2pow255.csv",
+      "original_sha256": "0039c4b3a60c8503a620de63493f0d115a55b6c46be9f79ccfc7969d6d1364b6",
+      "published_sha256": "0039c4b3a60c8503a620de63493f0d115a55b6c46be9f79ccfc7969d6d1364b6",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/independent.bin",
+      "published": "experiments/12-schedule-audit/independent.bin",
+      "original_sha256": "d48f2cc04ebb497b59718165ea3b65c804d5063030c3040754b2c79f112c06ca",
+      "published_sha256": "d48f2cc04ebb497b59718165ea3b65c804d5063030c3040754b2c79f112c06ca",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/profiles.json",
+      "published": "experiments/12-schedule-audit/profiles.json",
+      "original_sha256": "c926499d15723c5ef79a786bbb1bd1ccb54eec64f138b57fd0f293d7fc83b860",
+      "published_sha256": "c926499d15723c5ef79a786bbb1bd1ccb54eec64f138b57fd0f293d7fc83b860",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/frozen_audit.json",
+      "published": "experiments/12-schedule-audit/frozen_audit.json",
+      "original_sha256": "30795241041afad29757cb507c73ea3af2dd15c788228c47a73f82563fa505da",
+      "published_sha256": "30795241041afad29757cb507c73ea3af2dd15c788228c47a73f82563fa505da",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/model.py",
+      "published": "experiments/12-schedule-audit/model.py",
+      "original_sha256": "1f2224df8a4938b047d2b931bf5e1dc38a6f7f4bbbef933f19cb0617708633a4",
+      "published_sha256": "1f2224df8a4938b047d2b931bf5e1dc38a6f7f4bbbef933f19cb0617708633a4",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/small_exhaustive.json",
+      "published": "experiments/12-schedule-audit/small_exhaustive.json",
+      "original_sha256": "a05f1e0e7059cd8b3ad3fa9f4dc3a9b8bbe1e365d3bebb5343b39e4a8c321890",
+      "published_sha256": "a05f1e0e7059cd8b3ad3fa9f4dc3a9b8bbe1e365d3bebb5343b39e4a8c321890",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/test_audit.py",
+      "published": "experiments/12-schedule-audit/test_audit.py",
+      "original_sha256": "3a4468f817f47bed52a340b46dfececbc041e45e0a15324d54ff634d33eaae30",
+      "published_sha256": "3a4468f817f47bed52a340b46dfececbc041e45e0a15324d54ff634d33eaae30",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/independent_sample.json",
+      "published": "experiments/12-schedule-audit/independent_sample.json",
+      "original_sha256": "e499053b2499c2cc72db6b4e7e4a0629510f3bb02e1a854584d88650970b0b49",
+      "published_sha256": "e499053b2499c2cc72db6b4e7e4a0629510f3bb02e1a854584d88650970b0b49",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/round_tail_4096.c",
+      "published": "experiments/12-schedule-audit/round_tail_4096.c",
+      "original_sha256": "bf7cc90340c64f6eb93af4f24b0158b1becbbc6709ddc31efd5dd4d0ea04cff1",
+      "published_sha256": "bf7cc90340c64f6eb93af4f24b0158b1becbbc6709ddc31efd5dd4d0ea04cff1",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/trace-d3.csv",
+      "published": "experiments/12-schedule-audit/trace-d3.csv",
+      "original_sha256": "3970486b3d73a1bb215ade3cf6f2d416bd126c424472fbcbd760afd79ba32c42",
+      "published_sha256": "3970486b3d73a1bb215ade3cf6f2d416bd126c424472fbcbd760afd79ba32c42",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/pilot_reproduction.json",
+      "published": "experiments/12-schedule-audit/pilot_reproduction.json",
+      "original_sha256": "9f6afc4037eae95c1ae7ea1078882182dd9ceab6edfecf2f477036dc1d49ac68",
+      "published_sha256": "9f6afc4037eae95c1ae7ea1078882182dd9ceab6edfecf2f477036dc1d49ac68",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/test-results.txt",
+      "published": "experiments/12-schedule-audit/test-results.txt",
+      "original_sha256": "f5c0392b14a90d61f40745e8422102b32e50598056b860a20d2fcf3ff9d1cae7",
+      "published_sha256": "f5c0392b14a90d61f40745e8422102b32e50598056b860a20d2fcf3ff9d1cae7",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/trace-d1.csv",
+      "published": "experiments/12-schedule-audit/trace-d1.csv",
+      "original_sha256": "634bda8215796d11e4b3b50046559da5bfd0dcbdc26c246ed823c61b93abd950",
+      "published_sha256": "634bda8215796d11e4b3b50046559da5bfd0dcbdc26c246ed823c61b93abd950",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/structured.bin",
+      "published": "experiments/12-schedule-audit/structured.bin",
+      "original_sha256": "0816756060d18ebb8fbca8cd12c841e66d5c1d2af311a5c439323ddfb0cfda0f",
+      "published_sha256": "0816756060d18ebb8fbca8cd12c841e66d5c1d2af311a5c439323ddfb0cfda0f",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/schedule/run_receipt.json",
+      "published": "experiments/12-schedule-audit/run_receipt.json",
+      "original_sha256": "15c8945cc71f6f0329be385de8788a428e9197464899994e4954d4101af106c1",
+      "published_sha256": "15c8945cc71f6f0329be385de8788a428e9197464899994e4954d4101af106c1",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/common-component-results.json",
+      "published": "experiments/13-safegcd-reference/common-component-results.json",
+      "original_sha256": "5f6fff8e9a6ca51872b3085394fc976e1ecfe48bb5403ea01d6caefaa6a2a01d",
+      "published_sha256": "5f6fff8e9a6ca51872b3085394fc976e1ecfe48bb5403ea01d6caefaa6a2a01d",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/SPECIFICATION.md",
+      "published": "experiments/13-safegcd-reference/SPECIFICATION.md",
+      "original_sha256": "4e5632eda17ab86007123c7a741b8d0002d67184de6c672760e051a65906a4d2",
+      "published_sha256": "4e5632eda17ab86007123c7a741b8d0002d67184de6c672760e051a65906a4d2",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/full-small-results.json",
+      "published": "experiments/13-safegcd-reference/full-small-results.json",
+      "original_sha256": "0d2bf53bd21324efd0108d585f0f6c8da13e42ebed850d5072a5746d35f5838e",
+      "published_sha256": "0d2bf53bd21324efd0108d585f0f6c8da13e42ebed850d5072a5746d35f5838e",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/scalar-results.json",
+      "published": "experiments/13-safegcd-reference/scalar-results.json",
+      "original_sha256": "f2c9326dc6f50f85a7edb4cbddf3b5f9f8e721ee3a1ea1c109bcb7fb6840dbb5",
+      "published_sha256": "f2c9326dc6f50f85a7edb4cbddf3b5f9f8e721ee3a1ea1c109bcb7fb6840dbb5",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/coefficient-gate-results.json",
+      "published": "experiments/13-safegcd-reference/coefficient-gate-results.json",
+      "original_sha256": "9cbdf35733cb953490aefd963766443647ae32a3c6b9f65fb93258837ca01a51",
+      "published_sha256": "9cbdf35733cb953490aefd963766443647ae32a3c6b9f65fb93258837ca01a51",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/GATE_ACCOUNTING.md",
+      "published": "experiments/13-safegcd-reference/GATE_ACCOUNTING.md",
+      "original_sha256": "f351d4f5185eb7ac066e5d2cd03092238cfd3d7bc8b5529ce460fb083b4fe3de",
+      "published_sha256": "f351d4f5185eb7ac066e5d2cd03092238cfd3d7bc8b5529ce460fb083b4fe3de",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/provenance.json",
+      "published": "experiments/13-safegcd-reference/provenance.json",
+      "original_sha256": "09ad2947c4d8d53abae7bb99ce66b33fba1f29e16f9184c056f0c6854631ea24",
+      "published_sha256": "09ad2947c4d8d53abae7bb99ce66b33fba1f29e16f9184c056f0c6854631ea24",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/SOURCES.md",
+      "published": "experiments/13-safegcd-reference/SOURCES.md",
+      "original_sha256": "49d14e30effabe4e36cd9299a46ff8ba9f0964209ab2bc90abfd83cf6eeb47e9",
+      "published_sha256": "49d14e30effabe4e36cd9299a46ff8ba9f0964209ab2bc90abfd83cf6eeb47e9",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/gates-small-results.json",
+      "published": "experiments/13-safegcd-reference/gates-small-results.json",
+      "original_sha256": "04859bf0b9d43a66bbea15dbe90f94be595abfbc92ff62f188543295e4c2b9a1",
+      "published_sha256": "04859bf0b9d43a66bbea15dbe90f94be595abfbc92ff62f188543295e4c2b9a1",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/full-div-256-results.json",
+      "published": "experiments/13-safegcd-reference/full-div-256-results.json",
+      "original_sha256": "03950f59abe486e9608cde3fea04320d8272e6b48e3d83bf04abc8659b4c09b5",
+      "published_sha256": "03950f59abe486e9608cde3fea04320d8272e6b48e3d83bf04abc8659b4c09b5",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/scalar.py",
+      "published": "experiments/13-safegcd-reference/scalar.py",
+      "original_sha256": "c54bd32b808b32926ddfdc10aee8cb478446908920713f3a8d8beaaa6b2c3e0f",
+      "published_sha256": "c54bd32b808b32926ddfdc10aee8cb478446908920713f3a8d8beaaa6b2c3e0f",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/README.md",
+      "published": "experiments/13-safegcd-reference/ORIGINAL_README.md",
+      "original_sha256": "179178c60127841ffd0b925b0e1a0c3fe593cad0525612b52db4d61065f15501",
+      "published_sha256": "179178c60127841ffd0b925b0e1a0c3fe593cad0525612b52db4d61065f15501",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/pingpong-768-results.json",
+      "published": "experiments/13-safegcd-reference/pingpong-768-results.json",
+      "original_sha256": "cb59f0f8c3eb08f90ef9a2eb278070f08a900fe8cc861a1103a01a68517a5239",
+      "published_sha256": "cb59f0f8c3eb08f90ef9a2eb278070f08a900fe8cc861a1103a01a68517a5239",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/full-results.json",
+      "published": "experiments/13-safegcd-reference/full-results.json",
+      "original_sha256": "cae3dd8a6fdd64891c1b3ec6b3cc3b7a1071429834cd8324f11f5531caf5cd88",
+      "published_sha256": "cae3dd8a6fdd64891c1b3ec6b3cc3b7a1071429834cd8324f11f5531caf5cd88",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/FULL_BASELINE_REPORT.md",
+      "published": "experiments/13-safegcd-reference/FULL_BASELINE_REPORT.md",
+      "original_sha256": "d8cf4fc300ae733ed2c62fc9b1fe02c2cb957cf0faf2393f6dc1d4362ca73d1d",
+      "published_sha256": "d8cf4fc300ae733ed2c62fc9b1fe02c2cb957cf0faf2393f6dc1d4362ca73d1d",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/gates-256-results.json",
+      "published": "experiments/13-safegcd-reference/gates-256-results.json",
+      "original_sha256": "108afffa88be684c4797015354eb035540ac7f06547ee60916fee52f2aa12392",
+      "published_sha256": "108afffa88be684c4797015354eb035540ac7f06547ee60916fee52f2aa12392",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/full-mul-256-results.json",
+      "published": "experiments/13-safegcd-reference/full-mul-256-results.json",
+      "original_sha256": "68070afd9200c847d181cb52bc1c6ddb07ca95ae4eac2b2129efcccfecb5612e",
+      "published_sha256": "68070afd9200c847d181cb52bc1c6ddb07ca95ae4eac2b2129efcccfecb5612e",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/verify.py",
+      "published": "experiments/13-safegcd-reference/verify.py",
+      "original_sha256": "90fd54e66ad8b9ec8392eb94e2a1cc5a659ee35ab2f899d500e52e4e38a97296",
+      "published_sha256": "90fd54e66ad8b9ec8392eb94e2a1cc5a659ee35ab2f899d500e52e4e38a97296",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/safegcd/pingpong-small-results.json",
+      "published": "experiments/13-safegcd-reference/pingpong-small-results.json",
+      "original_sha256": "255c104fccc79e796fe3060705c2d58e33a747efb95bedaff92d579739741dbd",
+      "published_sha256": "255c104fccc79e796fe3060705c2d58e33a747efb95bedaff92d579739741dbd",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/limitations/FOLLOWUP_AUDIT.md",
+      "published": "experiments/14-repair-audit/FOLLOWUP_AUDIT.md",
+      "original_sha256": "dc55a13b8ff1cc0d23d0d3a55a97d8a74c4a3f7c646ec33b989cab3e4eabb021",
+      "published_sha256": "dc55a13b8ff1cc0d23d0d3a55a97d8a74c4a3f7c646ec33b989cab3e4eabb021",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/limitations/followup-transcription-results.json",
+      "published": "experiments/14-repair-audit/followup-transcription-results.json",
+      "original_sha256": "228e938d3f21dfc68a6a0e71c6b0151301c9b3c74fe443c491b40669f209178e",
+      "published_sha256": "228e938d3f21dfc68a6a0e71c6b0151301c9b3c74fe443c491b40669f209178e",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/limitations/algebra-results.json",
+      "published": "experiments/14-repair-audit/algebra-results.json",
+      "original_sha256": "2b0078f8971506c7166c117306ee51a75670747ed94e3fd2d37d44b64d8c4a99",
+      "published_sha256": "2b0078f8971506c7166c117306ee51a75670747ed94e3fd2d37d44b64d8c4a99",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/limitations/SAFE_WORDING.md",
+      "published": "experiments/14-repair-audit/SAFE_WORDING.md",
+      "original_sha256": "adebed6b67155ce568b023bbe098929e30549ab3abec3533857d1e22cf79519d",
+      "published_sha256": "adebed6b67155ce568b023bbe098929e30549ab3abec3533857d1e22cf79519d",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/limitations/AUDIT.md",
+      "published": "experiments/14-repair-audit/AUDIT.md",
+      "original_sha256": "3c1166efd314b86c798a0347a7b8fdcc42f7ebdfe48309b971c088b501be4279",
+      "published_sha256": "3c1166efd314b86c798a0347a7b8fdcc42f7ebdfe48309b971c088b501be4279",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/limitations/check_followup_transcription.py",
+      "published": "experiments/14-repair-audit/check_followup_transcription.py",
+      "original_sha256": "308d73c65607d8a77e4ae0db47f4fa8715a8f5868830264c05b40799a4e8f2c0",
+      "published_sha256": "308d73c65607d8a77e4ae0db47f4fa8715a8f5868830264c05b40799a4e8f2c0",
+      "gzip": false
+    },
+    {
+      "original": "research/qip-oral-20260922/limitations/check_algebra.py",
+      "published": "experiments/14-repair-audit/check_algebra.py",
+      "original_sha256": "78e95e2c43bcb1843b310248c5c2c2be2f8bfa8f185e26e0cee61c1b0718f986",
+      "published_sha256": "78e95e2c43bcb1843b310248c5c2c2be2f8bfa8f185e26e0cee61c1b0718f986",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/Cargo.toml",
+      "published": "experiments/13-safegcd-reference/source/Cargo.toml",
+      "original_sha256": "3c80178b08d29a158abb29a7dcb8eefc67c66f60f2c3bd14483b65eeca0740dc",
+      "published_sha256": "3c80178b08d29a158abb29a7dcb8eefc67c66f60f2c3bd14483b65eeca0740dc",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/Cargo.lock",
+      "published": "experiments/13-safegcd-reference/source/Cargo.lock",
+      "original_sha256": "42ff16919e551891ad1b21821329b116d133194245a0e0734a33573dfe598e07",
+      "published_sha256": "42ff16919e551891ad1b21821329b116d133194245a0e0734a33573dfe598e07",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/windowed_table.rs",
+      "published": "experiments/13-safegcd-reference/source/src/windowed_table.rs",
+      "original_sha256": "8226d5a016f61457fcbe6c25de6535c569506a2b0a184afcbe9c1e07ddf91315",
+      "published_sha256": "8226d5a016f61457fcbe6c25de6535c569506a2b0a184afcbe9c1e07ddf91315",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/weierstrass_elliptic_curve.rs",
+      "published": "experiments/13-safegcd-reference/source/src/weierstrass_elliptic_curve.rs",
+      "original_sha256": "ecfca15ee3b831c243fbea559ff4b8937be47fe591a4f14786ec2b9bfb30bded",
+      "published_sha256": "ecfca15ee3b831c243fbea559ff4b8937be47fe591a4f14786ec2b9bfb30bded",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/circuit.rs",
+      "published": "experiments/13-safegcd-reference/source/src/circuit.rs",
+      "original_sha256": "ac2255f6bcb6895c9da2dfe21c3a051a0ef8fc4e0af9598634fec0035dbf35c6",
+      "published_sha256": "ac2255f6bcb6895c9da2dfe21c3a051a0ef8fc4e0af9598634fec0035dbf35c6",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/lib.rs",
+      "published": "experiments/13-safegcd-reference/source/src/lib.rs",
+      "original_sha256": "059245c8b5686667a9d2baba276dc7c8961be84d5d0841c08b6d4571f3188d7d",
+      "published_sha256": "059245c8b5686667a9d2baba276dc7c8961be84d5d0841c08b6d4571f3188d7d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/sim.rs",
+      "published": "experiments/13-safegcd-reference/source/src/sim.rs",
+      "original_sha256": "7ae27124632a9881301a2d1eca4b1be07d1c0b3498572144824965b16138415f",
+      "published_sha256": "7ae27124632a9881301a2d1eca4b1be07d1c0b3498572144824965b16138415f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/bin/build_circuit.rs",
+      "published": "experiments/13-safegcd-reference/source/src/bin/build_circuit.rs",
+      "original_sha256": "ac5298ac06a652f60472ac2706262d84ce20aca69c39e9c94a6913ac37e3a750",
+      "published_sha256": "ac5298ac06a652f60472ac2706262d84ce20aca69c39e9c94a6913ac37e3a750",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/bin/eval_bounded.rs",
+      "published": "experiments/13-safegcd-reference/source/src/bin/eval_bounded.rs",
+      "original_sha256": "52ec27372b87c8da9e364908dca44e1d40b2575212691dc583e6d662a260a6d8",
+      "published_sha256": "52ec27372b87c8da9e364908dca44e1d40b2575212691dc583e6d662a260a6d8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/bin/eval_circuit.rs",
+      "published": "experiments/13-safegcd-reference/source/src/bin/eval_circuit.rs",
+      "original_sha256": "1b273b46098c5c782bfbcfda243f20279c934da2b15871e5957828af7d5bc766",
+      "published_sha256": "1b273b46098c5c782bfbcfda243f20279c934da2b15871e5957828af7d5bc766",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/bin/eval_phase_diagnostic.rs",
+      "published": "experiments/13-safegcd-reference/source/src/bin/eval_phase_diagnostic.rs",
+      "original_sha256": "95b739ec93440e2089f5ad00283e50e26c6b11e1d5f4b86b0a468502c3e6b53a",
+      "published_sha256": "95b739ec93440e2089f5ad00283e50e26c6b11e1d5f4b86b0a468502c3e6b53a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/bin/safegcd_round_verify.rs",
+      "published": "experiments/13-safegcd-reference/source/src/bin/safegcd_round_verify.rs",
+      "original_sha256": "e905ad851b485fcb2e1f563fd098b8d1973a2329ffccf2111d26b6d4bb27925d",
+      "published_sha256": "e905ad851b485fcb2e1f563fd098b8d1973a2329ffccf2111d26b6d4bb27925d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/deep_strip_keys.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/deep_strip_keys.rs",
+      "original_sha256": "ddb1cf3327c80d05b1020850e5d1764e9982df14f8b96ab8726f0811fccc128f",
+      "published_sha256": "ddb1cf3327c80d05b1020850e5d1764e9982df14f8b96ab8726f0811fccc128f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/dirtyscan.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/dirtyscan.rs",
+      "original_sha256": "b65519fa63f9a6e3d891df82395ef9c11fecdd210b8fc027a6abfa27dcfbbca8",
+      "published_sha256": "b65519fa63f9a6e3d891df82395ef9c11fecdd210b8fc027a6abfa27dcfbbca8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/mod.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/mod.rs",
+      "original_sha256": "7bf73cfa1bed27467de984c93e908602bfd1567dc2d240c007787c0c8ac1381e",
+      "published_sha256": "7bf73cfa1bed27467de984c93e908602bfd1567dc2d240c007787c0c8ac1381e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/single_ccx_fanout.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/single_ccx_fanout.rs",
+      "original_sha256": "1ff49d471df2994caa26cec33df4a0dfeed06c333722cc6177181c8139f4fec7",
+      "published_sha256": "1ff49d471df2994caa26cec33df4a0dfeed06c333722cc6177181c8139f4fec7",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/emit.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/emit.rs",
+      "original_sha256": "a7ecf65fa9f5aaece118ea70bff22fba99afb941b13c843159bdbcd4a098eb63",
+      "published_sha256": "a7ecf65fa9f5aaece118ea70bff22fba99afb941b13c843159bdbcd4a098eb63",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/route_042_action_mask.tsv",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/route_042_action_mask.tsv",
+      "original_sha256": "25cc32f7aa47e3760c5b1459fb838e824fc44d361c64ea2aa4bc6a592ff82a57",
+      "published_sha256": "25cc32f7aa47e3760c5b1459fb838e824fc44d361c64ea2aa4bc6a592ff82a57",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/m60_dead_t10.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/m60_dead_t10.rs",
+      "original_sha256": "829a32698984589f75c6104cc44a12aa730fe7a01fe003e91dcea81de3a0e14f",
+      "published_sha256": "829a32698984589f75c6104cc44a12aa730fe7a01fe003e91dcea81de3a0e14f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/dialog_gcd_classical_filter.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/dialog_gcd_classical_filter.rs",
+      "original_sha256": "f005347ee5c9ad51c9c94198298b7de61af28b100d114b2052b47f1ac38ec12c",
+      "published_sha256": "f005347ee5c9ad51c9c94198298b7de61af28b100d114b2052b47f1ac38ec12c",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/d2_deep_strip.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/d2_deep_strip.rs",
+      "original_sha256": "a8d1fdffd40bcee2a0557ea520fd2ab1aede4415062b406a23ce9389cb8a498e",
+      "published_sha256": "a8d1fdffd40bcee2a0557ea520fd2ab1aede4415062b406a23ce9389cb8a498e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/pingpong_div.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/pingpong_div.rs",
+      "original_sha256": "0190195fc8f172bcb8f6b6e49df375b7b0a8733d543d7068b1ac59e16c7eb0cd",
+      "published_sha256": "0190195fc8f172bcb8f6b6e49df375b7b0a8733d543d7068b1ac59e16c7eb0cd",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/venting.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/venting.rs",
+      "original_sha256": "b86f058fdcf7a0e30302aec00aef1d1c4f88862e486e7db229510e619a19339d",
+      "published_sha256": "b86f058fdcf7a0e30302aec00aef1d1c4f88862e486e7db229510e619a19339d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/qrom_branch_tests.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/qrom_branch_tests.rs",
+      "original_sha256": "36907065750680b30952fbba4550e4ee5ab274f05309fcd800cf9c6114250863",
+      "published_sha256": "36907065750680b30952fbba4550e4ee5ab274f05309fcd800cf9c6114250863",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/fused.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/fused.rs",
+      "original_sha256": "a7983b1e50ac1f748548a2081d734bd3bd41d607df82bccc4c2b750e50525072",
+      "published_sha256": "a7983b1e50ac1f748548a2081d734bd3bd41d607df82bccc4c2b750e50525072",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/gcd.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/gcd.rs",
+      "original_sha256": "5c4e679400eb1b5295b0c95248eeae76673aeb5b304d6a1116e2c29a89b8318b",
+      "published_sha256": "5c4e679400eb1b5295b0c95248eeae76673aeb5b304d6a1116e2c29a89b8318b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/constprop.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/constprop.rs",
+      "original_sha256": "bcc24e0b96b2369174b8f0f86cd27f131c39d34b907caf626d4d192d5cc02587",
+      "published_sha256": "bcc24e0b96b2369174b8f0f86cd27f131c39d34b907caf626d4d192d5cc02587",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/qrom.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/qrom.rs",
+      "original_sha256": "6e1f44602f3b67574315306033fff28b128af4e34f52ae72446a81e670c26d7f",
+      "published_sha256": "6e1f44602f3b67574315306033fff28b128af4e34f52ae72446a81e670c26d7f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/ec_add.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/ec_add.rs",
+      "original_sha256": "e9c4e3e9c9c3d9c63ae4c3eddf7572a62c4b8297d32a94d61764028bb41a9990",
+      "published_sha256": "e9c4e3e9c9c3d9c63ae4c3eddf7572a62c4b8297d32a94d61764028bb41a9990",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/comparator.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/comparator.rs",
+      "original_sha256": "b7ea3d0a4abd76a1e597141cc57e32496e9ac94373dc2c12c9c7896352c17802",
+      "published_sha256": "b7ea3d0a4abd76a1e597141cc57e32496e9ac94373dc2c12c9c7896352c17802",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/mcx.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/mcx.rs",
+      "original_sha256": "2bf30b1616f4e74f8c5b45c8cb0860ad6b6e46f2656c0430d7cfad62a9594c5a",
+      "published_sha256": "2bf30b1616f4e74f8c5b45c8cb0860ad6b6e46f2656c0430d7cfad62a9594c5a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/mod.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/mod.rs",
+      "original_sha256": "bd1c904f7f2bffcc5641619ff7eefbc72bb4c1d95ab3a248df3e0cd3e9364e80",
+      "published_sha256": "bd1c904f7f2bffcc5641619ff7eefbc72bb4c1d95ab3a248df3e0cd3e9364e80",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/square.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/square.rs",
+      "original_sha256": "f11c7cd8d464ead57b7e44d4e4b6d05d175b66cdf750502fa4ea6cc410041384",
+      "published_sha256": "f11c7cd8d464ead57b7e44d4e4b6d05d175b66cdf750502fa4ea6cc410041384",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/schedule.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/schedule.rs",
+      "original_sha256": "a06ad249d9a7ecd8edae5373e42d8750dedfefdf9f3ecc00cd340cceefd4ebee",
+      "published_sha256": "a06ad249d9a7ecd8edae5373e42d8750dedfefdf9f3ecc00cd340cceefd4ebee",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/qrom_split_phase.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/qrom_split_phase.rs",
+      "original_sha256": "f5590091aa00f6074197e69ce2d88217d6a5300676a55e5ad0b364e4d0c4ab10",
+      "published_sha256": "f5590091aa00f6074197e69ce2d88217d6a5300676a55e5ad0b364e4d0c4ab10",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/codec.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/codec.rs",
+      "original_sha256": "42bf73b74ef193baa3cc090ac496beea951bcf4bdd066ad69e1193aa39201834",
+      "published_sha256": "42bf73b74ef193baa3cc090ac496beea951bcf4bdd066ad69e1193aa39201834",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/gidney.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/gidney.rs",
+      "original_sha256": "2fefdfd2276758bc183cc0effb97f8c4001bcbc3a105f1d444cf7e3aa3a217db",
+      "published_sha256": "2fefdfd2276758bc183cc0effb97f8c4001bcbc3a105f1d444cf7e3aa3a217db",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/arith.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/arith.rs",
+      "original_sha256": "fcb5c4cc192e85de8686438775884d32bf1d84a91ea0361e4e3647c8ee5506cf",
+      "published_sha256": "fcb5c4cc192e85de8686438775884d32bf1d84a91ea0361e4e3647c8ee5506cf",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/arith/const_arith.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/arith/const_arith.rs",
+      "original_sha256": "3b755dfc6f1e3cd4842b649b5b1d3adda3488c37b1af069bd14698f738121eb6",
+      "published_sha256": "3b755dfc6f1e3cd4842b649b5b1d3adda3488c37b1af069bd14698f738121eb6",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/arith/multiply.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/arith/multiply.rs",
+      "original_sha256": "aa0c1be376002113cdeba95e17fdff62f112f77d07219c4c85f9984dc5151d9b",
+      "published_sha256": "aa0c1be376002113cdeba95e17fdff62f112f77d07219c4c85f9984dc5151d9b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/arith/compare.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/arith/compare.rs",
+      "original_sha256": "673602fbb5c90757320bc2ce1cd6afb59c69c82df9f40b3d927d8f2d2b8ac565",
+      "published_sha256": "673602fbb5c90757320bc2ce1cd6afb59c69c82df9f40b3d927d8f2d2b8ac565",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/arith/mod.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/arith/mod.rs",
+      "original_sha256": "d47795091dc2e7fde55f6719b6e081fbc6684b5d5ae9ec25cc3057fa4af5a686",
+      "published_sha256": "d47795091dc2e7fde55f6719b6e081fbc6684b5d5ae9ec25cc3057fa4af5a686",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/arith/modular.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/arith/modular.rs",
+      "original_sha256": "eabf995082958fdd8b3afbaa09f3c7ea5f6a3a8b5fe79e88206eab07709dcb6e",
+      "published_sha256": "eabf995082958fdd8b3afbaa09f3c7ea5f6a3a8b5fe79e88206eab07709dcb6e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/arith/adder.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/arith/adder.rs",
+      "original_sha256": "4e8502d0bb590381e51d94345ac9337502e71c4e6f5bfe36f1597b15a03f4e5f",
+      "published_sha256": "4e8502d0bb590381e51d94345ac9337502e71c4e6f5bfe36f1597b15a03f4e5f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/arith/nbit.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/arith/nbit.rs",
+      "original_sha256": "a9be1277f558e2d17158c26e344d7b42578d78be69f3d4be74823451996f3338",
+      "published_sha256": "a9be1277f558e2d17158c26e344d7b42578d78be69f3d4be74823451996f3338",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/rounds/mod.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/rounds/mod.rs",
+      "original_sha256": "ee67df42ab05a34bac4295567de7d757c5e4950bb0fc620ba13f5217e3502483",
+      "published_sha256": "ee67df42ab05a34bac4295567de7d757c5e4950bb0fc620ba13f5217e3502483",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/rounds/dialog/compressed.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/rounds/dialog/compressed.rs",
+      "original_sha256": "cf3c4f61b22fc0e3beb17794da649d1f68802effa2a353a4eb0ece01ba888d1a",
+      "published_sha256": "cf3c4f61b22fc0e3beb17794da649d1f68802effa2a353a4eb0ece01ba888d1a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/rounds/dialog/config.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/rounds/dialog/config.rs",
+      "original_sha256": "bdfd21d4ee97c3c4813557ea0fb4978118264ed11ed4270aa75ac18745640ea8",
+      "published_sha256": "bdfd21d4ee97c3c4813557ea0fb4978118264ed11ed4270aa75ac18745640ea8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/rounds/dialog/mod.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/rounds/dialog/mod.rs",
+      "original_sha256": "401f554f545c7e6aa9619542af85228e35a342a737c7cd4312b958b47d1bc574",
+      "published_sha256": "401f554f545c7e6aa9619542af85228e35a342a737c7cd4312b958b47d1bc574",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/src/point_add/trailmix_ludicrous/square/product_register.rs",
+      "published": "experiments/13-safegcd-reference/source/src/point_add/trailmix_ludicrous/square/product_register.rs",
+      "original_sha256": "f959993568a1eed55d859f78327510e72abe3dd4b770f967db624349e8173ece",
+      "published_sha256": "f959993568a1eed55d859f78327510e72abe3dd4b770f967db624349e8173ece",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/Cargo.toml",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/Cargo.toml",
+      "original_sha256": "3c80178b08d29a158abb29a7dcb8eefc67c66f60f2c3bd14483b65eeca0740dc",
+      "published_sha256": "3c80178b08d29a158abb29a7dcb8eefc67c66f60f2c3bd14483b65eeca0740dc",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/Cargo.lock",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/Cargo.lock",
+      "original_sha256": "42ff16919e551891ad1b21821329b116d133194245a0e0734a33573dfe598e07",
+      "published_sha256": "42ff16919e551891ad1b21821329b116d133194245a0e0734a33573dfe598e07",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/probe-denominators.txt",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/probe-denominators.txt",
+      "original_sha256": "8d9a24411c494ac2557a82e6d88c74197f07c0d6aac55f9e89224c4d637b2e66",
+      "published_sha256": "8d9a24411c494ac2557a82e6d88c74197f07c0d6aac55f9e89224c4d637b2e66",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/windowed_table.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/windowed_table.rs",
+      "original_sha256": "8226d5a016f61457fcbe6c25de6535c569506a2b0a184afcbe9c1e07ddf91315",
+      "published_sha256": "8226d5a016f61457fcbe6c25de6535c569506a2b0a184afcbe9c1e07ddf91315",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/weierstrass_elliptic_curve.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/weierstrass_elliptic_curve.rs",
+      "original_sha256": "ecfca15ee3b831c243fbea559ff4b8937be47fe591a4f14786ec2b9bfb30bded",
+      "published_sha256": "ecfca15ee3b831c243fbea559ff4b8937be47fe591a4f14786ec2b9bfb30bded",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/circuit.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/circuit.rs",
+      "original_sha256": "ac2255f6bcb6895c9da2dfe21c3a051a0ef8fc4e0af9598634fec0035dbf35c6",
+      "published_sha256": "ac2255f6bcb6895c9da2dfe21c3a051a0ef8fc4e0af9598634fec0035dbf35c6",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/lib.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/lib.rs",
+      "original_sha256": "059245c8b5686667a9d2baba276dc7c8961be84d5d0841c08b6d4571f3188d7d",
+      "published_sha256": "059245c8b5686667a9d2baba276dc7c8961be84d5d0841c08b6d4571f3188d7d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/sim.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/sim.rs",
+      "original_sha256": "7ae27124632a9881301a2d1eca4b1be07d1c0b3498572144824965b16138415f",
+      "published_sha256": "7ae27124632a9881301a2d1eca4b1be07d1c0b3498572144824965b16138415f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/bin/build_circuit.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/bin/build_circuit.rs",
+      "original_sha256": "e1ab2edd1467fe7e5ad34ece1a292c4b8017071289fb1e2241bdeb23620e7149",
+      "published_sha256": "e1ab2edd1467fe7e5ad34ece1a292c4b8017071289fb1e2241bdeb23620e7149",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/bin/eval_repairtrace.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/bin/eval_repairtrace.rs",
+      "original_sha256": "c6ce7400c8b2395d9f8360f451a1f726b104b85fd21a4a3ed808e992da1480cd",
+      "published_sha256": "c6ce7400c8b2395d9f8360f451a1f726b104b85fd21a4a3ed808e992da1480cd",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/bin/eval_bounded.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/bin/eval_bounded.rs",
+      "original_sha256": "52ec27372b87c8da9e364908dca44e1d40b2575212691dc583e6d662a260a6d8",
+      "published_sha256": "52ec27372b87c8da9e364908dca44e1d40b2575212691dc583e6d662a260a6d8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/bin/stats_stream.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/bin/stats_stream.rs",
+      "original_sha256": "268ebba2532484b8878722a760c733b9f1dc578d2688c37b3fee9997e27fcf3a",
+      "published_sha256": "268ebba2532484b8878722a760c733b9f1dc578d2688c37b3fee9997e27fcf3a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/bin/eval_circuit.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/bin/eval_circuit.rs",
+      "original_sha256": "1b273b46098c5c782bfbcfda243f20279c934da2b15871e5957828af7d5bc766",
+      "published_sha256": "1b273b46098c5c782bfbcfda243f20279c934da2b15871e5957828af7d5bc766",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/bin/eval_phase_diagnostic.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/bin/eval_phase_diagnostic.rs",
+      "original_sha256": "95b739ec93440e2089f5ad00283e50e26c6b11e1d5f4b86b0a468502c3e6b53a",
+      "published_sha256": "95b739ec93440e2089f5ad00283e50e26c6b11e1d5f4b86b0a468502c3e6b53a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/deep_strip_keys.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/deep_strip_keys.rs",
+      "original_sha256": "ddb1cf3327c80d05b1020850e5d1764e9982df14f8b96ab8726f0811fccc128f",
+      "published_sha256": "ddb1cf3327c80d05b1020850e5d1764e9982df14f8b96ab8726f0811fccc128f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/dirtyscan.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/dirtyscan.rs",
+      "original_sha256": "b65519fa63f9a6e3d891df82395ef9c11fecdd210b8fc027a6abfa27dcfbbca8",
+      "published_sha256": "b65519fa63f9a6e3d891df82395ef9c11fecdd210b8fc027a6abfa27dcfbbca8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/mod.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/mod.rs",
+      "original_sha256": "8029ebe4b46acfef9053161ae7942f39153f7ff06bd7e31892dd4436b979f747",
+      "published_sha256": "8029ebe4b46acfef9053161ae7942f39153f7ff06bd7e31892dd4436b979f747",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/boundary_probe.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/boundary_probe.rs",
+      "original_sha256": "93a55b66d23854ad418a11c9b9bd215f49de96fe2af962a4980b6c3eec040df5",
+      "published_sha256": "93a55b66d23854ad418a11c9b9bd215f49de96fe2af962a4980b6c3eec040df5",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/single_ccx_fanout.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/single_ccx_fanout.rs",
+      "original_sha256": "1ff49d471df2994caa26cec33df4a0dfeed06c333722cc6177181c8139f4fec7",
+      "published_sha256": "1ff49d471df2994caa26cec33df4a0dfeed06c333722cc6177181c8139f4fec7",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/emit.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/emit.rs",
+      "original_sha256": "a7ecf65fa9f5aaece118ea70bff22fba99afb941b13c843159bdbcd4a098eb63",
+      "published_sha256": "a7ecf65fa9f5aaece118ea70bff22fba99afb941b13c843159bdbcd4a098eb63",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/route_042_action_mask.tsv",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/route_042_action_mask.tsv",
+      "original_sha256": "25cc32f7aa47e3760c5b1459fb838e824fc44d361c64ea2aa4bc6a592ff82a57",
+      "published_sha256": "25cc32f7aa47e3760c5b1459fb838e824fc44d361c64ea2aa4bc6a592ff82a57",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/m60_dead_t10.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/m60_dead_t10.rs",
+      "original_sha256": "829a32698984589f75c6104cc44a12aa730fe7a01fe003e91dcea81de3a0e14f",
+      "published_sha256": "829a32698984589f75c6104cc44a12aa730fe7a01fe003e91dcea81de3a0e14f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/canonical_replay.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/canonical_replay.rs",
+      "original_sha256": "cd6c827cdae01e1746a1589b003c672fd48cc43976abde567ef3a0ca78627eed",
+      "published_sha256": "cd6c827cdae01e1746a1589b003c672fd48cc43976abde567ef3a0ca78627eed",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/dialog_gcd_classical_filter.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/dialog_gcd_classical_filter.rs",
+      "original_sha256": "f005347ee5c9ad51c9c94198298b7de61af28b100d114b2052b47f1ac38ec12c",
+      "published_sha256": "f005347ee5c9ad51c9c94198298b7de61af28b100d114b2052b47f1ac38ec12c",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/safegcd_stream.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/safegcd_stream.rs",
+      "original_sha256": "2da5b63b243e63a7833f21697e9870e2fba515c03c1f77767cfeb2d022011155",
+      "published_sha256": "2da5b63b243e63a7833f21697e9870e2fba515c03c1f77767cfeb2d022011155",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/d2_deep_strip.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/d2_deep_strip.rs",
+      "original_sha256": "a8d1fdffd40bcee2a0557ea520fd2ab1aede4415062b406a23ce9389cb8a498e",
+      "published_sha256": "a8d1fdffd40bcee2a0557ea520fd2ab1aede4415062b406a23ce9389cb8a498e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/pingpong_div.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/pingpong_div.rs",
+      "original_sha256": "e9d1facf1d1c2135e3f2024a0a4e3019fca386ae002cde1353e4ff91b94f3034",
+      "published_sha256": "e9d1facf1d1c2135e3f2024a0a4e3019fca386ae002cde1353e4ff91b94f3034",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/venting.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/venting.rs",
+      "original_sha256": "b86f058fdcf7a0e30302aec00aef1d1c4f88862e486e7db229510e619a19339d",
+      "published_sha256": "b86f058fdcf7a0e30302aec00aef1d1c4f88862e486e7db229510e619a19339d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/qrom_branch_tests.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/qrom_branch_tests.rs",
+      "original_sha256": "36907065750680b30952fbba4550e4ee5ab274f05309fcd800cf9c6114250863",
+      "published_sha256": "36907065750680b30952fbba4550e4ee5ab274f05309fcd800cf9c6114250863",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/fused.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/fused.rs",
+      "original_sha256": "a7983b1e50ac1f748548a2081d734bd3bd41d607df82bccc4c2b750e50525072",
+      "published_sha256": "a7983b1e50ac1f748548a2081d734bd3bd41d607df82bccc4c2b750e50525072",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/gcd.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/gcd.rs",
+      "original_sha256": "5c4e679400eb1b5295b0c95248eeae76673aeb5b304d6a1116e2c29a89b8318b",
+      "published_sha256": "5c4e679400eb1b5295b0c95248eeae76673aeb5b304d6a1116e2c29a89b8318b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/constprop.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/constprop.rs",
+      "original_sha256": "bcc24e0b96b2369174b8f0f86cd27f131c39d34b907caf626d4d192d5cc02587",
+      "published_sha256": "bcc24e0b96b2369174b8f0f86cd27f131c39d34b907caf626d4d192d5cc02587",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/qrom.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/qrom.rs",
+      "original_sha256": "6e1f44602f3b67574315306033fff28b128af4e34f52ae72446a81e670c26d7f",
+      "published_sha256": "6e1f44602f3b67574315306033fff28b128af4e34f52ae72446a81e670c26d7f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/ec_add.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/ec_add.rs",
+      "original_sha256": "e9c4e3e9c9c3d9c63ae4c3eddf7572a62c4b8297d32a94d61764028bb41a9990",
+      "published_sha256": "e9c4e3e9c9c3d9c63ae4c3eddf7572a62c4b8297d32a94d61764028bb41a9990",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/comparator.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/comparator.rs",
+      "original_sha256": "b7ea3d0a4abd76a1e597141cc57e32496e9ac94373dc2c12c9c7896352c17802",
+      "published_sha256": "b7ea3d0a4abd76a1e597141cc57e32496e9ac94373dc2c12c9c7896352c17802",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/mcx.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/mcx.rs",
+      "original_sha256": "2bf30b1616f4e74f8c5b45c8cb0860ad6b6e46f2656c0430d7cfad62a9594c5a",
+      "published_sha256": "2bf30b1616f4e74f8c5b45c8cb0860ad6b6e46f2656c0430d7cfad62a9594c5a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/mod.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/mod.rs",
+      "original_sha256": "bd1c904f7f2bffcc5641619ff7eefbc72bb4c1d95ab3a248df3e0cd3e9364e80",
+      "published_sha256": "bd1c904f7f2bffcc5641619ff7eefbc72bb4c1d95ab3a248df3e0cd3e9364e80",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/square.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/square.rs",
+      "original_sha256": "f11c7cd8d464ead57b7e44d4e4b6d05d175b66cdf750502fa4ea6cc410041384",
+      "published_sha256": "f11c7cd8d464ead57b7e44d4e4b6d05d175b66cdf750502fa4ea6cc410041384",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/schedule.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/schedule.rs",
+      "original_sha256": "a06ad249d9a7ecd8edae5373e42d8750dedfefdf9f3ecc00cd340cceefd4ebee",
+      "published_sha256": "a06ad249d9a7ecd8edae5373e42d8750dedfefdf9f3ecc00cd340cceefd4ebee",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/qrom_split_phase.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/qrom_split_phase.rs",
+      "original_sha256": "f5590091aa00f6074197e69ce2d88217d6a5300676a55e5ad0b364e4d0c4ab10",
+      "published_sha256": "f5590091aa00f6074197e69ce2d88217d6a5300676a55e5ad0b364e4d0c4ab10",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/codec.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/codec.rs",
+      "original_sha256": "42bf73b74ef193baa3cc090ac496beea951bcf4bdd066ad69e1193aa39201834",
+      "published_sha256": "42bf73b74ef193baa3cc090ac496beea951bcf4bdd066ad69e1193aa39201834",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/gidney.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/gidney.rs",
+      "original_sha256": "2fefdfd2276758bc183cc0effb97f8c4001bcbc3a105f1d444cf7e3aa3a217db",
+      "published_sha256": "2fefdfd2276758bc183cc0effb97f8c4001bcbc3a105f1d444cf7e3aa3a217db",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/arith.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/arith.rs",
+      "original_sha256": "73419c06ffd8ca577fe463c055a2f8f9bc09368afce36d90a5953a7914e7471a",
+      "published_sha256": "73419c06ffd8ca577fe463c055a2f8f9bc09368afce36d90a5953a7914e7471a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/arith/const_arith.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/arith/const_arith.rs",
+      "original_sha256": "3b755dfc6f1e3cd4842b649b5b1d3adda3488c37b1af069bd14698f738121eb6",
+      "published_sha256": "3b755dfc6f1e3cd4842b649b5b1d3adda3488c37b1af069bd14698f738121eb6",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/arith/multiply.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/arith/multiply.rs",
+      "original_sha256": "aa0c1be376002113cdeba95e17fdff62f112f77d07219c4c85f9984dc5151d9b",
+      "published_sha256": "aa0c1be376002113cdeba95e17fdff62f112f77d07219c4c85f9984dc5151d9b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/arith/compare.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/arith/compare.rs",
+      "original_sha256": "673602fbb5c90757320bc2ce1cd6afb59c69c82df9f40b3d927d8f2d2b8ac565",
+      "published_sha256": "673602fbb5c90757320bc2ce1cd6afb59c69c82df9f40b3d927d8f2d2b8ac565",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/arith/mod.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/arith/mod.rs",
+      "original_sha256": "d47795091dc2e7fde55f6719b6e081fbc6684b5d5ae9ec25cc3057fa4af5a686",
+      "published_sha256": "d47795091dc2e7fde55f6719b6e081fbc6684b5d5ae9ec25cc3057fa4af5a686",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/arith/modular.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/arith/modular.rs",
+      "original_sha256": "eabf995082958fdd8b3afbaa09f3c7ea5f6a3a8b5fe79e88206eab07709dcb6e",
+      "published_sha256": "eabf995082958fdd8b3afbaa09f3c7ea5f6a3a8b5fe79e88206eab07709dcb6e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/arith/adder.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/arith/adder.rs",
+      "original_sha256": "4e8502d0bb590381e51d94345ac9337502e71c4e6f5bfe36f1597b15a03f4e5f",
+      "published_sha256": "4e8502d0bb590381e51d94345ac9337502e71c4e6f5bfe36f1597b15a03f4e5f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/arith/nbit.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/arith/nbit.rs",
+      "original_sha256": "a9be1277f558e2d17158c26e344d7b42578d78be69f3d4be74823451996f3338",
+      "published_sha256": "a9be1277f558e2d17158c26e344d7b42578d78be69f3d4be74823451996f3338",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/rounds/mod.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/rounds/mod.rs",
+      "original_sha256": "ee67df42ab05a34bac4295567de7d757c5e4950bb0fc620ba13f5217e3502483",
+      "published_sha256": "ee67df42ab05a34bac4295567de7d757c5e4950bb0fc620ba13f5217e3502483",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/rounds/dialog/compressed.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/rounds/dialog/compressed.rs",
+      "original_sha256": "cf3c4f61b22fc0e3beb17794da649d1f68802effa2a353a4eb0ece01ba888d1a",
+      "published_sha256": "cf3c4f61b22fc0e3beb17794da649d1f68802effa2a353a4eb0ece01ba888d1a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/rounds/dialog/config.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/rounds/dialog/config.rs",
+      "original_sha256": "bdfd21d4ee97c3c4813557ea0fb4978118264ed11ed4270aa75ac18745640ea8",
+      "published_sha256": "bdfd21d4ee97c3c4813557ea0fb4978118264ed11ed4270aa75ac18745640ea8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/rounds/dialog/mod.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/rounds/dialog/mod.rs",
+      "original_sha256": "401f554f545c7e6aa9619542af85228e35a342a737c7cd4312b958b47d1bc574",
+      "published_sha256": "401f554f545c7e6aa9619542af85228e35a342a737c7cd4312b958b47d1bc574",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/matched_reference/src/point_add/trailmix_ludicrous/square/product_register.rs",
+      "published": "experiments/13-safegcd-reference/matched-shell-source/src/point_add/trailmix_ludicrous/square/product_register.rs",
+      "original_sha256": "f959993568a1eed55d859f78327510e72abe3dd4b770f967db624349e8173ece",
+      "published_sha256": "f959993568a1eed55d859f78327510e72abe3dd4b770f967db624349e8173ece",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/test_768.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/test_768.py",
+      "original_sha256": "1b043879c56a9d9c1a281f73e75398112d67ad5bc6deeba57b356e523a4a9a49",
+      "published_sha256": "1b043879c56a9d9c1a281f73e75398112d67ad5bc6deeba57b356e523a4a9a49",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/common_components.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/common_components.py",
+      "original_sha256": "3237dcc3feacbaf132be2e439c80e7547e3b1e0a7aa63eabe9b152f171a5f2eb",
+      "published_sha256": "3237dcc3feacbaf132be2e439c80e7547e3b1e0a7aa63eabe9b152f171a5f2eb",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/pingpong.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/pingpong.py",
+      "original_sha256": "b2cdaea0ec817dbdfa643b486ad7b9089efe56cec8d8ed3428fd0d2a8d8d6e85",
+      "published_sha256": "b2cdaea0ec817dbdfa643b486ad7b9089efe56cec8d8ed3428fd0d2a8d8d6e85",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/collect_results.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/collect_results.py",
+      "original_sha256": "f36d09e866c23f6f8464d8ec060beb5ca42f88d3673f51039c579babaf61f64b",
+      "published_sha256": "f36d09e866c23f6f8464d8ec060beb5ca42f88d3673f51039c579babaf61f64b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/test_pingpong.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/test_pingpong.py",
+      "original_sha256": "29e13889731ecb2f3d247bdd7e8ae3711d1781c0e6723197bf1af433d21dec3d",
+      "published_sha256": "29e13889731ecb2f3d247bdd7e8ae3711d1781c0e6723197bf1af433d21dec3d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/test_coefficients.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/test_coefficients.py",
+      "original_sha256": "3663cc790ee4eebefc595c366f71376b873e3615129d1922919a14bf741a0e53",
+      "published_sha256": "3663cc790ee4eebefc595c366f71376b873e3615129d1922919a14bf741a0e53",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/run_matched.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/run_matched.py",
+      "original_sha256": "fa43098b690d066b6889f8012508da22aac54ae49601102ca0ca84d8a8bcb7cc",
+      "published_sha256": "fa43098b690d066b6889f8012508da22aac54ae49601102ca0ca84d8a8bcb7cc",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full.py",
+      "original_sha256": "62e78d995b58081556210c77baac6d48b1b9bd2c6c3e0ef392a468b3d66bb3f9",
+      "published_sha256": "62e78d995b58081556210c77baac6d48b1b9bd2c6c3e0ef392a468b3d66bb3f9",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/round-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/round-results.json",
+      "original_sha256": "0ba41d6a50f81c7c67d4899fc100daa4889f5d874e88f319b636e148061ea16b",
+      "published_sha256": "0ba41d6a50f81c7c67d4899fc100daa4889f5d874e88f319b636e148061ea16b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/round.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/round.py",
+      "original_sha256": "52a5931be860c5180d8161a38601d6ef62f7e9945639bbe6b6b88c186fb59a26",
+      "published_sha256": "52a5931be860c5180d8161a38601d6ef62f7e9945639bbe6b6b88c186fb59a26",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/round-256.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/round-256.json",
+      "original_sha256": "bf401a759238a5e84e0884d5c8c731404d2c477b13b1ad5097ef8eb4891e82ea",
+      "published_sha256": "bf401a759238a5e84e0884d5c8c731404d2c477b13b1ad5097ef8eb4891e82ea",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/test_full.py",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/test_full.py",
+      "original_sha256": "28c007e0e778fe39c60bd6c6a3203103e5c276d48327734d84e4809bce5100e3",
+      "published_sha256": "28c007e0e778fe39c60bd6c6a3203103e5c276d48327734d84e4809bce5100e3",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p31/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p31/div-results.json",
+      "original_sha256": "b75573c1de5bad8355c1adb9d196c85d964b285822e6b50591e2bcfa0d754fa2",
+      "published_sha256": "b75573c1de5bad8355c1adb9d196c85d964b285822e6b50591e2bcfa0d754fa2",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p31/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p31/emission.json",
+      "original_sha256": "5bdda382dc2b2a86f237bc2893ba4c70be155e132035d9bbada4ed3ff7865eb6",
+      "published_sha256": "5bdda382dc2b2a86f237bc2893ba4c70be155e132035d9bbada4ed3ff7865eb6",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p31/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p31/mul-results.json",
+      "original_sha256": "d1ca40620dd18f0f9a585274953f975eefb8efc3438de72b38805d204d65db00",
+      "published_sha256": "d1ca40620dd18f0f9a585274953f975eefb8efc3438de72b38805d204d65db00",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-secp256k1/common-mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-secp256k1/common-mul-results.json",
+      "original_sha256": "1e7eedb646f3d9bc3709e30d4aecbc788631eb85fd0422700f5ea79714750745",
+      "published_sha256": "1e7eedb646f3d9bc3709e30d4aecbc788631eb85fd0422700f5ea79714750745",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-secp256k1/common-div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-secp256k1/common-div-results.json",
+      "original_sha256": "bc5ac377522958a433a6413dc98c85d0870763439db012f069e1d66718b4a2db",
+      "published_sha256": "bc5ac377522958a433a6413dc98c85d0870763439db012f069e1d66718b4a2db",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-secp256k1/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-secp256k1/emission.json",
+      "original_sha256": "e18c4b1af0c4e571a0afc944cd2e9c860e6da2cf4cecb896478a7313fcbab32a",
+      "published_sha256": "e18c4b1af0c4e571a0afc944cd2e9c860e6da2cf4cecb896478a7313fcbab32a",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/coeff-31/results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/coeff-31/results.json",
+      "original_sha256": "46a6154d43c580825b3efe3c02a1472a1934bc82ad5950e6b2a1861dc3ca14f1",
+      "published_sha256": "46a6154d43c580825b3efe3c02a1472a1934bc82ad5950e6b2a1861dc3ca14f1",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/coeff-5/results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/coeff-5/results.json",
+      "original_sha256": "11b9ca0652d323b95b285c578d71bf8907a200f12c614eda87224fecf99498ee",
+      "published_sha256": "11b9ca0652d323b95b285c578d71bf8907a200f12c614eda87224fecf99498ee",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p61/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p61/div-results.json",
+      "original_sha256": "86f9881842ad6921cda45f280f2a99ac386ec91633ee8f9e80823ad19b319574",
+      "published_sha256": "86f9881842ad6921cda45f280f2a99ac386ec91633ee8f9e80823ad19b319574",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p61/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p61/emission.json",
+      "original_sha256": "c1e043103cfc020e7ca9b043fc8c45946da2383e4f1281625677058976043bc8",
+      "published_sha256": "c1e043103cfc020e7ca9b043fc8c45946da2383e4f1281625677058976043bc8",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p61/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p61/mul-results.json",
+      "original_sha256": "1e999099d5ec6cd222ae2ba029d77fedecee9a406373ed22a7f60c951b28285d",
+      "published_sha256": "1e999099d5ec6cd222ae2ba029d77fedecee9a406373ed22a7f60c951b28285d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/canonical-pingpong-w4/eval-run.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/canonical-pingpong-w4/eval-run.json",
+      "original_sha256": "455a5437a2055165c70bf2b8abfe57296f76054dc07a4d72e902615dead73e9b",
+      "published_sha256": "455a5437a2055165c70bf2b8abfe57296f76054dc07a4d72e902615dead73e9b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/canonical-pingpong-w4/research-score.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/canonical-pingpong-w4/research-score.json",
+      "original_sha256": "1ec32d83fb99b1f242dad5ac4392cfcf915925cbae0b8066dd46689017e6cf57",
+      "published_sha256": "1ec32d83fb99b1f242dad5ac4392cfcf915925cbae0b8066dd46689017e6cf57",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/canonical-pingpong-w4/emit-run.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/canonical-pingpong-w4/emit-run.json",
+      "original_sha256": "f8d9c3ab51237aa736496822fbe2739a425a53183454a2acf5ad852763ea568e",
+      "published_sha256": "f8d9c3ab51237aa736496822fbe2739a425a53183454a2acf5ad852763ea568e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/coeff-3/results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/coeff-3/results.json",
+      "original_sha256": "99ce7ef60dff884d2b73ce99db7378fc7201a8eb947c64cac1c5bf6576475763",
+      "published_sha256": "99ce7ef60dff884d2b73ce99db7378fc7201a8eb947c64cac1c5bf6576475763",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p17/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p17/div-results.json",
+      "original_sha256": "3f70c7c1e6c39d6375e7d3170f2cf68f1bb74bc860c794942988319a10d61205",
+      "published_sha256": "3f70c7c1e6c39d6375e7d3170f2cf68f1bb74bc860c794942988319a10d61205",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p17/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p17/emission.json",
+      "original_sha256": "6e4636cdfb06d7ec212f28ab3e83a4602395681bb96e4b3654b0cf8939abd5c2",
+      "published_sha256": "6e4636cdfb06d7ec212f28ab3e83a4602395681bb96e4b3654b0cf8939abd5c2",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p17/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p17/mul-results.json",
+      "original_sha256": "92b0322955ec5242f7b9705428ce1060fdd04176d02018685ef63d7766e387ca",
+      "published_sha256": "92b0322955ec5242f7b9705428ce1060fdd04176d02018685ef63d7766e387ca",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p3/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p3/div-results.json",
+      "original_sha256": "83da0fdcbea7b238faf4a02072bd22a4438b2987fad9e0717c8f86626b4af9b9",
+      "published_sha256": "83da0fdcbea7b238faf4a02072bd22a4438b2987fad9e0717c8f86626b4af9b9",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p3/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p3/emission.json",
+      "original_sha256": "14721199c04b922b99702790f7b3f4deb7c0d82ea12f4ae3e4dda9d2999e4e38",
+      "published_sha256": "14721199c04b922b99702790f7b3f4deb7c0d82ea12f4ae3e4dda9d2999e4e38",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p3/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p3/mul-results.json",
+      "original_sha256": "3d57c2a1fbe181f0eaaf7410dd52884a57b1e2f7f5924eb3166464f3fae1d572",
+      "published_sha256": "3d57c2a1fbe181f0eaaf7410dd52884a57b1e2f7f5924eb3166464f3fae1d572",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-768/mul-failures.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-768/mul-failures.json",
+      "original_sha256": "417f960a4207b2c156d5c9c9fd183d7b034b471a22dd345211417e4bc1719cc1",
+      "published_sha256": "417f960a4207b2c156d5c9c9fd183d7b034b471a22dd345211417e4bc1719cc1",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-768/div-failures.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-768/div-failures.json",
+      "original_sha256": "ad1cdb03e6e0ef8e76dd13cf1ee9ffeb1b4dea26ae82874a905ed1513ac43c4e",
+      "published_sha256": "ad1cdb03e6e0ef8e76dd13cf1ee9ffeb1b4dea26ae82874a905ed1513ac43c4e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-768/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-768/emission.json",
+      "original_sha256": "2154b0481a8f6a28628762dc2ac92160f803d16861aa73fd48583ebb6427ab55",
+      "published_sha256": "2154b0481a8f6a28628762dc2ac92160f803d16861aa73fd48583ebb6427ab55",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p11/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p11/div-results.json",
+      "original_sha256": "f8f16a4a81be801cd89bb1b2970a7b2290384ca7bafca75349af54d109c4ac20",
+      "published_sha256": "f8f16a4a81be801cd89bb1b2970a7b2290384ca7bafca75349af54d109c4ac20",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p11/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p11/emission.json",
+      "original_sha256": "10f1bc9c35dfa4e4cdb3b9d14e8a2114423857c47424413aa4f746870c1fd009",
+      "published_sha256": "10f1bc9c35dfa4e4cdb3b9d14e8a2114423857c47424413aa4f746870c1fd009",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p11/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p11/mul-results.json",
+      "original_sha256": "9edd841fd453fe3ba39974b52a578d297884c54c623eeaba3632c4c1fa795a36",
+      "published_sha256": "9edd841fd453fe3ba39974b52a578d297884c54c623eeaba3632c4c1fa795a36",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p5/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p5/div-results.json",
+      "original_sha256": "400a42a3a022752f8e0cb00feafebfa4bcd1c190d43ad927d8cf7842ee3ad5b2",
+      "published_sha256": "400a42a3a022752f8e0cb00feafebfa4bcd1c190d43ad927d8cf7842ee3ad5b2",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p5/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p5/emission.json",
+      "original_sha256": "8ec172e64b7cd2435a474b2ac231c4d094e4ab2530bb850ec49f8f9e2b401378",
+      "published_sha256": "8ec172e64b7cd2435a474b2ac231c4d094e4ab2530bb850ec49f8f9e2b401378",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p5/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p5/mul-results.json",
+      "original_sha256": "49c8b2a37a295cce8dc92c4cc47d5479ad0c8d77ef183d014cb1605229b16c1f",
+      "published_sha256": "49c8b2a37a295cce8dc92c4cc47d5479ad0c8d77ef183d014cb1605229b16c1f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p7/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p7/div-results.json",
+      "original_sha256": "9ee20b83b14b9df9c548d1944dd1d8edfd1296bf33f61f761080f0fe3c559cdb",
+      "published_sha256": "9ee20b83b14b9df9c548d1944dd1d8edfd1296bf33f61f761080f0fe3c559cdb",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p7/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p7/emission.json",
+      "original_sha256": "d05c6b16e977817ff0046ba0b245a1ae83eca926c580554eff0c27f135cf3cb2",
+      "published_sha256": "d05c6b16e977817ff0046ba0b245a1ae83eca926c580554eff0c27f135cf3cb2",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p7/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p7/mul-results.json",
+      "original_sha256": "f9d8d05c73de47ab941b4c88ec4fac2b2fafb4ad826e4bf8e91dd8bda69e7609",
+      "published_sha256": "f9d8d05c73de47ab941b4c88ec4fac2b2fafb4ad826e4bf8e91dd8bda69e7609",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p13/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p13/div-results.json",
+      "original_sha256": "3ef342d34f448751d66e1acfbb160015546695cdb46a864328ec84eb0b0c6466",
+      "published_sha256": "3ef342d34f448751d66e1acfbb160015546695cdb46a864328ec84eb0b0c6466",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p13/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p13/emission.json",
+      "original_sha256": "c6d42bd288b2b1badb4d2392db818b909eb3a789ca188c5c13e9da48797b659b",
+      "published_sha256": "c6d42bd288b2b1badb4d2392db818b909eb3a789ca188c5c13e9da48797b659b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p13/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p13/mul-results.json",
+      "original_sha256": "0409474cc7be61c71ee36b2aa40a4a053b831bcd7a76065bae6385176517eeef",
+      "published_sha256": "0409474cc7be61c71ee36b2aa40a4a053b831bcd7a76065bae6385176517eeef",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p61/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p61/div-results.json",
+      "original_sha256": "eac9e442597d68b89cebe3d55657f39b91e28cefa2af2c319cc8a3361277fd9d",
+      "published_sha256": "eac9e442597d68b89cebe3d55657f39b91e28cefa2af2c319cc8a3361277fd9d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p61/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p61/emission.json",
+      "original_sha256": "2263a0c2206bb12015aebe879767f3b105ca430254ffdcc19b354e5b6ce0af04",
+      "published_sha256": "2263a0c2206bb12015aebe879767f3b105ca430254ffdcc19b354e5b6ce0af04",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p61/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p61/mul-results.json",
+      "original_sha256": "1b9260bbca2cf7e640288e5512b4f581a27d949050756aa0f6f6e115484a078d",
+      "published_sha256": "1b9260bbca2cf7e640288e5512b4f581a27d949050756aa0f6f6e115484a078d",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-secp256k1/common-mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-secp256k1/common-mul-results.json",
+      "original_sha256": "11adae0c5c2def33e7d41a8093f2db4506b41712c27bd36652f490b074425649",
+      "published_sha256": "11adae0c5c2def33e7d41a8093f2db4506b41712c27bd36652f490b074425649",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-secp256k1/common-div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-secp256k1/common-div-results.json",
+      "original_sha256": "87c4ae6e617292580620031ea10b63fd40b19500618c40c07c2bb54aad36d0e1",
+      "published_sha256": "87c4ae6e617292580620031ea10b63fd40b19500618c40c07c2bb54aad36d0e1",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-secp256k1/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-secp256k1/emission.json",
+      "original_sha256": "bb06b9257e27091f690a552570cb8ba3308bb5cd63dbde3c3f60ee68890b4eab",
+      "published_sha256": "bb06b9257e27091f690a552570cb8ba3308bb5cd63dbde3c3f60ee68890b4eab",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p31/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p31/div-results.json",
+      "original_sha256": "c77479c704493139be1e0a975c16a8fde39b3696d07ee07c16245c55be4c5041",
+      "published_sha256": "c77479c704493139be1e0a975c16a8fde39b3696d07ee07c16245c55be4c5041",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p31/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p31/emission.json",
+      "original_sha256": "0a56b945e985abbe13d266605955d2c8ddc30d08606da858b8f240cf0c297876",
+      "published_sha256": "0a56b945e985abbe13d266605955d2c8ddc30d08606da858b8f240cf0c297876",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p31/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p31/mul-results.json",
+      "original_sha256": "ccf2436efe72ff99cfdc9bd0afa69c97adc3d1ddb755091170661edbf7cdc66e",
+      "published_sha256": "ccf2436efe72ff99cfdc9bd0afa69c97adc3d1ddb755091170661edbf7cdc66e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/coeff-7/results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/coeff-7/results.json",
+      "original_sha256": "d8b28fe85c7a1ab0a0178e98e5257f32c7c6a493e0b719655816c2f2d54b81c7",
+      "published_sha256": "d8b28fe85c7a1ab0a0178e98e5257f32c7c6a493e0b719655816c2f2d54b81c7",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p5/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p5/div-results.json",
+      "original_sha256": "96f87f1092b6e55624a4f329bc3083a8b45a93ebb70ed2247cdc1571fa405b1f",
+      "published_sha256": "96f87f1092b6e55624a4f329bc3083a8b45a93ebb70ed2247cdc1571fa405b1f",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p5/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p5/emission.json",
+      "original_sha256": "54006225f698a5b5b6ecb5a8a8c41291fae5f980ba84d1cf5b250e7cc2cb1b6e",
+      "published_sha256": "54006225f698a5b5b6ecb5a8a8c41291fae5f980ba84d1cf5b250e7cc2cb1b6e",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p5/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p5/mul-results.json",
+      "original_sha256": "a482d8126d965c80045cb47162257a9d8a885a39009eef7a94d2a23f3e1f5725",
+      "published_sha256": "a482d8126d965c80045cb47162257a9d8a885a39009eef7a94d2a23f3e1f5725",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p13/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p13/div-results.json",
+      "original_sha256": "6220516205283c84c7563d9571837c928e0c306b689c5f5a1b8f66be5e2b328b",
+      "published_sha256": "6220516205283c84c7563d9571837c928e0c306b689c5f5a1b8f66be5e2b328b",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p13/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p13/emission.json",
+      "original_sha256": "ff509a88492bfab53daad06b044bfc0dc247834f1d2a5b8a529ccdf21ee7a7c7",
+      "published_sha256": "ff509a88492bfab53daad06b044bfc0dc247834f1d2a5b8a529ccdf21ee7a7c7",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p13/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p13/mul-results.json",
+      "original_sha256": "37c4011175261a76fdceddff7227d7292b3c4989004141d67360840dc728df62",
+      "published_sha256": "37c4011175261a76fdceddff7227d7292b3c4989004141d67360840dc728df62",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p7/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p7/div-results.json",
+      "original_sha256": "4bb4291bae4c6d5cae05131c7aaca09c7e5fd68f7e9ef85659bb540fb3ec6be9",
+      "published_sha256": "4bb4291bae4c6d5cae05131c7aaca09c7e5fd68f7e9ef85659bb540fb3ec6be9",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p7/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p7/emission.json",
+      "original_sha256": "8e46fa5e405093a0a69755130ff86eb07ccec4580b5da1f0d4bc0cd5153c1133",
+      "published_sha256": "8e46fa5e405093a0a69755130ff86eb07ccec4580b5da1f0d4bc0cd5153c1133",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p7/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p7/mul-results.json",
+      "original_sha256": "54b0d2492dafce75c82c2fc772dc849bd96baf47a8eb12f84eaef4d3bc2e4e48",
+      "published_sha256": "54b0d2492dafce75c82c2fc772dc849bd96baf47a8eb12f84eaef4d3bc2e4e48",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p3/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p3/div-results.json",
+      "original_sha256": "a2bf21447067ce7c59e0b150e3a05e662d95cf18ca06b3d180f7eb28db983de5",
+      "published_sha256": "a2bf21447067ce7c59e0b150e3a05e662d95cf18ca06b3d180f7eb28db983de5",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p3/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p3/emission.json",
+      "original_sha256": "e74f62d7350a201a1a019d966e1c83c9b200c0c236f69792c1bc34b11eb1b599",
+      "published_sha256": "e74f62d7350a201a1a019d966e1c83c9b200c0c236f69792c1bc34b11eb1b599",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/full-p3/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/full-p3/mul-results.json",
+      "original_sha256": "7960ad2308dde50add0c19c363e35cdba4dd8c4526a409bd83050b5b32b6fdbf",
+      "published_sha256": "7960ad2308dde50add0c19c363e35cdba4dd8c4526a409bd83050b5b32b6fdbf",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/canonical-safegcd-w4/eval-run.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/canonical-safegcd-w4/eval-run.json",
+      "original_sha256": "5f8dd54d413bc666ed26bc77a674cf421dfae56ea8619f48f4ac3bc67062fb39",
+      "published_sha256": "5f8dd54d413bc666ed26bc77a674cf421dfae56ea8619f48f4ac3bc67062fb39",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/canonical-safegcd-w4/research-score.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/canonical-safegcd-w4/research-score.json",
+      "original_sha256": "f9019219fcdfb39b32486608c984fc13130396968936f5b2801912371642fea4",
+      "published_sha256": "f9019219fcdfb39b32486608c984fc13130396968936f5b2801912371642fea4",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/canonical-safegcd-w4/emit-run.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/canonical-safegcd-w4/emit-run.json",
+      "original_sha256": "66ce0f8f5ad5b67d399499c687c328844e39342cebaa925be075f6b979d9e417",
+      "published_sha256": "66ce0f8f5ad5b67d399499c687c328844e39342cebaa925be075f6b979d9e417",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p11/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p11/div-results.json",
+      "original_sha256": "3c85f87b6c926b9f02bfce76d3330a24cce2f82ed23ce0d1e470d07884c5dca7",
+      "published_sha256": "3c85f87b6c926b9f02bfce76d3330a24cce2f82ed23ce0d1e470d07884c5dca7",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p11/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p11/emission.json",
+      "original_sha256": "76845b40d86dc44f97b55490576dd5b8323a9eb86f89cb9d9bf73edbf3b9d253",
+      "published_sha256": "76845b40d86dc44f97b55490576dd5b8323a9eb86f89cb9d9bf73edbf3b9d253",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p11/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p11/mul-results.json",
+      "original_sha256": "a304709b93d15a5877797195e4a216dbcd831a10325f12bc9c7514ab88f09ad5",
+      "published_sha256": "a304709b93d15a5877797195e4a216dbcd831a10325f12bc9c7514ab88f09ad5",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/coeff-secp256k1/results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/coeff-secp256k1/results.json",
+      "original_sha256": "257cabd0ff2a9a6f5c7d477f640f93c1e49fac8519506cc58e224c0f0f5a0a78",
+      "published_sha256": "257cabd0ff2a9a6f5c7d477f640f93c1e49fac8519506cc58e224c0f0f5a0a78",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/coeff-11/results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/coeff-11/results.json",
+      "original_sha256": "313f7618de10f910655ce315d0e8f16472f233cbe398a9136af62c828eae4b2c",
+      "published_sha256": "313f7618de10f910655ce315d0e8f16472f233cbe398a9136af62c828eae4b2c",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p17/div-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p17/div-results.json",
+      "original_sha256": "f47b7a29930b5e0c52e97715acac13672840f3d7e9424b9f31a84d14803f4dae",
+      "published_sha256": "f47b7a29930b5e0c52e97715acac13672840f3d7e9424b9f31a84d14803f4dae",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p17/emission.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p17/emission.json",
+      "original_sha256": "31e76c6f5faa82c228aade67de196254c175a4f2d981113974c689202abc93c4",
+      "published_sha256": "31e76c6f5faa82c228aade67de196254c175a4f2d981113974c689202abc93c4",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/matched-pingpong-p17/mul-results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/matched-pingpong-p17/mul-results.json",
+      "original_sha256": "3bdad656c026956b0a7cc92ac4cc9752e3f6e2e3c6537c9229566d65141c5d71",
+      "published_sha256": "3bdad656c026956b0a7cc92ac4cc9752e3f6e2e3c6537c9229566d65141c5d71",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-safegcd-20260922/safegcd_probe/coeff-17/results.json",
+      "published": "experiments/13-safegcd-reference/source/safegcd_probe/coeff-17/results.json",
+      "original_sha256": "081db2cdae2d3050ea439cf34d1832b49e2a2f250fdd0f7b9069f166f0a43143",
+      "published_sha256": "081db2cdae2d3050ea439cf34d1832b49e2a2f250fdd0f7b9069f166f0a43143",
+      "gzip": false
+    },
+    {
+      "original": "ecdsafail-qip-bounded-validation/src/point_add/pingpong_div.rs",
+      "published": "experiments/12-schedule-audit/provenance/reference-pingpong_div.rs",
+      "original_sha256": "0190195fc8f172bcb8f6b6e49df375b7b0a8733d543d7068b1ac59e16c7eb0cd",
+      "published_sha256": "0190195fc8f172bcb8f6b6e49df375b7b0a8733d543d7068b1ac59e16c7eb0cd",
+      "gzip": false
+    }
+  ]
+}

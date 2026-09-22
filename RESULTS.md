@@ -28,3 +28,13 @@ At fixed Karatsuba square, the static saving is 340,442 Toffolis. Five smoke inp
 [Structured boundary diagnosis](experiments/07-boundary-diagnosis/REPORT.md) identifies carry-predicate and representation defects that are not fixed by wider comparisons alone. The 35-case pre-release finding measures nonzero coefficients, not equality to p in all 35. A locally tested canonical-negation candidate is not integrated into a full circuit. The original 100,000-case outcomes remain unchanged.
 
 The [external accounting audit](supporting/comparison/report.md) separates published arithmetic costs, window allowances, and measured kernels. No external equal-error or physical-runtime superiority is claimed.
+
+## Separate September 22 Targeted Repair
+
+| Circuit | Q | Static Toffolis | Mean T | Failures / cases |
+|---|---|---|---|---|
+| Zero-payload repair | 1419 | 1524503 | 1,356,324.32985 | 0 / 100,000 |
+
+This new cohort is not paired with the earlier three circuits. Mixed Q=1,402 and windowed Q=1,419 give the same 17-qubit interface overhead. The repair passes the retained zero-slope witnesses, but six supported schedule-counterexample inputs fail all 48 tested output lanes. [Full data and scope](experiments/10-targeted-repair/README.md).
+
+The [coherent-error analysis](experiments/11-coherent-error/README.md) is conditional on a certified good subspace. The [schedule audit](experiments/12-schedule-audit/README.md) disproves a universal 768-round bound. The [safegcd reference](experiments/13-safegcd-reference/README.md) retains both favorable and unfavorable common-primitive comparisons; it is not optimized safegcd.

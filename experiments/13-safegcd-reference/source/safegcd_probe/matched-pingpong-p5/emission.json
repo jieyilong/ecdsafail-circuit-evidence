@@ -1,0 +1,56 @@
+{
+  "Q_static_allocated": 74,
+  "static_T": 3560,
+  "gate_counts": {
+    "X": 1594,
+    "CX": 10559,
+    "CCX": 3560
+  },
+  "phase_gate_counts": {
+    "setup": {
+      "X": 3,
+      "CX": 23,
+      "CCX": 8
+    },
+    "value_forward": {
+      "CX": 1720,
+      "CCX": 320
+    },
+    "coefficient_forward": {
+      "X": 1560,
+      "CCX": 2880,
+      "CX": 7040
+    },
+    "endpoint": {
+      "X": 28,
+      "CCX": 24,
+      "CX": 33
+    },
+    "value_inverse": {
+      "CX": 1720,
+      "CCX": 320
+    },
+    "teardown": {
+      "CX": 23,
+      "CCX": 8,
+      "X": 3
+    }
+  },
+  "sha256": "705890c39d4137ecb6d2f3a186c2f151e35f266ccba26afe795c0615de1fdc6b",
+  "bytes": 172165,
+  "label": "unoptimized primitive-matched full-width ping-pong",
+  "prime": "5",
+  "rounds": 40,
+  "cases_each_direction": 20,
+  "convergence_rounds": {
+    "1": 3,
+    "2": 4,
+    "3": 4,
+    "4": 3
+  },
+  "max_convergence_observed": 4,
+  "universal_256_round_bound_proved": false,
+  "budget_status": "CONDITIONAL at n256; exhaustive input coverage only for enumerated small primes",
+  "same_payload_primitive_implementation": "full.py Full.negate/mod_add/halve",
+  "source_sha256": "530ba2911aec1ae5e6e697fe777b1765e62cbbee0390daecbc547ca62b2b3513"
+}

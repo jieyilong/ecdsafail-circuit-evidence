@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/ecdsafail-qip-oral-repairs-20260922/target/release/build_circuit"
+  ],
+  "environment": {
+    "QIP_PINGPONG_PROFILE": "guarded768",
+    "TLM_MSBS": "40",
+    "CONSTPROP_DISABLE": "1",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "DIALOG_GCD_FOLD_MAJ1": "1",
+    "QIP_ZERO_PAYLOAD_MASK": "1",
+    "QIP_EXACT_CHUNK_CARRY": "1",
+    "QIP_CANONICAL_COORDS": "1",
+    "WINDOWED_MODE": "1",
+    "WINDOW_BITS": "16",
+    "WINDOWED_QROM_UNLOAD": "split"
+  },
+  "seconds": 18.621350625006016,
+  "exit_code": 0,
+  "publication_note": "Host-specific environment paths omitted; experiment overrides preserved."
+}

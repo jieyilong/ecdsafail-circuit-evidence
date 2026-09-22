@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "one controller/value round only; no coefficient gates or PA",
+  "width_n": 256,
+  "signed_value_wires_each": 258,
+  "delta_wires": 11,
+  "peak_qubits_including_2_history_bits": 788,
+  "clean_scratch_wires": 259,
+  "forward_gate_counts": {
+    "CX": 3706,
+    "X": 24,
+    "CCX": 1864
+  },
+  "inverse_gate_counts": {
+    "CX": 3706,
+    "X": 24,
+    "CCX": 1864
+  },
+  "small_exhaustive_states": 8432,
+  "secp_local_states": 1124,
+  "secp_trajectory_states": 23712,
+  "phase": "X/CX/CCX only: exact phase-free permutation",
+  "classical_routing": false,
+  "output_sha256": "bf401a759238a5e84e0884d5c8c731404d2c477b13b1ad5097ef8eb4891e82ea",
+  "source_sha256": "52a5931be860c5180d8161a38601d6ef62f7e9945639bbe6b6b88c186fb59a26"
+}

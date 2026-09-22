@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "simulator": "original quantum_ecc::sim::Simulator",
+  "scope": "canonical_coefficient_round",
+  "Q": 94,
+  "static_T_forward": 119,
+  "static_T_inverse": 119,
+  "forward_inverse_cases": 867,
+  "executed_Toffolis_all_cases_both_directions": 206346,
+  "phase_and_all_scratch_restored": true
+}

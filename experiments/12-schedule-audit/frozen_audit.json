@@ -1,0 +1,29 @@
+{
+  "assumption": "pointwise binomial bound under independent uniform draws; fixed SHAKE seed is deterministic",
+  "manifest_sha256": "83da497faec2484c9c472608e0827ce5391cf604fc95cf3bc24f531b9dafc062",
+  "max_rounds": 743,
+  "mean_rounds": 621.533239,
+  "n": 10000000,
+  "old_data_hash_recomputed": false,
+  "old_denominators_sha256": "e57a37286bedcd071a8da48e3561b9e6ac23675817ad1e24952f5c25358bad6c",
+  "selection_caveat": "768 was assessed post hoc; not a pre-registered global or selected-threshold guarantee",
+  "status": "REUSED frozen summary, not a new ten-million execution",
+  "tail_counts": {
+    "704": 1535,
+    "736": 6,
+    "768": 0,
+    "800": 0
+  },
+  "verified_manifest_entries": {
+    "replay_model.py": "c685a84533371fd2da574bcda7205c2be9015d1cbbd306e3756c5312f61c547b",
+    "round_tail.c": "b0e3ff9ba3e1443c8964bb32ae27b15ed4efeb09780c8fb26b3dc1ab3386f2a9",
+    "run_tail.py": "0060714f5693819535c52f079f42812dd9b513226bd912f70a05ef17f2b84d4c",
+    "tail-10000.json": "3d85c2afe984680e146a1b96baf29b03a0dadbfb18c94b803ff4f1af1a4f065e",
+    "tail-10000000.json": "2b9f7e0bd5016e2a692c607eb9f36b5819c4f1c1c1ea9fb91668c0f63305998c",
+    "test_diagnostics.py": "d1c96145ca8c31474b6b0cbef9486a2b983b1c014b1b641df85eb8881fc43d1b"
+  },
+  "width_misses_704_margin4": 661,
+  "width_misses_736_margin20": 0,
+  "width_misses_768_margin20": null,
+  "zero_event_one_sided95": 2.995731824833443e-07
+}

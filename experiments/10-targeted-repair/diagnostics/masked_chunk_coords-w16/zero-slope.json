@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/ecdsafail-qip-oral-repairs-20260922/target/release/eval_followup",
+    "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/research/qip-oral-20260922/repair-results/masked_chunk_coords-w16/ops.bin",
+    "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/ecdsafail-circuit-evidence/experiments/09-canonical-reference/fixtures/zero-slope.tsv",
+    "-"
+  ],
+  "environment": {
+    "QIP_PINGPONG_PROFILE": "guarded768",
+    "TLM_MSBS": "40",
+    "CONSTPROP_DISABLE": "1",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "DIALOG_GCD_FOLD_MAJ1": "1",
+    "QIP_ZERO_PAYLOAD_MASK": "1",
+    "QIP_EXACT_CHUNK_CARRY": "1",
+    "QIP_CANONICAL_COORDS": "1",
+    "EVAL_SHARED_SEED": "qip-targeted-repair-20260922-v1"
+  },
+  "seconds": 19.20650754199596,
+  "exit_code": 0,
+  "publication_note": "Host-specific environment paths omitted; experiment overrides preserved."
+}

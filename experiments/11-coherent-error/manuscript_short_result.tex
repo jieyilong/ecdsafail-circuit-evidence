@@ -1,0 +1,22 @@
+% Proposed section-05 fragment only. No manuscript has been edited.
+% Requires amsmath, amssymb, amsthm and an existing proposition environment.
+% The existing manuscript bibliography has gidney19windowed. Add the primary
+% metric references from coherent_error_theorem.tex if this fragment is adopted.
+\begin{proposition}[Conditional good-subspace certificate]
+Let $\mathcal E$ be the CPTP channel of a measured point-addition call, let $U$ be its ideal isometry, and let $\Pi$ project onto a good basis subset with clean input workspace. Assume that every corrected Kraus branch, refined to include all discarded degrees of freedom, satisfies
+\[
+ K_\mu\Pi=\gamma_\mu U\Pi,
+ \qquad \sum_\mu|\gamma_\mu|^2=1,
+\]
+where the complex amplitudes $\gamma_\mu$ are independent of the good input. For any normalized input $\rho$, including an arbitrary reference with identity operators implicit, set $\epsilon=\operatorname{tr}[(I-\Pi)\rho]$. The implemented and ideal outputs have trace distance, with the convention $d_{\mathrm{tr}}=\tfrac12\|\rho-\sigma\|_1$, at most their purified distance and hence at most
+\[
+ b(\epsilon)=\sqrt{1-\max\{0,1-2\epsilon\}^2}
+ \leq\min\{1,2\sqrt\epsilon\}.
+\]
+For $m$ calls satisfying this condition, the final distance is at most $\min\{1,\sum_i b(\epsilon_i)\}$, where $\epsilon_i=\operatorname{tr}[(I-\Pi_i)\sigma_{i-1}]$ is evaluated on the \emph{ideal} pre-call state. Exact interleaved operations and final measurements do not increase this bound.
+\end{proposition}
+\begin{proof}
+Purify $\rho$ and split it into orthogonal good and bad components of squared norms $1-\epsilon$ and $\epsilon$. The Kraus hypothesis gives a Stinespring dilation agreeing with $U\otimes|\gamma\rangle$ on the good component. Isometry makes both bad output components orthogonal to the shared good component, so the output overlap is $1-\epsilon+c$ with $|c|\leq\epsilon$. The pure-state trace-distance formula gives $b(\epsilon)$, and discarding the purifying registers gives the output bound. For composition, insert ideal prefixes and implemented suffixes. Contractivity bounds each adjacent hybrid by its local discrepancy on $\sigma_{i-1}$, and the triangle inequality completes the proof.
+\end{proof}
+
+Correct basis outputs, clean visible workspace, and input-independent measurement probabilities do not by themselves establish the Kraus hypothesis, since input-dependent branch phases may remain. The certificate therefore requires a proved arithmetic good set and bounds on its complement under the ideal window-prefix distributions. The present targeted regressions and sampled validation do not supply a complete point-addition or full-Shor certificate.

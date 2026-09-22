@@ -4,7 +4,10 @@
 
 ## Versioned Reference
 
-The public repository is [jieyilong/ecdsafail-circuit-evidence](https://github.com/jieyilong/ecdsafail-circuit-evidence), with additive release **v1.3.0**:
+The public repository is [jieyilong/ecdsafail-circuit-evidence](https://github.com/jieyilong/ecdsafail-circuit-evidence), with additive release **v1.4.0**:
+
+- [Release v1.4.0](https://github.com/jieyilong/ecdsafail-circuit-evidence/releases/tag/v1.4.0)
+- [Repository tree at v1.4.0](https://github.com/jieyilong/ecdsafail-circuit-evidence/tree/v1.4.0)
 
 - [Release v1.3.0](https://github.com/jieyilong/ecdsafail-circuit-evidence/releases/tag/v1.3.0)
 - [Repository tree at v1.3.0](https://github.com/jieyilong/ecdsafail-circuit-evidence/tree/v1.3.0)
@@ -14,7 +17,9 @@ Cite the release version and record its full repository commit for an exact chec
 
 A concise evidence reference is:
 
-> Jieyi Long. ECDSA.Fail Circuit Validation Evidence, version v1.3.0, 2026. Repository: jieyilong/ecdsafail-circuit-evidence.
+> Jieyi Long. ECDSA.Fail Circuit Validation Evidence, version v1.4.0, 2026. Repository: jieyilong/ecdsafail-circuit-evidence.
+
+The September 22 manuscript uses experiments 10--14 for the targeted repair, separate fresh study, conditional coherent-error analysis, schedule counterexamples, and safegcd references. Cite v1.4.0 plus the specific path in the [current paper map](PAPER_MAP.md#september-22-revision). Earlier studies remain separately identified below.
 
 For a specific result, add its repository-relative path and, when relevant, candidate, stratum, and index. Use `experiments/02-fresh-windowed/analysis.json` for the frozen study (Table 9), `experiments/06-resource-accounting/` for Tables 4-6, `experiments/07-boundary-diagnosis/` for Appendix C.3, and `experiments/08-followup-diagnostics/` for Appendix C.4. The unchanged frozen study may still cite v1.0.0. The mechanism studies were first published in v1.1.0. The new Appendix C.4 diagnostics require v1.2.0. Always distinguish the evidence-release commit from the circuit-source commit.
 

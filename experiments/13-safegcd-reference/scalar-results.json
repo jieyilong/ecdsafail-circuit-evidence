@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "scope": "scalar only, no measured gate cost",
+  "seed": 20260922,
+  "rounds": 741,
+  "counts": {
+    "local_signed_states": 8976,
+    "coefficient_pairs": 4869,
+    "small_field_payloads": 137112,
+    "secp_denominators": 771,
+    "secp_payloads": 3084,
+    "checked_trajectory_rounds": 571311
+  },
+  "coverage": {
+    "negative_g": 212672,
+    "delta_zero": 37449,
+    "padded_rounds": 171191,
+    "branch_00": 433567,
+    "branch_10": 100295,
+    "branch_11": 37449
+  },
+  "small_primes": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89,
+    97,
+    101,
+    103,
+    107,
+    109,
+    113,
+    127
+  ],
+  "max_abs_delta_observed": 256,
+  "max_first_zero_round_observed": 558,
+  "corpus_sha256": "dccf11b12897a0f33c91320eaef2527d59e45e1f0fd3958f332b378eba2adcc4",
+  "elapsed_seconds": 31.596,
+  "source_sha256": {
+    "scalar.py": "c54bd32b808b32926ddfdc10aee8cb478446908920713f3a8d8beaaa6b2c3e0f",
+    "verify.py": "90fd54e66ad8b9ec8392eb94e2a1cc5a659ee35ab2f899d500e52e4e38a97296"
+  }
+}

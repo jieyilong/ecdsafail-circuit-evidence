@@ -2,7 +2,27 @@
 
 [Repository overview](../README.md) | [Results](../RESULTS.md) | [Citation guidance](CITING.md)
 
-The primary map follows the **37-page manuscript and its 35-page editorial compression**, with Appendix C.4 follow-up diagnostics. Section labels are included because numbering can change. All earlier scientific records remain unchanged. The alternate **34-page canonical-reference manuscript** has a separate map below and uses the new v1.3.0 experiment 09. Do not mix its pilot with the original frozen study.
+The current map follows the **September 22, 38-page research revision**. Use section labels where numbering changes. Earlier manuscript maps remain below for older citations. Scientific records are preserved and studies are not pooled.
+
+## September 22 Revision
+
+| Paper location | Evidence |
+| --- | --- |
+| Section 4, targeted zero-payload repair (`sec:zero-payload-repair`) | [Source and algorithm explanation](../experiments/10-targeted-repair/source/QIP_TARGETED_REPAIR.md) |
+| Section 5, interface width | [Measured mixed/windowed outcomes](../experiments/10-targeted-repair/README.md): 1,402 to 1,419, +17 at fixed arithmetic |
+| Section 5.4 and Appendix D.1 (`sec:state-dependent-composition`, `app:coherent-error`) | [Proof and checks](../experiments/11-coherent-error/README.md) |
+| Section 6.2 (`sec:bounded-validation`) | [Earlier three-circuit study](../experiments/02-fresh-windowed/README.md), unchanged |
+| Section 6.3 (`sec:mechanism-effects`) | [Controlled resource accounting](../experiments/06-resource-accounting/README.md) |
+| Section 6.4 (`sec:targeted-repair-evaluation`) and Table 7's separate repair row | [New 100,000-input study](../experiments/10-targeted-repair/fresh-study/verified-results.json), [all ledgers](../experiments/10-targeted-repair/fresh-study/) |
+| Appendix D.2 (`app:round-counterexamples`) | [Exact schedule/width witnesses](../experiments/12-schedule-audit/README.md), [full-call failed outcomes](../experiments/10-targeted-repair/diagnostics/schedule-points-w4.tsv) |
+| Appendix D.3 (`app:safegcd-reference`) | [Complete component and shell comparisons](../experiments/13-safegcd-reference/FULL_BASELINE_REPORT.md) |
+| Conditional cleanup assumptions | [Independent repair audit](../experiments/14-repair-audit/FOLLOWUP_AUDIT.md) |
+
+The 1,419-qubit repair's corpus is separate from the earlier 1,392-qubit conservative study and the 1,804-qubit canonical-reference pilot. Zero random failures do not supersede retained structured failures. The evidence-release revision is distinct from the original circuit-source revision.
+
+## Earlier Manuscript Maps
+
+The following maps identify the earlier 37/35-page version and alternate 34-page canonical-reference manuscript. Their section numbers may differ from the current revision.
 
 ## Evidence in This Repository
 

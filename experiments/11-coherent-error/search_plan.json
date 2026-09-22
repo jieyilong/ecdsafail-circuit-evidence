@@ -1,0 +1,23 @@
+{
+  "scope": "State-dependent coherent error and ideal-prefix applicability, not manuscript editing",
+  "method": "Direct primary-source retrieval and independent proofs. No subagent interface was available in this task.",
+  "angles": [
+    "Stinespring and Kraus conditions for a channel to equal an isometry on a subspace",
+    "Purified distance, fidelity and state-dependent hybrid arguments",
+    "Corrected measurement-based QROM uncomputation",
+    "Actual dyadic Shor window-prefix distributions and exceptional affine additions",
+    "Counterexamples: basis agreement, uniform measurement probabilities, and unjustified uniform accumulators"
+  ],
+  "primary_sources": [
+    "https://arxiv.org/html/quant-ph/0605009",
+    "https://arxiv.org/html/0907.5238",
+    "https://arxiv.org/abs/quant-ph/9712042",
+    "https://arxiv.org/abs/quant-ph/9701001",
+    "https://arxiv.org/html/1905.07682",
+    "https://arxiv.org/html/2606.02235v1",
+    "https://arxiv.org/html/2603.28846v2",
+    "https://arxiv.org/html/2306.08585",
+    "https://www.secg.org/sec2-v2.pdf",
+    "https://raw.githubusercontent.com/bitcoin-core/secp256k1/master/src/scalar_impl.h"
+  ]
+}

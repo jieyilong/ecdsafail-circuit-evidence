@@ -1,0 +1,123 @@
+{
+  "completed": true,
+  "source_unchanged": true,
+  "summaries": [
+    {
+      "stratum": {
+        "index": 0,
+        "base": "0x1",
+        "shift": 0,
+        "beta": "0x1",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:0",
+        "n": 11111
+      },
+      "seconds": 245.27595679200022,
+      "outcomes": 11111,
+      "batches": 174
+    },
+    {
+      "stratum": {
+        "index": 1,
+        "base": "0x1",
+        "shift": 128,
+        "beta": "0x100000000000000000000000000000000",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:1",
+        "n": 11111
+      },
+      "seconds": 243.87336037500063,
+      "outcomes": 11111,
+      "batches": 174
+    },
+    {
+      "stratum": {
+        "index": 2,
+        "base": "0x1",
+        "shift": 240,
+        "beta": "0x1000000000000000000000000000000000000000000000000000000000000",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:2",
+        "n": 11111
+      },
+      "seconds": 237.8433539160178,
+      "outcomes": 11111,
+      "batches": 174
+    },
+    {
+      "stratum": {
+        "index": 3,
+        "base": "0x29efdc533c1c5c56eb6f4335453e3f2cc83055a1561efede1aac58aab1c0c4d6",
+        "shift": 0,
+        "beta": "0x29efdc533c1c5c56eb6f4335453e3f2cc83055a1561efede1aac58aab1c0c4d6",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:3",
+        "n": 11111
+      },
+      "seconds": 239.7725977920054,
+      "outcomes": 11111,
+      "batches": 174
+    },
+    {
+      "stratum": {
+        "index": 4,
+        "base": "0x29efdc533c1c5c56eb6f4335453e3f2cc83055a1561efede1aac58aab1c0c4d6",
+        "shift": 128,
+        "beta": "0xfd7b22fba889e96b15a9d6b9c40ea224bc4d446c3ea3ce2f23db865f89dfc9d4",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:4",
+        "n": 11111
+      },
+      "seconds": 249.75505612499546,
+      "outcomes": 11111,
+      "batches": 174
+    },
+    {
+      "stratum": {
+        "index": 5,
+        "base": "0x29efdc533c1c5c56eb6f4335453e3f2cc83055a1561efede1aac58aab1c0c4d6",
+        "shift": 240,
+        "beta": "0xa225fe6aee8cb3f6168cebfe2521bf066d5aa580db3d0fea11f4ca389519aa72",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:5",
+        "n": 11111
+      },
+      "seconds": 261.30672779199085,
+      "outcomes": 11111,
+      "batches": 174
+    },
+    {
+      "stratum": {
+        "index": 6,
+        "base": "0x75e74ed4937e425d6d670e96e5e7c4f85ab5028330b8dd7e43ccdd5445f42f46",
+        "shift": 0,
+        "beta": "0x75e74ed4937e425d6d670e96e5e7c4f85ab5028330b8dd7e43ccdd5445f42f46",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:6",
+        "n": 11111
+      },
+      "seconds": 245.6096052909852,
+      "outcomes": 11111,
+      "batches": 174
+    },
+    {
+      "stratum": {
+        "index": 7,
+        "base": "0x75e74ed4937e425d6d670e96e5e7c4f85ab5028330b8dd7e43ccdd5445f42f46",
+        "shift": 128,
+        "beta": "0xf08907f149c552b58a9c8abf2ba2172a245c3838973151baeefd64c2bad40508",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:7",
+        "n": 11111
+      },
+      "seconds": 254.20100129098864,
+      "outcomes": 11111,
+      "batches": 174
+    },
+    {
+      "stratum": {
+        "index": 8,
+        "base": "0x75e74ed4937e425d6d670e96e5e7c4f85ab5028330b8dd7e43ccdd5445f42f46",
+        "shift": 240,
+        "beta": "0x172b56066ba3f2800d3c15ae08e5f422340968ccf82e2eb7be801ea76735c9de",
+        "seed": "bae3daf38f8ddd3ecf493eadbb998ff07c00c2717835367eadfe405df770a4c2:stratum:8",
+        "n": 11112
+      },
+      "seconds": 243.46941962500568,
+      "outcomes": 11112,
+      "batches": 174
+    }
+  ]
+}

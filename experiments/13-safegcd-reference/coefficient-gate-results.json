@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "canonical_coefficient_round",
+      "Q": 56,
+      "static_T_forward": 44,
+      "static_T_inverse": 44,
+      "forward_inverse_cases": 27,
+      "executed_Toffolis_all_cases_both_directions": 2376,
+      "phase_and_all_scratch_restored": true,
+      "prime": "3"
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "canonical_coefficient_round",
+      "Q": 68,
+      "static_T_forward": 69,
+      "static_T_inverse": 69,
+      "forward_inverse_cases": 75,
+      "executed_Toffolis_all_cases_both_directions": 10350,
+      "phase_and_all_scratch_restored": true,
+      "prime": "5"
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "canonical_coefficient_round",
+      "Q": 68,
+      "static_T_forward": 69,
+      "static_T_inverse": 69,
+      "forward_inverse_cases": 147,
+      "executed_Toffolis_all_cases_both_directions": 20286,
+      "phase_and_all_scratch_restored": true,
+      "prime": "7"
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "canonical_coefficient_round",
+      "Q": 82,
+      "static_T_forward": 94,
+      "static_T_inverse": 94,
+      "forward_inverse_cases": 363,
+      "executed_Toffolis_all_cases_both_directions": 68244,
+      "phase_and_all_scratch_restored": true,
+      "prime": "11"
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "canonical_coefficient_round",
+      "Q": 94,
+      "static_T_forward": 119,
+      "static_T_inverse": 119,
+      "forward_inverse_cases": 867,
+      "executed_Toffolis_all_cases_both_directions": 206346,
+      "phase_and_all_scratch_restored": true,
+      "prime": "17"
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "canonical_coefficient_round",
+      "Q": 94,
+      "static_T_forward": 119,
+      "static_T_inverse": 119,
+      "forward_inverse_cases": 2883,
+      "executed_Toffolis_all_cases_both_directions": 686154,
+      "phase_and_all_scratch_restored": true,
+      "prime": "31"
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "canonical_coefficient_round",
+      "Q": 3300,
+      "static_T_forward": 6394,
+      "static_T_inverse": 6394,
+      "forward_inverse_cases": 915,
+      "executed_Toffolis_all_cases_both_directions": 11701020,
+      "phase_and_all_scratch_restored": true,
+      "prime": "115792089237316195423570985008687907853269984665640564039457584007908834671663"
+    }
+  ]
+}

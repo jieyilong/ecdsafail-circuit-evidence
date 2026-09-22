@@ -2,9 +2,19 @@
 
 Reader-facing evidence for the ECDSA.Fail point-addition manuscripts, including the September 8, 2026 frozen study and a separately identified correctness reference. This repository contains recorded inputs, outcomes, analysis, and source snapshots for inspection without running large circuits.
 
-**Version 1.3.0** adds a separately identified [canonical-replay correctness reference](experiments/09-canonical-reference/README.md) for the alternate 34-page manuscript. It is more expensive than the low-cost circuits and is not a new benchmark record. All v1.0.0, v1.1.0, and v1.2.0 scientific files remain unchanged. The 35-page low-cost manuscript can continue to cite v1.2.0. See [citation guidance](docs/CITING.md), [the paper map](docs/PAPER_MAP.md), [release changes](CHANGELOG.md), and [publication checks](VERIFICATION.md). This is a research evidence package, not a challenge submission or an end-to-end Shor implementation.
+**Version 1.4.0** adds the September 22 targeted repair, its separate frozen 100,000-input study, coherent-error analysis, schedule counterexamples, and reversible safegcd references. All earlier scientific files remain unchanged. See [citation guidance](docs/CITING.md), [the paper map](docs/PAPER_MAP.md), [release changes](CHANGELOG.md), and [publication checks](VERIFICATION.md). These are single-call research experiments, not a challenge submission or a complete Shor implementation.
 
-## Main Result
+## Latest Targeted Repair
+
+| Circuit | Mixed Q | Windowed Q | Static Toffolis | Mean executed Toffolis | Any-channel failures |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Zero-payload repair, w=16 | 1,402 | 1,419 | 1,524,503 | 1,356,324.32985 | 0 / 100,000 |
+
+The **17-qubit windowing overhead** compares the same arithmetic configuration. The separate increase from the older conservative windowed Q=1,392 to Q=1,419 comes from a longer schedule and arithmetic state. [Experiment 10](experiments/10-targeted-repair/README.md) contains all fresh records, source, settings, successful regressions, and negative cases.
+
+**This remains approximate arithmetic.** Six supported schedule-counterexample inputs still fail all 48 tested output lanes. A 768-round all-input bound is disproved by exact walks requiring 1,135 and 1,239 rounds. The [coherent-error theorem](experiments/11-coherent-error/README.md) requires certified good-subspace weights that are not established for full Shor. The [safegcd references](experiments/13-safegcd-reference/README.md) are deliberately unoptimized and include unfavorable comparisons.
+
+## Earlier Frozen Comparison
 
 Three single-call window-selected point-addition circuits were evaluated on the **same 100,000 inputs across nine table strata**. All use a 16-bit window and exact split-address QROM cleanup.
 
@@ -18,7 +28,7 @@ Means include failed cases. Any-channel failures are the union of classical-outp
 
 **Zero observed failures is not an all-input correctness claim.** A separate post-hoc zero-payload probe found noncanonical zero representations and phase flags in division and multiplication subroutines. Those diagnostics are not full point-addition trials and are not pooled with the frozen random study. Read [what the evidence establishes](docs/INTERPRETATION.md) before using these numbers as correctness or attack-cost estimates.
 
-The newer [follow-up study](experiments/08-followup-diagnostics/README.md) also records phase failures in complete four-bit-window calls on two supported zero-slope points. These structured outcomes are distinct from both the earlier component probes and the frozen random study. No circuit repair is claimed.
+The [earlier follow-up study](experiments/08-followup-diagnostics/README.md) records full-call phase failures on two supported zero-slope points. The targeted repair passes those retained witnesses, while the original records and their limitations remain unchanged.
 
 ## Start Here
 
@@ -39,6 +49,10 @@ remain separate from the original table above.
 | Reproduce the boundary witnesses and inspect failed repair hypotheses | [Boundary diagnosis](experiments/07-boundary-diagnosis/README.md) |
 | Inspect Appendix C.4: smoke outlier, zero-slope calls, round tail, and guard checks | [Follow-up diagnostics](experiments/08-followup-diagnostics/README.md) |
 | Inspect the alternate 34-page high-cost reference and its pilot | [Canonical reference](experiments/09-canonical-reference/README.md) |
+| Find the new 1,419-qubit repair, 100k study, and remaining failures | [Targeted repair](experiments/10-targeted-repair/README.md) |
+| Read the coherent-error proof and its assumptions | [Conditional error analysis](experiments/11-coherent-error/README.md) |
+| Reproduce the long-walk and width counterexamples | [Schedule audit](experiments/12-schedule-audit/README.md) |
+| Compare complete reversible safegcd and ping-pong references | [Safegcd reference](experiments/13-safegcd-reference/README.md) |
 
 ## Verify Without Running Circuits
 
@@ -50,7 +64,7 @@ python3 scripts/results.py --check
 python3 scripts/query_case.py --candidate original-pingpong --stratum G-s0 --index 0
 ```
 
-Default verification uses only the Python standard library. It reconstructs the original layout, reruns the frozen analysis, and verifies the added mechanism packages and scalar calculations. It does not execute circuits or invoke the optional independent classical oracle. Builds and circuit runs are separate, explicit steps and can require about 32 GiB of RAM and hours of runtime. See the individual experiment guides for the smaller diagnostic runs.
+Default verification uses only the Python standard library. It reconstructs the original layout, reruns the frozen analysis, checks the added packages, and independently verifies the new study's table points and affine sums. It does not execute quantum circuits. The optional `--oracle` flag additionally reruns the earlier OpenSSL checks. Builds and circuit runs are separate, explicit steps and can require about 32 GiB of RAM and hours of runtime. See the individual experiment guides for smaller diagnostic runs.
 
 ## Evidence Layout
 
@@ -65,6 +79,11 @@ Default verification uses only the Python standard library. It reconstructs the 
 | [07-boundary-diagnosis](experiments/07-boundary-diagnosis/README.md) | Representation and phase witnesses, failed widening hypotheses, local negation regression, and offline source replay. |
 | [08-followup-diagnostics](experiments/08-followup-diagnostics/README.md) | Smoke-failure diagnosis, supported-domain full-call witnesses, 10-million-denominator tail, and 99,997-case replay-guard model. |
 | [09-canonical-reference](experiments/09-canonical-reference/README.md) | Separate high-cost correctness reference, failed replay-only attempt, targeted regression, and 4,096-input pilot. |
+| [10-targeted-repair](experiments/10-targeted-repair/README.md) | New single-candidate nine-table study, frozen source, matched mixed/windowed width, retained failed cells and supported inputs. |
+| [11-coherent-error](experiments/11-coherent-error/README.md) | Conditional proof, matrix checks, and actual window-prefix distributions. |
+| [12-schedule-audit](experiments/12-schedule-audit/README.md) | Exact recurrence models, long walks, taper failures, and independent denominator sample. |
+| [13-safegcd-reference](experiments/13-safegcd-reference/README.md) | Complete emitted DIV/MUL references with common primitives and separate shell integration. |
+| [14-repair-audit](experiments/14-repair-audit/README.md) | Independent helper transcriptions and remaining proof obligations. |
 | [supporting/comparison](supporting/comparison/report.md) | Primary-source resource-boundary audit and exact sampling-bias calculations. |
 | [supporting/algebra](supporting/algebra/check_value_replay.py) | Exact small-prime value/replay identity checks, not circuit validation. |
 | [supporting/replay-analysis](supporting/replay-analysis/README.md) | Preserved local 446-to-393 replay-cell evidence and scalar fusion checks. |

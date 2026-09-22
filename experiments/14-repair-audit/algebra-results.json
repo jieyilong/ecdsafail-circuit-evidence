@@ -1,0 +1,82 @@
+{
+  "scope": "Bounded scalar audit, not an emitted-gate or quantum-channel certification.",
+  "counts": {
+    "chunk_predicate_cases": 174760,
+    "strict_comparison_counterexamples": 510,
+    "fused_cases": 8982,
+    "no_escape_parity_cases": 8810,
+    "canonical_predicate_cases": 4491
+  },
+  "ranges": {
+    "raw_add": [
+      0,
+      1,
+      2
+    ],
+    "raw_sub": [
+      -1,
+      0,
+      1
+    ],
+    "frame_add": [
+      0,
+      1,
+      2
+    ],
+    "frame_sub": [
+      -1,
+      0,
+      1
+    ]
+  },
+  "witnesses": {
+    "frame_sign": {
+      "z": "0x8000000000000000000000000000000000000000000000000000000000000000",
+      "y": 0,
+      "sign": 1,
+      "raw_kappa": 1,
+      "complemented_kappa": -1
+    },
+    "full_word_escape": {
+      "z": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2e",
+      "y": 8589936547,
+      "wrapped_result": 4294968272,
+      "expected": 8589936545,
+      "missing": 4294968273
+    },
+    "canonical_inputs_noncanonical_output": {
+      "z": 1,
+      "y": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2d",
+      "raw_output": "p",
+      "canonical_output": 0
+    },
+    "post_fold_predicate": {
+      "source": 1,
+      "target": 0,
+      "sign": 1,
+      "stored_overflow": 1,
+      "full_width_predicate": 0
+    },
+    "halve_one": {
+      "expected": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffffe18",
+      "faulty_full_width": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffffe18",
+      "absolute_difference": "2^255"
+    },
+    "coordinate_borrow": {
+      "input": 0,
+      "subtrahend": 1,
+      "output": "p-1",
+      "modular_borrow": 1,
+      "ordinary_word_carry": 0
+    },
+    "coherence": {
+      "basis_label_tests_pass": true,
+      "clean_workspace": true,
+      "plus_state_output_fidelity": 0.0,
+      "trace_distance": 1,
+      "diamond_distance_unnormalized": 2
+    }
+  },
+  "zero_of_10m_one_sided_95_upper": 2.995731824833443e-07,
+  "status": "PASS: all stated scalar identities and counterexamples verified"
+}

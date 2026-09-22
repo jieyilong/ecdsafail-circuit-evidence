@@ -1,0 +1,45 @@
+{
+  "mode": "emit",
+  "label": "canonical-safegcd",
+  "window_bits": 4,
+  "exit_code": 0,
+  "elapsed_seconds": 10.99716029202682,
+  "env": {
+    "QIP_PINGPONG_PROFILE": "guarded",
+    "TLM_MSBS": "40",
+    "CONSTPROP_DISABLE": "1",
+    "SINGLE_CCX_FANOUT_DISABLE": "1",
+    "QIP_CANONICAL_REPLAY": "1",
+    "QIP_CANONICAL_COORDS": "1",
+    "WINDOWED_MODE": "1",
+    "WINDOW_BITS": "4",
+    "WINDOWED_QROM_UNLOAD": "split",
+    "QIP_SAFEGCD_KMX": "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/ecdsafail-qip-safegcd-20260922/safegcd_probe/full-secp256k1/div.kmx"
+  },
+  "binary_sha256": "242005fd36cecbfa1c48aeb776c395ca3d2fc399a05808076aadaf290179ea89",
+  "serialized_counts": {
+    "operations": 47629838,
+    "static_toffoli": 15077023,
+    "kinds": [
+      0,
+      35,
+      8708,
+      0,
+      1280,
+      0,
+      2412652,
+      1029,
+      29807451,
+      76779,
+      512,
+      69202,
+      58059,
+      15076996,
+      27,
+      58554,
+      58554,
+      0
+    ]
+  },
+  "ops_sha256": "07622873144102a7c55ba5d2134cdaf7c59d6f6bf91f3af4ae23d8789359f9a9"
+}

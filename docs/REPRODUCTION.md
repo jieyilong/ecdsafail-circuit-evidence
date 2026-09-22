@@ -144,3 +144,10 @@ This invokes the isolated emitter's diagnostic dispatch on the recorded fixtures
 - Coordinate-phase diagnostic totals must never replace full-run counts. The selected-batch trace has an inherited, incorrect total-shot denominator.
 
 The underlying analysis and experiment methods remain in [sources/frozen-tools](../sources/frozen-tools/). The new wrappers only make their evidence accessible in this layout.
+## September 22 Additions (v1.4.0)
+
+For the targeted repair, start with [experiment 10](../experiments/10-targeted-repair/README.md). `python3 scripts/verify_latest.py` verifies its records and source without running quantum circuits. `scripts/reproduce_latest.py` prepares a scratch copy, rebuilds the emitter/evaluator, compares actual emitted counts and w=16 stream identity, reruns the retained targeted cases, and reproduces each fixed fresh stratum. Full w=16 execution requires roughly 24 GB free RAM and substantial runtime.
+
+Use [experiment 11](../experiments/11-coherent-error/README.md) for NumPy-based proof regressions, [experiment 12](../experiments/12-schedule-audit/README.md) for exact denominator checks, and [experiment 13](../experiments/13-safegcd-reference/README.md) for the unoptimized complete reference circuits. Preserved workspace scripts may contain original paths and write beside themselves. Use the public wrappers or a scratch copy rather than executing them over archived records.
+
+The earlier reproduction instructions above continue to apply to their original studies.

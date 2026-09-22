@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "original_simulator_exhaustive": [
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_DIV",
+      "Q": 56,
+      "static_T_forward": 1446,
+      "static_T_inverse": 1446,
+      "forward_inverse_cases": 6,
+      "executed_Toffolis_all_cases_both_directions": 17352,
+      "phase_and_all_scratch_restored": true,
+      "p": 3
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_MUL",
+      "Q": 56,
+      "static_T_forward": 1446,
+      "static_T_inverse": 1446,
+      "forward_inverse_cases": 6,
+      "executed_Toffolis_all_cases_both_directions": 17352,
+      "phase_and_all_scratch_restored": true,
+      "p": 3
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_DIV",
+      "Q": 68,
+      "static_T_forward": 2391,
+      "static_T_inverse": 2391,
+      "forward_inverse_cases": 20,
+      "executed_Toffolis_all_cases_both_directions": 95640,
+      "phase_and_all_scratch_restored": true,
+      "p": 5
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_MUL",
+      "Q": 68,
+      "static_T_forward": 2391,
+      "static_T_inverse": 2391,
+      "forward_inverse_cases": 20,
+      "executed_Toffolis_all_cases_both_directions": 95640,
+      "phase_and_all_scratch_restored": true,
+      "p": 5
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_DIV",
+      "Q": 68,
+      "static_T_forward": 2391,
+      "static_T_inverse": 2391,
+      "forward_inverse_cases": 42,
+      "executed_Toffolis_all_cases_both_directions": 200844,
+      "phase_and_all_scratch_restored": true,
+      "p": 7
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_MUL",
+      "Q": 68,
+      "static_T_forward": 2391,
+      "static_T_inverse": 2391,
+      "forward_inverse_cases": 42,
+      "executed_Toffolis_all_cases_both_directions": 200844,
+      "phase_and_all_scratch_restored": true,
+      "p": 7
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_DIV",
+      "Q": 82,
+      "static_T_forward": 3762,
+      "static_T_inverse": 3762,
+      "forward_inverse_cases": 110,
+      "executed_Toffolis_all_cases_both_directions": 827640,
+      "phase_and_all_scratch_restored": true,
+      "p": 11
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_MUL",
+      "Q": 82,
+      "static_T_forward": 3762,
+      "static_T_inverse": 3762,
+      "forward_inverse_cases": 110,
+      "executed_Toffolis_all_cases_both_directions": 827640,
+      "phase_and_all_scratch_restored": true,
+      "p": 11
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_DIV",
+      "Q": 82,
+      "static_T_forward": 3762,
+      "static_T_inverse": 3762,
+      "forward_inverse_cases": 156,
+      "executed_Toffolis_all_cases_both_directions": 1173744,
+      "phase_and_all_scratch_restored": true,
+      "p": 13
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_MUL",
+      "Q": 82,
+      "static_T_forward": 3762,
+      "static_T_inverse": 3762,
+      "forward_inverse_cases": 156,
+      "executed_Toffolis_all_cases_both_directions": 1173744,
+      "phase_and_all_scratch_restored": true,
+      "p": 13
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_DIV",
+      "Q": 94,
+      "static_T_forward": 5211,
+      "static_T_inverse": 5211,
+      "forward_inverse_cases": 272,
+      "executed_Toffolis_all_cases_both_directions": 2834784,
+      "phase_and_all_scratch_restored": true,
+      "p": 17
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_MUL",
+      "Q": 94,
+      "static_T_forward": 5211,
+      "static_T_inverse": 5211,
+      "forward_inverse_cases": 272,
+      "executed_Toffolis_all_cases_both_directions": 2834784,
+      "phase_and_all_scratch_restored": true,
+      "p": 17
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_DIV",
+      "Q": 94,
+      "static_T_forward": 5211,
+      "static_T_inverse": 5211,
+      "forward_inverse_cases": 930,
+      "executed_Toffolis_all_cases_both_directions": 9692460,
+      "phase_and_all_scratch_restored": true,
+      "p": 31
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_MUL",
+      "Q": 94,
+      "static_T_forward": 5211,
+      "static_T_inverse": 5211,
+      "forward_inverse_cases": 930,
+      "executed_Toffolis_all_cases_both_directions": 9692460,
+      "phase_and_all_scratch_restored": true,
+      "p": 31
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_DIV",
+      "Q": 107,
+      "static_T_forward": 6894,
+      "static_T_inverse": 6894,
+      "forward_inverse_cases": 3660,
+      "executed_Toffolis_all_cases_both_directions": 50464080,
+      "phase_and_all_scratch_restored": true,
+      "p": 61
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "complete_canonical_MUL",
+      "Q": 107,
+      "static_T_forward": 6894,
+      "static_T_inverse": 6894,
+      "forward_inverse_cases": 3660,
+      "executed_Toffolis_all_cases_both_directions": 50464080,
+      "phase_and_all_scratch_restored": true,
+      "p": 61
+    }
+  ],
+  "cases_each_direction": 5196,
+  "sparse_coherent_tests": [
+    {
+      "p": 3,
+      "basis_amplitudes": 6,
+      "status": "PASS",
+      "scratch_zero_and_relative_phases_preserved": true
+    },
+    {
+      "p": 5,
+      "basis_amplitudes": 20,
+      "status": "PASS",
+      "scratch_zero_and_relative_phases_preserved": true
+    },
+    {
+      "p": 7,
+      "basis_amplitudes": 42,
+      "status": "PASS",
+      "scratch_zero_and_relative_phases_preserved": true
+    },
+    {
+      "p": 11,
+      "basis_amplitudes": 110,
+      "status": "PASS",
+      "scratch_zero_and_relative_phases_preserved": true
+    }
+  ],
+  "coherent_test_scope": "arbitrary relative phases on the entire valid small-field input subspace; all scratch wires included"
+}

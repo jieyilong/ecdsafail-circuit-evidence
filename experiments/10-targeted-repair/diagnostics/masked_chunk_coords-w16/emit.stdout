@@ -1,0 +1,7 @@
+=== quantum_ecc: build_circuit (untrusted stage) ===
+
+-- building circuit --
+  emitted ops : 220534270
+  wrote       : ops.bin (206796429 bytes on disk, 12349919136 uncompressed, 59.7x)
+
+=== build_circuit OK ===

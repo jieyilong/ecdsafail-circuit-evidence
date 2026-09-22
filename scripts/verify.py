@@ -12,6 +12,7 @@ from common import ROOT, FRESH, FREEZE_SHA256, atomic_write, ensure_checks_enabl
 from verify_mechanism import verify_mechanism
 from verify_followup import verify_followup
 from verify_reference import verify_reference
+from verify_latest import verify_latest
 
 
 def publication_check():
@@ -38,6 +39,7 @@ def verify(oracle=False):
     mechanisms = verify_mechanism()
     followup = verify_followup()
     reference = verify_reference()
+    latest = verify_latest()
     report = read_json(FRESH/"analysis.json")
     receipt = dict(verified_utc=datetime.now(timezone.utc).isoformat(), elapsed_seconds=round(time.monotonic()-started, 3), freeze_sha256=FREEZE_SHA256,
                    original_files=count, source_trees=trees, final_outcomes=300000, development_outcomes=5*16384,
@@ -46,6 +48,7 @@ def verify(oracle=False):
                    mechanism_studies=mechanisms,
                    followup_diagnostics=followup,
                    canonical_reference=reference,
+                   september22_studies=latest,
                    scope="Evidence reconstruction and optional classical-reference check, not new circuit simulation or all-input correctness")
     print(json.dumps(receipt, indent=2))
     return receipt

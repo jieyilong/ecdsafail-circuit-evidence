@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "seed": 202609221404,
+  "common_cases_each": 128,
+  "corpus_sha256": "b8a3a8e11c0a9ee5cb3b0b08c27d338ffc9b3eff450b9229d471a6e6974dfe57",
+  "reports": [
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "common_safegcd_div",
+      "Q": 3300,
+      "static_T_forward": 7501932,
+      "static_T_inverse": 7501932,
+      "forward_inverse_cases": 128,
+      "executed_Toffolis_all_cases_both_directions": 1920494592,
+      "phase_and_all_scratch_restored": true
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "common_safegcd_mul",
+      "Q": 3300,
+      "static_T_forward": 7501932,
+      "static_T_inverse": 7501932,
+      "forward_inverse_cases": 128,
+      "executed_Toffolis_all_cases_both_directions": 1920494592,
+      "phase_and_all_scratch_restored": true
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "common_pingpong_div",
+      "Q": 3088,
+      "static_T_forward": 12574712,
+      "static_T_inverse": 12574712,
+      "forward_inverse_cases": 128,
+      "executed_Toffolis_all_cases_both_directions": 3219126272,
+      "phase_and_all_scratch_restored": true
+    },
+    {
+      "status": "PASS",
+      "simulator": "original quantum_ecc::sim::Simulator",
+      "scope": "common_pingpong_mul",
+      "Q": 3088,
+      "static_T_forward": 12574712,
+      "static_T_inverse": 12574712,
+      "forward_inverse_cases": 128,
+      "executed_Toffolis_all_cases_both_directions": 3219126272,
+      "phase_and_all_scratch_restored": true
+    }
+  ],
+  "pingpong_max_observed": 1239,
+  "pingpong_0xd3_rounds": 1016,
+  "pingpong_2power255_rounds": 1239,
+  "pingpong_1536_round_budget": "conditional, not a universal bound"
+}

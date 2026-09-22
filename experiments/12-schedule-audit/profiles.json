@@ -1,0 +1,48 @@
+{
+  "candidate768": "NOT an existing bounded_profile option",
+  "candidate_settings_if_extended": {
+    "chunk_compare": 40,
+    "endpoint_fold": 71,
+    "flag_compare": 48,
+    "margin": 20,
+    "replay_fold": 72,
+    "rounds": 768
+  },
+  "existing_profiles": {
+    "base": {
+      "chunk_compare": 26,
+      "endpoint_fold": 55,
+      "flag_compare": 28,
+      "margin": 4,
+      "replay_fold": 56,
+      "rounds": 704
+    },
+    "guarded": {
+      "chunk_compare": 40,
+      "endpoint_fold": 71,
+      "flag_compare": 48,
+      "margin": 20,
+      "replay_fold": 72,
+      "rounds": 736
+    },
+    "rounds": {
+      "chunk_compare": 26,
+      "endpoint_fold": 55,
+      "flag_compare": 28,
+      "margin": 4,
+      "replay_fold": 56,
+      "rounds": 736
+    },
+    "widths": {
+      "chunk_compare": 26,
+      "endpoint_fold": 55,
+      "flag_compare": 28,
+      "margin": 20,
+      "replay_fold": 56,
+      "rounds": 736
+    }
+  },
+  "extracted_rust_sha256": "ca0b897d188301f4c37eec90b1fbacfcf1ed7699cf1ece1a0a38b15567cec394",
+  "rust_rows_compared": 3200,
+  "source_selfcheck_warning": "margin20 selfcheck expects terminal width11; proposed768 ends at8"
+}

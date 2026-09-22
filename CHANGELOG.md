@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.4.0 - 2026-09-22
+
+- Added the 1,419-qubit targeted zero-payload repair and its separate frozen 100,000-input study: mean T=1,356,324.32985, with no detected output, phase, or ancilla failures.
+- Preserved the 1,402-to-1,419 mixed/windowed comparison and distinguished the 17-qubit interface overhead from arithmetic changes.
+- Included supported-input failures, 1,135/1,239-round witnesses, width counterexamples, and unsuccessful local repairs.
+- Added the conditional coherent-error proof and complete unoptimized safegcd references, retaining unfavorable comparisons.
+- Added read-only oracle/ledger verification, scratch reproduction wrappers, and corruption tests. All earlier scientific files are unchanged.
+
 ## v1.3.0 - 2026-09-09
 
 - Added the alternate 34-page manuscript's canonical-replay correctness reference as experiment 09.

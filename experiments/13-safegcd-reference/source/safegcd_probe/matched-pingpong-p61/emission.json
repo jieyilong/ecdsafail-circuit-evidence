@@ -1,0 +1,112 @@
+{
+  "Q_static_allocated": 116,
+  "static_T": 11864,
+  "gate_counts": {
+    "X": 4480,
+    "CX": 30164,
+    "CCX": 11864
+  },
+  "phase_gate_counts": {
+    "setup": {
+      "X": 6,
+      "CX": 41,
+      "CCX": 14
+    },
+    "value_forward": {
+      "CX": 4480,
+      "CCX": 896
+    },
+    "coefficient_forward": {
+      "X": 4416,
+      "CCX": 9984,
+      "CX": 21056
+    },
+    "endpoint": {
+      "X": 52,
+      "CCX": 60,
+      "CX": 66
+    },
+    "value_inverse": {
+      "CX": 4480,
+      "CCX": 896
+    },
+    "teardown": {
+      "CX": 41,
+      "CCX": 14,
+      "X": 6
+    }
+  },
+  "sha256": "f852045d30c87f74be4b8bc1b9c70cf24e8dd932eb3d3dd63acd8fef840d15da",
+  "bytes": 546408,
+  "label": "unoptimized primitive-matched full-width ping-pong",
+  "prime": "61",
+  "rounds": 64,
+  "cases_each_direction": 3660,
+  "convergence_rounds": {
+    "1": 11,
+    "2": 12,
+    "3": 14,
+    "4": 12,
+    "5": 14,
+    "6": 14,
+    "7": 11,
+    "8": 13,
+    "9": 8,
+    "10": 11,
+    "11": 14,
+    "12": 15,
+    "13": 13,
+    "14": 12,
+    "15": 9,
+    "16": 13,
+    "17": 10,
+    "18": 9,
+    "19": 12,
+    "20": 9,
+    "21": 10,
+    "22": 9,
+    "23": 8,
+    "24": 16,
+    "25": 13,
+    "26": 12,
+    "27": 11,
+    "28": 13,
+    "29": 17,
+    "30": 10,
+    "31": 10,
+    "32": 17,
+    "33": 13,
+    "34": 11,
+    "35": 12,
+    "36": 13,
+    "37": 16,
+    "38": 8,
+    "39": 9,
+    "40": 10,
+    "41": 9,
+    "42": 12,
+    "43": 9,
+    "44": 10,
+    "45": 13,
+    "46": 9,
+    "47": 12,
+    "48": 13,
+    "49": 15,
+    "50": 14,
+    "51": 11,
+    "52": 8,
+    "53": 13,
+    "54": 11,
+    "55": 14,
+    "56": 14,
+    "57": 12,
+    "58": 14,
+    "59": 12,
+    "60": 11
+  },
+  "max_convergence_observed": 17,
+  "universal_256_round_bound_proved": false,
+  "budget_status": "CONDITIONAL at n256; exhaustive input coverage only for enumerated small primes",
+  "same_payload_primitive_implementation": "full.py Full.negate/mod_add/halve",
+  "source_sha256": "530ba2911aec1ae5e6e697fe777b1765e62cbbee0390daecbc547ca62b2b3513"
+}

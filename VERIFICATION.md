@@ -1,5 +1,11 @@
 # Publication Checks
 
+## v1.4.0 Additions
+
+All 30 repository regression tests pass. The new read-only verifier independently reconstructs the selected table entries and affine sums for all 100,000 fresh cases, reconciles batch and per-input flags, checks frozen source identities, and retains the structured failures. It confirms all 1,528 earlier scientific files are unchanged.
+
+The published reproduction wrapper rebuilt the source offline, emitted the w=4 circuit, matched its serialized counts, and reproduced all 64 zero-slope measurement lanes and all 64 smoke outcomes. This publication check did not rerun the full 100,000-input circuit study. The exact schedule counterexamples and the mathematical checks have separate scripts and scopes. The original large streams and native binary hashes are receipts, with regeneration commands provided.
+
 ## v1.3.0 Additions
 
 The canonical-reference verifier checks the original supplement, available

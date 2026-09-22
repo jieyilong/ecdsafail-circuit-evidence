@@ -1,0 +1,5 @@
+{
+  "max_abs_input": 63,
+  "max_rounds": 17,
+  "signed_coprime_pairs": 3300
+}

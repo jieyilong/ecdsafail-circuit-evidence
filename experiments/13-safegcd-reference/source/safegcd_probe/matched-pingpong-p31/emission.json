@@ -1,0 +1,82 @@
+{
+  "Q_static_allocated": 102,
+  "static_T": 8584,
+  "gate_counts": {
+    "X": 2912,
+    "CX": 22301,
+    "CCX": 8584
+  },
+  "phase_gate_counts": {
+    "setup": {
+      "X": 6,
+      "CX": 37,
+      "CCX": 12
+    },
+    "value_forward": {
+      "CX": 3416,
+      "CCX": 672
+    },
+    "coefficient_forward": {
+      "X": 2856,
+      "CCX": 7168,
+      "CX": 15344
+    },
+    "endpoint": {
+      "X": 44,
+      "CCX": 48,
+      "CX": 51
+    },
+    "value_inverse": {
+      "CX": 3416,
+      "CCX": 672
+    },
+    "teardown": {
+      "CX": 37,
+      "CCX": 12,
+      "X": 6
+    }
+  },
+  "sha256": "c1d8756bc2c364d2fe2f8ba6e0294dd610e84345406e46054439d8ac58b354c9",
+  "bytes": 384533,
+  "label": "unoptimized primitive-matched full-width ping-pong",
+  "prime": "31",
+  "rounds": 56,
+  "cases_each_direction": 930,
+  "convergence_rounds": {
+    "1": 10,
+    "2": 10,
+    "3": 7,
+    "4": 11,
+    "5": 8,
+    "6": 8,
+    "7": 11,
+    "8": 12,
+    "9": 11,
+    "10": 9,
+    "11": 10,
+    "12": 10,
+    "13": 7,
+    "14": 9,
+    "15": 12,
+    "16": 12,
+    "17": 9,
+    "18": 7,
+    "19": 10,
+    "20": 10,
+    "21": 9,
+    "22": 11,
+    "23": 12,
+    "24": 11,
+    "25": 8,
+    "26": 8,
+    "27": 11,
+    "28": 7,
+    "29": 10,
+    "30": 10
+  },
+  "max_convergence_observed": 12,
+  "universal_256_round_bound_proved": false,
+  "budget_status": "CONDITIONAL at n256; exhaustive input coverage only for enumerated small primes",
+  "same_payload_primitive_implementation": "full.py Full.negate/mod_add/halve",
+  "source_sha256": "530ba2911aec1ae5e6e697fe777b1765e62cbbee0390daecbc547ca62b2b3513"
+}

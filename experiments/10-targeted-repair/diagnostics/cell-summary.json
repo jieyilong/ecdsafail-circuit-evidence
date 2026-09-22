@@ -1,0 +1,366 @@
+{
+  "binary_sha256": "800b23aec48956016a68e1b6d092b4aaebc4d39f5cf681ea483d70b40b246bdc",
+  "scope": "Emitted local cells on canonical boundary grid; not full calls or an all-input proof.",
+  "variants": {
+    "guarded": {
+      "negate": {
+        "cases": 18,
+        "word_bad": 2,
+        "field_bad": 1,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 617,
+        "static_toffoli": 103
+      },
+      "canonical_negate_exact": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 770,
+        "static_toffoli": 765
+      },
+      "seed": {
+        "cases": 18,
+        "word_bad": 2,
+        "field_bad": 1,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 578,
+        "static_toffoli": 64
+      },
+      "halve": {
+        "cases": 18,
+        "word_bad": 2,
+        "field_bad": 2,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 618,
+        "static_toffoli": 104
+      },
+      "double": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 618,
+        "static_toffoli": 104
+      },
+      "signed_add": {
+        "cases": 162,
+        "word_bad": 21,
+        "field_bad": 5,
+        "phase": 30,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 618,
+        "static_toffoli": 488
+      },
+      "fused_halve": {
+        "cases": 162,
+        "word_bad": 34,
+        "field_bad": 24,
+        "phase": 26,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 600,
+        "static_toffoli": 457
+      },
+      "fused_double": {
+        "cases": 162,
+        "word_bad": 19,
+        "field_bad": 3,
+        "phase": 17,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 601,
+        "static_toffoli": 457
+      }
+    },
+    "exact_chunk": {
+      "negate": {
+        "cases": 18,
+        "word_bad": 2,
+        "field_bad": 1,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 617,
+        "static_toffoli": 103
+      },
+      "canonical_negate_exact": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 770,
+        "static_toffoli": 765
+      },
+      "seed": {
+        "cases": 18,
+        "word_bad": 2,
+        "field_bad": 1,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 578,
+        "static_toffoli": 64
+      },
+      "halve": {
+        "cases": 18,
+        "word_bad": 2,
+        "field_bad": 2,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 618,
+        "static_toffoli": 104
+      },
+      "double": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 618,
+        "static_toffoli": 104
+      },
+      "signed_add": {
+        "cases": 162,
+        "word_bad": 21,
+        "field_bad": 5,
+        "phase": 19,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 618,
+        "static_toffoli": 579
+      },
+      "fused_halve": {
+        "cases": 162,
+        "word_bad": 34,
+        "field_bad": 24,
+        "phase": 18,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 602,
+        "static_toffoli": 548
+      },
+      "fused_double": {
+        "cases": 162,
+        "word_bad": 19,
+        "field_bad": 3,
+        "phase": 19,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 603,
+        "static_toffoli": 548
+      }
+    },
+    "chunk_and_endpoints": {
+      "negate": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 770,
+        "static_toffoli": 765
+      },
+      "canonical_negate_exact": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 770,
+        "static_toffoli": 765
+      },
+      "seed": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 770,
+        "static_toffoli": 765
+      },
+      "halve": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 1028,
+        "static_toffoli": 512
+      },
+      "double": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 1030,
+        "static_toffoli": 513
+      },
+      "signed_add": {
+        "cases": 162,
+        "word_bad": 21,
+        "field_bad": 5,
+        "phase": 19,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 618,
+        "static_toffoli": 579
+      },
+      "fused_halve": {
+        "cases": 162,
+        "word_bad": 34,
+        "field_bad": 24,
+        "phase": 18,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 602,
+        "static_toffoli": 548
+      },
+      "fused_double": {
+        "cases": 162,
+        "word_bad": 19,
+        "field_bad": 3,
+        "phase": 19,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 603,
+        "static_toffoli": 548
+      }
+    },
+    "canonical_reference": {
+      "negate": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 770,
+        "static_toffoli": 765
+      },
+      "canonical_negate_exact": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 770,
+        "static_toffoli": 765
+      },
+      "seed": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 770,
+        "static_toffoli": 765
+      },
+      "halve": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 1028,
+        "static_toffoli": 512
+      },
+      "double": {
+        "cases": 18,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 1030,
+        "static_toffoli": 513
+      },
+      "signed_add": {
+        "cases": 162,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 773,
+        "static_toffoli": 2554
+      },
+      "fused_halve": {
+        "cases": 162,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 1028,
+        "static_toffoli": 3066
+      },
+      "fused_double": {
+        "cases": 162,
+        "word_bad": 0,
+        "field_bad": 0,
+        "phase": 0,
+        "ancilla": 0,
+        "source_bad": 0,
+        "control_bad": 0,
+        "peak": 1030,
+        "static_toffoli": 3067
+      }
+    }
+  }
+}

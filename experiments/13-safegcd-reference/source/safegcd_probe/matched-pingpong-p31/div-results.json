@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "simulator": "original quantum_ecc::sim::Simulator",
+  "scope": "primitive_matched_pingpong_DIV",
+  "Q": 102,
+  "static_T_forward": 8584,
+  "static_T_inverse": 8584,
+  "forward_inverse_cases": 930,
+  "executed_Toffolis_all_cases_both_directions": 15966240,
+  "phase_and_all_scratch_restored": true
+}

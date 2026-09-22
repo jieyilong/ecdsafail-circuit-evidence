@@ -1,0 +1,17 @@
+test_768_counterexamples (__main__.AuditTests.test_768_counterexamples) ... ok
+test_absorbing_signed_units (__main__.AuditTests.test_absorbing_signed_units) ... ok
+test_domain_rejections (__main__.AuditTests.test_domain_rejections) ... ok
+test_explicit_schedule (__main__.AuditTests.test_explicit_schedule) ... ok
+test_fresh_native_and_structured_receipts (__main__.AuditTests.test_fresh_native_and_structured_receipts) ... ok
+test_frozen_scope (__main__.AuditTests.test_frozen_scope) ... ok
+test_initial_four_arms (__main__.AuditTests.test_initial_four_arms) ... ok
+test_low_bits_negative_integers (__main__.AuditTests.test_low_bits_negative_integers) ... ok
+test_signed_fit_endpoints (__main__.AuditTests.test_signed_fit_endpoints) ... ok
+test_small_signed_pairs (__main__.AuditTests.test_small_signed_pairs) ... ok
+test_termination_does_not_imply_taper (__main__.AuditTests.test_termination_does_not_imply_taper) ... ok
+test_width_breakpoints (__main__.AuditTests.test_width_breakpoints) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.024s
+
+OK

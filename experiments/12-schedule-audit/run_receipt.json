@@ -1,0 +1,22 @@
+{
+  "audit_code_hashes": {
+    "audit.py": "167212a1f2a7a6b1c0b0fb06bbecae21434edfa8f5c138453854695c3c3f1a2a",
+    "model.py": "1f2224df8a4938b047d2b931bf5e1dc38a6f7f4bbbef933f19cb0617708633a4",
+    "test_audit.py": "3a4468f817f47bed52a340b46dfececbc041e45e0a15324d54ff634d33eaae30"
+  },
+  "clang": "Apple clang version 15.0.0 (clang-1500.0.40.1)",
+  "elapsed_seconds": 21.21796337500564,
+  "fresh_n_fixed_before_run": 10000,
+  "input_hashes_after": {
+    "ecdsafail-qip-bounded-validation/src/point_add/pingpong_div.rs": "0190195fc8f172bcb8f6b6e49df375b7b0a8733d543d7068b1ac59e16c7eb0cd"
+  },
+  "input_hashes_before": {
+    "ecdsafail-qip-bounded-validation/src/point_add/pingpong_div.rs": "0190195fc8f172bcb8f6b6e49df375b7b0a8733d543d7068b1ac59e16c7eb0cd"
+  },
+  "no_circuit_emission": true,
+  "no_ten_million_rerun": true,
+  "platform": "macOS-14.4.1-arm64-arm-64bit-Mach-O",
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "rustc": "rustc 1.93.0 (254b59607 2026-01-19) (Homebrew)",
+  "scope": "/Users/jieyilong/Personal/research/ShorOptimization/shor_optimization_workspace/research/qip-oral-20260922/schedule"
+}

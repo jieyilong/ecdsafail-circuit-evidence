@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-22",
+  "parent_commit": "345c23fcf1073b7559a9d41e113f755259545bf2",
+  "isolated_worktree": "ecdsafail-qip-safegcd-20260922",
+  "designated_parent": "ecdsafail-qip-oral-repairs-20260922",
+  "parent_working_changes_imported": false,
+  "original_parser_and_simulator_identical_to_designated_parent": true,
+  "sha256": {
+    "src/circuit.rs": "ac2255f6bcb6895c9da2dfe21c3a051a0ef8fc4e0af9598634fec0035dbf35c6",
+    "src/sim.rs": "7ae27124632a9881301a2d1eca4b1be07d1c0b3498572144824965b16138415f",
+    "safegcd_probe/round-256.kmx": "9273a8eb61adc395df5b0c7cf8b2f51d49281343c7f3f799835e0f1a07e3f4b3",
+    "safegcd_probe/round-small.kmx": "092e089b78a6397d9c77f89a00a5f5c39b1f8f732a0087372386ec50c9be5adf"
+  },
+  "measured_scope": "isolated controller/value round, not coefficient replay or complete DIV/MUL or PA",
+  "full_matched_baseline_completed": false,
+  "optimized_baseline_claim": false,
+  "classical_routing_in_emitted_round": false
+}
